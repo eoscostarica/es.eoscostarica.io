@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{89:function(o){o.exports=JSON.parse('{"eosio":{"allTagsPath":"/blog/tags","slug":"eosio","name":"eosio","count":1,"permalink":"/blog/tags/eosio"},"blockchain":{"allTagsPath":"/blog/tags","slug":"blockchain","name":"blockchain","count":1,"permalink":"/blog/tags/blockchain"}}')}}]);

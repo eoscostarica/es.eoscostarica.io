@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{86:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\xbfQu\xe9 es blockchain?","permalink":"/blog/que-es-blockchain"}]}')}}]);
