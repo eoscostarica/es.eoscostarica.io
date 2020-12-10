@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{86:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Blockchain en el sector energ\xe9tico","permalink":"/blog/blockchain-en-el-sector-energetico"},{"title":"\xbfQu\xe9 es blockchain?","permalink":"/blog/que-es-blockchain"}]}')}}]);
