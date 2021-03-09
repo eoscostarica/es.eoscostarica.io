@@ -30,58 +30,58 @@ const PATHS = [
     dropDown:false,
     path: "/",
     espPath: "/",
-    label: "Home",
+    label: "Inicio",
     target: '_self',
     icon: <HomeIcon style={{width:'20px'}}/>
   },
   {
     dropDown:true,
-    path: "/services/",
+    path: "/servicios/",
     espPath: "/servicios/",
-    label: "About us",
+    label: "Sobre nosotros",
     target: '_self',
     markerSize: "70px",
     subPaths: 
     [
       {
-        path: "/services/",
+        path: "/servicios/",
         espPath: "/servicios/",
-        label: "Services",
+        label: "Servicios",
         target: '_self',
         icon: <ComputerIcon style={{width:'20px'}}/> 
       },
       {
-        path: "/the-company/",
-        espPath: "/compañia/",
-        label: "The company",
+        path: "/la-compañia/",
+        espPath: "/la-compañia/",
+        label: "La compañia",
         target: '_self',
         icon: <ApartmentIcon style={{width:'20px'}}/>
       },
       {
-        path: "/team/",
+        path: "/equipo/",
         espPath: "/equipo/",
-        label: "Team",
+        label: "Equipo",
         target: '_self',
         icon: <GroupIcon style={{width:'20px'}}/> 
       },
       {
-        path: "/projects/",
+        path: "/proyectos/",
         espPath: "/proyectos/",
-        label: "Projects",
+        label: "Proyectos",
         target: '_self',
         icon: <ListAltIcon style={{width:'20px'}}/>
       },
       {
-        path: "/block-producer/",
+        path: "/productor-de-bloques/",
         espPath: "/productor-de-bloques/",
-        label: "Block producer",
+        label: "Productor de bloques",
         target: '_self',
         icon: <GridOnIcon style={{width:'20px'}}/>
       },
       {
-        path: "/press/",
+        path: "/prensa/",
         espPath: "/prensa/",
-        label: "Press",
+        label: "Prensa",
         target: '_self',
         icon: <ForumIcon style={{width:'20px'}}/>
       }
@@ -89,16 +89,16 @@ const PATHS = [
   },
   {
     dropDown:false,
-    path: "/industries/",
+    path: "/industrias/",
     espPath: "/industrias/",
-    label: "Industries",
+    label: "Industrias",
     target: '_self',
     icon: <BusinessIcon style={{width:'20px'}}/>
   },
   {
     dropDown:false,
     path: "https://guide.eoscostarica.io/",
-    label: "Learning",
+    label: "Aprender",
     target: '_blank',
     icon: <MenuBookIcon style={{width:'20px'}}/>
   },
@@ -112,9 +112,9 @@ const PATHS = [
   },
   {
     dropDown:false,
-    path: "/contact-us/",
+    path: "/contactenos/",
     espPath: "/contactenos/",
-    label: "Contact",
+    label: "Contactenos",
     target: '_self',
     icon: <MailIcon style={{width:'20px'}}/>
   },
