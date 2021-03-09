@@ -1,3 +1,4 @@
+const path = require('path')
 module.exports = {
   title: 'Servicios de desarrollo de blockchain empresarial EOSIO - EOS Costa Rica',
   tagline: '',
@@ -26,7 +27,19 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    path.resolve(__dirname, 'src/plugins', 'webpackconfig'),
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
+    
+  ],
   themeConfig: {
+    image:"img/metaImgBlack.png",
+    footer: {},
     googleAnalytics: {
       trackingID: "UA-173987-66",
     }
