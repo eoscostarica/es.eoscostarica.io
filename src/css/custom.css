@@ -488,7 +488,7 @@ input:checked + .slider:before {
   top: 0;
   right: auto;
   height: 100%;
-  width: 150px;
+  width: 200px;
 }
 
 .navBarItemTab:focus-within .dropDownMenuActive{
@@ -500,7 +500,7 @@ input:checked + .slider:before {
   top: 0;
   right: auto;
   height: 100%;
-  width: 150px;
+  width: 200px;
 }
 
 .navBarItemTab:focus-within .dropDownMenu .menuItemDrop{
