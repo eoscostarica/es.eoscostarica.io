@@ -43,7 +43,7 @@ const Footer = () => {
             }
             <Grid className={isMobile ? "mediumPaddingTop" : ""} item xs={6} md={2}>
               <Box className="specialH3Box">
-                <h3 className="h3Footer">About us</h3>
+                <h3 className="h3Footer">Sobre nosotros</h3>
               </Box>
               <p className="body1Footer">
                 <Link
@@ -52,7 +52,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Services
+                  Servicios
                 </Link>
               </p>
               <p className="body1Footer">
@@ -62,7 +62,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  The company
+                  La compañía
                 </Link>
               </p>
               <p className="body1Footer">
@@ -72,7 +72,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Team
+                  Equipo
                 </Link>
               </p>
               <p className="body1Footer">
@@ -82,7 +82,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Projects
+                  Proyectos
                 </Link>
               </p>
               <p  className="body1Footer">
@@ -98,7 +98,7 @@ const Footer = () => {
             </Grid>
             <Grid className={isMobile ? "mediumPaddingTop" : ""} item xs={6} md={2}>
               <Box className="specialH3Box">
-                <h3 className="h3Footer">Content for you</h3>
+                <h3 className="h3Footer">Para usted</h3>
               </Box>
               <p className="body1Footer">
                 <Link
@@ -107,7 +107,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Learning
+                  Aprender
                 </Link>
               </p>
               <p  className="body1Footer">
@@ -127,7 +127,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Press
+                  Prensa
                 </Link>
               </p>
             </Grid>
@@ -224,7 +224,7 @@ const Footer = () => {
       <Box className="footerCopy">
         <Box className="footerCopyContent">
           <p style={{fontSize:'14px'}}>
-            All rights reserved EOS COSTA RICA
+            Todos los derechos reservados para EOS COSTA RICA
           </p>
         </Box>
       </Box>
