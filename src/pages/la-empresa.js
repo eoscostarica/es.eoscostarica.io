@@ -344,13 +344,13 @@ const TheCompany = () => {
                   />
                 </Box>
                 <p>
-                    Somos parte de una alianza regional, liderada por compañías tecnológicas de Latinoamérica para ofrecer un testnet
-                    basado en EOSIO a la iniciativa <a href="https://www.lacchain.net/" target="_blank">LACChain</a>{", "} 
-                    un programa para acelerar el desarrollo del ecosistema blockchain de la región.{" "}
-                    <a href="http://latamlink.io/" target="_blank">
-                    Descubra más sobre LatamLink
-                    </a>
-                  </p>
+                  Somos parte de una alianza regional, liderada por compañías tecnológicas de Latinoamérica para ofrecer un testnet
+                  basado en EOSIO a la iniciativa <a href="https://www.lacchain.net/" target="_blank">LACChain</a>{", "} 
+                  un programa para acelerar el desarrollo del ecosistema blockchain de la región.{" "}
+                  <a href="http://latamlink.io/" target="_blank">
+                  Descubra más sobre LatamLink
+                  </a>
+                </p>
               </Grid>
               <Grid item xs={12} md={4}>
                 <Box className="imgBoxTheCompany">
