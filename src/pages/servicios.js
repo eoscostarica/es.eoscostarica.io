@@ -580,7 +580,7 @@ const ServicePage = () => {
                   />
                 </Box>
                 <Box className="h3Box">
-                  <h3>Logística y cadena de valor</h3>
+                  <h3>Logística</h3>
                 </Box>
                 <p>
                   En una industria que involucra a docenas de
