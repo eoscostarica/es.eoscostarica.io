@@ -146,25 +146,23 @@ const Press = () => {
         {isDesktop && 
           <Box className="sectionHero">
             <Box className="titleBox">
-              <h1>What the Media <br/> Says About Us</h1>
+              <h1>Lo que los medios <br/> dicen sobre nosotros</h1>
             </Box>
             <p >
-              Our work promotes the benefits of blockchain technology and its use cases
-              in the news. The following are some articles that mention our job.
+              Buscamos posicionar la tecnología blockchain EOSIO en las noticias a través de nuestro trabajo.
             </p>
             <Box className="buttonBox">
-              <button className="buttonPrimary" onClick={() => history.push("/services/")} >Contact Us</button>
+              <button className="buttonPrimary" onClick={() => history.push("/services/")} >Contáctenos</button>
             </Box>
           </Box>
         }
         {isMobile && 
           <Box className="sectionHeroMobile">
             <Box className="titleBox">
-            <h1>What the Media <br/> Says About Us</h1>
+              <h1>Lo que los medios <br/> dicen sobre nosotros</h1>
             </Box>
             <p >
-              Our work promotes the benefits of blockchain technology and its use cases
-              in the news. The following are some articles that mention our job.
+              Buscamos posicionar la tecnología blockchain EOSIO en las noticias a través de nuestro trabajo.
             </p>
             <Box className="buttonBox">
               <button className="buttonPrimary" onClick={() => history.push("/services/")} >Contact Us</button>
@@ -232,7 +230,7 @@ const Press = () => {
               }}
               >
                 <Box style={{display: 'inline-block', paddingTop:'30px'}}>
-                  <p style={{marginBottom:'-15px', fontWeight:'bold'}}>View More</p>
+                  <p style={{marginBottom:'-15px', fontWeight:'bold'}}>Ver más</p>
                   <ExpandMoreIcon style={{width:'50px', height:'50px', display: exp ? 'none' : ''}}/>
                 </Box>
             </Button>
@@ -287,14 +285,14 @@ const Press = () => {
             </Background>
             <HeroSection />
             <NewsList
-              title="Press Releases"
+              title="Comunicados de prensa"
               princialList={firtsNewsRelease}
               secondList={otherNewsRelease}
               exp={expandedRelease}
               action={handleExpandReleaseClick}
             />
             <NewsList
-              title="EOS Costa Rica in the News"
+              title="EOS Costa Rica en las noticias"
               princialList={EOSCRNews}
               secondList={EOSCROtherNews}
               exp={expandedEOSCR}
@@ -308,14 +306,14 @@ const Press = () => {
         <Box className="mainContainer">
           <HeroSection />
           <NewsList
-              title="Press Releases"
+              title="Comunicados de prensa"
               princialList={firtsNewsRelease}
               secondList={otherNewsRelease}
               exp={expandedRelease}
               action={handleExpandReleaseClick}
           />
           <NewsList
-            title="EOS Costa Rica in the News"
+            title="EOS Costa Rica en las noticias"
             princialList={EOSCRNews}
             secondList={EOSCROtherNews}
             exp={expandedEOSCR}

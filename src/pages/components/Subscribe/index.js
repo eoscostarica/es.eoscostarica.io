@@ -72,7 +72,7 @@ const SuscribeForm =() => {
     return (
         <Box>
             <Box className="specialH3Box">
-                <h3 className="h3Footer">Subscribe to our communications </h3>
+                <h3 className="h3Footer">Suscríbete para comunicarnos </h3>
             </Box>
             <Box style={{paddingLeft: isMobile ? '25px' : 0, paddingRight: isMobile ? '25px' : 0}}>
                 <form onSubmit={onSubmitEmailResults}>
@@ -81,7 +81,7 @@ const SuscribeForm =() => {
                         type="text"
                         id="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder="Correo electrónico"
                         value={email}
                         onChange={handleSetEmail}
                     />
@@ -93,24 +93,24 @@ const SuscribeForm =() => {
                             float:'right'
                         }}
                         >
-                            Submit
+                            Enviar
                     </button>
                 </form>
             </Box>
             <Box className="litleMarginTop">
             <p style={{color:'white', fontSize:'14px'}}>
-                EOS Costa Rica respects your privacy. We need the contact information you provide to us to contact you about our services.
-                You may unsubscribe from these communications at any time.
+                EOS Costa Rica respeta su privacidad. Necesitamos la información de contacto que nos proporciona para comunicarnos con usted acerca de nuestros servicios.
+                Puede darse de baja de estas comunicaciones en cualquier momento.
             </p>
             </Box>
             <Snackbar open={open} autoHideDuration={3000} onClose={handleClose}>
                 <Alert>
-                    Thank you for subscribing
+                    Gracias por suscribirse
                 </Alert>
             </Snackbar>
             <Snackbar open={errorMessage} autoHideDuration={4000} onClose={handleClose}>
                 <Alert severity="error">
-                    Complete the field and verify that it is a correct email
+                    Complete el campo y verifique que sea un correo electrónico correcto
                 </Alert>
             </Snackbar>
         </Box>
