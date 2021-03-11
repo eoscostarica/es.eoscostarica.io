@@ -12,7 +12,7 @@ const ContactUsBanner = () => {
                 <Grid container spacing={5}>
                     <Grid item xs={12} md={8}> 
                         <Box>
-                            <h2 className="centerTextOnMobile">Empiece a trabajar con nosotros <br/> e implementar <br/> tecnología blockchain </h2>
+                            <h2 className="centerTextOnMobile">Comience a trabajar con nosotros <br/> implementando <br/> tecnología blockchain </h2>
                         </Box>
                     </Grid>
                     <Grid item xs={12} md={4}>

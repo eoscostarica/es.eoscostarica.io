@@ -27,21 +27,21 @@ const AdditionalResources = () => {
             <Grid onClick={() => history.push("/blog/")} className="gridButton" item xs={12} md={5}>
               <Box className={clsx("centerBox","spacingBox")}>
                 <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/blog.svg")}/>
-                <h3 style={{marginLeft:'25px', width:'150px'}}>Blog</h3>
+                <h3 style={{marginLeft:'25px', width:'210px'}}>Blog</h3>
               </Box>
             </Grid>
             <Grid onClick = {() => history.push("/press/")} className="gridButton" item xs={12} md={5}>
               <Box className={clsx("centerBox","spacingBox")}>
                 <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/press.svg")}/>
-                <h3 style={{marginLeft:'25px', width:'150px'}}>Prensa</h3>
+                <h3 style={{marginLeft:'25px', width:'210px'}}>Prensa</h3>
               </Box>
             </Grid>
             <Grid onClick = {() => window.open('https://guide.eoscostarica.io/')} className="gridButton" item xs={12} md={5}>
               <Box className={clsx("centerBox","spacingBox")}>
                 <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/decs.svg")}/>
                 <Box style={{marginLeft:'25px'}}>
-                  <h3 style={{marginBottom:'5px', width:'150px'}}>Portal de </h3>
-                  <h3 style={{marginBottom:'5px', width:'150px'}}>desarrollo</h3>
+                  <h3 style={{marginBottom:'5px', width:'210px'}}>Portal de </h3>
+                  <h3 style={{marginBottom:'5px', width:'210px'}}>desarrolladores</h3>
                 </Box>
               </Box>
             </Grid>
@@ -49,8 +49,8 @@ const AdditionalResources = () => {
             <Box className={clsx("centerBox","spacingBox")}>
                 <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/github-ours.svg")}/>
                 <Box style={{marginLeft:'25px'}}>
-                  <h3 style={{marginBottom:'5px', width:'150px'}}>Nuestros</h3>
-                  <h3 style={{marginBottom:'5px', width:'150px'}}>Github</h3>
+                  <h3 style={{marginBottom:'5px', width:'210px'}}>Nuestro</h3>
+                  <h3 style={{marginBottom:'5px', width:'210px'}}>Github</h3>
                 </Box>
               </Box>
             </Grid>

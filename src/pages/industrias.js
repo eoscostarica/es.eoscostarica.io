@@ -276,11 +276,11 @@ const Industries = () => {
           </Box>
           <Box className="spacingBox">
             <p>
-              Existen muchas 
+              Existen muchas{" "}
               <a 
                 href={"https://eoscostarica.medium.com/how-to-choose-an-enterprise-blockchainplatform-7c3665994ad6"}
                 target="_blank"
-              > plataformas de blockchain empresarial</a>{" "}
+              >plataformas de blockchain empresarial</a>{" "}
               en el mercado con distintas características y capacidades. 
               La siguiente es una lista de algunas características clave que deberá
               considerar al elegir qué plataforma de blockchain
