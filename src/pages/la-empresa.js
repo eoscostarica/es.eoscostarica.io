@@ -29,23 +29,23 @@ const TheCompany = () => {
         {isDesktop && 
           <Box className="sectionHero">
           <Box className="titleBox">
-            <h1>We Develop Enterprise <br/> Blockchain Solutions</h1>
+            <h1>Soluciones blockchain  <br/> para empresas</h1>
           </Box>
-          <p >Years of experience developing innovative technologies speak for us. Unleash the power of blockchain technology with the help of our agile team.</p>
+          <p>Años de experiencia desarrollando tecnologías innovadoras hablan por nosotros. Explore el poder de la tecnología blockchain con ayuda de nuestro equipo.</p>
           <br/>
           <Box className="buttonBox">
-            <button className="buttonPrimary" onClick={() => history.push("/contact-us/")} >Contact Us</button>
+            <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
           </Box>
         </Box>
         }
         {isMobile && 
           <Box className="sectionHeroMobile">
             <Box className="titleBox">
-              <h1>We Develop Enterprise <br/> Blockchain Solutions</h1>
+            <h1>Desarrollamos soluciones  <br/> empresariales basadas en blockchain</h1>
             </Box>
-            <p>Years of experience developing innovative technologies speak for us. Unleash the power of blockchain technology with the help of our agile team.</p>
+            <p>Años de experiencia desarrollando tecnologías innovadoras hablan por nosotros. Explore el poder de la tecnología blockchain con ayuda de nuestro equipo.</p>
             <Box className="buttonBoxMobile">
-              <button className="buttonPrimary" onClick={() => history.push("/services/")} >Contact Us</button>
+              <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
             </Box>
         </Box>
       }
@@ -61,30 +61,25 @@ const TheCompany = () => {
             <Grid container spacing={5}>
               <Grid item md={6}>
                 <Box className="titleBox">
-                  <h2>Get to Know EOS Costa Rica</h2>
+                  <h2>Conozca a EOS Costa Rica</h2>
                 </Box>
                 <p>
-                  EOS Costa Rica is part of a company with over 
-                  three decades of developing innovative technologies. 
-                  During the 80s, we launched the first BBS 
-                  (bulletin board service) in the country, 
-                  a precursor to the internet. Later on, 
-                  the company shifted to educating new users 
-                  on using the email and browsing the web! 
-                  Then, we started offering internet infrastructure, 
-                  hosting, and development services.
+                  EOS Costa Rica es parte de una compañía con más de tres décadas
+                  desarrollando tecnologías innovadoras.
+                  Durante la década de los 80, lanzamos el primer BBS (bulletin board service) en
+                  el país, un precursor de la internet. Luego, la compañía empezó a educar
+                  nuevos usuarios sobre cómo usar el email y navegar en la web. Más
+                  adelante, comenzamos a ofrecer infraestructura de internet, hospedaje y
+                  servicios de desarrollo.
                 </p>
                 <br/>
                 <p>
-                  In 2013, we began providing infrastructure for public 
-                  blockchain networks and learned first-hand 
-                  how blockchains work. Then, in 2018 when 
-                  the EOSIO protocol was launched, we investigated 
-                  the advantages of this technology and started 
-                  learning how to deploy it in the real world. 
-                  Our presence grew during the genesis of the 
-                  EOS Mainnet and will continue to be there 
-                  throughout its growth.
+                  En 2013, empezamos a ofrecer infraestructura para redes blockchain
+                  públicas y aprendimos de primera mano sobre cómo trabaja una blockchain. En
+                  2018 cuando se lanzó el protocolo EOSIO, investigamos las ventajas de
+                  esta tecnología y aprendimos a implementarla en el mundo real. Nuestra
+                  presencia creció durante el nacimiento de la EOS Mainnet y continuará así
+                  durante su desarrollo.
                 </p>
               </Grid>
               <Grid item md={6}>
@@ -111,24 +106,21 @@ const TheCompany = () => {
               }
               <Grid item md={6}>
                 <Box className="titleBox">
-                  <h2>Our Vision</h2>
+                  <h2>Nuestra visión</h2>
                 </Box>
                 <p>
-                  We founded EOS Costa Rica two years ago — before the 
-                  release of EOS… and quickly realized this was a marathon, 
-                  not a sprint. We have experimented with different use 
-                  cases for EOSIO blockchain technology, especially 
-                  for enterprise use.
+                  Fundamos EOS Costa Rica en 2018 — antes del lanzamiento de EOS. Hemos
+                  experimentado con diferentes casos de uso para la tecnología blockchain
+                  EOSIO, especialmente para usos empresariales.
                 </p>
                 <br/>
                 <p>
-                  Our team offers an agile and 
-                  lean approach to develop blockchain-based solutions 
-                  that allow innovation departments to quickly and 
-                  efficiently iterate and test proofs-of-concept with
-                  a restricted budget and schedule. This ability enables
-                  organizations to explore this technology’s benefits and 
-                  experience its potential in a controlled environment.
+                  Nuestro equipo ofrece un enfoque Agiley Lean para desarrollar soluciones
+                  basadas en blockchain que permitan a departamentos de innovación iterar y
+                  crear pruebas de concepto de forma ágil y eficiente, ajustándose a
+                  presupuestos y tiempos limitados. Esta habilidad permite a organizaciones
+                  explorar los beneficios de la tecnología y experimentar su potencial en un
+                  ambiente controlado.
                 </p>
               </Grid>
               {isMobile && 
@@ -147,26 +139,25 @@ const TheCompany = () => {
             <Grid container spacing={5} >
               <Grid item xs={12} md={12}>
                 <Box className="titleBox">
-                  <h2>What Can We Do for You?</h2>
+                  <h2>¿Qué podemos hacer por usted?</h2>
                 </Box>
                 <p>
-                  We can co-ideate and develop the ideal solution 
-                  that integrates blockchain technology into your 
-                  operations following an agile and lean approach 
-                  that will help you explore blockchain’s features 
-                  within a restricted budget and schedule.
+                  Podemos co-idear y desarrollar la mejor solución que integra tecnología
+                  blockchain en sus operaciones siguiendo un enfoque Agile y Lean, el
+                  cual le ayudará a explorar los beneficios de blockchain ajustándose
+                  a presupuestos y tiempos limitados.
                   <br/>
                   <br/>
-                  We provide top-notch, ready-to-use blockchain 
-                  infrastructures. Also, we configure, host, 
-                  and maintain blockchain nodes and networks that 
-                  can meet your organization’s requirements and needs.
+                  Ofrecemos infraestructura de primer nivel y lista para usarse. Además,
+                  configuramos, hospedamos y damos mantenimiento a nodos y redes
+                  blockchain que cumplan con los requisitos y necesidades de la
+                  organización.
                   <br/>
                   <br/>
-                  We offer workshops to C-suite executives and teams. 
-                  We also provide training for new talents and promote 
-                  the region’s blockchain ecosystem by participating 
-                  in events, seminars, and conferences.
+                  Ofrecemos talleres sobre blockchain para ejecutivos y equipos que buscan
+                  actualizarse y aprender más sobre blockchain y algunos casos de uso
+                  empresariales. También ofrecemos entrenamiento y recursos educativos
+                  para nuevos talentos que deseen empezar una carrera en blockchain.
                 </p>
               </Grid>
             </Grid>
@@ -182,16 +173,15 @@ const TheCompany = () => {
         <Box className="sectionPadding">
           <Box>
             <Box className="titleBox">
-              <h2>Meet the Team</h2>
+              <h2>Conozca al equipo</h2>
             </Box>
             <Box className="spacingBox">
               <p>
-                  We have assembled a Latin American team with 
-                  a problem-solving mindset and expertise in 
-                  their areas of knowledge. Our distributed 
-                  team operates in an Agile environment that 
-                  encourages participation, self- accountability, 
-                  and innovation. Get to know us!
+                Nuestro equipo latinoamericano cuenta con una mentalidad de
+                resolución de problemas y experiencia relevante en sus áreas de
+                conocimiento. Trabajando de manera distribuida, nuestro equipo opera
+                en un ambiente Agile que incentiva la participación, rendición de cuentas
+                y la innovación. ¡Conózcanos!
               </p>
             </Box>
             {isDesktop &&
@@ -211,7 +201,7 @@ const TheCompany = () => {
               </Box>
             }
             <Box className="boxFlexEnd">
-              <button className="buttonPrimary" onClick={() => window.open("/team/")} >Meet our team</button>
+              <button className="buttonPrimary" onClick={() => window.open("/equipo/")} >Conozca a nuestro equipo</button>
             </Box>
           </Box>
         </Box>
@@ -224,82 +214,82 @@ const TheCompany = () => {
       <Box className="containerSec"> 
         <Box className="sectionNoPadding">
             <Box className="titleBox">
-              <h2>The Technology</h2>
+              <h2>La tecnología</h2>
             </Box>
             <Box className="spacingBox">
               <p>
-                Our team specializes in the blockchain protocol
-                <a href=" https://eos.io/" target='_blank'> EOSIO</a>, launched by 
-                <a href=" https://block.one/" target='_blank' > block.one</a> in 2018, 
-                as an open-source blockchain technology that deploys
-                a consensus model known as Delegated Proof-of-Stake
-                (DPoS). In DPoS, computers do not compete over 
-                computational power to solve algorithms. 
-                The following are some key features of EOSIO:
+                Nuestro equipo se especializa en el protocolo blockchain
+                <a href=" https://eos.io/" target='_blank'> EOSIO</a>, lanzado por 
+                <a href=" https://block.one/" target='_blank' > block.one</a> en 2018, como una tecnología blockchain de
+                código abierto que implementa un modelo de consenso conocido como
+                Delegated Proof-of-Stake (DPoS). En DPoS, las compradores no
+                compiten por poder computacional para resolver algoritmos. Las
+                siguientes son algunas características principales de EOSIO:
               </p>
             </Box>
             <Box className="doubleSpacingBox">
             <Grid justify="center" container spacing={5}>
               <Grid item xs={12} md={5}>
                 <Box className="specialH3Box">
-                  <h4>Scalability</h4>
+                  <h4>Escalabilidad</h4>
                 </Box>
                 <p >
-                  EOSIO deploys the DPoS mechanism to achieve higher throughput
-                  and efficiency, becoming the blockchain protocol with the
-                  largest number of transactions per second at 4,000 on its
-                  public blockchain. In contrast, the average in other
-                  blockchain systems is 15-20 transactions per second.
+                  EOSIO implementa el mecanismo DPoS para alcanzar mayor
+                  rendimiento y eficiencia, llegando a ser el protocolo blockchain con
+                  el mayor número de transacciones por segundo con
+                  4.000 en su red pública. En contraste, el promedio en otros
+                  sistemas blockchain es de 15-20 transacciones por segundo.
                 </p>
               </Grid>
               <Grid item xs={12} md={5}>
                 <Box className="specialH3Box">
-                  <h4>Flexibility</h4>
+                  <h4>Flexibilidad</h4>
                 </Box>
                 <p>
-                  EOSIO enables adaptability for public and private networks
-                  and can be customized according to the business requirements.
-                  This blockchain technology offers low latency, meaning that
-                  a user won't have to wait for a long time for a transaction
-                  to be complete, ensuring a better user experience.
+                  EOSIO permite adaptabilidad para redes públicas y privadas, y
+                  puede ser hecha a la medida de acuerdo a los requisitos del
+                  equipo. Esta tecnología blockchain ofrece baja latencia,
+                  lo que quiere decir que un usuario no tendrá que esperar
+                  mucho tiempo para que una transacción se complete,
+                  resultando en una mejor experiencia de usuario.
                 </p>
               </Grid>
               <Grid item xs={12} md={5}>
                 <Box className="specialH3Box">
-                  <h4>Faster adoption</h4>
+                  <h4>Rápida adopción</h4>
                 </Box>
                 <p>
-                  Developers build smart contracts in EOSIO using C++,
-                  a general-purpose programming language with widespread
-                  adoption, thus eliminating the need to learn new languages
-                  to begin deploying the technology. Also, there are many
-                  learning resources available online and a dynamic support community.
+                  Los desarrolladores de contratos inteligentes en EOSIO usan C++,
+                  un lenguaje de programación general con amplia adopción, lo
+                  que elimina la necesidad de aprender nuevos lenguajes para
+                  empezar a implementar la tecnología. Además, existen
+                  varios recursos de aprendizaje disponibles en línea y una
+                  comunidad de apoyo dinámica.
                 </p>
               </Grid>
               <Grid item xs={12} md={5}>
                 <Box className="specialH3Box">
-                  <h4>Cost-effective</h4>
+                  <h4>Costo eficiente</h4>
                 </Box>
                 <p>
-                  EOSIO offers a flexible and favorable cost model that
-                  eliminates the need for transaction fees. This model is
-                  ideal for developers who seek a solution with low operation
-                  costs and still offers an experience free to the user.
+                  EOSIO ofrece un modelo de costos flexible y favorable que elimina la necesidad de tarifas por transacciones. 
+                  Este modelo es ideal para desarrolladores que buscan una solución con bajos costos operativos pero que aun así ofrezca 
+                  una experiencia gratuita para el usuario.
                 </p>
               </Grid>
               <Grid item xs={12} md={5}>
                 <Box className="specialH3Box">
-                  <h4>Eco-friendly</h4>
+                  <h4>Eco-amigable</h4>
                 </Box>
                 <p>
-                  The DPoS mechanism enables a sustainable blockchain
-                  solution requiring less electricity to run nodes and
-                  confirm transactions. For example, EOSIO is 66,000 times
-                  more energy-efficient than Bitcoin and 17,000 times more
-                  energy-efficient than Ethereum.
+                  El mecanismo de consenso DPoS permite una solución
+                  blockchain sostenible que requiere menos electricidad para
+                  correr nodos y confirmar transacciones. Por ejemplo,
+                  EOSIO es 66.000 veces más eficiente en energía que Bitcoin y
+                  17.000 veces más eficiente en energía que Ethereum.
                 </p>
               </Grid>
-              <Grid md={5}>
+              <Grid item xs={12} md={5}>
                 <Box className="centerBox">
                   <img
                     style={{width: isDesktop ? '40%' : '35%', paddingTop:'30px'}}
@@ -312,19 +302,19 @@ const TheCompany = () => {
           </Box>
             {isDesktop &&
               <Box className="doubleSpacingBox">
-                <Grid  justify="center" container spacing={5}>
+                <Grid  justify="center" alignItems="center" container spacing={5}>
                   <Grid item xs={12} md={7}>
                     <Box className="boxFlexEnd">
-                      <h3>We can help you explore EOSIO technology.</h3>
+                      <h3>Le ayudamos a explorar la tecnología EOSIO.</h3>
                     </Box>
                   </Grid>
                   <Grid item xs={12} md={3}>
                       <Box className="boxFlexEnd">
                         <button 
                           className="buttonPrimary" 
-                          onClick={() => history.push("/contact-us/")}
+                          onClick={() => history.push("/contactenos")}
                         >
-                          Drop Us a Line
+                          Contáctenos
                         </button>
                       </Box>
                   </Grid>
@@ -341,7 +331,7 @@ const TheCompany = () => {
       <Box className="containerSec"> 
         <Box className="section">
           <Box className="buttonBox">
-            <h2>Some of Our Projects</h2>
+          <h2>Algunos de nuestros proyectos</h2>
             <br />
           </Box>
           <Box>
@@ -354,14 +344,12 @@ const TheCompany = () => {
                   />
                 </Box>
                 <p>
-                  We are part of this voluntary regional alliance, led by Latin
-                  American technology companies to offer an EOSIO-based testnet
-                  to the{" "}
-                  <a href="https://www.lacchain.net/" target="_blank">
-                    LACChain
-                  </a>{" "}
-                  initiative, a program to accelerate the development of the
-                  blockchain ecosystem in the region.<a href="https://latamlink.io/" target="_blank"> Discover more about LatamLink.</a>
+                  Somos parte de una alianza regional, liderada por compañías tecnológicas de Latinoamérica para ofrecer un testnet
+                  basado en EOSIO a la iniciativa <a href="https://www.lacchain.net/" target="_blank">LACChain</a>{", "} 
+                  un programa para acelerar el desarrollo del ecosistema blockchain de la región.{" "}
+                  <a href="http://latamlink.io/" target="_blank">
+                  Descubra más sobre LatamLink
+                  </a>
                 </p>
               </Grid>
               <Grid item xs={12} md={4}>
@@ -372,22 +360,20 @@ const TheCompany = () => {
                   />
                 </Box>
                 <p>
-                  An open-source blockchain-based app that incentivizes blood
-                  donations by creating a virtuous circle of value between
-                  donors, blood banks, and local businesses, leveraged by a
-                  token economy. Winner of the{" "}
+                  Una app de código abierto basada en blockchain para incentivar las donaciones de sangre al crear un círculo virtuoso de
+                  valor entre donantes, bancos de sangre y negocios locales, e impulsada por una economía interna de tokens. Proyecto
+                  ganador de la competencia “
                   <a
                     href="https://eos.io/news/winner-of-coding-for-change-virtual-hackathon-lifebank/"
                     target="_blank"
                   >
-                    “Coding for Change”
-                  </a>{" "}
-                  challenge by{" "}
+                    Coding for Change
+                  </a>{"” "} de {" "}
                   <a href="https://block.one/" target="_blank">
                     block.one.
                   </a>{" "}
-                  <a href=" https://lifebank.io/" target="_blank">
-                    Find out more about Lifebank.
+                  <a href="http://lifebank.io/" target="_blank">
+                  Lea más sobre Lifebank.
                   </a>
                 </p>
               </Grid>
@@ -399,18 +385,20 @@ const TheCompany = () => {
                   />
                 </Box>
                 <p>
-                  A blockchain-based platform that provides solutions for in-out
-                  gate activity for the container industry and real-time
-                  transmission of relevant data required for proper interchange
-                  in port logistics.<a href="https://smartgate.tech/" target="_blank"> Learn more about SMARTGATE.</a>
+                  Una plataforma basada en blockchain que brinda soluciones para entradas y salidas de puertos para la industria de logística de contenedores y transmisión
+                  en tiempo real de datos requeridos para el intercambio de carga.
+                  {" "}
+                  <a href="https://smartgate.tech/" target="_blank">
+                  Aprenda más sobre SMARTGATE.
+                  </a>
                 </p>
               </Grid>
               <Grid item xs={12} md={12} >
                 <br/>
                 <p>
-                  Check out more of our latest projects <a 
+                Puede ver más de nuestros proyectos más recientes <a 
                   href="https://eoscostarica.io/projects" target="_blank">
-                    here
+                    aquí
                   </a>.
                 </p>
               </Grid>

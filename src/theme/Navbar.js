@@ -29,7 +29,7 @@ const PATHS = [
   {
     dropDown:false,
     path: "/",
-    espPath: "/",
+    enPath: "/",
     label: "Inicio",
     target: '_self',
     icon: <HomeIcon style={{width:'20px'}}/>
@@ -37,50 +37,50 @@ const PATHS = [
   {
     dropDown:true,
     path: "/servicios/",
-    espPath: "/servicios/",
+    enPath: "/services/",
     label: "Sobre nosotros",
     target: '_self',
-    markerSize: "70px",
+    markerSize: "120px",
     subPaths: 
     [
       {
         path: "/servicios/",
-        espPath: "/servicios/",
+        enPath: "/services/",
         label: "Servicios",
         target: '_self',
         icon: <ComputerIcon style={{width:'20px'}}/> 
       },
       {
-        path: "/la-compañia/",
-        espPath: "/la-compañia/",
-        label: "La compañia",
+        path: "/la-empresa/",
+        enPath: "/the-company/",
+        label: "La empresa",
         target: '_self',
         icon: <ApartmentIcon style={{width:'20px'}}/>
       },
       {
         path: "/equipo/",
-        espPath: "/equipo/",
+        enPath: "/team/",
         label: "Equipo",
         target: '_self',
         icon: <GroupIcon style={{width:'20px'}}/> 
       },
       {
         path: "/proyectos/",
-        espPath: "/proyectos/",
+        enPath: "/projects/",
         label: "Proyectos",
         target: '_self',
         icon: <ListAltIcon style={{width:'20px'}}/>
       },
       {
         path: "/productor-de-bloques/",
-        espPath: "/productor-de-bloques/",
+        enPath: "/block-producer/",
         label: "Productor de bloques",
         target: '_self',
         icon: <GridOnIcon style={{width:'20px'}}/>
       },
       {
         path: "/prensa/",
-        espPath: "/prensa/",
+        enPath: "/press/",
         label: "Prensa",
         target: '_self',
         icon: <ForumIcon style={{width:'20px'}}/>
@@ -90,7 +90,7 @@ const PATHS = [
   {
     dropDown:false,
     path: "/industrias/",
-    espPath: "/industrias/",
+    enPath: "/industries/",
     label: "Industrias",
     target: '_self',
     icon: <BusinessIcon style={{width:'20px'}}/>
@@ -105,7 +105,7 @@ const PATHS = [
   {
     dropDown:false,
     path: "/blog/",
-    espPath: "/blog/",
+    enPath: "/blog/",
     label: "Blog",
     target: '_self',
     icon: <EditIcon style={{width:'20px'}}/>
@@ -113,7 +113,7 @@ const PATHS = [
   {
     dropDown:false,
     path: "/contactenos/",
-    espPath: "/contactenos/",
+    enPath: "/contact-us/",
     label: "Contactenos",
     target: '_self',
     icon: <MailIcon style={{width:'20px'}}/>
@@ -148,24 +148,24 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
     return res
   }
 
-  const getSpanishPath = (path) => {
-    let espPath
+  const getEnglishPath = (path) => {
+    let enPath
 
     PATHS.map((item) => {
       if(item.dropDown){
         item.subPaths.map((subitem) => {
-          if(subitem.path===path) espPath=subitem.espPath
+          if(subitem.path===path) enPath=subitem.enPath
         })
       }else{
-        if(item.path===path) espPath=item.espPath
+        if(item.path===path) enPath=item.enPath
       }
     })
 
-    return espPath
+    return enPath
   }
 
   const translateSite = () => {
-    window.open(`https://es.eoscostarica.io${getSpanishPath(pathname)}`,'_self')
+    window.open(`https://es.eoscostarica.io${getEnglishPath(pathname)}`,'_self')
   }
 
   return (
