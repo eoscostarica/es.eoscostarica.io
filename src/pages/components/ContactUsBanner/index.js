@@ -12,12 +12,12 @@ const ContactUsBanner = () => {
                 <Grid container spacing={5}>
                     <Grid item xs={12} md={8}> 
                         <Box>
-                            <h2 className="centerTextOnMobile">Start working with us <br/> and implement <br/> blockchain technology. </h2>
+                            <h2 className="centerTextOnMobile">Comience a trabajar con nosotros <br/> implementando <br/> tecnología blockchain </h2>
                         </Box>
                     </Grid>
                     <Grid item xs={12} md={4}>
                         <Box className="buttonBox">
-                            <button className="buttonPrimary" onClick={() => history.push("/contact-us/")} >Contact us</button>
+                            <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
                         </Box>
                     </Grid>
                 </Grid>

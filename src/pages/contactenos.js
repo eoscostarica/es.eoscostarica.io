@@ -125,7 +125,7 @@ const ContactUs = () => {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(jsonData)
       };
-      const response = await fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${process.env.HUBSPOT_PORTAL_ID}/${process.env.HUBSPOT_CONTACT_EN_FORM}`, requestOptions);
+      const response = await fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${process.env.HUBSPOT_PORTAL_ID}/${process.env.HUBSPOT_CONTACT_ES_FORM}`, requestOptions);
       if(response.ok) setResultsSection(true)
       else setErrorMessage(true)
       setSubmitLoading(false)
@@ -136,7 +136,7 @@ const ContactUs = () => {
         <form onSubmit={onSubmitForms} noValidate> 
           <Grid container spacing={2}> 
             <Grid item xs={12} md={6}>
-              <label htmlFor="firstName_contact">First name</label>
+              <label htmlFor="firstName_contact">Nombre</label>
               <Box className="inputFormBox">
                   <GenericInput 
                     id="firstName_contact" 
@@ -147,7 +147,7 @@ const ContactUs = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
-              <label htmlFor="lastName_contact">Last name</label>
+              <label htmlFor="lastName_contact">Apellido</label>
               <Box className="inputFormBox">
                   <GenericInput 
                     id="lastName_contact" 
@@ -169,7 +169,7 @@ const ContactUs = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
-              <label htmlFor="companyName_contact">Company name</label>
+              <label htmlFor="companyName_contact">Nombre de la compañía (opcional)</label>
                 <Box className="inputFormBox">
                     <GenericInput 
                       id="companyName_contact" 
@@ -180,7 +180,7 @@ const ContactUs = () => {
                 </Box>
             </Grid>
             <Grid item xs={12} md={12}>
-              <label htmlFor="additionalComments_contact">Additional comments</label>
+              <label htmlFor="additionalComments_contact">Comentarios adicionales (opcional)</label>
                 <Box className="inputFormBox">
                     <GenericInput 
                       id="additionalComments_contact" 
@@ -194,7 +194,7 @@ const ContactUs = () => {
             </Grid>
             <Grid item xs={12} md={12}>
               <p>
-                  We respect your privacy. We will not share any contact information and will only use it to contact you about our services. You may unsubscribe from these communications at any time.
+              Respetamos tu privacidad. No compartiremos ninguna información de contacto y solo la usaremos para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.
               </p>
             </Grid>
             <Grid item xs={12} md={12}>
@@ -209,12 +209,11 @@ const ContactUs = () => {
                     <CircularProgress style={{color:'#5484B3'}}/>
                 }
                 {!submitLoading && 
-                    <input type="submit" className="buttonPrimary" value="Submit" 
+                    <input type="submit" className="buttonPrimary" value="Enviar" 
                     disabled={
                       !contactForm.firstName ||
                       !contactForm.lastName ||
                       !contactForm.email ||
-                      !contactForm.companyName ||
                       !recaptchaValue ||
                       !validateEmail(contactForm.email)
                     }/>
@@ -222,7 +221,7 @@ const ContactUs = () => {
               </Box>
             </Grid>
             <Snackbar open={errorMessage} autoHideDuration={4000} onClose={handleCloseErrorMessage}>
-                <Alert severity="error">Something happened! please try again</Alert>
+                <Alert severity="error">¡Algo pasó! Inténtalo de nuevo</Alert>
             </Snackbar>
           </Grid>
         </form>
@@ -244,19 +243,19 @@ const ContactUs = () => {
           <Box className="containerSec">
             <Box className={clsx("sectionContact",{["sectionPadding"]: isMobile})}>
               <Box className="h3Box">
-                <h1>Contact Us</h1>
+                <h1>Contáctenos</h1>
               </Box>
               {!resultsSection && 
                 <Box className="contactFormBox">
                   <Box className="spacingBox">
-                    <p>Let’s get the conversation started. Ask us how we can help you implement blockchain technology into your organization.</p>
+                    <p>Comencemos la conversación. Pregúntenos cómo podemos ayudarlo a implementar la tecnología blockchain en su organización.</p>
                   </Box>
                   <ContactForm />
                 </Box>
               }
               {resultsSection && 
                 <Box className="contactFormBox" style={{height:'120px'}}>
-                    <p>Thanks for contacting EOS Costa Rica. We will reply shortly</p>
+                    <p>Gracias por contactar a EOS Costa Rica. Te responderemos a la brevedad</p>
                 </Box>
               }
             </Box>
@@ -266,19 +265,19 @@ const ContactUs = () => {
       {isMobile && 
         <Box className="sectionHeroMobile">
             <Box className="h3Box">
-              <h1>Contact Us</h1>
+              <h1>Contáctenos</h1>
             </Box>
             {!resultsSection && 
               <Box className="contactFormBox">
                 <Box className="spacingBox">
-                  <p style={{padding:0}}>Let’s get the conversation started. Ask us how we can help you implement blockchain technology into your organization.</p>
+                  <p style={{padding:0}}>Comencemos la conversación. Pregúntenos cómo podemos ayudarlo a implementar la tecnología blockchain en su organización.</p>
                 </Box>
                 <ContactForm />
               </Box>
             }
             {resultsSection && 
               <Box className="contactFormBox">
-                  <p style={{padding:0}}>Thanks for contacting EOS Costa Rica. We will reply shortly</p>
+                  <p style={{padding:0}}>Gracias por contactar a EOS Costa Rica. Te responderemos a la brevedad</p>
               </Box>
             }
 
