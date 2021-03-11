@@ -224,7 +224,7 @@ const Footer = () => {
       <Box className="footerCopy">
         <Box className="footerCopyContent">
           <p style={{fontSize:'14px'}}>
-            Todos los derechos reservados para EOS COSTA RICA
+            Todos los derechos reservados para Sistemas Edenia Internacional S.A.
           </p>
         </Box>
       </Box>
