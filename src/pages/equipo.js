@@ -20,7 +20,7 @@ const ManagementTeam = [
     {
         img:"img/team/rodrigo.jpg",
         name:"Rodrigo Fernández",
-        position:"Founder, Chairman & Chief Strategist",
+        position:"Fundador, Director y Jefe de Estrategia",
         bio:"I believe in fostering truth and transparency to pursue individual freedom.",
         linkedIn:"https://www.linkedin.com/in/rodrigo-fernandez-57b8b72a/",
         twitter:"https://twitter.com/rjfescazu",
@@ -29,7 +29,7 @@ const ManagementTeam = [
     {
         img:"img/team/edgar.jpg",
         name:"Edgar Fernández",
-        position:"Co-founder & Finance and Enterprise",
+        position:"Co-founder & Finanzas y administración",
         bio:"I thrive on developing the entrepreneurial spirit and using tech to create decentralized networks.",
         linkedIn:"https://www.linkedin.com/in/edgarafernandez/",
         twitter:"https://twitter.com/fernane506",
@@ -50,7 +50,7 @@ const MarketingSalesTeam = [
     {
         img:"img/team/luisD.jpg",
         name:"Luis Diego Rojas",
-        position:"Communications and Content Strategist",
+        position:"Estrategia de comunicaciones y contenido",
         bio:"I believe that communicating new techs plays a crucial role in widespread adoption.",
         linkedIn:"https://www.linkedin.com/in/ldrojas/",
         twitter:"https://twitter.com/ldrojas",
@@ -59,7 +59,7 @@ const MarketingSalesTeam = [
     {
         img:"img/team/rodolfo.jpg",
         name:"Rodolfo Perez",
-        position:"Art Director & Brand Manager",
+        position:"Director de arte y gerente de marca",
         bio:"Like people, every company also has to develop its own essence, a soul, this is what really compounds an identity.",
         linkedIn:"https://www.linkedin.com/in/rodolfo-eduardo-p%C3%ABrez-nava-73442164/",
         twitter:"https://twitter.com/monsieurRoaf",
@@ -71,7 +71,7 @@ const DevelopTeam = [
     {
         img:"img/team/adriel.jpg",
         name:"Adriel Diaz",
-        position:"Full Stack Developer",
+        position:"Desarrollador Full Stack",
         bio:"Proud father and full stack developer",
         linkedIn:"https://www.linkedin.com/in/adriel-d%C3%ADaz-08226384/",
         twitter:"",
@@ -81,7 +81,7 @@ const DevelopTeam = [
         img:"img/team/allan.jpg",
         name:"Allan Salazar",
         bio:"",
-        position:"Network Engineer",
+        position:"Ingeniero en redes",
         linkedIn:"",
         twitter:"",
         color:"#ffffff"
@@ -89,7 +89,7 @@ const DevelopTeam = [
     {
         img:"",
         name:"Andrés Gomez",
-        position:"Cybersecurity Developer",
+        position:"Desarrollador de ciberseguridad",
         bio:"I envision and work for a more secure, private, and decentralized world.",
         linkedIn:"https://www.linkedin.com/in/andres-gomez-ramirez-bb7226156/",
         twitter:"https://twitter.com/kuronosec",
@@ -98,7 +98,7 @@ const DevelopTeam = [
     {
         img:"img/team/angelo.jpg",
         name:"Angelo Castro",
-        position:"Intern",
+        position:"Practicante",
         bio:"I’m ready to develop innovative ideas and face new challenges.",
         linkedIn:"https://www.linkedin.com/in/angelo-castro-gamboa/",
         twitter:"",
@@ -107,7 +107,7 @@ const DevelopTeam = [
     {
         img:"img/team/cristian.jpg",
         name:"Cristian Castro",
-        position:"C++ Developer",
+        position:"Desarrollador C++",
         bio:"We're creating the new technologies that will free people for good.",
         linkedIn:"https://www.linkedin.com/in/cristian-castro-95193a3a/",
         twitter:"",
@@ -116,7 +116,7 @@ const DevelopTeam = [
     {
         img:"img/team/edgarParra.jpg",
         name:"Edgar Parra",
-        position:"Intern",
+        position:"Practicante",
         bio:"I believe technology is a constant learning process that should be done together.",
         linkedIn:"https://www.linkedin.com/in/edgar-parra-barillas-078883161/",
         twitter:"",
@@ -125,7 +125,7 @@ const DevelopTeam = [
     {
         img:"img/team/jean.jpg",
         name:"Jean Vega",
-        position:"Intern",
+        position:"Practicante",
         bio:"I enjoy learning and experimenting with new tech, especially to acquire knowledge in different application areas.",
         linkedIn:"https://www.linkedin.com/in/jeanvegad/",
         twitter:"",
@@ -134,7 +134,7 @@ const DevelopTeam = [
     {
         img:"img/team/jorge.jpg",
         name:"Jorge Murillo",
-        position:"Sr. UX Designer",
+        position:"Diseñador UX Sr.",
         bio:"Understanding the people's needs is crucial to create user interfaces for hi-tech apps and mediate among users, designers, and developers.",
         linkedIn:"https://www.linkedin.com/in/jmurilloux/",
         twitter:"https://twitter.com/Oquedo",
@@ -143,7 +143,7 @@ const DevelopTeam = [
     {
         img:"",
         name:"Justin Castillo",
-        position:"Intern",
+        position:"Practicante",
         bio:"I strive to be part of the change, not just a distant gear.",
         linkedIn:"https://www.linkedin.com/in/jacv/",
         twitter:"https://twitter.com/_JustinCast",
@@ -152,7 +152,7 @@ const DevelopTeam = [
     {
         img:"img/team/kevin.jpg",
         name:"Kevin Castillo",
-        position:"Full Stack Developer",
+        position:"Desarrollador Full Stack",
         bio:"Software development has given me the opportunity to learn and create new things everyday.",
         linkedIn:"https://www.linkedin.com/in/kevin-castillo-mora/",
         twitter:"",
@@ -161,7 +161,7 @@ const DevelopTeam = [
     {
         img:"img/team/leister.jpg",
         name:"Leister Álvarez",
-        position:"Intern",
+        position:"Practicante",
         bio:"Programming reflects who we are; let's do something awesome.",
         linkedIn:"https://www.linkedin.com/in/leister-francisco-alvarez-campos-65b7801bb/",
         twitter:"",
@@ -170,7 +170,7 @@ const DevelopTeam = [
     {
         img:"",
         name:"Ronald Gallo",
-        position:"Network Administrator",
+        position:"Administrador de red",
         bio:"",
         linkedIn:"",
         twitter:"",
@@ -179,7 +179,7 @@ const DevelopTeam = [
     {
         img:"img/team/steph.jpg",
         name:"Stephanie Delgado",
-        position:"Intern",
+        position:"Practicante",
         bio:"The tech world is always evolving, so I believe one must be fearless.",
         linkedIn:"https://www.linkedin.com/in/stephaniedelgadobrenes/",
         twitter:"",
@@ -188,7 +188,7 @@ const DevelopTeam = [
     {
         img:"img/team/teto.jpg",
         name:"Terencio Gómez",
-        position:"Full Stack Developer",
+        position:"Desarrollador Full Stack",
         bio:"Keeping a happy team will most likely guarantee a successful final result.",
         linkedIn:"https://www.linkedin.com/in/terencio-gomez-14784ba3/",
         twitter:"",
@@ -197,7 +197,7 @@ const DevelopTeam = [
     {
         img:"",
         name:"Victor Julio Madrigal",
-        position:"Web Developer",
+        position:"Desarrollador web",
         bio:"What I like the most is to develop innovative projects that move forward with the newest technologies.",
         linkedIn:"",
         twitter:"",
@@ -215,7 +215,7 @@ const Team = () => {
             {isDesktop && 
                 <Box className="sectionHero" style={{height:'auto'}}>
                     <Box className="titleBox">
-                        <h1>Meet the Essence of Our Company</h1>
+                        <h1>Conozca al equipo</h1>
                     </Box>
                     <TeamSection />
                 </Box>
@@ -223,7 +223,7 @@ const Team = () => {
             {isMobile && 
                 <Box className="sectionHeroMobile" style={{paddingBottom: 0}}>
                     <Box className="titleBox">
-                        <h1>Meet the Essence of Our Company</h1>
+                        <h1>Conozca al equipo</h1>
                     </Box>
                 </Box>
           }
@@ -269,7 +269,7 @@ const Team = () => {
                 <Box className={clsx("sectionNoPadding")}>
                     <Box className={isDesktop? "doubleSpacingBox": ""}>
                         <Box className="spacingBox">
-                            <h2>Management Team</h2>
+                            <h2>Equipo gerencial</h2>
                         </Box>
                         <Box>
                             <Grid container>
@@ -292,7 +292,7 @@ const Team = () => {
                     </Box>
                     <Box className="doubleSpacingBox">
                         <Box className="spacingBox">
-                            <h2>Marketing and Sales</h2>
+                            <h2>Mercadeo y ventas</h2>
                         </Box>
                         <Box>
                             <Grid container>
@@ -315,7 +315,7 @@ const Team = () => {
                     </Box>
                     <Box className="doubleSpacingBox">
                         <Box className="spacingBox">
-                            <h2>Development and Design</h2>
+                            <h2>Desarrollo y diseño</h2>
                         </Box>
                         <Box>
                             <Grid container >

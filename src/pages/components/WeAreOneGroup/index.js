@@ -8,7 +8,7 @@ const WeAreOneGroup = () => {
     <Box className="containerSec">
         <Box className="sectionNoPadding">
             <Box className="h3Box">
-                <h3 style={{textAlign:'center'}}>We Are One Group</h3>
+                <h3 style={{textAlign:'center'}}>Somos un solo grupo</h3>
             </Box>
             <Box className="spacingBox">
                 <Grid container>

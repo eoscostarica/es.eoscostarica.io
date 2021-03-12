@@ -12,6 +12,7 @@ import YouTubeIcon from '@material-ui/icons/YouTube'
 import GitHubIcon from '@material-ui/icons/GitHub'
 
 import SuscribeForm from '../pages/components/Subscribe'
+import IconMedium from '../pages/SvgComponents/IconMedium'
 
 const Footer = () => {
   const isMobile = useMediaQuery({query:'(max-width: 769px)'})
@@ -43,7 +44,7 @@ const Footer = () => {
             }
             <Grid className={isMobile ? "mediumPaddingTop" : ""} item xs={6} md={2}>
               <Box className="specialH3Box">
-                <h3 className="h3Footer">About us</h3>
+                <h3 className="h3Footer">Sobre nosotros</h3>
               </Box>
               <p className="body1Footer">
                 <Link
@@ -52,7 +53,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Services
+                  Servicios
                 </Link>
               </p>
               <p className="body1Footer">
@@ -62,7 +63,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  The company
+                  La compañía
                 </Link>
               </p>
               <p className="body1Footer">
@@ -72,7 +73,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Team
+                  Equipo
                 </Link>
               </p>
               <p className="body1Footer">
@@ -82,7 +83,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Projects
+                  Proyectos
                 </Link>
               </p>
               <p  className="body1Footer">
@@ -98,7 +99,7 @@ const Footer = () => {
             </Grid>
             <Grid className={isMobile ? "mediumPaddingTop" : ""} item xs={6} md={2}>
               <Box className="specialH3Box">
-                <h3 className="h3Footer">Content for you</h3>
+                <h3 className="h3Footer">Para usted</h3>
               </Box>
               <p className="body1Footer">
                 <Link
@@ -107,7 +108,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Learning
+                  Aprender
                 </Link>
               </p>
               <p  className="body1Footer">
@@ -127,7 +128,7 @@ const Footer = () => {
                   target="_blank"
                   style={{color:'white'}}
                 >
-                  Press
+                  Prensa
                 </Link>
               </p>
             </Grid>
@@ -186,16 +187,11 @@ const Footer = () => {
             <Grid item xs={12} md={3}>
               <Grid style={{marginTop: isDesktop ? '-3px' : '', marginLeft: isDesktop ? '-20px' : ''}} item xs={12}>
                 <Box className={isMobile ? "centerBox" : "leftBox"}>
-                  <a className="marginIconsFooter" href="https://medium.com/@eoscostarica" target="_blank">
-                    <img
-                      className="socialMediaAnimation"
-                      style={{
-                        width: isDesktop ? '42px' : '45px',
-                        height: isDesktop ? '42px' : '45px',
-                        cursor:'pointer'
-                      }}
-                      src={useBaseUrl("img/icons/icon-medium.svg")}
-                    />
+                  <a className={clsx("marginIconsFooter", "socialMediaAnimation")} href="https://medium.com/@eoscostarica" target="_blank">
+                    <IconMedium
+                      width={isDesktop ? '42px' : '45px'} 
+                      height={isDesktop ? '42px' : '45px'}
+                      className='footerMediumIcon'/>
                   </a>
                   <a className={clsx("marginIconsFooter", "socialMediaAnimation")} href="https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ" target="_blank">
                     <YouTubeIcon 
@@ -224,7 +220,7 @@ const Footer = () => {
       <Box className="footerCopy">
         <Box className="footerCopyContent">
           <p style={{fontSize:'14px'}}>
-            All rights reserved EOS COSTA RICA
+            Todos los derechos reservados para Sistemas Edenia Internacional S.A.
           </p>
         </Box>
       </Box>

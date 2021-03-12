@@ -459,7 +459,7 @@ input:checked + .slider:before {
   top: 0;
   right: auto;
   height: 100%;
-  width: 150px;
+  width: 200px;
 }
 
 .menuItem:hover .dropDownMenuActive{
@@ -471,7 +471,7 @@ input:checked + .slider:before {
   top: 0;
   right: auto;
   height: 100%;
-  width: 150px;
+  width: 200px;
 }
 
 .menuItem:hover .menuItemDrop{
@@ -488,7 +488,7 @@ input:checked + .slider:before {
   top: 0;
   right: auto;
   height: 100%;
-  width: 150px;
+  width: 200px;
 }
 
 .navBarItemTab:focus-within .dropDownMenuActive{
@@ -500,7 +500,7 @@ input:checked + .slider:before {
   top: 0;
   right: auto;
   height: 100%;
-  width: 150px;
+  width: 200px;
 }
 
 .navBarItemTab:focus-within .dropDownMenu .menuItemDrop{
@@ -1196,6 +1196,19 @@ input:checked + .slider:before {
 
 .socialMediaAnimation:hover{
   transform: scale(1.1);
+}
+
+.iconSocialMediaAnimation{
+  color: #000000;
+  transition: all .4s ease-in-out
+}
+
+.iconSocialMediaAnimation:hover{
+  fill: #5484B3;
+}
+
+.footerMediumIcon{
+  fill: #ffffff;
 }
 
 .animationBox{
