@@ -51,77 +51,56 @@ const otherNewsRelease = [
 
 const EOSCRNews = [
   {
-    img:"https://static.coindesk.com/wp-content/uploads/2021/02/roberto-huczek-qS8BH24w7mk-unsplash-710x458.jpg?format=webp",
-    title:"EOS Builder Block.one Joins Enterprise Blockchain Alliance in Latin America",
-    date:"Feb 25, 2021",
-    link:"https://www.coindesk.com/eos-builder-block-one-joins-enterprise-blockchain-alliance-in-latin-america",
-    media:"CoinDesk"
+    img:"https://mk0criptonoticijjgfa.kinstacdn.com/wp-content/uploads/2020/08/america-latina-binance-venezuela-argentina-999x570.jpg.webp",
+    title:"Alianza entre BID y EOS apoyará el desarrollo de proyectos blockchain en América Latina",
+    date:"Feb 26, 2021",
+    link:"https://www.criptonoticias.com/negocios/alianza-bid-eos-apoyara-desarrollo-proyectos-blockchain-america-latina/",
+    media:"Criptonoticias"
   },
   {
-    img:"https://cdn.forbescentroamerica.com/2020/12/bitcoin-2007769_1280-800x450.jpg",
-    title:"Las criptomonedas brillan en Centroamérica",
-    date:"Feb 25, 2021",
-    link:"https://forbescentroamerica.com/2021/02/25/blockchain-crece-en-el-istmo/",
-    media:"Forbes Centroamerica"
+    img:"https://www.larepublica.net/storage/images/2020/10/01/20201001155925.app.jpg",
+    title:"Ganadora tica de hackathon “Coding for Change” invierte premio para mejorar app Lifebank",
+    date:"Oct 20, 2020",
+    link:"https://www.larepublica.net/noticia/ganadora-tica-de-hackathon-coding-for-change-invierte-premio-para-mejorar-app-lifebank",
+    media:"La Republic"
   },
   {
-    img:"https://static.coindesk.com/wp-content/uploads/2019/08/Brendan-Blumer-Option-1-e1569425778122-710x458.jpg?format=webp",
-    title:"Block.one Debuts Big-Business Version of EOSIO Blockchain",
-    date:"Oct 15, 2020",
-    link:"https://www.coindesk.com/block-one-eosio-blockchain-enterprise-eos",
-    media:"CoinDesk"
+    img:"https://images.cointelegraph.com/images/717_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jZGEzMGU0M2M2ZmM0ODUzNTgwOGMyZjgzMDk0YTkyYS5qcGc=.jpg",
+    title:"Proveedores de infraestructura Blockchain EOSIO en América Latina lanzan el intercambio descentralizado Evodex",
+    date:"Sep 17, 2020",
+    link:"https://es.cointelegraph.com/news/eosio-blockchain-infrastructure-providers-in-latin-america-launch-decentralized-exchange-evodex",
+    media:"Cointelegraph"
   }
 ]
 
 const EOSCROtherNews = [
   {
-    img:"https://images.cointelegraph.com/images/717_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yYjMzMjkxMjZhYWVlZjcyNDQ3ZTU3NjkyYmQ1MGUxMi5qcGc=.jpg",
-    title:"Blood on the Blockchain: Tokenizing Can Make Donations More Effective",
-    date:"Aug 02, 2020",
-    link:"https://cointelegraph.com/news/blood-on-the-blockchain-tokenizing-can-make-donations-more-effective",
-    media:"Cointelegraph"
+    img:"https://www.criptotendencias.com/wp-content/uploads/2020/07/EOS-Costa-Rica-presenta-una-soluci%C3%B3n-basada-en-blockchain-orientada-a-gestionar-la-cadena-de-suministro-de-las-donaciones-de-sangre.jpg",
+    title:"EOS Costa Rica presenta una solución basada en blockchain orientada a gestionar la cadena de suministro de las donaciones de sangre",
+    date:"Jul 31, 2020",
+    link:"https://www.criptotendencias.com/blockchain/eos-costa-rica-presenta-una-solucion-basada-en-blockchain-orientada-a-gestionar-la-cadena-de-suministro-de-las-donaciones-de-sangre/",
+    media:"Criptotendencias"
   },
   {
-    img:"https://healthtechpulse.com/wp-content/uploads/2020/07/blood-donation-2048x1325.jpg",
-    title:"EOS Costa Rica Utilising BlockChain to Address Global Blood Supply Shortage",
-    date:"Jul 30, 2020",
-    link:"https://healthtechpulse.com/2020/07/30/eos-costa-rica-utilising-blockchain-to-address-global-blood-supply-shortage",
-    media:"Health Tech Pulse"
+    img:"https://raw.githubusercontent.com/eoscostarica/lifebank/7da719aa482eb91d4f74ebc58cd3eeb5f169c81a/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg",
+    title:"Solución de EOS Costa Rica que conecta donadores y bancos de sangre queda ganadora",
+    date:"Jun 20, 2020",
+    link:"https://www.diariobitcoin.com/paises/america-latina/noticias-latinoamerica-universidad-en-mexico-lanza-programa-educativo-blockchain-con-ibm-eos-costa-rica-gana-hackathon/",
+    media:"Diariobitcoin"
   },
   {
-    img:"https://static.coindesk.com/wp-content/uploads/2020/07/debora-tingley-4XWi39Bys8k-unsplash-710x458.jpg?format=webp",
-    title:"Ethereum and EOSIO Square Up Over Enterprise Blockchain Business in Latin America",
-    date:"Jul 10, 2020",
-    link:"https://www.coindesk.com/ethereum-and-eosio-square-up-over-enterprise-blockchain-business-in-latin-america",
-    media:"CoinDesk"
+    img:"https://www.elfinancierocr.com/resizer/TYV0NQ9rglQS22dY4rUPrBRLGbI=/600x0/center/middle/filters:quality(100)/cloudfront-us-east-1.images.arcpublishing.com/gruponacion/M7OC75LK4RACPC4H5UCYF7GTAE.jpg",
+    title:"Firma tica gana competencia global con solución ‘blockchain’ que conecta bancos de sangre, donadores y entrega cupones para descuentos en comercios",
+    date:"Jun 16, 2020",
+    link:"https://www.elfinancierocr.com/tecnologia/firma-tica-gana-competencia-global-con-solucion/S3A4MDU44VD25KVMKX5FJQSWEM/story/",
+    media:"El Financiero"
   },
   {
-    img:"https://images.cointelegraph.com/images/717_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yZTk3ZmM0YmEwZWI0MDc2OWEyYzg5NzJjNmM2MGMyYi5qcGc=.jpg",
-    title:"The Rise of Virtual Hackathons: Tackling Blockchain Challenges Online",
-    date:"Jul 02, 2020",
-    link:"https://cointelegraph.com/news/the-rise-of-virtual-hackathons-tackling-blockchain-challenges-online",
-    media:"Cointelegraph"
-  },
-  {
-    img:"https://images.cointelegraph.com/images/717_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy83OTYwZjlkM2Y0YzkxOWFkMmRiZWYzODNhZDQwZjdlMy5qcGc=.jpg",
-    title:"Safe and Sound: Blockchain-Backed Digital Identity in the Post-Coronavirus Era",
-    date:"Jun 24, 2020",
-    link:"https://cointelegraph.com/news/safe-and-sound-blockchain-backed-digital-identity-in-the-post-coronavirus-era",
-    media:"Cointelegraph"
-  },
-  {
-    img:"https://eos.io/wp-content/uploads/2021/01/lifebank_team_image-1-1024x598.jpg",
-    title:"Block.one Announces Winner of “Coding for Change” Virtual Hackathon",
-    date:"Jun 12, 2020",
-    link:"https://eos.io/news/winner-of-coding-for-change-virtual-hackathon-lifebank/",
-    media:"Block.one"
-  },
-  {
-    img:"https://images.ctfassets.net/kji6ppc7ac81/01ol104setlTfkXqt0Lday/78f1a3ea46bd0f616bfb91b39292c196/b1-coding-for-change-winners-announcedb1-coding-for-change-winners-announced.jpg",
-    title:"Block.One's #CodingForChange winners announced",
-    date:"Jun 12, 2020",
-    link:"https://www.eosgo.io/news/b1-coding-for-change-winners-announced",
-    media:"EOS Go"
+    img:"https://www.elfinancierocr.com/resizer/rtrpGRGggyngyQPuTXxc80lhYq0=/600x0/center/middle/filters:quality(100)/arc-anglerfish-arc2-prod-gruponacion.s3.amazonaws.com/public/M6BUZICLVVCWPLSLBUWAR3GCEA.JPG",
+    title:"Padre y sus dos hijos crean la ‘start-up’ EOS Costa Rica basada en la efervescencia del ‘blockchain’",
+    date:"Sep 10, 2019",
+    link:"https://www.elfinancierocr.com/pymes/padre-y-sus-dos-hijos-crean-la-start-up-eos/HFZQP42TP5DQ7EBHYY6M4VXZPY/story/",
+    media:"El Financiero"
   }
 ]
 
