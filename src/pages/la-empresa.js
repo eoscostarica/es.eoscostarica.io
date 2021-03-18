@@ -13,8 +13,8 @@ import ContactUsBanner from './components/ContactUsBanner'
 import WeAreOneGroup from './components/WeAreOneGroup'
 
 const MetaData={
-  title:"EOS Costa Rica: Company Page",
-  description:"EOS Costa Rica is part of a company with more than three decades of experience developing innovative solutions.",
+  title:"EOS Costa Rica: Página de la empresa",
+  description:"EOS Costa Rica es parte de una compañía con más de tres décadas de experiencia desarrollando soluciones innovadoras.",
   img:"img/metaImgBlack.png",
 }
 

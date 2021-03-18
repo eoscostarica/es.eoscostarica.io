@@ -18,8 +18,8 @@ import ContactUsBanner from './components/ContactUsBanner'
 import IconMedium from './SvgComponents/IconMedium'
 
 const MetaData={
-  title:"EOS Costa Rica: Block Producer",
-  description:"Get to know EOS Costa Rica – a technically proven EOS block producer candidate that develops dapps and smart contracts.",
+  title:"EOS Costa Rica: Productor de bloques",
+  description:"Conozca a EOS Costa Rica – candidato a productor de bloques de EOS con experiencia técnica en el desarrollo de dapps y contratos inteligentes.",
   img:"img/metaImgBlack.png",
 }
 

@@ -11,8 +11,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import TwitterIcon from '@material-ui/icons/Twitter'
 
 const MetaData={
-    title:"EOS Costa Rica: Our Team",
-    description:"Meet the team behind EOS Costa Rica that develops blockchain solutions for business innovation.",
+    title:"EOS Costa Rica: Nuestro equipo",
+    description:"Conozca al equipo detrás de EOS Costa Rica que desarrolla soluciones basadas en blockchain para innovación empresarial.",
     img:"img/metaImgBlack.png",
 }
 
