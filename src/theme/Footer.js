@@ -49,7 +49,7 @@ const Footer = () => {
               <p className="body1Footer">
                 <Link
                   className="linkFooter"
-                  href={useBaseUrl("/services/")}
+                  href={useBaseUrl("/servicios/")}
                   target="_blank"
                   style={{color:'white'}}
                 >
@@ -59,7 +59,7 @@ const Footer = () => {
               <p className="body1Footer">
                 <Link
                   className="linkFooter"
-                  href={useBaseUrl("/the-company/")}
+                  href={useBaseUrl("/la-empresa/")}
                   target="_blank"
                   style={{color:'white'}}
                 >
@@ -69,7 +69,7 @@ const Footer = () => {
               <p className="body1Footer">
                 <Link
                   className="linkFooter"
-                  href={useBaseUrl("/team/")}
+                  href={useBaseUrl("/equipo/")}
                   target="_blank"
                   style={{color:'white'}}
                 >
@@ -79,7 +79,7 @@ const Footer = () => {
               <p className="body1Footer">
                 <Link
                   className="linkFooter"
-                  href={useBaseUrl("/projects/")}
+                  href={useBaseUrl("/proyectos/")}
                   target="_blank"
                   style={{color:'white'}}
                 >
@@ -89,7 +89,7 @@ const Footer = () => {
               <p  className="body1Footer">
                 <Link
                   className="linkFooter"
-                  href={useBaseUrl("/block-producer/")}
+                  href={useBaseUrl("/productor-de-bloques/")}
                   target="_blank"
                   style={{color:'white'}}
                 > 
@@ -104,7 +104,7 @@ const Footer = () => {
               <p className="body1Footer">
                 <Link
                   className="linkFooter"
-                  href="https://guide.eoscostarica.io//"
+                  href="https://guias.eoscostarica.io/"
                   target="_blank"
                   style={{color:'white'}}
                 >
@@ -124,7 +124,7 @@ const Footer = () => {
               <p  className="body1Footer">
                 <Link
                   className="linkFooter"
-                  href={useBaseUrl("/press/")}
+                  href={useBaseUrl("/prensa/")}
                   target="_blank"
                   style={{color:'white'}}
                 >
