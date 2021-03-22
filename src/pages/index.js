@@ -17,8 +17,8 @@ import ContactUsBanner from './components/ContactUsBanner'
 import WeAreOneGroup from './components/WeAreOneGroup'
 
 const MetaData={
-  title:"Enterprise Blockchain Solutions | EOSIO",
-  description:"EOS Costa Rica develops blockchain solutions. We deploy the EOSIO protocol to improve business efficiency, traceability, and transparency.",
+  title:"EOS Costa Rica: Tecnología blockchain empresarial | EOSIO",
+  description:"En EOS Costa Rica desarrollamos soluciones en blockchain para mejorar la eficiencia, trazabilidad, transparencia y rendición de cuentas en empresas.",
   img:"img/metaImgBlack.png",
 }
 

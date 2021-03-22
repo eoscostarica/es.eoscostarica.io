@@ -13,8 +13,8 @@ import ReCAPTCHA from "react-google-recaptcha"
 import CircularProgress from '@material-ui/core/CircularProgress'
 
 const MetaData={
-  title:"EOS Costa Rica: Contact Us",
-  description:"Ask us how to integrate EOSIO blockchain technology into your organization.",
+  title:"EOS Costa Rica: Contáctenos",
+  description:"Pregúntenos sobre cómo integrar la tecnología blockchain EOSIO en su organización.",
   img:"img/metaImgBlack.png",
 }
 

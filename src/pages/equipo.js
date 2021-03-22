@@ -11,8 +11,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import TwitterIcon from '@material-ui/icons/Twitter'
 
 const MetaData={
-    title:"EOS Costa Rica: Our Team",
-    description:"Meet the team behind EOS Costa Rica that develops blockchain solutions for business innovation.",
+    title:"EOS Costa Rica: Nuestro equipo",
+    description:"Conozca al equipo detrás de EOS Costa Rica que desarrolla soluciones basadas en blockchain para innovación empresarial.",
     img:"img/metaImgBlack.png",
 }
 
@@ -21,7 +21,7 @@ const ManagementTeam = [
         img:"img/team/rodrigo.jpg",
         name:"Rodrigo Fernández",
         position:"Fundador, Director y Jefe de Estrategia",
-        bio:"I believe in fostering truth and transparency to pursue individual freedom.",
+        bio:"Creo en fomentar confianza y transparencia en la búsqueda de libertad individual.",
         linkedIn:"https://www.linkedin.com/in/rodrigo-fernandez-57b8b72a/",
         twitter:"https://twitter.com/rjfescazu",
         color:"#ffffff"
@@ -30,7 +30,7 @@ const ManagementTeam = [
         img:"img/team/edgar.jpg",
         name:"Edgar Fernández",
         position:"Co-founder & Finanzas y administración",
-        bio:"I thrive on developing the entrepreneurial spirit and using tech to create decentralized networks.",
+        bio:"Busco desarrollar el espíritu emprendedor y usar tecnología para crear redes descentralizadas.",
         linkedIn:"https://www.linkedin.com/in/edgarafernandez/",
         twitter:"https://twitter.com/fernane506",
         color:"#f8f8f8"
@@ -39,7 +39,7 @@ const ManagementTeam = [
         img:"img/team/xavier.jpg",
         name:"Xavier Fernández",
         position:"Co-founder & Tech Lead",
-        bio:"Blockchain technology helps promote trust among stakeholders through transparency and decentralization.",
+        bio:"La tecnología blockchain ayuda a promover confianza entre partes con mayor transparencia y descentralización.",
         linkedIn:"https://www.linkedin.com/in/xaviercr/",
         twitter:"https://twitter.com/xaviercr",
         color:"#ffffff"
@@ -51,7 +51,7 @@ const MarketingSalesTeam = [
         img:"img/team/luisD.jpg",
         name:"Luis Diego Rojas",
         position:"Estrategia de comunicaciones y contenido",
-        bio:"I believe that communicating new techs plays a crucial role in widespread adoption.",
+        bio:"Creo que comunicar nuevas tecnologías juega un papel fundamental en su adopción.",
         linkedIn:"https://www.linkedin.com/in/ldrojas/",
         twitter:"https://twitter.com/ldrojas",
         color:"#f8f8f8"
@@ -60,7 +60,7 @@ const MarketingSalesTeam = [
         img:"img/team/rodolfo.jpg",
         name:"Rodolfo Perez",
         position:"Director de arte y gerente de marca",
-        bio:"Like people, every company also has to develop its own essence, a soul, this is what really compounds an identity.",
+        bio:"Así como las personas, cada compañía debe desarrollar su propia esencia para componer una identidad.",
         linkedIn:"https://www.linkedin.com/in/rodolfo-eduardo-p%C3%ABrez-nava-73442164/",
         twitter:"https://twitter.com/monsieurRoaf",
         color:"#ffffff"
@@ -72,11 +72,104 @@ const DevelopTeam = [
         img:"img/team/adriel.jpg",
         name:"Adriel Diaz",
         position:"Desarrollador Full Stack",
-        bio:"Proud father and full stack developer",
+        bio:"Padre orgulloso y desarrollador full-stack.",
         linkedIn:"https://www.linkedin.com/in/adriel-d%C3%ADaz-08226384/",
         twitter:"",
         color:"#f8f8f8"
     },
+    {
+        img:"img/team/angelo.jpg",
+        name:"Angelo Castro",
+        position:"Practicante",
+        bio:"Estoy listo para desarrollar ideas innovadoras y enfrentar nuevos desafíos.",
+        linkedIn:"https://www.linkedin.com/in/angelo-castro-gamboa/",
+        twitter:"",
+        color:"#ffffff"
+    },
+    {
+        img:"img/team/cristian.jpg",
+        name:"Cristian Castro",
+        position:"Desarrollador C++",
+        bio:"Estamos creando las nuevas tecnologías que harán realmente libres a las personas.",
+        linkedIn:"https://www.linkedin.com/in/cristian-castro-95193a3a/",
+        twitter:"",
+        color:"#f8f8f8"
+    },
+    {
+        img:"img/team/edgarParra.jpg",
+        name:"Edgar Parra",
+        position:"Practicante",
+        bio:"Creo que la tecnología es un proceso de aprendizaje constante que debe hacerse en conjunto.",
+        linkedIn:"https://www.linkedin.com/in/edgar-parra-barillas-078883161/",
+        twitter:"",
+        color:"#ffffff"
+    },
+    {
+        img:"img/team/jean.jpg",
+        name:"Jean Vega",
+        position:"Practicante",
+        bio:"Disfruto aprender y experimentar con nuevas tecnologías, especialmente para adquirir conocimientos en distintas áreas.",
+        linkedIn:"https://www.linkedin.com/in/jeanvegad/",
+        twitter:"",
+        color:"#f8f8f8"
+    },
+    {
+        img:"img/team/jorge.jpg",
+        name:"Jorge Murillo",
+        position:"Diseñador UX Sr.",
+        bio:"Entender las necesidades es crucial para crear interfases para apps de alta tecnología y mediar entre usuarios, diseñadores y desarrolladores.",
+        linkedIn:"https://www.linkedin.com/in/jmurilloux/",
+        twitter:"https://twitter.com/Oquedo",
+        color:"#ffffff"
+    },
+    {
+        img:"",
+        name:"Justin Castillo",
+        position:"Practicante",
+        bio:"Busco ser parte del cambio, no solo un simple engranaje.",
+        linkedIn:"https://www.linkedin.com/in/jacv/",
+        twitter:"https://twitter.com/_JustinCast",
+        color:"#f8f8f8"
+    },
+    {
+        img:"img/team/kevin.jpg",
+        name:"Kevin Castillo",
+        position:"Desarrollador Full Stack",
+        bio:"El desarrollo de software me ha dado la oportunidad de aprender y crear nuevas cosas cada día.",
+        linkedIn:"https://www.linkedin.com/in/kevin-castillo-mora/",
+        twitter:"",
+        color:"#ffffff"
+    },
+    {
+        img:"img/team/leister.jpg",
+        name:"Leister Álvarez",
+        position:"Practicante",
+        bio:"Programar refleja quiénes somos; hagamos algo increíble.",
+        linkedIn:"https://www.linkedin.com/in/leister-francisco-alvarez-campos-65b7801bb/",
+        twitter:"",
+        color:"#f8f8f8"
+    },
+    {
+        img:"img/team/steph.jpg",
+        name:"Stephanie Delgado",
+        position:"Practicante",
+        bio:"El mundo tecnológico siempre está evolucionando, por lo que creo que debemos ser valientes.",
+        linkedIn:"https://www.linkedin.com/in/stephaniedelgadobrenes/",
+        twitter:"",
+        color:"#f8f8f8"
+    },
+    {
+        img:"img/team/teto.jpg",
+        name:"Terencio Gómez",
+        position:"Desarrollador Full Stack",
+        bio:"Mantener un equipo feliz puede garantizar un resultado final exitoso.",
+        linkedIn:"https://www.linkedin.com/in/terencio-gomez-14784ba3/",
+        twitter:"",
+        color:"#ffffff"
+    }
+]
+
+const InfrastructureNetworkingTeam = [
     {
         img:"img/team/allan.jpg",
         name:"Allan Salazar",
@@ -88,87 +181,6 @@ const DevelopTeam = [
     },
     {
         img:"",
-        name:"Andrés Gomez",
-        position:"Desarrollador de ciberseguridad",
-        bio:"I envision and work for a more secure, private, and decentralized world.",
-        linkedIn:"https://www.linkedin.com/in/andres-gomez-ramirez-bb7226156/",
-        twitter:"https://twitter.com/kuronosec",
-        color:"#f8f8f8"
-    },
-    {
-        img:"img/team/angelo.jpg",
-        name:"Angelo Castro",
-        position:"Practicante",
-        bio:"I’m ready to develop innovative ideas and face new challenges.",
-        linkedIn:"https://www.linkedin.com/in/angelo-castro-gamboa/",
-        twitter:"",
-        color:"#ffffff"
-    },
-    {
-        img:"img/team/cristian.jpg",
-        name:"Cristian Castro",
-        position:"Desarrollador C++",
-        bio:"We're creating the new technologies that will free people for good.",
-        linkedIn:"https://www.linkedin.com/in/cristian-castro-95193a3a/",
-        twitter:"",
-        color:"#f8f8f8"
-    },
-    {
-        img:"img/team/edgarParra.jpg",
-        name:"Edgar Parra",
-        position:"Practicante",
-        bio:"I believe technology is a constant learning process that should be done together.",
-        linkedIn:"https://www.linkedin.com/in/edgar-parra-barillas-078883161/",
-        twitter:"",
-        color:"#ffffff"
-    },
-    {
-        img:"img/team/jean.jpg",
-        name:"Jean Vega",
-        position:"Practicante",
-        bio:"I enjoy learning and experimenting with new tech, especially to acquire knowledge in different application areas.",
-        linkedIn:"https://www.linkedin.com/in/jeanvegad/",
-        twitter:"",
-        color:"#f8f8f8"
-    },
-    {
-        img:"img/team/jorge.jpg",
-        name:"Jorge Murillo",
-        position:"Diseñador UX Sr.",
-        bio:"Understanding the people's needs is crucial to create user interfaces for hi-tech apps and mediate among users, designers, and developers.",
-        linkedIn:"https://www.linkedin.com/in/jmurilloux/",
-        twitter:"https://twitter.com/Oquedo",
-        color:"#ffffff"
-    },
-    {
-        img:"",
-        name:"Justin Castillo",
-        position:"Practicante",
-        bio:"I strive to be part of the change, not just a distant gear.",
-        linkedIn:"https://www.linkedin.com/in/jacv/",
-        twitter:"https://twitter.com/_JustinCast",
-        color:"#f8f8f8"
-    },
-    {
-        img:"img/team/kevin.jpg",
-        name:"Kevin Castillo",
-        position:"Desarrollador Full Stack",
-        bio:"Software development has given me the opportunity to learn and create new things everyday.",
-        linkedIn:"https://www.linkedin.com/in/kevin-castillo-mora/",
-        twitter:"",
-        color:"#ffffff"
-    },
-    {
-        img:"img/team/leister.jpg",
-        name:"Leister Álvarez",
-        position:"Practicante",
-        bio:"Programming reflects who we are; let's do something awesome.",
-        linkedIn:"https://www.linkedin.com/in/leister-francisco-alvarez-campos-65b7801bb/",
-        twitter:"",
-        color:"#f8f8f8"
-    },
-    {
-        img:"",
         name:"Ronald Gallo",
         position:"Administrador de red",
         bio:"",
@@ -177,32 +189,23 @@ const DevelopTeam = [
         color:"#ffffff"
     },
     {
-        img:"img/team/steph.jpg",
-        name:"Stephanie Delgado",
-        position:"Practicante",
-        bio:"The tech world is always evolving, so I believe one must be fearless.",
-        linkedIn:"https://www.linkedin.com/in/stephaniedelgadobrenes/",
-        twitter:"",
+        img:"",
+        name:"Andrés Gomez",
+        position:"Desarrollador de ciberseguridad",
+        bio:"Visualizo y trabajo por un mundo más seguro, privado y descentralizado",
+        linkedIn:"https://www.linkedin.com/in/andres-gomez-ramirez-bb7226156/",
+        twitter:"https://twitter.com/kuronosec",
         color:"#f8f8f8"
-    },
-    {
-        img:"img/team/teto.jpg",
-        name:"Terencio Gómez",
-        position:"Desarrollador Full Stack",
-        bio:"Keeping a happy team will most likely guarantee a successful final result.",
-        linkedIn:"https://www.linkedin.com/in/terencio-gomez-14784ba3/",
-        twitter:"",
-        color:"#ffffff"
     },
     {
         img:"",
         name:"Victor Julio Madrigal",
         position:"Desarrollador web",
-        bio:"What I like the most is to develop innovative projects that move forward with the newest technologies.",
+        bio:"“Lo que más me gusta es desarrollar proyectos innovadores que ayuden a avanzar las nuevas tecnologías.",
         linkedIn:"",
         twitter:"",
         color:"#f8f8f8"
-    },
+    }
 ]
 
 const Team = () => {
@@ -335,7 +338,30 @@ const Team = () => {
                                 ))}
                             </Grid>
                         </Box>
-                    </Box>    
+                    </Box>
+                    <Box className="doubleSpacingBox">
+                        <Box className="spacingBox">
+                            <h2>Infraestructura y redes</h2>
+                        </Box>
+                        <Box>
+                            <Grid container >
+                                {InfrastructureNetworkingTeam.map((person) => (
+                                    <Grid item xs={12} md={6} key={person.name}>
+                                        <Box className="teamPadding" style={{backgroundColor:isMobile? person.color: ""}}>
+                                            <PersonCard 
+                                                img={useBaseUrl(person.img)}
+                                                name={person.name}
+                                                position={person.position}
+                                                bio={person.bio}
+                                                linkedIn={person.linkedIn}
+                                                twitter={person.twitter}
+                                            />
+                                        </Box>
+                                    </Grid>
+                                ))}
+                            </Grid>
+                        </Box>
+                    </Box>     
                 </Box>
             </Box>
         )

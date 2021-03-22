@@ -18,8 +18,8 @@ import DevelopmentServices from './SvgComponents/DevelopmentServices'
 import Blockchaininfrastructure from './SvgComponents/Blockchaininfrastructure'
 
 const MetaData={
-  title:"EOS Costa Rica: Services",
-  description:"EOS Costa Rica leverages the enterprise blockchain protocol EOSIO to develop real-world solutions.",
+  title:"EOS Costa Rica: Servicios",
+  description:"EOS Costa Rica usa el protocolo de blockchain empresarial EOSIO para desarrollar soluciones para el mundo real.",
   img:"img/metaImgBlack.png",
 }
 

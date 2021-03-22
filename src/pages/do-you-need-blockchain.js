@@ -178,8 +178,8 @@ const formQuestions = [
 ]
 
 const metaData={
-    title:"Do You Need Blockchain? - FREE Guide for Enterprise Blockchain",
-    description:"Is your company ready to implement blockchain? Find out using this simple tool for FREE! Designed by EOS Costa Rica – a blockchain development company.",
+    title:"¿Necesita blockchain? - Guía GRATUITA para blockchain empresarial ",
+    description:"¿Su compañía está lista para implementar blockchain? Descúbralo usando esta sencilla herramienta GRATUITA. Diseñada por EOS Costa Rica – empresa de blockchain.",
     img:"img/metaImgBlack.png",
 }
 

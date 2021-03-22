@@ -10,8 +10,8 @@ import { useMediaQuery } from 'react-responsive'
 import ContactUsBanner from './components/ContactUsBanner'
 
 const MetaData={
-  title:"EOS Costa Rica: Our Projects",
-  description:"EOS Costa Rica has developed solutions for many industries and open-source projects for the blockchain community.",
+  title:"EOS Costa Rica: Nuestro proyectos",
+  description:"EOS Costa Rica ha desarrollado soluciones para varias industrias y proyectos de código abierto para la comunidad blockchain.",
   img:"img/metaImgBlack.png",
 }
 
