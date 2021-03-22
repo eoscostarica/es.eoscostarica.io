@@ -43482,7 +43482,7 @@ function (_Base) {
     _this.attributedString = null;
     _this.layoutOptions = {
       hyphenationPenalty: props.hyphenationPenalty,
-      hyphenationCallback: Font$1.getHyphenationCallback(),
+      hyphenationCallback: props.hyphenationCallback || Font$1.getHyphenationCallback(),
       shrinkWhitespaceFactor: {
         before: -0.5,
         after: -0.5
@@ -43632,7 +43632,7 @@ function (_Base) {
     var slicedLineIndex = this.lineIndexAtHeight(wrapHeight);
     clone.marginTop = 0;
     clone.paddingTop = 0;
-    clone.start = slicedLineIndex;
+    clone.start = slicedLineIndex + this.start;
     clone.attributedString = this.attributedString;
     this.height = wrapHeight;
     this.marginBottom = 0;
@@ -45044,7 +45044,7 @@ var PDFRenderer = react_reconciler__WEBPACK_IMPORTED_MODULE_7___default()({
   }
 });
 
-var version = "1.6.13";
+var version = "1.6.14";
 
 var View$1 = 'VIEW';
 var Text$1 = 'TEXT';
@@ -73441,14 +73441,15 @@ function isUrl(string){
 /* 691 */
 /***/ (function(module, exports) {
 
-var __self__ = (function (root) {
+var global = typeof self !== 'undefined' ? self : this;
+var __self__ = (function () {
 function F() {
 this.fetch = false;
-this.DOMException = root.DOMException
+this.DOMException = global.DOMException
 }
-F.prototype = root;
+F.prototype = global;
 return new F();
-})(typeof self !== 'undefined' ? self : this);
+})();
 (function(self) {
 
 var irrelevant = (function (exports) {
@@ -73975,17 +73976,24 @@ var irrelevant = (function (exports) {
   exports.Response = Response;
   exports.fetch = fetch;
 
+  Object.defineProperty(exports, '__esModule', { value: true });
+
   return exports;
 
 }({}));
 })(__self__);
-delete __self__.fetch.polyfill
-exports = __self__.fetch // To enable: import fetch from 'cross-fetch'
-exports.default = __self__.fetch // For TypeScript consumers without esModuleInterop.
-exports.fetch = __self__.fetch // To enable: import {fetch} from 'cross-fetch'
-exports.Headers = __self__.Headers
-exports.Request = __self__.Request
-exports.Response = __self__.Response
+__self__.fetch.ponyfill = true;
+// Remove "polyfill" property added by whatwg-fetch
+delete __self__.fetch.polyfill;
+// Choose between native implementation (global) or custom implementation (__self__)
+// var ctx = global.fetch ? global : __self__;
+var ctx = __self__; // this line disable service worker support temporarily
+exports = ctx.fetch // To enable: import fetch from 'cross-fetch'
+exports.default = ctx.fetch // For TypeScript consumers without esModuleInterop.
+exports.fetch = ctx.fetch // To enable: import {fetch} from 'cross-fetch'
+exports.Headers = ctx.Headers
+exports.Request = ctx.Request
+exports.Response = ctx.Response
 module.exports = exports
 
 

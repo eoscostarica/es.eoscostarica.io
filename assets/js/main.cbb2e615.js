@@ -6639,7 +6639,7 @@ module.exports = JSON.parse("{\"defaultLocale\":\"en\",\"locales\":[\"en\"],\"lo
 /* 34 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"docusaurusVersion\":\"2.0.0-alpha.71\",\"siteVersion\":\"0.1.0\",\"pluginVersions\":{\"docusaurus-plugin-content-docs\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-content-docs\",\"version\":\"2.0.0-alpha.71\"},\"docusaurus-plugin-content-blog\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-content-blog\",\"version\":\"2.0.0-alpha.71\"},\"docusaurus-plugin-content-pages\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-content-pages\",\"version\":\"2.0.0-alpha.71\"},\"docusaurus-plugin-google-analytics\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-google-analytics\",\"version\":\"2.0.0-alpha.71\"},\"docusaurus-plugin-sitemap\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-sitemap\",\"version\":\"2.0.0-alpha.71\"},\"docusaurus-theme-classic\":{\"type\":\"package\",\"name\":\"@docusaurus/theme-classic\",\"version\":\"2.0.0-alpha.71\"},\"custom-docusaurus-plugin\":{\"type\":\"project\"},\"docusaurus2-dotenv\":{\"type\":\"package\",\"name\":\"docusaurus2-dotenv\",\"version\":\"1.4.0\"}}}");
+module.exports = JSON.parse("{\"docusaurusVersion\":\"2.0.0-alpha.72\",\"siteVersion\":\"0.1.0\",\"pluginVersions\":{\"docusaurus-plugin-content-docs\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-content-docs\",\"version\":\"2.0.0-alpha.72\"},\"docusaurus-plugin-content-blog\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-content-blog\",\"version\":\"2.0.0-alpha.72\"},\"docusaurus-plugin-content-pages\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-content-pages\",\"version\":\"2.0.0-alpha.72\"},\"docusaurus-plugin-google-analytics\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-google-analytics\",\"version\":\"2.0.0-alpha.72\"},\"docusaurus-plugin-sitemap\":{\"type\":\"package\",\"name\":\"@docusaurus/plugin-sitemap\",\"version\":\"2.0.0-alpha.72\"},\"docusaurus-theme-classic\":{\"type\":\"package\",\"name\":\"@docusaurus/theme-classic\",\"version\":\"2.0.0-alpha.72\"},\"custom-docusaurus-plugin\":{\"type\":\"project\"},\"docusaurus2-dotenv\":{\"type\":\"package\",\"name\":\"docusaurus2-dotenv\",\"version\":\"1.4.0\"}}}");
 
 /***/ }),
 /* 35 */
@@ -8936,8 +8936,7 @@ var routesChunkNames = __webpack_require__(13);
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */ // Too dynamic
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-function flat(target){var delimiter='.';var output={};function step(object,prev){Object.keys(object).forEach(function(key){var value=object[key];var type=typeof value;var isObject=type==='object'&&!!value;var newKey=prev?prev+delimiter+key:key;if(isObject&&Object.keys(value).length){step(value,newKey);return;}output[newKey]=value;});}step(target);return output;}/* harmony default export */ var client_flat = (flat);
+/* eslint-disable @typescript-eslint/no-explicit-any */function flat(target){var delimiter='.';var output={};function step(object,prev){Object.keys(object).forEach(function(key){var value=object[key];var type=typeof value;var isObject=type==='object'&&!!value;var newKey=prev?prev+delimiter+key:key;if(isObject&&Object.keys(value).length){step(value,newKey);return;}output[newKey]=value;});}step(target);return output;}/* harmony default export */ var client_flat = (flat);
 // CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/exports/ComponentCreator.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.

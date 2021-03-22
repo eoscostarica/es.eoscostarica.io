@@ -1,4 +1,154 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[78,5,13,37,69,82],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[12,5,13,37,69,78,82],{
+
+/***/ 137:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// EXTERNAL MODULE: ./node_modules/@mdx-js/react/dist/esm.js
+var esm = __webpack_require__(194);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
+var useDocusaurusContext = __webpack_require__(16);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/renderRoutes.js
+var renderRoutes = __webpack_require__(31);
+
+// EXTERNAL MODULE: ./src/theme/Layout/index.js + 14 modules
+var Layout = __webpack_require__(226);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+var esm_extends = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
+var objectWithoutPropertiesLoose = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+var clsx_m = __webpack_require__(145);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/index.js
+var lib = __webpack_require__(158);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/useUserPreferencesContext.js
+var useUserPreferencesContext = __webpack_require__(223);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/useLockBodyScroll.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function useLockBodyScroll(lock){if(lock===void 0){lock=true;}Object(react["useEffect"])(function(){document.body.style.overflow=lock?'hidden':'visible';return function(){document.body.style.overflow='visible';};},[lock]);}/* harmony default export */ var hooks_useLockBodyScroll = (useLockBodyScroll);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/ExecutionEnvironment.js
+var ExecutionEnvironment = __webpack_require__(7);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/useWindowSize.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var desktopThresholdWidth=996;var windowSizes={desktop:'desktop',mobile:'mobile'};function useWindowSize(){var isClient=ExecutionEnvironment["a" /* default */].canUseDOM;function getSize(){if(!isClient){return undefined;}return window.innerWidth>desktopThresholdWidth?windowSizes.desktop:windowSizes.mobile;}var _useState=Object(react["useState"])(getSize),windowSize=_useState[0],setWindowSize=_useState[1];Object(react["useEffect"])(function(){if(!isClient){return undefined;}function handleResize(){setWindowSize(getSize());}window.addEventListener('resize',handleResize);return function(){return window.removeEventListener('resize',handleResize);};},[]);return windowSize;}/* harmony default export */ var hooks_useWindowSize = (useWindowSize);
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/useScrollPosition.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var useScrollPosition_getScrollPosition=function getScrollPosition(){return{scrollX:ExecutionEnvironment["a" /* default */].canUseDOM?window.pageXOffset:0,scrollY:ExecutionEnvironment["a" /* default */].canUseDOM?window.pageYOffset:0};};var useScrollPosition_useScrollPosition=function useScrollPosition(effect,deps){if(deps===void 0){deps=[];}var _useState=Object(react["useState"])(useScrollPosition_getScrollPosition()),scrollPosition=_useState[0],setScrollPosition=_useState[1];var handleScroll=function handleScroll(){var currentScrollPosition=useScrollPosition_getScrollPosition();setScrollPosition(currentScrollPosition);if(effect){effect(currentScrollPosition);}};Object(react["useEffect"])(function(){var opts={passive:true};window.addEventListener('scroll',handleScroll,opts);return function(){return window.removeEventListener('scroll',handleScroll,opts);};},deps);return scrollPosition;};/* harmony default export */ var hooks_useScrollPosition = (useScrollPosition_useScrollPosition);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
+var Link = __webpack_require__(270);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/isInternalUrl.js
+var isInternalUrl = __webpack_require__(190);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/useThemeContext.js
+var useThemeContext = __webpack_require__(388);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/ThemedImage/styles.module.css
+var styles_module = __webpack_require__(91);
+var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/ThemedImage/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var ThemedImage_ThemedImage=function ThemedImage(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),isClient=_useDocusaurusContext.isClient;var _useThemeContext=Object(useThemeContext["a" /* default */])(),isDarkTheme=_useThemeContext.isDarkTheme;var sources=props.sources,className=props.className,_props$alt=props.alt,alt=_props$alt===void 0?'':_props$alt,propsRest=Object(objectWithoutPropertiesLoose["a" /* default */])(props,["sources","className","alt"]);var renderedSourceNames=isClient?isDarkTheme?['dark']:['light']// We need to render both images on the server to avoid flash
+:// See https://github.com/facebook/docusaurus/pull/3730
+['light','dark'];return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,renderedSourceNames.map(function(sourceName){return/*#__PURE__*/react_default.a.createElement("img",Object(esm_extends["a" /* default */])({key:sourceName,src:sources[sourceName],alt:alt,className:Object(clsx_m["a" /* default */])(styles_module_default.a.themedImage,styles_module_default.a["themedImage--"+sourceName],className)},propsRest));}));};/* harmony default export */ var theme_ThemedImage = (ThemedImage_ThemedImage);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
+var useBaseUrl = __webpack_require__(160);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Logo/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var Logo_Logo=function Logo(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),isClient=_useDocusaurusContext.isClient;var _useThemeConfig=Object(lib["useThemeConfig"])(),_useThemeConfig$navba=_useThemeConfig.navbar,title=_useThemeConfig$navba.title,_useThemeConfig$navba2=_useThemeConfig$navba.logo,logo=_useThemeConfig$navba2===void 0?{src:''}:_useThemeConfig$navba2;var imageClassName=props.imageClassName,titleClassName=props.titleClassName,propsRest=Object(objectWithoutPropertiesLoose["a" /* default */])(props,["imageClassName","titleClassName"]);var logoLink=Object(useBaseUrl["a" /* default */])(logo.href||'/');var sources={light:Object(useBaseUrl["a" /* default */])(logo.src),dark:Object(useBaseUrl["a" /* default */])(logo.srcDark||logo.src)};return/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],Object(esm_extends["a" /* default */])({to:logoLink},propsRest,logo.target&&{target:logo.target}),logo.src&&/*#__PURE__*/react_default.a.createElement(theme_ThemedImage,{key:isClient,className:imageClassName,sources:sources,alt:logo.alt||title||'Logo'}),title!=null&&/*#__PURE__*/react_default.a.createElement("strong",{className:titleClassName},title));};/* harmony default export */ var theme_Logo = (Logo_Logo);
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconArrow/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var IconArrow_IconArrow=function IconArrow(props){return/*#__PURE__*/react_default.a.createElement("svg",Object(esm_extends["a" /* default */])({width:"20",height:"20",role:"img"},props),/*#__PURE__*/react_default.a.createElement("g",{fill:"#7a7a7a"},/*#__PURE__*/react_default.a.createElement("path",{d:"M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"}),/*#__PURE__*/react_default.a.createElement("path",{d:"M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"})));};/* harmony default export */ var theme_IconArrow = (IconArrow_IconArrow);
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconMenu/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var IconMenu_IconMenu=function IconMenu(_ref){var _ref$width=_ref.width,width=_ref$width===void 0?30:_ref$width,_ref$height=_ref.height,height=_ref$height===void 0?30:_ref$height,className=_ref.className,restProps=Object(objectWithoutPropertiesLoose["a" /* default */])(_ref,["width","height","className"]);return/*#__PURE__*/react_default.a.createElement("svg",Object(esm_extends["a" /* default */])({"aria-label":"Menu",className:className,width:width,height:height,viewBox:"0 0 30 30",role:"img",focusable:"false"},restProps),/*#__PURE__*/react_default.a.createElement("title",null,"Menu"),/*#__PURE__*/react_default.a.createElement("path",{stroke:"currentColor",strokeLinecap:"round",strokeMiterlimit:"10",strokeWidth:"2",d:"M4 7h22M4 15h22M4 23h22"}));};/* harmony default export */ var theme_IconMenu = (IconMenu_IconMenu);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
+var Translate = __webpack_require__(179);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocSidebar/styles.module.css
+var DocSidebar_styles_module = __webpack_require__(92);
+var DocSidebar_styles_module_default = /*#__PURE__*/__webpack_require__.n(DocSidebar_styles_module);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocSidebar/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var MOBILE_TOGGLE_SIZE=24;function usePrevious(value){var ref=Object(react["useRef"])(value);Object(react["useEffect"])(function(){ref.current=value;},[value]);return ref.current;}var DocSidebar_isActiveSidebarItem=function isActiveSidebarItem(item,activePath){if(item.type==='link'){return Object(lib["isSamePath"])(item.href,activePath);}if(item.type==='category'){return item.items.some(function(subItem){return isActiveSidebarItem(subItem,activePath);});}return false;};function DocSidebarItemCategory(_ref){var _clsx;var item=_ref.item,onItemClick=_ref.onItemClick,collapsible=_ref.collapsible,activePath=_ref.activePath,props=Object(objectWithoutPropertiesLoose["a" /* default */])(_ref,["item","onItemClick","collapsible","activePath"]);var items=item.items,label=item.label;var isActive=DocSidebar_isActiveSidebarItem(item,activePath);var wasActive=usePrevious(isActive);// active categories are always initialized as expanded
+// the default (item.collapsed) is only used for non-active categories
+var _useState=Object(react["useState"])(function(){if(!collapsible){return false;}return isActive?false:item.collapsed;}),collapsed=_useState[0],setCollapsed=_useState[1];var menuListRef=Object(react["useRef"])(null);var _useState2=Object(react["useState"])(undefined),menuListHeight=_useState2[0],setMenuListHeight=_useState2[1];var handleMenuListHeight=function handleMenuListHeight(calc){var _menuListRef$current;if(calc===void 0){calc=true;}setMenuListHeight(calc?((_menuListRef$current=menuListRef.current)===null||_menuListRef$current===void 0?void 0:_menuListRef$current.scrollHeight)+"px":undefined);};// If we navigate to a category, it should automatically expand itself
+Object(react["useEffect"])(function(){var justBecameActive=isActive&&!wasActive;if(justBecameActive&&collapsed){setCollapsed(false);}},[isActive,wasActive,collapsed]);var handleItemClick=Object(react["useCallback"])(function(e){e.preventDefault();if(!menuListHeight){handleMenuListHeight();}setTimeout(function(){return setCollapsed(function(state){return!state;});},100);},[menuListHeight]);if(items.length===0){return null;}return/*#__PURE__*/react_default.a.createElement("li",{className:Object(clsx_m["a" /* default */])('menu__list-item',{'menu__list-item--collapsed':collapsed}),key:label},/*#__PURE__*/react_default.a.createElement("a",Object(esm_extends["a" /* default */])({className:Object(clsx_m["a" /* default */])('menu__link',(_clsx={'menu__link--sublist':collapsible,'menu__link--active':collapsible&&isActive},_clsx[DocSidebar_styles_module_default.a.menuLinkText]=!collapsible,_clsx)),onClick:collapsible?handleItemClick:undefined,href:collapsible?'#!':undefined},props),label),/*#__PURE__*/react_default.a.createElement("ul",{className:"menu__list",ref:menuListRef,style:{height:menuListHeight},onTransitionEnd:function onTransitionEnd(){if(!collapsed){handleMenuListHeight(false);}}},items.map(function(childItem){return/*#__PURE__*/react_default.a.createElement(DocSidebarItem,{tabIndex:collapsed?'-1':'0',key:childItem.label,item:childItem,onItemClick:onItemClick,collapsible:collapsible,activePath:activePath});})));}function DocSidebarItemLink(_ref2){var _clsx2;var item=_ref2.item,onItemClick=_ref2.onItemClick,activePath=_ref2.activePath,_collapsible=_ref2.collapsible,props=Object(objectWithoutPropertiesLoose["a" /* default */])(_ref2,["item","onItemClick","activePath","collapsible"]);var href=item.href,label=item.label;var isActive=DocSidebar_isActiveSidebarItem(item,activePath);return/*#__PURE__*/react_default.a.createElement("li",{className:"menu__list-item",key:label},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],Object(esm_extends["a" /* default */])({className:Object(clsx_m["a" /* default */])('menu__link',(_clsx2={'menu__link--active':isActive},_clsx2[DocSidebar_styles_module_default.a.menuLinkExternal]=!Object(isInternalUrl["a" /* default */])(href),_clsx2)),to:href},Object(isInternalUrl["a" /* default */])(href)&&{isNavLink:true,exact:true,onClick:onItemClick},props),label));}function DocSidebarItem(props){switch(props.item.type){case'category':return/*#__PURE__*/react_default.a.createElement(DocSidebarItemCategory,props);case'link':default:return/*#__PURE__*/react_default.a.createElement(DocSidebarItemLink,props);}}function DocSidebar(_ref3){var _clsx3,_clsx4;var path=_ref3.path,sidebar=_ref3.sidebar,_ref3$sidebarCollapsi=_ref3.sidebarCollapsible,sidebarCollapsible=_ref3$sidebarCollapsi===void 0?true:_ref3$sidebarCollapsi,onCollapse=_ref3.onCollapse,isHidden=_ref3.isHidden;var _useState3=Object(react["useState"])(false),showResponsiveSidebar=_useState3[0],setShowResponsiveSidebar=_useState3[1];var _useThemeConfig=Object(lib["useThemeConfig"])(),hideOnScroll=_useThemeConfig.navbar.hideOnScroll,hideableSidebar=_useThemeConfig.hideableSidebar;var _useUserPreferencesCo=Object(useUserPreferencesContext["a" /* default */])(),isAnnouncementBarClosed=_useUserPreferencesCo.isAnnouncementBarClosed;var _useScrollPosition=hooks_useScrollPosition(),scrollY=_useScrollPosition.scrollY;hooks_useLockBodyScroll(showResponsiveSidebar);var windowSize=hooks_useWindowSize();Object(react["useEffect"])(function(){if(windowSize===windowSizes.desktop){setShowResponsiveSidebar(false);}},[windowSize]);return/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])(DocSidebar_styles_module_default.a.sidebar,(_clsx3={},_clsx3[DocSidebar_styles_module_default.a.sidebarWithHideableNavbar]=hideOnScroll,_clsx3[DocSidebar_styles_module_default.a.sidebarHidden]=isHidden,_clsx3))},hideOnScroll&&/*#__PURE__*/react_default.a.createElement(theme_Logo,{tabIndex:-1,className:DocSidebar_styles_module_default.a.sidebarLogo}),/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])('menu','menu--responsive','thin-scrollbar',DocSidebar_styles_module_default.a.menu,(_clsx4={'menu--show':showResponsiveSidebar},_clsx4[DocSidebar_styles_module_default.a.menuWithAnnouncementBar]=!isAnnouncementBarClosed&&scrollY===0,_clsx4))},/*#__PURE__*/react_default.a.createElement("button",{"aria-label":showResponsiveSidebar?Object(Translate["b" /* translate */])({id:'theme.docs.sidebar.responsiveCloseButtonLabel',message:'Close menu',description:'The ARIA label for close button of mobile doc sidebar'}):Object(Translate["b" /* translate */])({id:'theme.docs.sidebar.responsiveOpenButtonLabel',message:'Open menu',description:'The ARIA label for open button of mobile doc sidebar'}),"aria-haspopup":"true",className:"button button--secondary button--sm menu__button",type:"button",onClick:function onClick(){setShowResponsiveSidebar(!showResponsiveSidebar);}},showResponsiveSidebar?/*#__PURE__*/react_default.a.createElement("span",{className:Object(clsx_m["a" /* default */])(DocSidebar_styles_module_default.a.sidebarMenuIcon,DocSidebar_styles_module_default.a.sidebarMenuCloseIcon)},"\xD7"):/*#__PURE__*/react_default.a.createElement(theme_IconMenu,{className:DocSidebar_styles_module_default.a.sidebarMenuIcon,height:MOBILE_TOGGLE_SIZE,width:MOBILE_TOGGLE_SIZE})),/*#__PURE__*/react_default.a.createElement("ul",{className:"menu__list"},sidebar.map(function(item){return/*#__PURE__*/react_default.a.createElement(DocSidebarItem,{key:item.label,item:item,onItemClick:function onItemClick(e){e.target.blur();setShowResponsiveSidebar(false);},collapsible:sidebarCollapsible,activePath:path});}))),hideableSidebar&&/*#__PURE__*/react_default.a.createElement("button",{type:"button",title:Object(Translate["b" /* translate */])({id:'theme.docs.sidebar.collapseButtonTitle',message:'Collapse sidebar',description:'The title attribute for collapse button of doc sidebar'}),"aria-label":Object(Translate["b" /* translate */])({id:'theme.docs.sidebar.collapseButtonAriaLabel',message:'Collapse sidebar',description:'The title attribute for collapse button of doc sidebar'}),className:Object(clsx_m["a" /* default */])('button button--secondary button--outline',DocSidebar_styles_module_default.a.collapseSidebarButton),onClick:onCollapse},/*#__PURE__*/react_default.a.createElement(theme_IconArrow,{className:DocSidebar_styles_module_default.a.collapseSidebarButtonIcon})));}/* harmony default export */ var theme_DocSidebar = (DocSidebar);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/index.js + 7 modules
+var MDXComponents = __webpack_require__(442);
+
+// EXTERNAL MODULE: ./src/theme/NotFound.js
+var NotFound = __webpack_require__(761);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/router.js
+var router = __webpack_require__(24);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocPage/styles.module.css
+var DocPage_styles_module = __webpack_require__(93);
+var DocPage_styles_module_default = /*#__PURE__*/__webpack_require__.n(DocPage_styles_module);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocPage/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function DocPageContent(_ref){var _clsx,_siteConfig$themeConf,_siteConfig$themeConf2,_clsx2,_clsx3;var currentDocRoute=_ref.currentDocRoute,versionMetadata=_ref.versionMetadata,children=_ref.children;var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig,isClient=_useDocusaurusContext.isClient;var pluginId=versionMetadata.pluginId,permalinkToSidebar=versionMetadata.permalinkToSidebar,docsSidebars=versionMetadata.docsSidebars,version=versionMetadata.version;var sidebarName=permalinkToSidebar[currentDocRoute.path];var sidebar=docsSidebars[sidebarName];var _useState=Object(react["useState"])(false),hiddenSidebarContainer=_useState[0],setHiddenSidebarContainer=_useState[1];var _useState2=Object(react["useState"])(false),hiddenSidebar=_useState2[0],setHiddenSidebar=_useState2[1];var toggleSidebar=Object(react["useCallback"])(function(){if(hiddenSidebar){setHiddenSidebar(false);}setHiddenSidebarContainer(!hiddenSidebarContainer);},[hiddenSidebar]);return/*#__PURE__*/react_default.a.createElement(Layout["a" /* default */],{key:isClient,wrapperClassName:"main-docs-wrapper",searchMetadatas:{version:version,tag:Object(lib["docVersionSearchTag"])(pluginId,version)}},/*#__PURE__*/react_default.a.createElement("div",{className:DocPage_styles_module_default.a.docPage},sidebar&&/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])(DocPage_styles_module_default.a.docSidebarContainer,(_clsx={},_clsx[DocPage_styles_module_default.a.docSidebarContainerHidden]=hiddenSidebarContainer,_clsx)),onTransitionEnd:function onTransitionEnd(e){if(!e.currentTarget.classList.contains(DocPage_styles_module_default.a.docSidebarContainer)){return;}if(hiddenSidebarContainer){setHiddenSidebar(true);}},role:"complementary"},/*#__PURE__*/react_default.a.createElement(theme_DocSidebar,{key:// Reset sidebar state on sidebar changes
+// See https://github.com/facebook/docusaurus/issues/3414
+sidebarName,sidebar:sidebar,path:currentDocRoute.path,sidebarCollapsible:(_siteConfig$themeConf=(_siteConfig$themeConf2=siteConfig.themeConfig)===null||_siteConfig$themeConf2===void 0?void 0:_siteConfig$themeConf2.sidebarCollapsible)!==null&&_siteConfig$themeConf!==void 0?_siteConfig$themeConf:true,onCollapse:toggleSidebar,isHidden:hiddenSidebar}),hiddenSidebar&&/*#__PURE__*/react_default.a.createElement("div",{className:DocPage_styles_module_default.a.collapsedDocSidebar,title:Object(Translate["b" /* translate */])({id:'theme.docs.sidebar.expandButtonTitle',message:'Expand sidebar',description:'The ARIA label and title attribute for expand button of doc sidebar'}),"aria-label":Object(Translate["b" /* translate */])({id:'theme.docs.sidebar.expandButtonAriaLabel',message:'Expand sidebar',description:'The ARIA label and title attribute for expand button of doc sidebar'}),tabIndex:0,role:"button",onKeyDown:toggleSidebar,onClick:toggleSidebar},/*#__PURE__*/react_default.a.createElement(theme_IconArrow,{className:DocPage_styles_module_default.a.expandSidebarButtonIcon}))),/*#__PURE__*/react_default.a.createElement("main",{className:Object(clsx_m["a" /* default */])(DocPage_styles_module_default.a.docMainContainer,(_clsx2={},_clsx2[DocPage_styles_module_default.a.docMainContainerEnhanced]=hiddenSidebarContainer,_clsx2))},/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])('container padding-vert--lg',DocPage_styles_module_default.a.docItemWrapper,(_clsx3={},_clsx3[DocPage_styles_module_default.a.docItemWrapperEnhanced]=hiddenSidebarContainer,_clsx3))},/*#__PURE__*/react_default.a.createElement(esm["a" /* MDXProvider */],{components:MDXComponents["a" /* default */]},children)))));}function DocPage(props){var docRoutes=props.route.routes,versionMetadata=props.versionMetadata,location=props.location;var currentDocRoute=docRoutes.find(function(docRoute){return Object(router["matchPath"])(location.pathname,docRoute);});if(!currentDocRoute){return/*#__PURE__*/react_default.a.createElement(NotFound["default"],props);}return/*#__PURE__*/react_default.a.createElement(DocPageContent,{currentDocRoute:currentDocRoute,versionMetadata:versionMetadata},Object(renderRoutes["a" /* default */])(docRoutes));}/* harmony default export */ var theme_DocPage = __webpack_exports__["default"] = (DocPage);
+
+/***/ }),
 
 /***/ 143:
 /***/ (function(module, exports, __webpack_require__) {
@@ -1809,6 +1959,219 @@ var api=react_1.useMemo(function(){function savePreferredVersion(pluginId,versio
 
 /***/ }),
 
+/***/ 194:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export MDXContext */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MDXProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return createElement; });
+/* unused harmony export useMDXComponents */
+/* unused harmony export withMDXComponents */
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread2(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+var isFunction = function isFunction(obj) {
+  return typeof obj === 'function';
+};
+
+var MDXContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext({});
+var withMDXComponents = function withMDXComponents(Component) {
+  return function (props) {
+    var allComponents = useMDXComponents(props.components);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, _extends({}, props, {
+      components: allComponents
+    }));
+  };
+};
+var useMDXComponents = function useMDXComponents(components) {
+  var contextComponents = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(MDXContext);
+  var allComponents = contextComponents;
+
+  if (components) {
+    allComponents = isFunction(components) ? components(contextComponents) : _objectSpread2(_objectSpread2({}, contextComponents), components);
+  }
+
+  return allComponents;
+};
+var MDXProvider = function MDXProvider(props) {
+  var allComponents = useMDXComponents(props.components);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MDXContext.Provider, {
+    value: allComponents
+  }, props.children);
+};
+
+var TYPE_PROP_NAME = 'mdxType';
+var DEFAULTS = {
+  inlineCode: 'code',
+  wrapper: function wrapper(_ref) {
+    var children = _ref.children;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {}, children);
+  }
+};
+var MDXCreateElement = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.forwardRef(function (props, ref) {
+  var propComponents = props.components,
+      mdxType = props.mdxType,
+      originalType = props.originalType,
+      parentName = props.parentName,
+      etc = _objectWithoutProperties(props, ["components", "mdxType", "originalType", "parentName"]);
+
+  var components = useMDXComponents(propComponents);
+  var type = mdxType;
+  var Component = components["".concat(parentName, ".").concat(type)] || components[type] || DEFAULTS[type] || originalType;
+
+  if (propComponents) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, _objectSpread2(_objectSpread2({
+      ref: ref
+    }, etc), {}, {
+      components: propComponents
+    }));
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, _objectSpread2({
+    ref: ref
+  }, etc));
+});
+MDXCreateElement.displayName = 'MDXCreateElement';
+function createElement (type, props) {
+  var args = arguments;
+  var mdxType = props && props.mdxType;
+
+  if (typeof type === 'string' || mdxType) {
+    var argsLength = args.length;
+    var createElementArgArray = new Array(argsLength);
+    createElementArgArray[0] = MDXCreateElement;
+    var newProps = {};
+
+    for (var key in props) {
+      if (hasOwnProperty.call(props, key)) {
+        newProps[key] = props[key];
+      }
+    }
+
+    newProps.originalType = type;
+    newProps[TYPE_PROP_NAME] = typeof type === 'string' ? type : mdxType;
+    createElementArgArray[1] = newProps;
+
+    for (var i = 2; i < argsLength; i++) {
+      createElementArgArray[i] = args[i];
+    }
+
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement.apply(null, createElementArgArray);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement.apply(null, args);
+}
+
+
+
+
+/***/ }),
+
 /***/ 204:
 /***/ (function(module, exports) {
 
@@ -2044,7 +2407,8 @@ var EnglishPluralForms={locale:'en',pluralForms:sortPluralForms(['one','other'])
 // - 2021: 92+% Browsers support Intl.PluralRules, and support will increase in the future
 // - NodeJS >= 13 has full ICU support by default
 // - In case of "mismatch" between SSR and Browser ICU support, React keeps working!
-function useLocalePluralForms(){var _useDocusaurusContext=useDocusaurusContext_1.default(),currentLocale=_useDocusaurusContext.i18n.currentLocale;return react_1.useMemo(function(){if(Intl&&Intl.PluralRules){try{return createLocalePluralForms(currentLocale);}catch(e){console.error("Failed to use Intl.PluralRules for locale="+currentLocale+".\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n");return EnglishPluralForms;}}else{console.error("Intl.PluralRules not available!\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n        ");return EnglishPluralForms;}},[currentLocale]);}function selectPluralMessage(pluralMessages,count,localePluralForms){var separator='|';var parts=pluralMessages.split(separator);if(parts.length===1){return parts[0];}else{if(parts.length>localePluralForms.pluralForms.length){console.error("For locale="+localePluralForms.locale+", a maximum of "+localePluralForms.pluralForms.length+" plural forms are expected ("+localePluralForms.pluralForms+"), but the message contains "+parts.length+" plural forms: "+pluralMessages+" ");}var pluralForm=localePluralForms.select(count);var pluralFormIndex=localePluralForms.pluralForms.indexOf(pluralForm);// In case of not enough plural form messages, we take the last one (other) instead of returning undefined
+function useLocalePluralForms(){var _useDocusaurusContext=useDocusaurusContext_1.default(),currentLocale=_useDocusaurusContext.i18n.currentLocale;return react_1.useMemo(function(){// @ts-expect-error checking Intl.PluralRules in case browser doesn't have it (e.g Safari 12-)
+if(Intl.PluralRules){try{return createLocalePluralForms(currentLocale);}catch(e){console.error("Failed to use Intl.PluralRules for locale="+currentLocale+".\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n");return EnglishPluralForms;}}else{console.error("Intl.PluralRules not available!\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n        ");return EnglishPluralForms;}},[currentLocale]);}function selectPluralMessage(pluralMessages,count,localePluralForms){var separator='|';var parts=pluralMessages.split(separator);if(parts.length===1){return parts[0];}else{if(parts.length>localePluralForms.pluralForms.length){console.error("For locale="+localePluralForms.locale+", a maximum of "+localePluralForms.pluralForms.length+" plural forms are expected ("+localePluralForms.pluralForms+"), but the message contains "+parts.length+" plural forms: "+pluralMessages+" ");}var pluralForm=localePluralForms.select(count);var pluralFormIndex=localePluralForms.pluralForms.indexOf(pluralForm);// In case of not enough plural form messages, we take the last one (other) instead of returning undefined
 return parts[Math.min(pluralFormIndex,parts.length-1)];}}function usePluralForm(){var localePluralForm=useLocalePluralForms();return{selectMessage:function selectMessage(count,pluralMessages){return selectPluralMessage(pluralMessages,count,localePluralForm);}};}exports.usePluralForm=usePluralForm;
 
 /***/ }),
@@ -2727,7 +3091,7 @@ var Subscribe = __webpack_require__(60);
 var IconMedium = __webpack_require__(58);
 
 // CONCATENATED MODULE: ./src/theme/Footer.js
-var Footer_Footer=function Footer(){var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 769px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 769px)'});return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footer"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerContent"},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true},isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerLogoBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'center',marginLeft:'84px',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:"mediumPaddingTop",item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Sobre nosotros")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/services/"),target:"_blank",style:{color:'white'}},"Servicios")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/the-company/"),target:"_blank",style:{color:'white'}},"La compa\xF1\xEDa")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/team/"),target:"_blank",style:{color:'white'}},"Equipo")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/projects/"),target:"_blank",style:{color:'white'}},"Proyectos")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/block-producer/"),target:"_blank",style:{color:'white'}},"Block producer"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Para usted")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:"https://guide.eoscostarica.io//",target:"_blank",style:{color:'white'}},"Aprender")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/blog/"),target:"_blank",style:{color:'white'}},"Blog")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/press/"),target:"_blank",style:{color:'white'}},"Prensa"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"litlePaddingTop":"",item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:'50px'},item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"centerBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'end',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://github.com/eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(GitHub_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://twitter.com/EOSCostaRica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Twitter_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.linkedin.com/company/eoscostarica/mycompany/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(LinkedIn_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}}))))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:3},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:isDesktop?'-3px':'',marginLeft:isDesktop?'-20px':''},item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://medium.com/@eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(IconMedium["default"],{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',className:"footerMediumIcon"})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ",target:"_blank"},/*#__PURE__*/react_default.a.createElement(YouTube_default.a,{style:{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.instagram.com/eoscostarica/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Instagram_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})))))))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopy"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopyContent"},/*#__PURE__*/react_default.a.createElement("p",{style:{fontSize:'14px'}},"Todos los derechos reservados para Sistemas Edenia Internacional S.A."))));};/* harmony default export */ var theme_Footer = (Footer_Footer);
+var Footer_Footer=function Footer(){var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 769px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 769px)'});return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footer"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerContent"},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true},isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerLogoBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'center',marginLeft:'84px',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:"mediumPaddingTop",item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Sobre nosotros")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/servicios/"),target:"_blank",style:{color:'white'}},"Servicios")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/la-empresa/"),target:"_blank",style:{color:'white'}},"La compa\xF1\xEDa")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/equipo/"),target:"_blank",style:{color:'white'}},"Equipo")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/proyectos/"),target:"_blank",style:{color:'white'}},"Proyectos")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/productor-de-bloques/"),target:"_blank",style:{color:'white'}},"Block producer"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Para usted")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:"https://guias.eoscostarica.io/",target:"_blank",style:{color:'white'}},"Aprender")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/blog/"),target:"_blank",style:{color:'white'}},"Blog")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/prensa/"),target:"_blank",style:{color:'white'}},"Prensa"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"litlePaddingTop":"",item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:'50px'},item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"centerBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'end',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://github.com/eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(GitHub_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://twitter.com/EOSCostaRica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Twitter_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.linkedin.com/company/eoscostarica/mycompany/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(LinkedIn_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}}))))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:3},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:isDesktop?'-3px':'',marginLeft:isDesktop?'-20px':''},item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://medium.com/@eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(IconMedium["default"],{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',className:"footerMediumIcon"})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ",target:"_blank"},/*#__PURE__*/react_default.a.createElement(YouTube_default.a,{style:{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.instagram.com/eoscostarica/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Instagram_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})))))))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopy"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopyContent"},/*#__PURE__*/react_default.a.createElement("p",{style:{fontSize:'14px'}},"Todos los derechos reservados para Sistemas Edenia Internacional S.A."))));};/* harmony default export */ var theme_Footer = (Footer_Footer);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/ExecutionEnvironment.js
 var ExecutionEnvironment = __webpack_require__(7);
 
@@ -2738,8 +3102,7 @@ var ExecutionEnvironment = __webpack_require__(7);
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */var themes={light:'light',dark:'dark'};// Ensure to always return a valid theme even if input is invalid
-var coerceToTheme=function coerceToTheme(theme){return theme===themes.dark?themes.dark:themes.light;};var useTheme_getInitialTheme=function getInitialTheme(){if(!ExecutionEnvironment["a" /* default */].canUseDOM){return themes.light;// SSR: we don't care
-}return coerceToTheme(document.documentElement.getAttribute('data-theme'));};var storeTheme=function storeTheme(newTheme){try{localStorage.setItem('theme',coerceToTheme(newTheme));}catch(err){console.error(err);}};var useTheme_useTheme=function useTheme(){var _useThemeConfig=Object(lib["useThemeConfig"])(),_useThemeConfig$color=_useThemeConfig.colorMode,disableSwitch=_useThemeConfig$color.disableSwitch,respectPrefersColorScheme=_useThemeConfig$color.respectPrefersColorScheme;var _useState=Object(react["useState"])(useTheme_getInitialTheme),theme=_useState[0],setTheme=_useState[1];var setLightTheme=Object(react["useCallback"])(function(){setTheme(themes.light);storeTheme(themes.light);},[]);var setDarkTheme=Object(react["useCallback"])(function(){setTheme(themes.dark);storeTheme(themes.dark);},[]);Object(react["useEffect"])(function(){document.documentElement.setAttribute('data-theme',coerceToTheme(theme));},[theme]);Object(react["useEffect"])(function(){if(disableSwitch){return;}try{var localStorageTheme=localStorage.getItem('theme');if(localStorageTheme!==null){setTheme(coerceToTheme(localStorageTheme));}}catch(err){console.error(err);}},[setTheme]);Object(react["useEffect"])(function(){if(disableSwitch&&!respectPrefersColorScheme){return;}window.matchMedia('(prefers-color-scheme: dark)').addListener(function(_ref){var matches=_ref.matches;setTheme(matches?themes.dark:themes.light);});},[]);return{isDarkTheme:theme===themes.dark,setLightTheme:setLightTheme,setDarkTheme:setDarkTheme};};/* harmony default export */ var hooks_useTheme = (useTheme_useTheme);
+var coerceToTheme=function coerceToTheme(theme){return theme===themes.dark?themes.dark:themes.light;};var useTheme_getInitialTheme=function getInitialTheme(defaultMode){if(!ExecutionEnvironment["a" /* default */].canUseDOM){return coerceToTheme(defaultMode);}return coerceToTheme(document.documentElement.getAttribute('data-theme'));};var storeTheme=function storeTheme(newTheme){try{localStorage.setItem('theme',coerceToTheme(newTheme));}catch(err){console.error(err);}};var useTheme_useTheme=function useTheme(){var _useThemeConfig=Object(lib["useThemeConfig"])(),_useThemeConfig$color=_useThemeConfig.colorMode,defaultMode=_useThemeConfig$color.defaultMode,disableSwitch=_useThemeConfig$color.disableSwitch,respectPrefersColorScheme=_useThemeConfig$color.respectPrefersColorScheme;var _useState=Object(react["useState"])(useTheme_getInitialTheme(defaultMode)),theme=_useState[0],setTheme=_useState[1];var setLightTheme=Object(react["useCallback"])(function(){setTheme(themes.light);storeTheme(themes.light);},[]);var setDarkTheme=Object(react["useCallback"])(function(){setTheme(themes.dark);storeTheme(themes.dark);},[]);Object(react["useEffect"])(function(){document.documentElement.setAttribute('data-theme',coerceToTheme(theme));},[theme]);Object(react["useEffect"])(function(){if(disableSwitch){return;}try{var localStorageTheme=localStorage.getItem('theme');if(localStorageTheme!==null){setTheme(coerceToTheme(localStorageTheme));}}catch(err){console.error(err);}},[setTheme]);Object(react["useEffect"])(function(){if(disableSwitch&&!respectPrefersColorScheme){return;}window.matchMedia('(prefers-color-scheme: dark)').addListener(function(_ref){var matches=_ref.matches;setTheme(matches?themes.dark:themes.light);});},[]);return{isDarkTheme:theme===themes.dark,setLightTheme:setLightTheme,setDarkTheme:setDarkTheme};};/* harmony default export */ var hooks_useTheme = (useTheme_useTheme);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/ThemeContext.js
 var ThemeContext = __webpack_require__(205);
 
@@ -4136,6 +4499,71 @@ JSONLD.defaultProps = {
 };
 
 exports.default = JSONLD;
+
+/***/ }),
+
+/***/ 270:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// EXTERNAL MODULE: ./node_modules/react-router-dom/esm/react-router-dom.js
+var react_router_dom = __webpack_require__(10);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/isInternalUrl.js
+var isInternalUrl = __webpack_require__(190);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/ExecutionEnvironment.js
+var ExecutionEnvironment = __webpack_require__(7);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/LinksCollector.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var createStatefulLinksCollector=function createStatefulLinksCollector(){// Set to dedup, as it's not useful to collect multiple times the same link
+var allLinks=new Set();return{collectLink:function collectLink(link){allLinks.add(link);},getCollectedLinks:function getCollectedLinks(){return[].concat(allLinks);}};};var Context=/*#__PURE__*/Object(react["createContext"])({collectLink:function collectLink(){// noop by default for client
+// we only use the broken links checker server-side
+}});var LinksCollector_useLinksCollector=function useLinksCollector(){return Object(react["useContext"])(Context);};var LinksCollector_ProvideLinksCollector=function ProvideLinksCollector(_ref){var children=_ref.children,linksCollector=_ref.linksCollector;return/*#__PURE__*/react_default.a.createElement(Context.Provider,{value:linksCollector},children);};
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
+var useBaseUrl = __webpack_require__(160);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var __rest=undefined&&undefined.__rest||function(s,e){var t={};for(var p in s){if(Object.prototype.hasOwnProperty.call(s,p)&&e.indexOf(p)<0)t[p]=s[p];}if(s!=null&&typeof Object.getOwnPropertySymbols==="function")for(var i=0,p=Object.getOwnPropertySymbols(s);i<p.length;i++){if(e.indexOf(p[i])<0&&Object.prototype.propertyIsEnumerable.call(s,p[i]))t[p[i]]=s[p[i]];}return t;};// TODO all this wouldn't be necessary if we used ReactRouter basename feature
+// We don't automatically add base urls to all links,
+// only the "safe" ones, starting with / (like /docs/introduction)
+// this is because useBaseUrl() actually transforms relative links
+// like "introduction" to "/baseUrl/introduction" => bad behavior to fix
+var shouldAddBaseUrlAutomatically=function shouldAddBaseUrlAutomatically(to){return to.startsWith('/');};function Link(_a){var _b;var isNavLink=_a.isNavLink,to=_a.to,href=_a.href,activeClassName=_a.activeClassName,isActive=_a.isActive,noBrokenLinkCheck=_a['data-noBrokenLinkCheck'],_a$autoAddBaseUrl=_a.autoAddBaseUrl,autoAddBaseUrl=_a$autoAddBaseUrl===void 0?true:_a$autoAddBaseUrl,props=__rest(_a,["isNavLink","to","href","activeClassName","isActive",'data-noBrokenLinkCheck',"autoAddBaseUrl"]);var _useBaseUrlUtils=Object(useBaseUrl["b" /* useBaseUrlUtils */])(),withBaseUrl=_useBaseUrlUtils.withBaseUrl;var linksCollector=LinksCollector_useLinksCollector();// IMPORTANT: using to or href should not change anything
+// For example, MDX links will ALWAYS give us the href props
+// Using one prop or the other should not be used to distinguish
+// internal links (/docs/myDoc) from external links (https://github.com)
+var targetLinkUnprefixed=to||href;function maybeAddBaseUrl(str){return autoAddBaseUrl&&shouldAddBaseUrlAutomatically(str)?withBaseUrl(str):str;}var isInternal=Object(isInternalUrl["a" /* default */])(targetLinkUnprefixed);// pathname:// is a special "protocol" we use to tell Docusaurus link
+// that a link is not "internal" and that we shouldn't use history.push()
+// this is not ideal but a good enough escape hatch for now
+// see https://github.com/facebook/docusaurus/issues/3309
+// note: we want baseUrl to be appended (see issue for details)
+// TODO read routes and automatically detect internal/external links?
+var targetLinkWithoutPathnameProtocol=targetLinkUnprefixed===null||targetLinkUnprefixed===void 0?void 0:targetLinkUnprefixed.replace('pathname://','');// TODO we should use ReactRouter basename feature instead!
+// Automatically apply base url in links that start with /
+var targetLink=typeof targetLinkWithoutPathnameProtocol!=='undefined'?maybeAddBaseUrl(targetLinkWithoutPathnameProtocol):undefined;var preloaded=Object(react["useRef"])(false);var LinkComponent=isNavLink?react_router_dom["e" /* NavLink */]:react_router_dom["c" /* Link */];var IOSupported=ExecutionEnvironment["a" /* default */].canUseIntersectionObserver;var io;var handleIntersection=function handleIntersection(el,cb){io=new window.IntersectionObserver(function(entries){entries.forEach(function(entry){if(el===entry.target){// If element is in viewport, stop listening/observing and run callback.
+// https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+if(entry.isIntersecting||entry.intersectionRatio>0){io.unobserve(el);io.disconnect();cb();}}});});// Add element to the observer.
+io.observe(el);};var handleRef=function handleRef(ref){if(IOSupported&&ref&&isInternal){// If IO supported and element reference found, setup Observer functionality.
+handleIntersection(ref,function(){window.docusaurus.prefetch(targetLink);});}};var onMouseEnter=function onMouseEnter(){if(!preloaded.current){window.docusaurus.preload(targetLink);preloaded.current=true;}};Object(react["useEffect"])(function(){// If IO is not supported. We prefetch by default (only once).
+if(!IOSupported&&isInternal){window.docusaurus.prefetch(targetLink);}// When unmounting, stop intersection observer from watching.
+return function(){if(IOSupported&&io){io.disconnect();}};},[targetLink,IOSupported,isInternal]);var isAnchorLink=(_b=targetLink===null||targetLink===void 0?void 0:targetLink.startsWith('#'))!==null&&_b!==void 0?_b:false;var isRegularHtmlLink=!targetLink||!isInternal||isAnchorLink;if(targetLink&&isInternal&&!isAnchorLink&&!noBrokenLinkCheck){linksCollector.collectLink(targetLink);}return isRegularHtmlLink?/*#__PURE__*/ // eslint-disable-next-line jsx-a11y/anchor-has-content
+react_default.a.createElement("a",Object.assign({href:targetLink},targetLinkUnprefixed&&!isInternal&&{target:'_blank',rel:'noopener noreferrer'},props)):/*#__PURE__*/react_default.a.createElement(LinkComponent,Object.assign({},props,{onMouseEnter:onMouseEnter,innerRef:handleRef,to:targetLink||''},isNavLink&&{isActive:isActive,activeClassName:activeClassName}));}/* harmony default export */ var exports_Link = __webpack_exports__["a"] = (Link);
 
 /***/ }),
 
@@ -8208,6 +8636,714 @@ var Modal_Modal = /*#__PURE__*/react["forwardRef"](function Modal(inProps, ref) 
 
 /***/ }),
 
+/***/ 388:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _theme_ThemeContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(205);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function useThemeContext(){var context=Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_theme_ThemeContext__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"]);if(context==null){throw new Error('`useThemeContext` is used outside of `Layout` Component. See https://v2.docusaurus.io/docs/api/themes/configuration#usethemecontext.');}return context;}/* harmony default export */ __webpack_exports__["a"] = (useThemeContext);
+
+/***/ }),
+
+/***/ 393:
+/***/ (function(module, exports) {
+
+/**
+ * @param {string} string    The string to parse
+ * @returns {Array<number>}  Returns an energetic array.
+ */
+function parsePart(string) {
+  let res = [];
+  let m;
+
+  for (let str of string.split(",").map((str) => str.trim())) {
+    // just a number
+    if (/^-?\d+$/.test(str)) {
+      res.push(parseInt(str, 10));
+    } else if (
+      (m = str.match(/^(-?\d+)(-|\.\.\.?|\u2025|\u2026|\u22EF)(-?\d+)$/))
+    ) {
+      // 1-5 or 1..5 (equivalent) or 1...5 (doesn't include 5)
+      let [_, lhs, sep, rhs] = m;
+
+      if (lhs && rhs) {
+        lhs = parseInt(lhs);
+        rhs = parseInt(rhs);
+        const incr = lhs < rhs ? 1 : -1;
+
+        // Make it inclusive by moving the right 'stop-point' away by one.
+        if (sep === "-" || sep === ".." || sep === "\u2025") rhs += incr;
+
+        for (let i = lhs; i !== rhs; i += incr) res.push(i);
+      }
+    }
+  }
+
+  return res;
+}
+
+exports.default = parsePart;
+module.exports = parsePart;
+
+
+/***/ }),
+
+/***/ 442:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
+var Link = __webpack_require__(270);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+var esm_extends = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+var clsx_m = __webpack_require__(145);
+
+// EXTERNAL MODULE: ./node_modules/prism-react-renderer/prism/index.js
+var prism_react_renderer_prism = __webpack_require__(29);
+
+// CONCATENATED MODULE: ./node_modules/prism-react-renderer/themes/duotoneDark/index.js
+// Duotone Dark
+// Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
+// Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/prism/prism-base2tone-evening-dark.css)
+// Generated with Base16 Builder (https://github.com/base16-builder/base16-builder)
+var theme = {
+  plain: {
+    backgroundColor: "#2a2734",
+    color: "#9a86fd"
+  },
+  styles: [{
+    types: ["comment", "prolog", "doctype", "cdata", "punctuation"],
+    style: {
+      color: "#6c6783"
+    }
+  }, {
+    types: ["namespace"],
+    style: {
+      opacity: 0.7
+    }
+  }, {
+    types: ["tag", "operator", "number"],
+    style: {
+      color: "#e09142"
+    }
+  }, {
+    types: ["property", "function"],
+    style: {
+      color: "#9a86fd"
+    }
+  }, {
+    types: ["tag-id", "selector", "atrule-id"],
+    style: {
+      color: "#eeebff"
+    }
+  }, {
+    types: ["attr-name"],
+    style: {
+      color: "#c4b9fe"
+    }
+  }, {
+    types: ["boolean", "string", "entity", "url", "attr-value", "keyword", "control", "directive", "unit", "statement", "regex", "at-rule", "placeholder", "variable"],
+    style: {
+      color: "#ffcc99"
+    }
+  }, {
+    types: ["deleted"],
+    style: {
+      textDecorationLine: "line-through"
+    }
+  }, {
+    types: ["inserted"],
+    style: {
+      textDecorationLine: "underline"
+    }
+  }, {
+    types: ["italic"],
+    style: {
+      fontStyle: "italic"
+    }
+  }, {
+    types: ["important", "bold"],
+    style: {
+      fontWeight: "bold"
+    }
+  }, {
+    types: ["important"],
+    style: {
+      color: "#c4b9fe"
+    }
+  }]
+};
+
+/* harmony default export */ var duotoneDark = (theme);
+
+// CONCATENATED MODULE: ./node_modules/prism-react-renderer/dist/index.js
+
+
+
+
+
+var defaultProps = {
+  // $FlowFixMe
+  Prism: prism_react_renderer_prism["a" /* default */],
+  theme: duotoneDark
+};
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+var newlineRe = /\r\n|\r|\n/; // Empty lines need to contain a single empty token, denoted with { empty: true }
+
+var normalizeEmptyLines = function (line) {
+  if (line.length === 0) {
+    line.push({
+      types: ["plain"],
+      content: "\n",
+      empty: true
+    });
+  } else if (line.length === 1 && line[0].content === "") {
+    line[0].content = "\n";
+    line[0].empty = true;
+  }
+};
+
+var appendTypes = function (types, add) {
+  var typesSize = types.length;
+
+  if (typesSize > 0 && types[typesSize - 1] === add) {
+    return types;
+  }
+
+  return types.concat(add);
+}; // Takes an array of Prism's tokens and groups them by line, turning plain
+// strings into tokens as well. Tokens can become recursive in some cases,
+// which means that their types are concatenated. Plain-string tokens however
+// are always of type "plain".
+// This is not recursive to avoid exceeding the call-stack limit, since it's unclear
+// how nested Prism's tokens can become
+
+
+var normalizeTokens = function (tokens) {
+  var typeArrStack = [[]];
+  var tokenArrStack = [tokens];
+  var tokenArrIndexStack = [0];
+  var tokenArrSizeStack = [tokens.length];
+  var i = 0;
+  var stackIndex = 0;
+  var currentLine = [];
+  var acc = [currentLine];
+
+  while (stackIndex > -1) {
+    while ((i = tokenArrIndexStack[stackIndex]++) < tokenArrSizeStack[stackIndex]) {
+      var content = void 0;
+      var types = typeArrStack[stackIndex];
+      var tokenArr = tokenArrStack[stackIndex];
+      var token = tokenArr[i]; // Determine content and append type to types if necessary
+
+      if (typeof token === "string") {
+        types = stackIndex > 0 ? types : ["plain"];
+        content = token;
+      } else {
+        types = appendTypes(types, token.type);
+
+        if (token.alias) {
+          types = appendTypes(types, token.alias);
+        }
+
+        content = token.content;
+      } // If token.content is an array, increase the stack depth and repeat this while-loop
+
+
+      if (typeof content !== "string") {
+        stackIndex++;
+        typeArrStack.push(types);
+        tokenArrStack.push(content);
+        tokenArrIndexStack.push(0);
+        tokenArrSizeStack.push(content.length);
+        continue;
+      } // Split by newlines
+
+
+      var splitByNewlines = content.split(newlineRe);
+      var newlineCount = splitByNewlines.length;
+      currentLine.push({
+        types: types,
+        content: splitByNewlines[0]
+      }); // Create a new line for each string on a new line
+
+      for (var i$1 = 1; i$1 < newlineCount; i$1++) {
+        normalizeEmptyLines(currentLine);
+        acc.push(currentLine = []);
+        currentLine.push({
+          types: types,
+          content: splitByNewlines[i$1]
+        });
+      }
+    } // Decreate the stack depth
+
+
+    stackIndex--;
+    typeArrStack.pop();
+    tokenArrStack.pop();
+    tokenArrIndexStack.pop();
+    tokenArrSizeStack.pop();
+  }
+
+  normalizeEmptyLines(currentLine);
+  return acc;
+};
+
+var themeToDict = function (theme, language) {
+  var plain = theme.plain; // $FlowFixMe
+
+  var base = Object.create(null);
+  var themeDict = theme.styles.reduce(function (acc, themeEntry) {
+    var languages = themeEntry.languages;
+    var style = themeEntry.style;
+
+    if (languages && !languages.includes(language)) {
+      return acc;
+    }
+
+    themeEntry.types.forEach(function (type) {
+      // $FlowFixMe
+      var accStyle = _extends({}, acc[type], style);
+
+      acc[type] = accStyle;
+    });
+    return acc;
+  }, base); // $FlowFixMe
+
+  themeDict.root = plain; // $FlowFixMe
+
+  themeDict.plain = _extends({}, plain, {
+    backgroundColor: null
+  });
+  return themeDict;
+};
+
+function objectWithoutProperties(obj, exclude) {
+  var target = {};
+
+  for (var k in obj) if (Object.prototype.hasOwnProperty.call(obj, k) && exclude.indexOf(k) === -1) target[k] = obj[k];
+
+  return target;
+}
+
+var Highlight = /*@__PURE__*/function (Component) {
+  function Highlight() {
+    var this$1 = this;
+    var args = [],
+        len = arguments.length;
+
+    while (len--) args[len] = arguments[len];
+
+    Component.apply(this, args);
+
+    _defineProperty(this, "getThemeDict", function (props) {
+      if (this$1.themeDict !== undefined && props.theme === this$1.prevTheme && props.language === this$1.prevLanguage) {
+        return this$1.themeDict;
+      }
+
+      this$1.prevTheme = props.theme;
+      this$1.prevLanguage = props.language;
+      var themeDict = props.theme ? themeToDict(props.theme, props.language) : undefined;
+      return this$1.themeDict = themeDict;
+    });
+
+    _defineProperty(this, "getLineProps", function (ref) {
+      var key = ref.key;
+      var className = ref.className;
+      var style = ref.style;
+      var rest$1 = objectWithoutProperties(ref, ["key", "className", "style", "line"]);
+      var rest = rest$1;
+
+      var output = _extends({}, rest, {
+        className: "token-line",
+        style: undefined,
+        key: undefined
+      });
+
+      var themeDict = this$1.getThemeDict(this$1.props);
+
+      if (themeDict !== undefined) {
+        output.style = themeDict.plain;
+      }
+
+      if (style !== undefined) {
+        output.style = output.style !== undefined ? _extends({}, output.style, style) : style;
+      }
+
+      if (key !== undefined) {
+        output.key = key;
+      }
+
+      if (className) {
+        output.className += " " + className;
+      }
+
+      return output;
+    });
+
+    _defineProperty(this, "getStyleForToken", function (ref) {
+      var types = ref.types;
+      var empty = ref.empty;
+      var typesSize = types.length;
+      var themeDict = this$1.getThemeDict(this$1.props);
+
+      if (themeDict === undefined) {
+        return undefined;
+      } else if (typesSize === 1 && types[0] === "plain") {
+        return empty ? {
+          display: "inline-block"
+        } : undefined;
+      } else if (typesSize === 1 && !empty) {
+        return themeDict[types[0]];
+      }
+
+      var baseStyle = empty ? {
+        display: "inline-block"
+      } : {}; // $FlowFixMe
+
+      var typeStyles = types.map(function (type) {
+        return themeDict[type];
+      });
+      return Object.assign.apply(Object, [baseStyle].concat(typeStyles));
+    });
+
+    _defineProperty(this, "getTokenProps", function (ref) {
+      var key = ref.key;
+      var className = ref.className;
+      var style = ref.style;
+      var token = ref.token;
+      var rest$1 = objectWithoutProperties(ref, ["key", "className", "style", "token"]);
+      var rest = rest$1;
+
+      var output = _extends({}, rest, {
+        className: "token " + token.types.join(" "),
+        children: token.content,
+        style: this$1.getStyleForToken(token),
+        key: undefined
+      });
+
+      if (style !== undefined) {
+        output.style = output.style !== undefined ? _extends({}, output.style, style) : style;
+      }
+
+      if (key !== undefined) {
+        output.key = key;
+      }
+
+      if (className) {
+        output.className += " " + className;
+      }
+
+      return output;
+    });
+
+    _defineProperty(this, "tokenize", function (Prism, code, grammar, language) {
+      var env = {
+        code: code,
+        grammar: grammar,
+        language: language,
+        tokens: []
+      };
+      Prism.hooks.run("before-tokenize", env);
+      var tokens = env.tokens = Prism.tokenize(env.code, env.grammar, env.language);
+      Prism.hooks.run("after-tokenize", env);
+      return tokens;
+    });
+  }
+
+  if (Component) Highlight.__proto__ = Component;
+  Highlight.prototype = Object.create(Component && Component.prototype);
+  Highlight.prototype.constructor = Highlight;
+
+  Highlight.prototype.render = function render() {
+    var ref = this.props;
+    var Prism = ref.Prism;
+    var language = ref.language;
+    var code = ref.code;
+    var children = ref.children;
+    var themeDict = this.getThemeDict(this.props);
+    var grammar = Prism.languages[language];
+    var mixedTokens = grammar !== undefined ? this.tokenize(Prism, code, grammar, language) : [code];
+    var tokens = normalizeTokens(mixedTokens);
+    return children({
+      tokens: tokens,
+      className: "prism-code language-" + language,
+      style: themeDict !== undefined ? themeDict.root : {},
+      getLineProps: this.getLineProps,
+      getTokenProps: this.getTokenProps
+    });
+  };
+
+  return Highlight;
+}(react["Component"]);
+
+/* harmony default export */ var dist = (Highlight);
+
+
+// CONCATENATED MODULE: ./node_modules/copy-text-to-clipboard/index.js
+function copyTextToClipboard(input, {target = document.body} = {}) {
+	const element = document.createElement('textarea');
+	const previouslyFocusedElement = document.activeElement;
+
+	element.value = input;
+
+	// Prevent keyboard from showing on mobile
+	element.setAttribute('readonly', '');
+
+	element.style.contain = 'strict';
+	element.style.position = 'absolute';
+	element.style.left = '-9999px';
+	element.style.fontSize = '12pt'; // Prevent zooming on iOS
+
+	const selection = document.getSelection();
+	let originalRange = false;
+	if (selection.rangeCount > 0) {
+		originalRange = selection.getRangeAt(0);
+	}
+
+	target.append(element);
+	element.select();
+
+	// Explicit selection workaround for iOS
+	element.selectionStart = 0;
+	element.selectionEnd = input.length;
+
+	let isSuccess = false;
+	try {
+		isSuccess = document.execCommand('copy');
+	} catch {}
+
+	element.remove();
+
+	if (originalRange) {
+		selection.removeAllRanges();
+		selection.addRange(originalRange);
+	}
+
+	// Get the focus back on the previously focused element, if any
+	if (previouslyFocusedElement) {
+		previouslyFocusedElement.focus();
+	}
+
+	return isSuccess;
+}
+
+// EXTERNAL MODULE: ./node_modules/parse-numeric-range/index.js
+var parse_numeric_range = __webpack_require__(393);
+var parse_numeric_range_default = /*#__PURE__*/__webpack_require__.n(parse_numeric_range);
+
+// CONCATENATED MODULE: ./node_modules/prism-react-renderer/themes/palenight/index.js
+// Converted automatically using ./tools/themeFromVsCode
+var palenight_theme = {
+  plain: {
+    color: "#bfc7d5",
+    backgroundColor: "#292d3e"
+  },
+  styles: [{
+    types: ["comment"],
+    style: {
+      color: "rgb(105, 112, 152)",
+      fontStyle: "italic"
+    }
+  }, {
+    types: ["string", "inserted"],
+    style: {
+      color: "rgb(195, 232, 141)"
+    }
+  }, {
+    types: ["number"],
+    style: {
+      color: "rgb(247, 140, 108)"
+    }
+  }, {
+    types: ["builtin", "char", "constant", "function"],
+    style: {
+      color: "rgb(130, 170, 255)"
+    }
+  }, {
+    types: ["punctuation", "selector"],
+    style: {
+      color: "rgb(199, 146, 234)"
+    }
+  }, {
+    types: ["variable"],
+    style: {
+      color: "rgb(191, 199, 213)"
+    }
+  }, {
+    types: ["class-name", "attr-name"],
+    style: {
+      color: "rgb(255, 203, 107)"
+    }
+  }, {
+    types: ["tag", "deleted"],
+    style: {
+      color: "rgb(255, 85, 114)"
+    }
+  }, {
+    types: ["operator"],
+    style: {
+      color: "rgb(137, 221, 255)"
+    }
+  }, {
+    types: ["boolean"],
+    style: {
+      color: "rgb(255, 88, 116)"
+    }
+  }, {
+    types: ["keyword"],
+    style: {
+      fontStyle: "italic"
+    }
+  }, {
+    types: ["doctype"],
+    style: {
+      color: "rgb(199, 146, 234)",
+      fontStyle: "italic"
+    }
+  }, {
+    types: ["namespace"],
+    style: {
+      color: "rgb(178, 204, 214)"
+    }
+  }, {
+    types: ["url"],
+    style: {
+      color: "rgb(221, 221, 221)"
+    }
+  }]
+};
+
+/* harmony default export */ var palenight = (palenight_theme);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/useThemeContext.js
+var useThemeContext = __webpack_require__(388);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/index.js
+var lib = __webpack_require__(158);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/usePrismTheme.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var usePrismTheme_usePrismTheme=function usePrismTheme(){var _useThemeConfig=Object(lib["useThemeConfig"])(),prism=_useThemeConfig.prism;var _useThemeContext=Object(useThemeContext["a" /* default */])(),isDarkTheme=_useThemeContext.isDarkTheme;var lightModeTheme=prism.theme||palenight;var darkModeTheme=prism.darkTheme||lightModeTheme;var prismTheme=isDarkTheme?darkModeTheme:lightModeTheme;return prismTheme;};/* harmony default export */ var hooks_usePrismTheme = (usePrismTheme_usePrismTheme);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
+var Translate = __webpack_require__(179);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/styles.module.css
+var styles_module = __webpack_require__(69);
+var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var highlightLinesRangeRegex=/{([\d,-]+)}/;var getHighlightDirectiveRegex=function getHighlightDirectiveRegex(languages){if(languages===void 0){languages=['js','jsBlock','jsx','python','html'];}// supported types of comments
+var comments={js:{start:'\\/\\/',end:''},jsBlock:{start:'\\/\\*',end:'\\*\\/'},jsx:{start:'\\{\\s*\\/\\*',end:'\\*\\/\\s*\\}'},python:{start:'#',end:''},html:{start:'<!--',end:'-->'}};// supported directives
+var directives=['highlight-next-line','highlight-start','highlight-end'].join('|');// to be more reliable, the opening and closing comment must match
+var commentPattern=languages.map(function(lang){return"(?:"+comments[lang].start+"\\s*("+directives+")\\s*"+comments[lang].end+")";}).join('|');// white space is allowed, but otherwise it should be on it's own line
+return new RegExp("^\\s*(?:"+commentPattern+")\\s*$");};// select comment styles based on language
+var highlightDirectiveRegex=function highlightDirectiveRegex(lang){switch(lang){case'js':case'javascript':case'ts':case'typescript':return getHighlightDirectiveRegex(['js','jsBlock']);case'jsx':case'tsx':return getHighlightDirectiveRegex(['js','jsBlock','jsx']);case'html':return getHighlightDirectiveRegex(['js','jsBlock','html']);case'python':case'py':return getHighlightDirectiveRegex(['python']);default:// all comment types
+return getHighlightDirectiveRegex();}};var codeBlockTitleRegex=/(?:title=")(.*)(?:")/;function CodeBlock(_ref){var children=_ref.children,languageClassName=_ref.className,metastring=_ref.metastring;var _useThemeConfig=Object(lib["useThemeConfig"])(),prism=_useThemeConfig.prism;var _useState=Object(react["useState"])(false),showCopied=_useState[0],setShowCopied=_useState[1];var _useState2=Object(react["useState"])(false),mounted=_useState2[0],setMounted=_useState2[1];// The Prism theme on SSR is always the default theme but the site theme
+// can be in a different mode. React hydration doesn't update DOM styles
+// that come from SSR. Hence force a re-render after mounting to apply the
+// current relevant styles. There will be a flash seen of the original
+// styles seen using this current approach but that's probably ok. Fixing
+// the flash will require changing the theming approach and is not worth it
+// at this point.
+Object(react["useEffect"])(function(){setMounted(true);},[]);var button=Object(react["useRef"])(null);var highlightLines=[];var codeBlockTitle='';var prismTheme=hooks_usePrismTheme();// In case interleaved Markdown (e.g. when using CodeBlock as standalone component).
+var content=Array.isArray(children)?children.join(''):children;if(metastring&&highlightLinesRangeRegex.test(metastring)){// Tested above
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+var highlightLinesRange=metastring.match(highlightLinesRangeRegex)[1];highlightLines=parse_numeric_range_default()(highlightLinesRange).filter(function(n){return n>0;});}if(metastring&&codeBlockTitleRegex.test(metastring)){// Tested above
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+codeBlockTitle=metastring.match(codeBlockTitleRegex)[1];}var language=languageClassName&&// Force Prism's language union type to `any` because it does not contain all available languages
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+languageClassName.replace(/language-/,'');if(!language&&prism.defaultLanguage){language=prism.defaultLanguage;}// only declaration OR directive highlight can be used for a block
+var code=content.replace(/\n$/,'');if(highlightLines.length===0&&language!==undefined){var range='';var directiveRegex=highlightDirectiveRegex(language);// go through line by line
+var lines=content.replace(/\n$/,'').split('\n');var blockStart;// loop through lines
+for(var index=0;index<lines.length;){var line=lines[index];// adjust for 0-index
+var lineNumber=index+1;var match=line.match(directiveRegex);if(match!==null){var directive=match.slice(1).reduce(function(final,item){return final||item;},undefined);switch(directive){case'highlight-next-line':range+=lineNumber+",";break;case'highlight-start':blockStart=lineNumber;break;case'highlight-end':range+=blockStart+"-"+(lineNumber-1)+",";break;default:break;}lines.splice(index,1);}else{// lines without directives are unchanged
+index+=1;}}highlightLines=parse_numeric_range_default()(range);code=lines.join('\n');}var handleCopyCode=function handleCopyCode(){copyTextToClipboard(code);setShowCopied(true);setTimeout(function(){return setShowCopied(false);},2000);};return/*#__PURE__*/react_default.a.createElement(dist,Object(esm_extends["a" /* default */])({},defaultProps,{key:String(mounted),theme:prismTheme,code:code,language:language}),function(_ref2){var _clsx;var className=_ref2.className,style=_ref2.style,tokens=_ref2.tokens,getLineProps=_ref2.getLineProps,getTokenProps=_ref2.getTokenProps;return/*#__PURE__*/react_default.a.createElement("div",{className:styles_module_default.a.codeBlockContainer},codeBlockTitle&&/*#__PURE__*/react_default.a.createElement("div",{style:style,className:styles_module_default.a.codeBlockTitle},codeBlockTitle),/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])(styles_module_default.a.codeBlockContent,language)},/*#__PURE__*/react_default.a.createElement("div",{/* eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex */tabIndex:0,className:Object(clsx_m["a" /* default */])(className,styles_module_default.a.codeBlock,'thin-scrollbar',(_clsx={},_clsx[styles_module_default.a.codeBlockWithTitle]=codeBlockTitle,_clsx))},/*#__PURE__*/react_default.a.createElement("div",{className:styles_module_default.a.codeBlockLines,style:style},tokens.map(function(line,i){if(line.length===1&&line[0].content===''){line[0].content='\n';// eslint-disable-line no-param-reassign
+}var lineProps=getLineProps({line:line,key:i});if(highlightLines.includes(i+1)){lineProps.className=lineProps.className+" docusaurus-highlight-code-line";}return/*#__PURE__*/react_default.a.createElement("div",Object(esm_extends["a" /* default */])({key:i},lineProps),line.map(function(token,key){return/*#__PURE__*/react_default.a.createElement("span",Object(esm_extends["a" /* default */])({key:key},getTokenProps({token:token,key:key})));}));}))),/*#__PURE__*/react_default.a.createElement("button",{ref:button,type:"button","aria-label":Object(Translate["b" /* translate */])({id:'theme.CodeBlock.copyButtonAriaLabel',message:'Copy code to clipboard',description:'The ARIA label for copy code blocks button'}),className:Object(clsx_m["a" /* default */])(styles_module_default.a.copyButton),onClick:handleCopyCode},showCopied?/*#__PURE__*/react_default.a.createElement(Translate["a" /* default */],{id:"theme.CodeBlock.copied",description:"The copied button label on code blocks"},"Copied"):/*#__PURE__*/react_default.a.createElement(Translate["a" /* default */],{id:"theme.CodeBlock.copy",description:"The copy button label on code blocks"},"Copy"))));});}
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
+var objectWithoutPropertiesLoose = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/styles.css
+var styles = __webpack_require__(70);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/styles.module.css
+var Heading_styles_module = __webpack_require__(71);
+var Heading_styles_module_default = /*#__PURE__*/__webpack_require__.n(Heading_styles_module);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ /* eslint-disable jsx-a11y/anchor-has-content, jsx-a11y/anchor-is-valid */var Heading_Heading=function Heading(Tag){return function TargetComponent(_ref){var _clsx;var id=_ref.id,props=Object(objectWithoutPropertiesLoose["a" /* default */])(_ref,["id"]);var _useThemeConfig=Object(lib["useThemeConfig"])(),hideOnScroll=_useThemeConfig.navbar.hideOnScroll;if(!id){return/*#__PURE__*/react_default.a.createElement(Tag,props);}return/*#__PURE__*/react_default.a.createElement(Tag,props,/*#__PURE__*/react_default.a.createElement("a",{"aria-hidden":"true",tabIndex:-1,className:Object(clsx_m["a" /* default */])('anchor',(_clsx={},_clsx[Heading_styles_module_default.a.enhancedAnchor]=!hideOnScroll,_clsx)),id:id}),props.children,/*#__PURE__*/react_default.a.createElement("a",{className:"hash-link",href:"#"+id,title:Object(Translate["b" /* translate */])({id:'theme.common.headingLinkTitle',message:'Direct link to heading',description:'Title for link to heading'})},"#"));};};/* harmony default export */ var theme_Heading = (Heading_Heading);
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var MDXComponents={code:function code(props){var children=props.children;if(typeof children==='string'){if(!children.includes('\n')){return/*#__PURE__*/react_default.a.createElement("code",props);}return/*#__PURE__*/react_default.a.createElement(CodeBlock,props);}return children;},a:function a(props){return/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],props);},pre:function pre(props){var children=props.children;return/*#__PURE__*/react_default.a.createElement(CodeBlock,/*#__PURE__*/Object(react["isValidElement"])(children)?children===null||children===void 0?void 0:children.props:{children:children});},h1:theme_Heading('h1'),h2:theme_Heading('h2'),h3:theme_Heading('h3'),h4:theme_Heading('h4'),h5:theme_Heading('h5'),h6:theme_Heading('h6')};/* harmony default export */ var theme_MDXComponents = __webpack_exports__["a"] = (MDXComponents);
+
+/***/ }),
+
 /***/ 58:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8250,7 +9386,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(312);
 /* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(166);
 /* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_6__);
-var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_6__["useMediaQuery"])({query:'(max-width: 769px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),open=_useState[0],setOpen=_useState[1];var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),errorMessage=_useState2[0],setErrorMessage=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(),email=_useState3[0],setEmail=_useState3[1];var handleClose=function handleClose(event,reason){if(reason==='clickaway'){return;}setOpen(false);setErrorMessage(false);};var handleSetEmail=function handleSetEmail(e){setEmail(e.target.value);};var validateEmail=function validateEmail(mail){var regex=/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;return regex.test(mail);};var onSubmitEmailResults=/*#__PURE__*/function(){var _ref=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(/*#__PURE__*/_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(e){var jsonData,requestOptions,response;return _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:e.preventDefault();if(!validateEmail(email)){_context.next=11;break;}jsonData={"fields":[{"name":"email","value":email}],"context":{"pageUri":"https://eoscostarica.io/","pageName":"EOS Costa Rica"},"legalConsentOptions":{"consent":{"consentToProcess":true,"text":"I agree to allow Example Company to store and process my personal data.","communications":[{"value":true,"subscriptionTypeId":999,"text":"I agree to receive marketing communications from Example Company."}]}}};requestOptions={method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(jsonData)};_context.next=6;return fetch("https://api.hsforms.com/submissions/v3/integration/submit/"+""+"/"+"",requestOptions);case 6:response=_context.sent;setOpen(true);setEmail("");_context.next=12;break;case 11:setErrorMessage(true);case 12:case"end":return _context.stop();}}},_callee);}));return function onSubmitEmailResults(_x){return _ref.apply(this,arguments);};}();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"specialH3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3",{className:"h3Footer"},"Suscr\xEDbete para comunicarnos ")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{paddingLeft:isMobile?'25px':0,paddingRight:isMobile?'25px':0}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form",{onSubmit:onSubmitEmailResults},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input",{className:"inputFooter",type:"text",id:"email",name:"email",placeholder:"Correo electr\xF3nico",value:email,onChange:handleSetEmail}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button",{className:"buttonPrimary",style:{padding:'11px',fontSize:'16px',float:'right'}},"Enviar"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"litleMarginTop"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",{style:{color:'white',fontSize:'14px'}},"EOS Costa Rica respeta su privacidad. Necesitamos la informaci\xF3n de contacto que nos proporciona para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:open,autoHideDuration:3000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],null,"Gracias por suscribirse")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:errorMessage,autoHideDuration:4000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{severity:"error"},"Complete el campo y verifique que sea un correo electr\xF3nico correcto")));};/* harmony default export */ __webpack_exports__["default"] = (SuscribeForm);
+var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_6__["useMediaQuery"])({query:'(max-width: 769px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),open=_useState[0],setOpen=_useState[1];var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),errorMessage=_useState2[0],setErrorMessage=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(),email=_useState3[0],setEmail=_useState3[1];var handleClose=function handleClose(event,reason){if(reason==='clickaway'){return;}setOpen(false);setErrorMessage(false);};var handleSetEmail=function handleSetEmail(e){setEmail(e.target.value);};var validateEmail=function validateEmail(mail){var regex=/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;return regex.test(mail);};var onSubmitEmailResults=/*#__PURE__*/function(){var _ref=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(/*#__PURE__*/_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(e){var jsonData,requestOptions,response;return _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:e.preventDefault();if(!validateEmail(email)){_context.next=11;break;}jsonData={"fields":[{"name":"email","value":email}],"context":{"pageUri":"https://eoscostarica.io/","pageName":"EOS Costa Rica"},"legalConsentOptions":{"consent":{"consentToProcess":true,"text":"I agree to allow Example Company to store and process my personal data.","communications":[{"value":true,"subscriptionTypeId":999,"text":"I agree to receive marketing communications from Example Company."}]}}};requestOptions={method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(jsonData)};_context.next=6;return fetch("https://api.hsforms.com/submissions/v3/integration/submit/"+"9018734"+"/"+"df605eac-d7d1-44b5-af45-dd93d65d84ee",requestOptions);case 6:response=_context.sent;setOpen(true);setEmail("");_context.next=12;break;case 11:setErrorMessage(true);case 12:case"end":return _context.stop();}}},_callee);}));return function onSubmitEmailResults(_x){return _ref.apply(this,arguments);};}();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"specialH3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3",{className:"h3Footer"},"Suscr\xEDbete para comunicarnos ")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{paddingLeft:isMobile?'25px':0,paddingRight:isMobile?'25px':0}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form",{onSubmit:onSubmitEmailResults},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input",{className:"inputFooter",type:"text",id:"email",name:"email",placeholder:"Correo electr\xF3nico",value:email,onChange:handleSetEmail}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button",{className:"buttonPrimary",style:{padding:'11px',fontSize:'16px',float:'right'}},"Enviar"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"litleMarginTop"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",{style:{color:'white',fontSize:'14px'}},"EOS Costa Rica respeta su privacidad. Necesitamos la informaci\xF3n de contacto que nos proporciona para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:open,autoHideDuration:3000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],null,"Gracias por suscribirse")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:errorMessage,autoHideDuration:4000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{severity:"error"},"Complete el campo y verifique que sea un correo electr\xF3nico correcto")));};/* harmony default export */ __webpack_exports__["default"] = (SuscribeForm);
 
 /***/ }),
 

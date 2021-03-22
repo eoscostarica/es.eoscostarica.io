@@ -2478,7 +2478,8 @@ hr:after {
 
 .navbar__toggle {
     background: none;
-    border: 0;
+    border: none;
+    color: inherit;
     cursor: pointer;
     display: none;
     margin-right: 0.5rem;
@@ -2601,16 +2602,18 @@ hr:after {
     top: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
             transform: translate3d(-100%, 0, 0);
+    visibility: hidden;
     width: var(--ifm-navbar-sidebar-width);
-    transition-property: opacity, -webkit-transform;
-    transition-property: opacity, transform;
-    transition-property: opacity, transform, -webkit-transform;
+    transition-property: opacity, visibility, -webkit-transform;
+    transition-property: opacity, visibility, transform;
+    transition-property: opacity, visibility, transform, -webkit-transform;
     transition-duration: 250ms;
     transition-timing-function: ease-in-out;
   }
 
 .navbar-sidebar--show .navbar-sidebar, .navbar-sidebar--show .navbar-sidebar__backdrop  {
         opacity: 1;
+        visibility: visible;
       }
 
 .navbar-sidebar--show .navbar-sidebar {
@@ -2618,20 +2621,18 @@ hr:after {
                 transform: translate3d(0, 0, 0);
       }
 
-.navbar-sidebar--show .navbar-sidebar__backdrop {
-        pointer-events: all;
-      }
-
 .navbar-sidebar__backdrop {
       background-color: rgba(0, 0, 0, 0.6);
       bottom: 0;
       left: 0;
       opacity: 0;
-      pointer-events: none;
       position: fixed;
       right: 0;
       top: 0;
-      transition: opacity 100ms ease-in-out;
+      visibility: hidden;
+      transition-property: opacity, visibility;
+      transition-duration: 100ms;
+      transition-timing-function: ease-in-out;
     }
 
 .navbar-sidebar__brand {
@@ -3368,7 +3369,7 @@ a{
 
 /*blog*/
 .blog-wrapper{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .blog-wrapper a {
@@ -4836,7 +4837,7 @@ input:checked + .slider:before {
 
   /*blog*/
   .blog-wrapper{
-    margin-top: 50px;
+    margin-top: 100px;
     padding-left: 10px;
     padding-right: 10px;
   }

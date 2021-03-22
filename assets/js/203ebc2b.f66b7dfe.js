@@ -1,161 +1,6 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[65,5,13,37,69,82],Array(58).concat([
-/* 58 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[14,5,13,37,69,82],{
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var IconMedium=function IconMedium(_ref){var width=_ref.width,height=_ref.height,className=_ref.className;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg",{width:width,height:height,className:className,viewBox:"0 0 212.41 212.41"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{stroke:"none"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{d:"M209.74,105.41c0.01,4.34-0.1,8.67-0.32,13.01c-0.19,3.64-0.49,7.27-0.9,10.89c-0.53,4.73-1.25,9.43-2.35,14.06 c-0.65,2.73-1.43,5.41-2.57,7.97c-0.45,1-0.94,1.99-1.61,2.86c-0.39,0.5-0.82,0.99-1.3,1.39c-1.22,1.02-2.42,1.02-3.65,0 c-0.5-0.42-0.94-0.92-1.33-1.44c-0.91-1.21-1.52-2.59-2.07-3.99c-1.03-2.59-1.74-5.27-2.35-7.98c-0.74-3.28-1.28-6.6-1.72-9.93 c-0.47-3.58-0.82-7.17-1.07-10.77c-0.46-6.58-0.61-13.16-0.47-19.74c0.08-3.38,0.21-6.76,0.44-10.13 c0.23-3.33,0.55-6.66,0.93-9.98c0.58-5,1.42-9.94,2.75-14.8c0.59-2.15,1.29-4.26,2.25-6.28c0.48-1.01,1.03-1.98,1.76-2.83 c0.26-0.31,0.55-0.6,0.86-0.86c1.16-0.96,2.51-0.96,3.68,0c0.71,0.58,1.25,1.3,1.73,2.07c0.75,1.2,1.31,2.47,1.81,3.78 c1.07,2.8,1.8,5.7,2.42,8.62c0.73,3.46,1.28,6.96,1.69,10.47c0.27,2.28,0.48,4.57,0.68,6.86 C209.52,94.23,209.69,99.82,209.74,105.41z"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{d:"M183.85,94.03c0.61,4.99,0.83,10.01,0.7,15.04c-0.08,3.13-0.31,6.25-0.69,9.36c-0.73,6.02-1.99,11.92-3.94,17.67 c-1.45,4.26-3.27,8.36-5.65,12.2c-1.87,3.02-4.04,5.81-6.7,8.19c-2.35,2.09-4.95,3.77-7.98,4.71c-4.3,1.34-8.49,0.96-12.54-0.98 c-2.86-1.37-5.29-3.33-7.45-5.64c-3.07-3.29-5.42-7.06-7.38-11.09c-2.33-4.8-3.98-9.83-5.19-15.01 c-0.82-3.52-1.43-7.07-1.84-10.66c-0.44-3.86-0.65-7.72-0.65-11.6c0-2.94,0.11-5.87,0.36-8.77c0.7-7.97,2.25-15.75,5.08-23.25 c1.68-4.45,3.78-8.69,6.56-12.57c1.84-2.58,3.95-4.91,6.46-6.85c2.24-1.73,4.68-3.04,7.43-3.76c3.78-0.99,7.44-0.59,10.99,0.96 c3.39,1.48,6.17,3.78,8.62,6.51c2.51,2.8,4.52,5.94,6.23,9.27c2.68,5.21,4.53,10.71,5.85,16.4 C182.88,87.42,183.44,90.71,183.85,94.03z"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{d:"M61.47,47.66c32.62,0.03,58.59,26.4,58.55,58.65c-0.04,32.21-26.03,58.44-58.59,58.52 c-32.52-0.08-58.54-26.29-58.57-58.54C2.83,73.94,28.93,47.63,61.47,47.66z"})));};/* harmony default export */ __webpack_exports__["default"] = (IconMedium);
-
-/***/ }),
-/* 59 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(148);
-/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(309);
-/* harmony import */ var _material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(306);
-/* harmony import */ var _material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(307);
-/* harmony import */ var _material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(308);
-var GenericListItem=Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])({root:{paddingLeft:'20px',paddingRight:0,borderLeft:'solid 5px white'},selected:{backgroundColor:'#F8F8F8',borderLeft:'solid 5px #5484b3'}})(function(props){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],props);});var GenericListItemIcon=Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])({root:{color:'black',minWidth:'20px',opacity:.5,width:'20px',marginRight:'15px'}})(function(props){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],props);});var GenericListItemText=Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])({primary:{fontFamily:'Lato',fontSize:15,fontWeight:'bold',color:'black'}})(function(props){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],props);});var CustomListItem=function CustomListItem(_ref){var label=_ref.label,href=_ref.href,target=_ref.target,icon=_ref.icon,isSelected=_ref.isSelected;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{href:href,target:target,style:{textDecoration:'none'}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GenericListItem,{button:true,selected:isSelected},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GenericListItemIcon,null,icon),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GenericListItemText,{primary:label})));};/* harmony default export */ __webpack_exports__["default"] = (CustomListItem);
-
-/***/ }),
-/* 60 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(277);
-/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(272);
-/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(530);
-/* harmony import */ var _material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(313);
-/* harmony import */ var _material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(312);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(166);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_6__);
-var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_6__["useMediaQuery"])({query:'(max-width: 769px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),open=_useState[0],setOpen=_useState[1];var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),errorMessage=_useState2[0],setErrorMessage=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(),email=_useState3[0],setEmail=_useState3[1];var handleClose=function handleClose(event,reason){if(reason==='clickaway'){return;}setOpen(false);setErrorMessage(false);};var handleSetEmail=function handleSetEmail(e){setEmail(e.target.value);};var validateEmail=function validateEmail(mail){var regex=/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;return regex.test(mail);};var onSubmitEmailResults=/*#__PURE__*/function(){var _ref=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(/*#__PURE__*/_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(e){var jsonData,requestOptions,response;return _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:e.preventDefault();if(!validateEmail(email)){_context.next=11;break;}jsonData={"fields":[{"name":"email","value":email}],"context":{"pageUri":"https://eoscostarica.io/","pageName":"EOS Costa Rica"},"legalConsentOptions":{"consent":{"consentToProcess":true,"text":"I agree to allow Example Company to store and process my personal data.","communications":[{"value":true,"subscriptionTypeId":999,"text":"I agree to receive marketing communications from Example Company."}]}}};requestOptions={method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(jsonData)};_context.next=6;return fetch("https://api.hsforms.com/submissions/v3/integration/submit/"+""+"/"+"",requestOptions);case 6:response=_context.sent;setOpen(true);setEmail("");_context.next=12;break;case 11:setErrorMessage(true);case 12:case"end":return _context.stop();}}},_callee);}));return function onSubmitEmailResults(_x){return _ref.apply(this,arguments);};}();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"specialH3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3",{className:"h3Footer"},"Suscr\xEDbete para comunicarnos ")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{paddingLeft:isMobile?'25px':0,paddingRight:isMobile?'25px':0}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form",{onSubmit:onSubmitEmailResults},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input",{className:"inputFooter",type:"text",id:"email",name:"email",placeholder:"Correo electr\xF3nico",value:email,onChange:handleSetEmail}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button",{className:"buttonPrimary",style:{padding:'11px',fontSize:'16px',float:'right'}},"Enviar"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"litleMarginTop"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",{style:{color:'white',fontSize:'14px'}},"EOS Costa Rica respeta su privacidad. Necesitamos la informaci\xF3n de contacto que nos proporciona para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:open,autoHideDuration:3000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],null,"Gracias por suscribirse")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:errorMessage,autoHideDuration:4000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{severity:"error"},"Complete el campo y verifique que sea un correo electr\xF3nico correcto")));};/* harmony default export */ __webpack_exports__["default"] = (SuscribeForm);
-
-/***/ }),
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(530);
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(287);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
-var ContactUsBanner=function ContactUsBanner(){var history=Object(react_router_dom__WEBPACK_IMPORTED_MODULE_3__[/* useHistory */ "k"])();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"containerGray"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"sectionPadding"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{item:true,xs:12,md:8},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",{className:"centerTextOnMobile"},"Comience a trabajar con nosotros ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," implementando ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," tecnolog\xEDa blockchain "))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"buttonBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/contactenos/");}},"Cont\xE1ctenos"))))));};/* harmony default export */ __webpack_exports__["default"] = (ContactUsBanner);
-
-/***/ }),
-/* 65 */,
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */,
-/* 72 */,
-/* 73 */,
-/* 74 */,
-/* 75 */,
-/* 76 */,
-/* 77 */,
-/* 78 */,
-/* 79 */,
-/* 80 */,
-/* 81 */,
-/* 82 */,
-/* 83 */,
-/* 84 */,
-/* 85 */,
-/* 86 */,
-/* 87 */,
-/* 88 */,
-/* 89 */,
-/* 90 */,
-/* 91 */,
-/* 92 */,
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
-/* 111 */,
-/* 112 */,
-/* 113 */,
-/* 114 */,
-/* 115 */,
-/* 116 */,
-/* 117 */,
-/* 118 */,
-/* 119 */,
-/* 120 */,
-/* 121 */,
-/* 122 */,
-/* 123 */,
-/* 124 */,
-/* 125 */,
-/* 126 */,
-/* 127 */,
-/* 128 */,
-/* 129 */,
-/* 130 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(271);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(145);
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(287);
-/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(226);
-/* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(160);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(530);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(166);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(64);
-var MetaData={title:"EOS Costa Rica: Our Projects",description:"EOS Costa Rica has developed solutions for many industries and open-source projects for the blockchain community.",img:"img/metaImgBlack.png"};var ProjectsList=[{img:"img/logos/smartgate.svg",name:"SMARTGATE",details:"Una plataforma basada en blockchain que brinda soluciones para entradas y salidas de puertos para la industria de logística de contenedores y transmisión en tiempo real de datos requeridos para el intercambio de carga. ",link:"https://smartgate.tech/",color:"#ffffff",linkText:"Aprenda más sobre SMARTGATE."},{img:"img/logos/eosio.svg",name:"EOSIO Dashboard",details:"EOSIO Dashboard es un proyecto de código abierto que permite a usuarios visualizar la distribución de recompensas en la red EOS en la búsqueda de rendición de cuentas y transparencia. ",link:"https://mainnet.eosio.cr/",color:"#f8f8f8",linkText:"Lea más sobre EOSIO Dashboard."},{img:"img/logos/eosrate.svg",name:"EOS Rate",details:"EOS Rate es una app de código abierto que permite a titulares de tokens EOS acceder a un sistema de calificaciones y portal de votación para productores de bloques y proxies en la blockchain EOS. ",link:"https://eosrate.io/",color:"#ffffff",linkText:"Explore EOS Rate."},{img:"img/logos/eosioforum.svg",name:"Enterprise EOSIO Forum",details:"Somos parte del Enterprise EOSIO Forum, una iniciativa de la comunidad para discutir sobre soluciones empresariales en blockchain implementando la tecnología EOSIO.",link:"https://www.linkedin.com/company/enterprise-eosio-forum/",color:"#f8f8f8",linkText:"Más sobre Enterprise EOSIO Forum."},{img:"img/logos/evodex.svg",name:"Evodex",details:"Evodex es la interfaz frontend para un protocolo de pool de liquidez en el que los usuarios votan por las tarifas de liquidez y no pagan por gas. Nuestro equipo estuvo a cargo del UX y el diseño front-end. ",link:"https://evodex.io/",color:"#ffffff",linkText:"Pruebe Evodex."},{img:"img/imagenotavailable.png",name:"EOS Foundation",details:"Somos parte de la prueba de concepto de EOS Foundation, una organización sin fines de lucro, autónoma y descentralizada, que permitiría la autorepresentación y promoción de la comunidad de EOS. ",link:"http://eos-foundation.eosio.cr/",color:"#f8f8f8",linkText:"Visite EOS Foundation."},{img:"img/imagenotavailable.png",name:"Proyecto empresarial privado",details:"Desarrollamos una app para un cliente estadounidense en la industria de contabilidad y finanzas para mejorar la trazabilidad de transacciones intercompañía. ",link:"https://eoscostarica.medium.com/why-integrating-erp-systems-into-blockchain-is-a-great-idea-e384b298a4a8",color:"#ffffff",linkText:"Lea más aquí."},{img:"img/imagenotavailable.png",name:"Notario Digital",details:"Notario Digital es un proyecto de código abierto que genera un hash de cualquier documento para registrarlo de forma inmutable en una red EOSIO. ",link:"https://notarize.eosio.cr/dashboard/notary",color:"#f8f8f8",linkText:"Dele un vistazo."}];var OurProjects=function OurProjects(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_7__["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_7__["useMediaQuery"])({query:'(min-width: 960px)'});var HeroSection=function HeroSection(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"containerSec"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"sectionHero"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Casos de uso de  ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"blockchain empresarial")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"En los \xFAltimos a\xF1os, hemos ayudado a organizaciones del sector p\xFAblico y privado a aprender y explorar los beneficios de la tecnolog\xEDa blockchain de EOSIO. Desde mejorar la forma en que una empresa registra las transacciones transfronterizas hasta garantizar la trazabilidad inmutable de las operaciones log\xEDsticas, nuestro equipo ha desarrollado soluciones de primer nivel para problemas del mundo real. Conozca nuestros \xFAltimos proyectos.")),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"sectionHeroMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Casos de uso de  ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"blockchain empresarial")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"En los \xFAltimos a\xF1os, hemos ayudado a organizaciones del sector p\xFAblico y privado a aprender y explorar los beneficios de la tecnolog\xEDa blockchain de EOSIO.",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"Desde mejorar la forma en que una empresa registra las transacciones transfronterizas hasta garantizar la trazabilidad inmutable de las operaciones log\xEDsticas, nuestro equipo ha desarrollado soluciones de primer nivel para problemas del mundo real. Conozca nuestros \xFAltimos proyectos.")));};var Projects=function Projects(_ref){var img=_ref.img,name=_ref.name,details=_ref.details,link=_ref.link,color=_ref.color,linkText=_ref.linkText;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{container:true},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{backgroundColor:color},item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"projectsGridLeft"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"imgBoxProjects"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{alt:name,src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(img)})))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{backgroundColor:color},item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"projectsGridRight"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,name)),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,details,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:link,target:"_blank"},linkText)))));};var Body=function Body(){var _clsx;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:Object(clsx__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])("containerSec","reduceMarginTop")},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:Object(clsx__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])("section",(_clsx={},_clsx["sectionPadding"]=isMobile,_clsx))},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{container:true},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"projectsGridLeft"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"imgBoxProjects"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{alt:"LatamLink",className:"sizeImageTheCompany",src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])("img/logos/Group47.svg")})))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"projectsGridRight"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"LatamLink")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Somos parte de una alianza regional, liderada por compa\xF1\xEDas tecnol\xF3gicas de Latinoam\xE9rica para ofrecer un testnet basado en EOSIO a la iniciativa ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://www.lacchain.net/",target:"_blank"},"LACChain"),", ","un programa para acelerar el desarrollo del ecosistema blockchain de la regi\xF3n."," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"http://latamlink.io/",target:"_blank"},"Descubra m\xE1s sobre LatamLink")))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{backgroundColor:'#f8f8f8'},item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"projectsGridLeft"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"imgBoxProjects"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{alt:"Lifebank",src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])("img/logos/lifebank.svg")})))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{backgroundColor:'#f8f8f8'},item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"projectsGridRight"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Lifebank")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Una app de c\xF3digo abierto basada en blockchain para incentivar las donaciones de sangre al crear un c\xEDrculo virtuoso de valor entre donantes, bancos de sangre y negocios locales, e impulsada por una econom\xEDa interna de tokens. Proyecto ganador de la competencia \u201C",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://eos.io/news/winner-of-coding-for-change-virtual-hackathon-lifebank/",target:"_blank"},"Coding for Change"),"” "," de "," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://block.one/",target:"_blank"},"block.one.")," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"http://lifebank.io/",target:"_blank"},"Lea m\xE1s sobre Lifebank."))))),ProjectsList.map(function(project){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Projects,{key:project.name,img:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(project.img),name:project.name,details:project.details,link:project.link,color:project.color,linkText:project.linkText});})));};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{title:MetaData.title,description:MetaData.description,image:MetaData.img},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Body,null)),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_8__["default"],null)),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Body,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_8__["default"],null)));};/* harmony default export */ __webpack_exports__["default"] = (OurProjects);
-
-/***/ }),
-/* 131 */,
-/* 132 */,
-/* 133 */,
-/* 134 */,
-/* 135 */,
-/* 136 */,
-/* 137 */,
-/* 138 */,
-/* 139 */,
-/* 140 */,
-/* 141 */,
-/* 142 */,
-/* 143 */
+/***/ 143:
 /***/ (function(module, exports, __webpack_require__) {
 
 var _typeof = __webpack_require__(204)["default"];
@@ -216,9 +61,8 @@ module.exports = _interopRequireWildcard;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
-/* 144 */,
-/* 145 */,
-/* 146 */
+
+/***/ 146:
 /***/ (function(module, exports) {
 
 function _interopRequireDefault(obj) {
@@ -231,7 +75,8 @@ module.exports = _interopRequireDefault;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
-/* 147 */
+
+/***/ 147:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -250,9 +95,8 @@ Object.defineProperty(exports, "default", {
 var _utils = __webpack_require__(155);
 
 /***/ }),
-/* 148 */,
-/* 149 */,
-/* 150 */
+
+/***/ 150:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -354,11 +198,8 @@ JSONLDAbstractNode.propTypes = {
 exports.default = JSONLDAbstractNode;
 
 /***/ }),
-/* 151 */,
-/* 152 */,
-/* 153 */,
-/* 154 */,
-/* 155 */
+
+/***/ 155:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -478,7 +319,8 @@ var useIsFocusVisible = __webpack_require__(182);
 
 
 /***/ }),
-/* 156 */
+
+/***/ 156:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -488,8 +330,8 @@ function ownerDocument(node) {
 }
 
 /***/ }),
-/* 157 */,
-/* 158 */
+
+/***/ 158:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -501,8 +343,8 @@ function ownerDocument(node) {
  */Object.defineProperty(exports,"__esModule",{value:true});var useThemeConfig_1=__webpack_require__(183);Object.defineProperty(exports,"useThemeConfig",{enumerable:true,get:function get(){return useThemeConfig_1.useThemeConfig;}});var useAlternatePageUtils_1=__webpack_require__(208);Object.defineProperty(exports,"useAlternatePageUtils",{enumerable:true,get:function get(){return useAlternatePageUtils_1.useAlternatePageUtils;}});var searchUtils_1=__webpack_require__(209);Object.defineProperty(exports,"docVersionSearchTag",{enumerable:true,get:function get(){return searchUtils_1.docVersionSearchTag;}});Object.defineProperty(exports,"DEFAULT_SEARCH_TAG",{enumerable:true,get:function get(){return searchUtils_1.DEFAULT_SEARCH_TAG;}});var docsUtils_1=__webpack_require__(184);Object.defineProperty(exports,"isDocsPluginEnabled",{enumerable:true,get:function get(){return docsUtils_1.isDocsPluginEnabled;}});var pathUtils_1=__webpack_require__(213);Object.defineProperty(exports,"isSamePath",{enumerable:true,get:function get(){return pathUtils_1.isSamePath;}});var generalUtils_1=__webpack_require__(214);Object.defineProperty(exports,"useTitleFormatter",{enumerable:true,get:function get(){return generalUtils_1.useTitleFormatter;}});var usePluralForm_1=__webpack_require__(215);Object.defineProperty(exports,"usePluralForm",{enumerable:true,get:function get(){return usePluralForm_1.usePluralForm;}});var useDocsPreferredVersion_1=__webpack_require__(216);Object.defineProperty(exports,"useDocsPreferredVersion",{enumerable:true,get:function get(){return useDocsPreferredVersion_1.useDocsPreferredVersion;}});Object.defineProperty(exports,"useDocsPreferredVersionByPluginId",{enumerable:true,get:function get(){return useDocsPreferredVersion_1.useDocsPreferredVersionByPluginId;}});var DocsPreferredVersionProvider_1=__webpack_require__(185);Object.defineProperty(exports,"DocsPreferredVersionContextProvider",{enumerable:true,get:function get(){return DocsPreferredVersionProvider_1.DocsPreferredVersionContextProvider;}});
 
 /***/ }),
-/* 159 */,
-/* 160 */
+
+/***/ 160:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -521,7 +363,8 @@ if(Object(_isInternalUrl__WEBPACK_IMPORTED_MODULE_1__[/* hasProtocol */ "b"])(ur
 var shouldAddBaseUrl=!url.startsWith(baseUrl);var basePath=shouldAddBaseUrl?baseUrl+url.replace(/^\//,''):url;return absolute?siteUrl+basePath:basePath;}function useBaseUrlUtils(){var _useDocusaurusContext=Object(_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__["default"])(),_useDocusaurusContext2=_useDocusaurusContext.siteConfig;_useDocusaurusContext2=_useDocusaurusContext2===void 0?{}:_useDocusaurusContext2;var _useDocusaurusContext3=_useDocusaurusContext2.baseUrl,baseUrl=_useDocusaurusContext3===void 0?'/':_useDocusaurusContext3,siteUrl=_useDocusaurusContext2.url;return{withBaseUrl:function withBaseUrl(url,options){return addBaseUrl(siteUrl,baseUrl,url,options);}};}function useBaseUrl(url,options){if(options===void 0){options={};}var _useBaseUrlUtils=useBaseUrlUtils(),withBaseUrl=_useBaseUrlUtils.withBaseUrl;return withBaseUrl(url,options);}
 
 /***/ }),
-/* 161 */
+
+/***/ 161:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -542,7 +385,8 @@ function useTheme() {
 }
 
 /***/ }),
-/* 162 */
+
+/***/ 162:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -580,8 +424,8 @@ function createChainedFunction() {
 }
 
 /***/ }),
-/* 163 */,
-/* 164 */
+
+/***/ 164:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -599,8 +443,8 @@ if (false) {}
 /* harmony default export */ __webpack_exports__["a"] = (ListContext);
 
 /***/ }),
-/* 165 */,
-/* 166 */
+
+/***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
 !function(root, factory) {
@@ -1480,8 +1324,8 @@ object-assign
 //# sourceMappingURL=react-responsive.js.map
 
 /***/ }),
-/* 167 */,
-/* 168 */
+
+/***/ 168:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1494,7 +1338,8 @@ function isMuiElement(element, muiNames) {
 }
 
 /***/ }),
-/* 169 */
+
+/***/ 169:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1514,7 +1359,8 @@ function getTransitionProps(props, options) {
 }
 
 /***/ }),
-/* 170 */
+
+/***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -1536,7 +1382,8 @@ throw new Error(
  */
 
 /***/ }),
-/* 171 */
+
+/***/ 171:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1571,7 +1418,8 @@ function debounce(func) {
 }
 
 /***/ }),
-/* 172 */
+
+/***/ 172:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1599,7 +1447,8 @@ function requirePropFactory(componentNameInError) {
 }
 
 /***/ }),
-/* 173 */
+
+/***/ 173:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1612,7 +1461,8 @@ function ownerWindow(node) {
 }
 
 /***/ }),
-/* 174 */
+
+/***/ 174:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1648,7 +1498,8 @@ function useControlled(_ref) {
 }
 
 /***/ }),
-/* 175 */
+
+/***/ 175:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1796,10 +1647,8 @@ function createSvgIcon(path, displayName) {
 }
 
 /***/ }),
-/* 176 */,
-/* 177 */,
-/* 178 */,
-/* 179 */
+
+/***/ 179:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1848,7 +1697,8 @@ function translate(_ref2,values){var message=_ref2.message,id=_ref2.id;var _a;va
 function Translate(_ref3){var children=_ref3.children,id=_ref3.id,values=_ref3.values;var _a;var localizedMessage=(_a=getLocalizedMessage({message:children,id:id}))!==null&&_a!==void 0?_a:children;return/*#__PURE__*/react_default.a.createElement(Interpolate,{values:values},localizedMessage);}
 
 /***/ }),
-/* 180 */
+
+/***/ 180:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1878,9 +1728,8 @@ function useId(idOverride) {
 }
 
 /***/ }),
-/* 181 */,
-/* 182 */,
-/* 183 */
+
+/***/ 183:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1892,7 +1741,8 @@ var __importDefault=this&&this.__importDefault||function(mod){return mod&&mod.__
  */var useDocusaurusContext_1=__importDefault(__webpack_require__(16));function useThemeConfig(){return useDocusaurusContext_1.default().siteConfig.themeConfig;}exports.useThemeConfig=useThemeConfig;
 
 /***/ }),
-/* 184 */
+
+/***/ 184:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1905,7 +1755,8 @@ var __importDefault=this&&this.__importDefault||function(mod){return mod&&mod.__
 exports.isDocsPluginEnabled=!!useDocs_1.useAllDocsData;
 
 /***/ }),
-/* 185 */
+
+/***/ 185:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1927,9 +1778,8 @@ react_1.useEffect(function(){setState(readStorageState({allDocsData:allDocsData,
 var api=react_1.useMemo(function(){function savePreferredVersion(pluginId,versionName){DocsPreferredVersionStorage_1.default.save(pluginId,versionPersistence,versionName);setState(function(s){var _Object$assign;return Object.assign(Object.assign({},s),(_Object$assign={},_Object$assign[pluginId]={preferredVersionName:versionName},_Object$assign));});}return{savePreferredVersion:savePreferredVersion};},[setState]);return[state,api];}var Context=react_1.createContext(null);function DocsPreferredVersionContextProvider(_ref2){var children=_ref2.children;if(docsUtils_1.isDocsPluginEnabled){return react_1.default.createElement(DocsPreferredVersionContextProviderUnsafe,null,children);}else{return react_1.default.createElement(react_1.default.Fragment,null,children);}}exports.DocsPreferredVersionContextProvider=DocsPreferredVersionContextProvider;function DocsPreferredVersionContextProviderUnsafe(_ref3){var children=_ref3.children;var contextValue=useContextValue();return react_1.default.createElement(Context.Provider,{value:contextValue},children);}function useDocsPreferredVersionContext(){var value=react_1.useContext(Context);if(!value){throw new Error("Can't find docs preferred context, maybe you forgot to use the DocsPreferredVersionContextProvider ?");}return value;}exports.useDocsPreferredVersionContext=useDocsPreferredVersionContext;
 
 /***/ }),
-/* 186 */,
-/* 187 */,
-/* 188 */
+
+/***/ 188:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1943,8 +1793,8 @@ var api=react_1.useMemo(function(){function savePreferredVersion(pluginId,versio
  */var UserPreferencesContext=/*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])(undefined);/* harmony default export */ __webpack_exports__["a"] = (UserPreferencesContext);
 
 /***/ }),
-/* 189 */,
-/* 190 */
+
+/***/ 190:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1958,20 +1808,8 @@ var api=react_1.useMemo(function(){function savePreferredVersion(pluginId,versio
  */function hasProtocol(url){return /^(\w*:|\/\/)/.test(url)===true;}function isInternalUrl(url){return typeof url!=='undefined'&&!hasProtocol(url);}
 
 /***/ }),
-/* 191 */,
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */,
-/* 199 */,
-/* 200 */,
-/* 201 */,
-/* 202 */,
-/* 203 */,
-/* 204 */
+
+/***/ 204:
 /***/ (function(module, exports) {
 
 function _typeof(obj) {
@@ -1998,7 +1836,8 @@ module.exports = _typeof;
 module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
-/* 205 */
+
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2012,7 +1851,8 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
  */var ThemeContext=/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext(undefined);/* harmony default export */ __webpack_exports__["a"] = (ThemeContext);
 
 /***/ }),
-/* 206 */
+
+/***/ 206:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2038,7 +1878,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 207 */
+
+/***/ 207:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2064,7 +1905,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 208 */
+
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2080,7 +1922,8 @@ function useAlternatePageUtils(){var _useDocusaurusContext=useDocusaurusContext_
 function createUrl(_ref){var locale=_ref.locale,fullyQualified=_ref.fullyQualified;return""+(fullyQualified?url:'')+getLocalizedBaseUrl(locale)+pathnameSuffix;}return{createUrl:createUrl};}exports.useAlternatePageUtils=useAlternatePageUtils;
 
 /***/ }),
-/* 209 */
+
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2092,7 +1935,8 @@ function createUrl(_ref){var locale=_ref.locale,fullyQualified=_ref.fullyQualifi
  */Object.defineProperty(exports,"__esModule",{value:true});exports.docVersionSearchTag=exports.DEFAULT_SEARCH_TAG=void 0;exports.DEFAULT_SEARCH_TAG='default';function docVersionSearchTag(pluginId,versionName){return"docs-"+pluginId+"-"+versionName;}exports.docVersionSearchTag=docVersionSearchTag;
 
 /***/ }),
-/* 210 */
+
+/***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2108,7 +1952,8 @@ exports.useActiveVersion=function(pluginId){var data=exports.useDocsData(pluginI
 exports.useDocVersionSuggestions=function(pluginId){var data=exports.useDocsData(pluginId);var _router_1$useLocation5=router_1.useLocation(),pathname=_router_1$useLocation5.pathname;return docsClientUtils_1.getDocVersionSuggestions(data,pathname);};
 
 /***/ }),
-/* 211 */
+
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2129,7 +1974,8 @@ __webpack_require__.r(__webpack_exports__);
 var DEFAULT_PLUGIN_ID='default';function useGlobalData(){var _useDocusaurusContext=Object(_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__["default"])(),globalData=_useDocusaurusContext.globalData;if(!globalData){throw new Error('Docusaurus global data not found');}return globalData;}function useAllPluginInstancesData(pluginName){var globalData=useGlobalData();var pluginGlobalData=globalData[pluginName];if(!pluginGlobalData){throw new Error("Docusaurus plugin global data not found for pluginName="+pluginName);}return pluginGlobalData;}function usePluginData(pluginName,pluginId){if(pluginId===void 0){pluginId=DEFAULT_PLUGIN_ID;}var pluginGlobalData=useAllPluginInstancesData(pluginName);var pluginInstanceGlobalData=pluginGlobalData[pluginId];if(!pluginInstanceGlobalData){throw new Error("Docusaurus plugin global data not found for pluginName="+pluginName+" and pluginId="+pluginId);}return pluginInstanceGlobalData;}
 
 /***/ }),
-/* 212 */
+
+/***/ 212:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2146,7 +1992,8 @@ var orderedVersionsMetadata=[].concat(data.versions.filter(function(version){ret
 var isNotOnLatestVersion=activeDocContext.activeVersion!==latestVersion;var latestDocSuggestion=isNotOnLatestVersion?activeDocContext===null||activeDocContext===void 0?void 0:activeDocContext.alternateDocVersions[latestVersion.name]:undefined;var latestVersionSuggestion=isNotOnLatestVersion?latestVersion:undefined;return{latestDocSuggestion:latestDocSuggestion,latestVersionSuggestion:latestVersionSuggestion};};
 
 /***/ }),
-/* 213 */
+
+/***/ 213:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2159,7 +2006,8 @@ var isNotOnLatestVersion=activeDocContext.activeVersion!==latestVersion;var late
 exports.isSamePath=function(path1,path2){var normalize=function normalize(pathname){return!pathname||(pathname===null||pathname===void 0?void 0:pathname.endsWith('/'))?pathname:pathname+"/";};return normalize(path1)===normalize(path2);};
 
 /***/ }),
-/* 214 */
+
+/***/ 214:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2171,7 +2019,8 @@ var __importDefault=this&&this.__importDefault||function(mod){return mod&&mod.__
  */var useDocusaurusContext_1=__importDefault(__webpack_require__(16));exports.useTitleFormatter=function(title){var _useDocusaurusContext=useDocusaurusContext_1.default(),_useDocusaurusContext2=_useDocusaurusContext.siteConfig,siteConfig=_useDocusaurusContext2===void 0?{}:_useDocusaurusContext2;var siteTitle=siteConfig.title,_siteConfig$titleDeli=siteConfig.titleDelimiter,titleDelimiter=_siteConfig$titleDeli===void 0?'|':_siteConfig$titleDeli;return title&&title.trim().length?title.trim()+" "+titleDelimiter+" "+siteTitle:siteTitle;};
 
 /***/ }),
-/* 215 */
+
+/***/ 215:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2195,11 +2044,13 @@ var EnglishPluralForms={locale:'en',pluralForms:sortPluralForms(['one','other'])
 // - 2021: 92+% Browsers support Intl.PluralRules, and support will increase in the future
 // - NodeJS >= 13 has full ICU support by default
 // - In case of "mismatch" between SSR and Browser ICU support, React keeps working!
-function useLocalePluralForms(){var _useDocusaurusContext=useDocusaurusContext_1.default(),currentLocale=_useDocusaurusContext.i18n.currentLocale;return react_1.useMemo(function(){if(Intl&&Intl.PluralRules){try{return createLocalePluralForms(currentLocale);}catch(e){console.error("Failed to use Intl.PluralRules for locale="+currentLocale+".\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n");return EnglishPluralForms;}}else{console.error("Intl.PluralRules not available!\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n        ");return EnglishPluralForms;}},[currentLocale]);}function selectPluralMessage(pluralMessages,count,localePluralForms){var separator='|';var parts=pluralMessages.split(separator);if(parts.length===1){return parts[0];}else{if(parts.length>localePluralForms.pluralForms.length){console.error("For locale="+localePluralForms.locale+", a maximum of "+localePluralForms.pluralForms.length+" plural forms are expected ("+localePluralForms.pluralForms+"), but the message contains "+parts.length+" plural forms: "+pluralMessages+" ");}var pluralForm=localePluralForms.select(count);var pluralFormIndex=localePluralForms.pluralForms.indexOf(pluralForm);// In case of not enough plural form messages, we take the last one (other) instead of returning undefined
+function useLocalePluralForms(){var _useDocusaurusContext=useDocusaurusContext_1.default(),currentLocale=_useDocusaurusContext.i18n.currentLocale;return react_1.useMemo(function(){// @ts-expect-error checking Intl.PluralRules in case browser doesn't have it (e.g Safari 12-)
+if(Intl.PluralRules){try{return createLocalePluralForms(currentLocale);}catch(e){console.error("Failed to use Intl.PluralRules for locale="+currentLocale+".\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n");return EnglishPluralForms;}}else{console.error("Intl.PluralRules not available!\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n        ");return EnglishPluralForms;}},[currentLocale]);}function selectPluralMessage(pluralMessages,count,localePluralForms){var separator='|';var parts=pluralMessages.split(separator);if(parts.length===1){return parts[0];}else{if(parts.length>localePluralForms.pluralForms.length){console.error("For locale="+localePluralForms.locale+", a maximum of "+localePluralForms.pluralForms.length+" plural forms are expected ("+localePluralForms.pluralForms+"), but the message contains "+parts.length+" plural forms: "+pluralMessages+" ");}var pluralForm=localePluralForms.select(count);var pluralFormIndex=localePluralForms.pluralForms.indexOf(pluralForm);// In case of not enough plural form messages, we take the last one (other) instead of returning undefined
 return parts[Math.min(pluralFormIndex,parts.length-1)];}}function usePluralForm(){var localePluralForm=useLocalePluralForms();return{selectMessage:function selectMessage(count,pluralMessages){return selectPluralMessage(pluralMessages,count,localePluralForm);}};}exports.usePluralForm=usePluralForm;
 
 /***/ }),
-/* 216 */
+
+/***/ 216:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2213,7 +2064,8 @@ Object.defineProperty(exports,"__esModule",{value:true});exports.useDocsPreferre
 function useDocsPreferredVersion(pluginId){if(pluginId===void 0){pluginId=constants_1.DEFAULT_PLUGIN_ID;}var docsData=useDocs_1.useDocsData(pluginId);var _DocsPreferredVersion=DocsPreferredVersionProvider_1.useDocsPreferredVersionContext(),state=_DocsPreferredVersion[0],api=_DocsPreferredVersion[1];var preferredVersionName=state[pluginId].preferredVersionName;var preferredVersion=preferredVersionName?docsData.versions.find(function(version){return version.name===preferredVersionName;}):null;var savePreferredVersionName=react_1.useCallback(function(versionName){api.savePreferredVersion(pluginId,versionName);},[api]);return{preferredVersion:preferredVersion,savePreferredVersionName:savePreferredVersionName};}exports.useDocsPreferredVersion=useDocsPreferredVersion;function useDocsPreferredVersionByPluginId(){var allDocsData=useDocs_1.useAllDocsData();var _DocsPreferredVersion2=DocsPreferredVersionProvider_1.useDocsPreferredVersionContext(),state=_DocsPreferredVersion2[0];function getPluginIdPreferredVersion(pluginId){var docsData=allDocsData[pluginId];var preferredVersionName=state[pluginId].preferredVersionName;return preferredVersionName?docsData.versions.find(function(version){return version.name===preferredVersionName;}):null;}var pluginIds=Object.keys(allDocsData);var result={};pluginIds.forEach(function(pluginId){result[pluginId]=getPluginIdPreferredVersion(pluginId);});return result;}exports.useDocsPreferredVersionByPluginId=useDocsPreferredVersionByPluginId;
 
 /***/ }),
-/* 217 */
+
+/***/ 217:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2227,7 +2079,8 @@ function useDocsPreferredVersion(pluginId){if(pluginId===void 0){pluginId=consta
 }else{window.localStorage.removeItem(storageKey(pluginId));}}};exports.default=DocsPreferredVersionStorage;
 
 /***/ }),
-/* 218 */
+
+/***/ 218:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2251,7 +2104,8 @@ export {
 var DEFAULT_PLUGIN_ID='default';
 
 /***/ }),
-/* 219 */
+
+/***/ 219:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2277,7 +2131,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 220 */
+
+/***/ 220:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2303,7 +2158,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 221 */
+
+/***/ 221:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2329,8 +2185,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 222 */,
-/* 223 */
+
+/***/ 223:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2345,7 +2201,8 @@ exports.default = _default;
  */function useUserPreferencesContext(){var context=Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_theme_UserPreferencesContext__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"]);if(context==null){throw new Error('`useUserPreferencesContext` is used outside of `Layout` Component.');}return context;}/* harmony default export */ __webpack_exports__["a"] = (useUserPreferencesContext);
 
 /***/ }),
-/* 224 */
+
+/***/ 224:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2357,7 +2214,8 @@ function _classCallCheck(instance, Constructor) {
 }
 
 /***/ }),
-/* 225 */
+
+/***/ 225:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2378,7 +2236,8 @@ function getScrollbarSize() {
 }
 
 /***/ }),
-/* 226 */
+
+/***/ 226:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2869,7 +2728,7 @@ var Subscribe = __webpack_require__(60);
 var IconMedium = __webpack_require__(58);
 
 // CONCATENATED MODULE: ./src/theme/Footer.js
-var Footer_Footer=function Footer(){var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 769px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 769px)'});return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footer"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerContent"},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true},isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerLogoBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'center',marginLeft:'84px',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:"mediumPaddingTop",item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Sobre nosotros")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/services/"),target:"_blank",style:{color:'white'}},"Servicios")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/the-company/"),target:"_blank",style:{color:'white'}},"La compa\xF1\xEDa")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/team/"),target:"_blank",style:{color:'white'}},"Equipo")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/projects/"),target:"_blank",style:{color:'white'}},"Proyectos")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/block-producer/"),target:"_blank",style:{color:'white'}},"Block producer"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Para usted")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:"https://guide.eoscostarica.io//",target:"_blank",style:{color:'white'}},"Aprender")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/blog/"),target:"_blank",style:{color:'white'}},"Blog")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/press/"),target:"_blank",style:{color:'white'}},"Prensa"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"litlePaddingTop":"",item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:'50px'},item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"centerBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'end',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://github.com/eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(GitHub_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://twitter.com/EOSCostaRica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Twitter_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.linkedin.com/company/eoscostarica/mycompany/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(LinkedIn_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}}))))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:3},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:isDesktop?'-3px':'',marginLeft:isDesktop?'-20px':''},item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://medium.com/@eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(IconMedium["default"],{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',className:"footerMediumIcon"})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ",target:"_blank"},/*#__PURE__*/react_default.a.createElement(YouTube_default.a,{style:{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.instagram.com/eoscostarica/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Instagram_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})))))))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopy"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopyContent"},/*#__PURE__*/react_default.a.createElement("p",{style:{fontSize:'14px'}},"Todos los derechos reservados para Sistemas Edenia Internacional S.A."))));};/* harmony default export */ var theme_Footer = (Footer_Footer);
+var Footer_Footer=function Footer(){var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 769px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 769px)'});return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footer"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerContent"},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true},isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerLogoBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'center',marginLeft:'84px',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:"mediumPaddingTop",item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Sobre nosotros")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/servicios/"),target:"_blank",style:{color:'white'}},"Servicios")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/la-empresa/"),target:"_blank",style:{color:'white'}},"La compa\xF1\xEDa")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/equipo/"),target:"_blank",style:{color:'white'}},"Equipo")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/proyectos/"),target:"_blank",style:{color:'white'}},"Proyectos")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/productor-de-bloques/"),target:"_blank",style:{color:'white'}},"Block producer"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Para usted")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:"https://guias.eoscostarica.io/",target:"_blank",style:{color:'white'}},"Aprender")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/blog/"),target:"_blank",style:{color:'white'}},"Blog")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/prensa/"),target:"_blank",style:{color:'white'}},"Prensa"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"litlePaddingTop":"",item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:'50px'},item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"centerBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'end',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://github.com/eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(GitHub_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://twitter.com/EOSCostaRica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Twitter_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.linkedin.com/company/eoscostarica/mycompany/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(LinkedIn_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}}))))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:3},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:isDesktop?'-3px':'',marginLeft:isDesktop?'-20px':''},item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://medium.com/@eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(IconMedium["default"],{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',className:"footerMediumIcon"})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ",target:"_blank"},/*#__PURE__*/react_default.a.createElement(YouTube_default.a,{style:{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.instagram.com/eoscostarica/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Instagram_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})))))))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopy"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopyContent"},/*#__PURE__*/react_default.a.createElement("p",{style:{fontSize:'14px'}},"Todos los derechos reservados para Sistemas Edenia Internacional S.A."))));};/* harmony default export */ var theme_Footer = (Footer_Footer);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/ExecutionEnvironment.js
 var ExecutionEnvironment = __webpack_require__(7);
 
@@ -2880,8 +2739,7 @@ var ExecutionEnvironment = __webpack_require__(7);
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */var themes={light:'light',dark:'dark'};// Ensure to always return a valid theme even if input is invalid
-var coerceToTheme=function coerceToTheme(theme){return theme===themes.dark?themes.dark:themes.light;};var useTheme_getInitialTheme=function getInitialTheme(){if(!ExecutionEnvironment["a" /* default */].canUseDOM){return themes.light;// SSR: we don't care
-}return coerceToTheme(document.documentElement.getAttribute('data-theme'));};var storeTheme=function storeTheme(newTheme){try{localStorage.setItem('theme',coerceToTheme(newTheme));}catch(err){console.error(err);}};var useTheme_useTheme=function useTheme(){var _useThemeConfig=Object(lib["useThemeConfig"])(),_useThemeConfig$color=_useThemeConfig.colorMode,disableSwitch=_useThemeConfig$color.disableSwitch,respectPrefersColorScheme=_useThemeConfig$color.respectPrefersColorScheme;var _useState=Object(react["useState"])(useTheme_getInitialTheme),theme=_useState[0],setTheme=_useState[1];var setLightTheme=Object(react["useCallback"])(function(){setTheme(themes.light);storeTheme(themes.light);},[]);var setDarkTheme=Object(react["useCallback"])(function(){setTheme(themes.dark);storeTheme(themes.dark);},[]);Object(react["useEffect"])(function(){document.documentElement.setAttribute('data-theme',coerceToTheme(theme));},[theme]);Object(react["useEffect"])(function(){if(disableSwitch){return;}try{var localStorageTheme=localStorage.getItem('theme');if(localStorageTheme!==null){setTheme(coerceToTheme(localStorageTheme));}}catch(err){console.error(err);}},[setTheme]);Object(react["useEffect"])(function(){if(disableSwitch&&!respectPrefersColorScheme){return;}window.matchMedia('(prefers-color-scheme: dark)').addListener(function(_ref){var matches=_ref.matches;setTheme(matches?themes.dark:themes.light);});},[]);return{isDarkTheme:theme===themes.dark,setLightTheme:setLightTheme,setDarkTheme:setDarkTheme};};/* harmony default export */ var hooks_useTheme = (useTheme_useTheme);
+var coerceToTheme=function coerceToTheme(theme){return theme===themes.dark?themes.dark:themes.light;};var useTheme_getInitialTheme=function getInitialTheme(defaultMode){if(!ExecutionEnvironment["a" /* default */].canUseDOM){return coerceToTheme(defaultMode);}return coerceToTheme(document.documentElement.getAttribute('data-theme'));};var storeTheme=function storeTheme(newTheme){try{localStorage.setItem('theme',coerceToTheme(newTheme));}catch(err){console.error(err);}};var useTheme_useTheme=function useTheme(){var _useThemeConfig=Object(lib["useThemeConfig"])(),_useThemeConfig$color=_useThemeConfig.colorMode,defaultMode=_useThemeConfig$color.defaultMode,disableSwitch=_useThemeConfig$color.disableSwitch,respectPrefersColorScheme=_useThemeConfig$color.respectPrefersColorScheme;var _useState=Object(react["useState"])(useTheme_getInitialTheme(defaultMode)),theme=_useState[0],setTheme=_useState[1];var setLightTheme=Object(react["useCallback"])(function(){setTheme(themes.light);storeTheme(themes.light);},[]);var setDarkTheme=Object(react["useCallback"])(function(){setTheme(themes.dark);storeTheme(themes.dark);},[]);Object(react["useEffect"])(function(){document.documentElement.setAttribute('data-theme',coerceToTheme(theme));},[theme]);Object(react["useEffect"])(function(){if(disableSwitch){return;}try{var localStorageTheme=localStorage.getItem('theme');if(localStorageTheme!==null){setTheme(coerceToTheme(localStorageTheme));}}catch(err){console.error(err);}},[setTheme]);Object(react["useEffect"])(function(){if(disableSwitch&&!respectPrefersColorScheme){return;}window.matchMedia('(prefers-color-scheme: dark)').addListener(function(_ref){var matches=_ref.matches;setTheme(matches?themes.dark:themes.light);});},[]);return{isDarkTheme:theme===themes.dark,setLightTheme:setLightTheme,setDarkTheme:setDarkTheme};};/* harmony default export */ var hooks_useTheme = (useTheme_useTheme);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/ThemeContext.js
 var ThemeContext = __webpack_require__(205);
 
@@ -2970,7 +2828,8 @@ var Layout_styles = __webpack_require__(63);
  */function Layout(props){var children=props.children,noFooter=props.noFooter,wrapperClassName=props.wrapperClassName;var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 960px)'});hooks_useKeyboardNavigation();return/*#__PURE__*/react_default.a.createElement(LayoutProviders,null,/*#__PURE__*/react_default.a.createElement(LayoutHead,props),isDesktop&&/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(theme_AnnouncementBar,null),/*#__PURE__*/react_default.a.createElement(Navbar,{isMobile:isMobile,isDesktop:isDesktop}),/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])('main-wrapper',wrapperClassName)},children),/*#__PURE__*/react_default.a.createElement(theme_Footer,null)),isMobile&&/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(theme_AnnouncementBar,null),/*#__PURE__*/react_default.a.createElement(Navbar,{isMobile:isMobile,isDesktop:isDesktop}),/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])('main-wrapper',wrapperClassName)},children),/*#__PURE__*/react_default.a.createElement(theme_Footer,null)));}/* harmony default export */ var theme_Layout = __webpack_exports__["a"] = (Layout);
 
 /***/ }),
-/* 227 */
+
+/***/ 227:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2996,7 +2855,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 228 */
+
+/***/ 228:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3022,7 +2882,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 229 */
+
+/***/ 229:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3048,7 +2909,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 230 */
+
+/***/ 230:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3074,7 +2936,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 231 */
+
+/***/ 231:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3100,7 +2963,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 232 */
+
+/***/ 232:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3126,7 +2990,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 233 */
+
+/***/ 233:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3152,7 +3017,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 234 */
+
+/***/ 234:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3178,7 +3044,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 235 */
+
+/***/ 235:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3206,7 +3073,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement(Rea
 exports.default = _default;
 
 /***/ }),
-/* 236 */
+
+/***/ 236:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3232,7 +3100,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 237 */
+
+/***/ 237:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3258,7 +3127,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 238 */
+
+/***/ 238:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3284,7 +3154,8 @@ var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("pa
 exports.default = _default;
 
 /***/ }),
-/* 239 */
+
+/***/ 239:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3318,7 +3189,8 @@ Object.defineProperty(exports, 'JSONLD', {
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 240 */
+
+/***/ 240:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3448,7 +3320,8 @@ Object.defineProperty(exports, 'Graph', {
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 241 */
+
+/***/ 241:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3507,7 +3380,8 @@ var AggregateRating = function (_JSONLDAbstractNode) {
 exports.default = AggregateRating;
 
 /***/ }),
-/* 242 */
+
+/***/ 242:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3566,7 +3440,8 @@ var Author = function (_JSONLDAbstractNode) {
 exports.default = Author;
 
 /***/ }),
-/* 243 */
+
+/***/ 243:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3626,7 +3501,8 @@ var ChildNode = function (_JSONLDAbstractNode) {
 exports.default = ChildNode;
 
 /***/ }),
-/* 244 */
+
+/***/ 244:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3676,7 +3552,8 @@ var JSONLDNodeCollection = function (_JSONLDAbstractNode) {
 exports.default = JSONLDNodeCollection;
 
 /***/ }),
-/* 245 */
+
+/***/ 245:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3735,7 +3612,8 @@ var Location = function (_JSONLDAbstractNode) {
 exports.default = Location;
 
 /***/ }),
-/* 246 */
+
+/***/ 246:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3794,7 +3672,8 @@ var Product = function (_JSONLDAbstractNode) {
 exports.default = Product;
 
 /***/ }),
-/* 247 */
+
+/***/ 247:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3853,7 +3732,8 @@ var Rating = function (_JSONLDAbstractNode) {
 exports.default = Rating;
 
 /***/ }),
-/* 248 */
+
+/***/ 248:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3912,7 +3792,8 @@ var Review = function (_JSONLDAbstractNode) {
 exports.default = Review;
 
 /***/ }),
-/* 249 */
+
+/***/ 249:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3960,7 +3841,8 @@ var Reviews = function (_JSONLDAbstractNode) {
 exports.default = Reviews;
 
 /***/ }),
-/* 250 */
+
+/***/ 250:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4019,7 +3901,8 @@ var ItemReviewed = function (_JSONLDAbstractNode) {
 exports.default = ItemReviewed;
 
 /***/ }),
-/* 251 */
+
+/***/ 251:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4078,7 +3961,8 @@ var Question = function (_JSONLDAbstractNode) {
 exports.default = Question;
 
 /***/ }),
-/* 252 */
+
+/***/ 252:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4137,7 +4021,8 @@ var Answer = function (_JSONLDAbstractNode) {
 exports.default = Answer;
 
 /***/ }),
-/* 253 */
+
+/***/ 253:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4191,7 +4076,8 @@ var Graph = function (_JSONLDAbstractNode) {
 exports.default = Graph;
 
 /***/ }),
-/* 254 */
+
+/***/ 254:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4252,36 +4138,15 @@ JSONLD.defaultProps = {
 exports.default = JSONLD;
 
 /***/ }),
-/* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */
+
+/***/ 271:
 /***/ (function(module, exports, __webpack_require__) {
 
 !function webpackUniversalModuleDefinition(e,t){ true?module.exports=t(__webpack_require__(0)):undefined}("undefined"!=typeof self?self:this,(function(e){return function(e){var t={};function __webpack_require__(n){if(t[n])return t[n].exports;var r=t[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,__webpack_require__),r.l=!0,r.exports}return __webpack_require__.m=e,__webpack_require__.c=t,__webpack_require__.d=function(e,t,n){__webpack_require__.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.t=function(e,t){if(1&t&&(e=__webpack_require__(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(__webpack_require__.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)__webpack_require__.d(n,r,function(t){return e[t]}.bind(null,r));return n},__webpack_require__.n=function(e){var t=e&&e.__esModule?function getDefault(){return e.default}:function getModuleExports(){return e};return __webpack_require__.d(t,"a",t),t},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},__webpack_require__.p="",__webpack_require__(__webpack_require__.s=3)}([function(t,n){t.exports=e},function(e,t,n){"use strict";function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function _typeof(e){return typeof e}:function _typeof(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&_setPrototypeOf(e,t)}function _setPrototypeOf(e,t){return(_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(e,t){return e.__proto__=t,e})(e,t)}function _createSuper(e){var t=function _isNativeReflectConstruct(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function _createSuperInternal(){var n,r=_getPrototypeOf(e);if(t){var o=_getPrototypeOf(this).constructor;n=Reflect.construct(r,arguments,o)}else n=r.apply(this,arguments);return _possibleConstructorReturn(this,n)}}function _possibleConstructorReturn(e,t){return!t||"object"!==_typeof(t)&&"function"!=typeof t?function _assertThisInitialized(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e):t}function _getPrototypeOf(e){return(_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.Background=t.Parallax=void 0;var o=r(n(0)),i=function(e){_inherits(Parallax,e);var t=_createSuper(Parallax);function Parallax(){return _classCallCheck(this,Parallax),t.apply(this,arguments)}return Parallax}(o.default.Component);t.Parallax=i;var a=function(e){_inherits(Background,e);var t=_createSuper(Background);function Background(){return _classCallCheck(this,Background),t.apply(this,arguments)}return Background}(o.default.Component);t.Background=a},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.canUseDOM=t.getNodeHeight=t.isScrolledIntoView=t.getWindowHeight=void 0,t.getWindowHeight=function(e){if(!e)return 0;var t=window,n=document,r=n.documentElement,o=n.getElementsByTagName("body")[0];return t.innerHeight||r.clientHeight||o.clientHeight},t.isScrolledIntoView=function(e){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,r=arguments.length>2?arguments[2]:void 0;if(!r)return!1;var o=e.getBoundingClientRect().top-n,i=e.getBoundingClientRect().bottom+n;return o<=t.getWindowHeight(r)&&i>=0},t.getNodeHeight=function(e,n){return e?n&&"clientHeight"in n?n.clientHeight:t.getWindowHeight(e):0},t.canUseDOM=function(){return!("undefined"==typeof window||!window.document||!window.document.createElement)}},function(e,t,n){"use strict";var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.Background=t.Parallax=void 0;var o=r(n(4));t.Parallax=o.default;var i=r(n(7));t.Background=i.default},function(e,t,n){"use strict";function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function _typeof(e){return typeof e}:function _typeof(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function _defineProperties(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function _setPrototypeOf(e,t){return(_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(e,t){return e.__proto__=t,e})(e,t)}function _createSuper(e){var t=function _isNativeReflectConstruct(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function _createSuperInternal(){var n,r=_getPrototypeOf(e);if(t){var o=_getPrototypeOf(this).constructor;n=Reflect.construct(r,arguments,o)}else n=r.apply(this,arguments);return _possibleConstructorReturn(this,n)}}function _possibleConstructorReturn(e,t){return!t||"object"!==_typeof(t)&&"function"!=typeof t?function _assertThisInitialized(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e):t}function _getPrototypeOf(e){return(_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var o=r(n(0)),i=n(1),a=n(5),c=n(2),u=r(n(6)),s={position:"absolute",left:"50%",WebkitTransform:"translate3d(-50%, 0, 0)",transform:"translate3d(-50%, 0, 0)",WebkitTransformStyle:"preserve-3d",WebkitBackfaceVisibility:"hidden",MozBackfaceVisibility:"hidden",MsBackfaceVisibility:"hidden"},l=function(e){!function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&_setPrototypeOf(e,t)}(Parallax,e);var t=_createSuper(Parallax);function Parallax(e){var n;return function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,Parallax),(n=t.call(this,e)).onWindowResize=function(){n.parentHeight=c.getNodeHeight(n.canUseDOM,n.parent),n.updatePosition()},n.onWindowLoad=function(){n.updatePosition()},n.onScroll=function(){if(n.canUseDOM){var e=Date.now();e-n.timestamp>=10&&c.isScrolledIntoView(n.node,100,n.canUseDOM)&&(window.requestAnimationFrame(n.updatePosition),n.timestamp=e)}},n.onContentMount=function(e){n.content=e},n.updatePosition=function(){if(n.content){var e=!1;n.contentHeight=n.content.getBoundingClientRect().height,n.contentWidth=n.node.getBoundingClientRect().width,n.img&&n.img.naturalWidth/n.img.naturalHeight<n.contentWidth/n.getImageHeight()&&(e=!0);var t=a.getRelativePosition(n.node,n.canUseDOM),r=!!n.img,o=n.bg&&n.state.splitChildren.bgChildren.length>0;r&&n.setImagePosition(t,e),o&&n.setBackgroundPosition(t),r||o||n.setState({percentage:t})}},n.state={bgImage:e.bgImage,bgImageSrcSet:e.bgImageSrcSet,bgImageSizes:e.bgImageSizes,imgStyle:s,bgStyle:Object.assign(Object.assign({},s),e.bgStyle),percentage:0,splitChildren:a.getSplitChildren(e)},n.canUseDOM=c.canUseDOM(),n.node=null,n.content=null,n.bgImageLoaded=!1,n.bgImageRef=void 0,n.parent=e.parent,n.parentHeight=c.getNodeHeight(n.canUseDOM,n.parent),n.timestamp=Date.now(),n.isDynamicBlur=a.getHasDynamicBlur(e.blur),n}return function _createClass(e,t,n){return t&&_defineProperties(e.prototype,t),n&&_defineProperties(e,n),e}(Parallax,[{key:"componentDidMount",value:function componentDidMount(){var e=this.props.parent,t=this.state,n=t.bgImage,r=t.bgImageSrcSet,o=t.bgImageSizes;this.parent=e||document,this.addListeners(),n?this.loadImage(n,r,o):this.updatePosition()}},{key:"componentDidUpdate",value:function componentDidUpdate(e){var t=this.props,n=t.parent,r=t.bgImage,o=t.bgImageSrcSet,i=t.bgImageSizes,a=this.state.bgImage;e.parent!==n&&(this.removeListeners(this.parent),this.parent=n,n&&this.addListeners()),this.parentHeight=c.getNodeHeight(this.canUseDOM,this.parent),a!==r&&this.loadImage(r,o,i)}},{key:"componentWillUnmount",value:function componentWillUnmount(){this.removeListeners(this.parent),this.releaseImage()}},{key:"setBackgroundPosition",value:function setBackgroundPosition(e){var t=this.props,n=t.disabled,r=t.strength,o=Object.assign({},this.state.bgStyle);if(!n){var i="translate3d(-50%, ".concat((r<0?r:0)-r*e,"px, 0)");o.WebkitTransform=i,o.transform=i}this.setState({bgStyle:o,percentage:e})}},{key:"setImagePosition",value:function setImagePosition(e){var t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=this.props,r=n.disabled,o=n.strength,i=n.blur,c=t?"auto":"".concat(this.getImageHeight(),"px"),u=t?"".concat(this.contentWidth,"px"):"auto",s=Object.assign(Object.assign({},this.state.imgStyle),{height:c,width:u});if(!r){var l=o<0,f=(l?o:0)-o*e,p="translate3d(-50%, ".concat(f,"px, 0)"),g="none";i&&(g="blur(".concat(a.getBlurValue(this.isDynamicBlur,i,e),"px)")),s.WebkitTransform=p,s.transform=p,s.WebkitFilter=g,s.filter=g}this.setState({imgStyle:s,percentage:e})}},{key:"getImageHeight",value:function getImageHeight(){var e=this.props.strength,t=(e<0?2.5:1)*Math.abs(e);return Math.floor(this.contentHeight+t)}},{key:"loadImage",value:function loadImage(e,t,n){var r=this;this.releaseImage(),this.bgImageRef=new Image,this.bgImageRef.onload=function(){r.setState({bgImage:e,bgImageSrcSet:t,bgImageSizes:n},(function(){return r.updatePosition()}))},this.bgImageRef.onerror=this.bgImageRef.onload,this.bgImageRef.src=e,this.bgImageRef.srcset=t||"",this.bgImageRef.sizes=n||""}},{key:"releaseImage",value:function releaseImage(){this.bgImageRef&&(this.bgImageRef.onload=null,this.bgImageRef.onerror=null,delete this.bgImageRef)}},{key:"addListeners",value:function addListeners(){this.canUseDOM&&this.parent&&(this.parent.addEventListener("scroll",this.onScroll,!1),window.addEventListener("resize",this.onWindowResize,!1),window.addEventListener("load",this.onWindowLoad,!1))}},{key:"removeListeners",value:function removeListeners(e){this.canUseDOM&&(e&&e.removeEventListener("scroll",this.onScroll,!1),window.removeEventListener("resize",this.onWindowResize,!1),window.removeEventListener("load",this.onWindowLoad,!1))}},{key:"render",value:function render(){var e=this,t=this.props,n=t.className,r=t.style,i=t.bgClassName,a=t.contentClassName,c=t.bgImageAlt,s=t.renderLayer,l=t.bgImageStyle,f=this.state,p=f.bgImage,g=f.bgImageSrcSet,d=f.bgImageSizes,_=f.percentage,y=f.imgStyle,h=f.bgStyle,b=f.splitChildren;return o.default.createElement("div",{className:"react-parallax ".concat(n),style:Object.assign({position:"relative",overflow:"hidden"},r),ref:function ref(t){e.node=t}},p?o.default.createElement("img",{className:i,src:p,srcSet:g,sizes:d,ref:function ref(t){e.img=t},alt:c,style:Object.assign(Object.assign({},y),l)}):null,s?s(-(_-1)):null,b.bgChildren.length>0?o.default.createElement("div",{className:"react-parallax-background-children",ref:function ref(t){e.bg=t},style:h},b.bgChildren):null,o.default.createElement(u.default,{onMount:this.onContentMount,className:a},b.children))}}],[{key:"getDerivedStateFromProps",value:function getDerivedStateFromProps(e){return{splitChildren:a.getSplitChildren(e)}}}]),Parallax}(i.Parallax);l.defaultProps={bgClassName:"react-parallax-bgimage",bgImageAlt:"",className:"",contentClassName:"",disabled:!1,strength:100},t.default=l},function(e,t,n){"use strict";function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function _typeof(e){return typeof e}:function _typeof(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}Object.defineProperty(t,"__esModule",{value:!0}),t.setBlur=t.getBlurValue=t.getHasDynamicBlur=t.getSplitChildren=t.getRelativePosition=t.getPercentage=void 0;var r=n(0),o=n(2);t.getPercentage=function(e,t,n){return(n-e)/(t-e)||0},t.getRelativePosition=function(e,n){if(!n)return 0;var r=e.getBoundingClientRect(),i=r.top,a=r.height,c=o.getNodeHeight(n),u=a>c?a:c,s=Math.round(i>u?u:i);return t.getPercentage(0,u,s)},t.getSplitChildren=function(e){var t=[],n=r.Children.toArray(e.children);return n.forEach((function(e,r){var o=e;o.type&&o.type.isParallaxBackground&&(t=t.concat(n.splice(r,1)))})),{bgChildren:t,children:n}},t.getHasDynamicBlur=function(e){return"object"===_typeof(e)&&void 0!==e.min&&void 0!==e.max},t.getBlurValue=function(e,t,n){return e?t.min+(1-n)*t.max:t},t.setBlur=function(e,t){e.style.webkitFilter="blur(".concat(t,"px)"),e.style.filter="blur(".concat(t,"px)")}},function(e,t,n){"use strict";var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var o=r(n(0));t.default=function ParallaxChildren(e){var t=e.children,n=e.onMount,r=e.className;return o.default.createElement("div",{ref:function ref(e){return n(e)},className:r||"react-parallax-content",style:{position:"relative"}},t)}},function(e,t,n){"use strict";function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function _typeof(e){return typeof e}:function _typeof(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _defineProperties(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function _setPrototypeOf(e,t){return(_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(e,t){return e.__proto__=t,e})(e,t)}function _createSuper(e){var t=function _isNativeReflectConstruct(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function _createSuperInternal(){var n,r=_getPrototypeOf(e);if(t){var o=_getPrototypeOf(this).constructor;n=Reflect.construct(r,arguments,o)}else n=r.apply(this,arguments);return _possibleConstructorReturn(this,n)}}function _possibleConstructorReturn(e,t){return!t||"object"!==_typeof(t)&&"function"!=typeof t?function _assertThisInitialized(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e):t}function _getPrototypeOf(e){return(_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});var o=r(n(0)),i=function(e){!function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&_setPrototypeOf(e,t)}(Background,e);var t=_createSuper(Background);function Background(){return _classCallCheck(this,Background),t.apply(this,arguments)}return function _createClass(e,t,n){return t&&_defineProperties(e.prototype,t),n&&_defineProperties(e,n),e}(Background,[{key:"render",value:function render(){var e=this.props,t=e.className,n=e.children;return o.default.createElement("div",{className:"react-parallax-background ".concat(t)},n)}}]),Background}(n(1).Background);i.defaultProps={className:""},i.isParallaxBackground=!0,t.default=i}])}));
 
 /***/ }),
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */,
-/* 278 */,
-/* 279 */
+
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4438,14 +4303,8 @@ var IconButton = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](f
 })(IconButton));
 
 /***/ }),
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */,
-/* 286 */,
-/* 287 */
+
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4728,11 +4587,8 @@ if (false) { var requireProp; }
 /* harmony default export */ __webpack_exports__["a"] = (StyledGrid);
 
 /***/ }),
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */
+
+/***/ 292:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4931,7 +4787,8 @@ var Typography = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](f
 })(Typography));
 
 /***/ }),
-/* 293 */
+
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5173,7 +5030,8 @@ var Slide = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](functi
 /* harmony default export */ __webpack_exports__["a"] = (Slide);
 
 /***/ }),
-/* 294 */
+
+/***/ 294:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5317,18 +5175,8 @@ var Fade = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["forwardRef"](functio
 /* harmony default export */ __webpack_exports__["a"] = (Fade);
 
 /***/ }),
-/* 295 */,
-/* 296 */,
-/* 297 */,
-/* 298 */,
-/* 299 */,
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */
+
+/***/ 306:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5546,7 +5394,8 @@ var ListItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](fun
 })(ListItem));
 
 /***/ }),
-/* 307 */
+
+/***/ 307:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5604,7 +5453,8 @@ var ListItemIcon = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"]
 })(ListItemIcon));
 
 /***/ }),
-/* 308 */
+
+/***/ 308:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5706,7 +5556,8 @@ var ListItemText = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"]
 })(ListItemText));
 
 /***/ }),
-/* 309 */
+
+/***/ 309:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5855,7 +5706,8 @@ var Link = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](functio
 })(Link));
 
 /***/ }),
-/* 310 */
+
+/***/ 310:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5925,7 +5777,8 @@ var Paper = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](functi
 })(Paper));
 
 /***/ }),
-/* 311 */
+
+/***/ 311:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6126,7 +5979,8 @@ Grow.muiSupportAuto = true;
 /* harmony default export */ __webpack_exports__["a"] = (Grow);
 
 /***/ }),
-/* 312 */
+
+/***/ 312:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6434,7 +6288,8 @@ var Alert_Alert = /*#__PURE__*/react["forwardRef"](function Alert(props, ref) {
 })(Alert_Alert));
 
 /***/ }),
-/* 313 */
+
+/***/ 313:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6960,7 +6815,8 @@ var Snackbar_Snackbar = /*#__PURE__*/react["forwardRef"](function Snackbar(props
 })(Snackbar_Snackbar));
 
 /***/ }),
-/* 314 */
+
+/***/ 314:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7424,12 +7280,8 @@ Transition_Transition.EXITING = EXITING;
 /* harmony default export */ var esm_Transition = __webpack_exports__["a"] = (Transition_Transition);
 
 /***/ }),
-/* 315 */,
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */
+
+/***/ 320:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7504,18 +7356,8 @@ var List = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](functio
 })(List));
 
 /***/ }),
-/* 321 */,
-/* 322 */,
-/* 323 */,
-/* 324 */,
-/* 325 */,
-/* 326 */,
-/* 327 */,
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */,
-/* 332 */
+
+/***/ 332:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8364,5 +8206,1527 @@ var Modal_Modal = /*#__PURE__*/react["forwardRef"](function Modal(inProps, ref) 
  false ? undefined : void 0;
 /* harmony default export */ var esm_Modal_Modal = __webpack_exports__["a"] = (Modal_Modal);
 
+/***/ }),
+
+/***/ 389:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return useFormControl; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/**
+ * @ignore - internal component.
+ */
+
+var FormControlContext = react__WEBPACK_IMPORTED_MODULE_0__["createContext"]();
+
+if (false) {}
+
+function useFormControl() {
+  return react__WEBPACK_IMPORTED_MODULE_0__["useContext"](FormControlContext);
+}
+/* harmony default export */ __webpack_exports__["a"] = (FormControlContext);
+
+/***/ }),
+
+/***/ 394:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export hasValue */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return isFilled; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return isAdornedStart; });
+// Supports determination of isControlled().
+// Controlled input accepts its current value as a prop.
+//
+// @see https://facebook.github.io/react/docs/forms.html#controlled-components
+// @param value
+// @returns {boolean} true if string (including '') or number (including zero)
+function hasValue(value) {
+  return value != null && !(Array.isArray(value) && value.length === 0);
+} // Determine if field is empty or filled.
+// Response determines if label is presented above field or as placeholder.
+//
+// @param obj
+// @param SSR
+// @returns {boolean} False when not present or empty string.
+//                    True when any number or string with length.
+
+function isFilled(obj) {
+  var SSR = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  return obj && (hasValue(obj.value) && obj.value !== '' || SSR && hasValue(obj.defaultValue) && obj.defaultValue !== '');
+} // Determine if an Input is adorned on start.
+// It's corresponding to the left with LTR.
+//
+// @param obj
+// @returns {boolean} False when no adornments.
+//                    True when adorned at the start.
+
+function isAdornedStart(obj) {
+  return obj.startAdornment;
+}
+
+/***/ }),
+
+/***/ 452:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return formControlState; });
+function formControlState(_ref) {
+  var props = _ref.props,
+      states = _ref.states,
+      muiFormControl = _ref.muiFormControl;
+  return states.reduce(function (acc, state) {
+    acc[state] = props[state];
+
+    if (muiFormControl) {
+      if (typeof props[state] === 'undefined') {
+        acc[state] = muiFormControl[state];
+      }
+    }
+
+    return acc;
+  }, {});
+}
+
+/***/ }),
+
+/***/ 58:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var IconMedium=function IconMedium(_ref){var width=_ref.width,height=_ref.height,className=_ref.className;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg",{width:width,height:height,className:className,viewBox:"0 0 212.41 212.41"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{stroke:"none"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{d:"M209.74,105.41c0.01,4.34-0.1,8.67-0.32,13.01c-0.19,3.64-0.49,7.27-0.9,10.89c-0.53,4.73-1.25,9.43-2.35,14.06 c-0.65,2.73-1.43,5.41-2.57,7.97c-0.45,1-0.94,1.99-1.61,2.86c-0.39,0.5-0.82,0.99-1.3,1.39c-1.22,1.02-2.42,1.02-3.65,0 c-0.5-0.42-0.94-0.92-1.33-1.44c-0.91-1.21-1.52-2.59-2.07-3.99c-1.03-2.59-1.74-5.27-2.35-7.98c-0.74-3.28-1.28-6.6-1.72-9.93 c-0.47-3.58-0.82-7.17-1.07-10.77c-0.46-6.58-0.61-13.16-0.47-19.74c0.08-3.38,0.21-6.76,0.44-10.13 c0.23-3.33,0.55-6.66,0.93-9.98c0.58-5,1.42-9.94,2.75-14.8c0.59-2.15,1.29-4.26,2.25-6.28c0.48-1.01,1.03-1.98,1.76-2.83 c0.26-0.31,0.55-0.6,0.86-0.86c1.16-0.96,2.51-0.96,3.68,0c0.71,0.58,1.25,1.3,1.73,2.07c0.75,1.2,1.31,2.47,1.81,3.78 c1.07,2.8,1.8,5.7,2.42,8.62c0.73,3.46,1.28,6.96,1.69,10.47c0.27,2.28,0.48,4.57,0.68,6.86 C209.52,94.23,209.69,99.82,209.74,105.41z"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{d:"M183.85,94.03c0.61,4.99,0.83,10.01,0.7,15.04c-0.08,3.13-0.31,6.25-0.69,9.36c-0.73,6.02-1.99,11.92-3.94,17.67 c-1.45,4.26-3.27,8.36-5.65,12.2c-1.87,3.02-4.04,5.81-6.7,8.19c-2.35,2.09-4.95,3.77-7.98,4.71c-4.3,1.34-8.49,0.96-12.54-0.98 c-2.86-1.37-5.29-3.33-7.45-5.64c-3.07-3.29-5.42-7.06-7.38-11.09c-2.33-4.8-3.98-9.83-5.19-15.01 c-0.82-3.52-1.43-7.07-1.84-10.66c-0.44-3.86-0.65-7.72-0.65-11.6c0-2.94,0.11-5.87,0.36-8.77c0.7-7.97,2.25-15.75,5.08-23.25 c1.68-4.45,3.78-8.69,6.56-12.57c1.84-2.58,3.95-4.91,6.46-6.85c2.24-1.73,4.68-3.04,7.43-3.76c3.78-0.99,7.44-0.59,10.99,0.96 c3.39,1.48,6.17,3.78,8.62,6.51c2.51,2.8,4.52,5.94,6.23,9.27c2.68,5.21,4.53,10.71,5.85,16.4 C182.88,87.42,183.44,90.71,183.85,94.03z"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{d:"M61.47,47.66c32.62,0.03,58.59,26.4,58.55,58.65c-0.04,32.21-26.03,58.44-58.59,58.52 c-32.52-0.08-58.54-26.29-58.57-58.54C2.83,73.94,28.93,47.63,61.47,47.66z"})));};/* harmony default export */ __webpack_exports__["default"] = (IconMedium);
+
+/***/ }),
+
+/***/ 59:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(148);
+/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(309);
+/* harmony import */ var _material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(306);
+/* harmony import */ var _material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(307);
+/* harmony import */ var _material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(308);
+var GenericListItem=Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])({root:{paddingLeft:'20px',paddingRight:0,borderLeft:'solid 5px white'},selected:{backgroundColor:'#F8F8F8',borderLeft:'solid 5px #5484b3'}})(function(props){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],props);});var GenericListItemIcon=Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])({root:{color:'black',minWidth:'20px',opacity:.5,width:'20px',marginRight:'15px'}})(function(props){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],props);});var GenericListItemText=Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])({primary:{fontFamily:'Lato',fontSize:15,fontWeight:'bold',color:'black'}})(function(props){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],props);});var CustomListItem=function CustomListItem(_ref){var label=_ref.label,href=_ref.href,target=_ref.target,icon=_ref.icon,isSelected=_ref.isSelected;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{href:href,target:target,style:{textDecoration:'none'}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GenericListItem,{button:true,selected:isSelected},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GenericListItemIcon,null,icon),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GenericListItemText,{primary:label})));};/* harmony default export */ __webpack_exports__["default"] = (CustomListItem);
+
+/***/ }),
+
+/***/ 60:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(277);
+/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(272);
+/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(530);
+/* harmony import */ var _material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(313);
+/* harmony import */ var _material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(312);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(166);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_6__);
+var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_6__["useMediaQuery"])({query:'(max-width: 769px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),open=_useState[0],setOpen=_useState[1];var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),errorMessage=_useState2[0],setErrorMessage=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(),email=_useState3[0],setEmail=_useState3[1];var handleClose=function handleClose(event,reason){if(reason==='clickaway'){return;}setOpen(false);setErrorMessage(false);};var handleSetEmail=function handleSetEmail(e){setEmail(e.target.value);};var validateEmail=function validateEmail(mail){var regex=/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;return regex.test(mail);};var onSubmitEmailResults=/*#__PURE__*/function(){var _ref=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(/*#__PURE__*/_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(e){var jsonData,requestOptions,response;return _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:e.preventDefault();if(!validateEmail(email)){_context.next=11;break;}jsonData={"fields":[{"name":"email","value":email}],"context":{"pageUri":"https://eoscostarica.io/","pageName":"EOS Costa Rica"},"legalConsentOptions":{"consent":{"consentToProcess":true,"text":"I agree to allow Example Company to store and process my personal data.","communications":[{"value":true,"subscriptionTypeId":999,"text":"I agree to receive marketing communications from Example Company."}]}}};requestOptions={method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(jsonData)};_context.next=6;return fetch("https://api.hsforms.com/submissions/v3/integration/submit/"+"9018734"+"/"+"df605eac-d7d1-44b5-af45-dd93d65d84ee",requestOptions);case 6:response=_context.sent;setOpen(true);setEmail("");_context.next=12;break;case 11:setErrorMessage(true);case 12:case"end":return _context.stop();}}},_callee);}));return function onSubmitEmailResults(_x){return _ref.apply(this,arguments);};}();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"specialH3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3",{className:"h3Footer"},"Suscr\xEDbete para comunicarnos ")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{paddingLeft:isMobile?'25px':0,paddingRight:isMobile?'25px':0}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form",{onSubmit:onSubmitEmailResults},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input",{className:"inputFooter",type:"text",id:"email",name:"email",placeholder:"Correo electr\xF3nico",value:email,onChange:handleSetEmail}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button",{className:"buttonPrimary",style:{padding:'11px',fontSize:'16px',float:'right'}},"Enviar"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"litleMarginTop"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",{style:{color:'white',fontSize:'14px'}},"EOS Costa Rica respeta su privacidad. Necesitamos la informaci\xF3n de contacto que nos proporciona para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:open,autoHideDuration:3000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],null,"Gracias por suscribirse")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:errorMessage,autoHideDuration:4000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{severity:"error"},"Complete el campo y verifique que sea un correo electr\xF3nico correcto")));};/* harmony default export */ __webpack_exports__["default"] = (SuscribeForm);
+
+/***/ }),
+
+/***/ 757:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// UNUSED EXPORTS: ReCAPTCHA
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(1);
+var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
+
+// CONCATENATED MODULE: ./node_modules/react-google-recaptcha/lib/esm/recaptcha.js
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
+
+
+
+
+var recaptcha_ReCAPTCHA =
+/*#__PURE__*/
+function (_React$Component) {
+  _inheritsLoose(ReCAPTCHA, _React$Component);
+
+  function ReCAPTCHA() {
+    var _this;
+
+    _this = _React$Component.call(this) || this;
+    _this.handleExpired = _this.handleExpired.bind(_assertThisInitialized(_this));
+    _this.handleErrored = _this.handleErrored.bind(_assertThisInitialized(_this));
+    _this.handleChange = _this.handleChange.bind(_assertThisInitialized(_this));
+    _this.handleRecaptchaRef = _this.handleRecaptchaRef.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  var _proto = ReCAPTCHA.prototype;
+
+  _proto.getValue = function getValue() {
+    if (this.props.grecaptcha && this._widgetId !== undefined) {
+      return this.props.grecaptcha.getResponse(this._widgetId);
+    }
+
+    return null;
+  };
+
+  _proto.getWidgetId = function getWidgetId() {
+    if (this.props.grecaptcha && this._widgetId !== undefined) {
+      return this._widgetId;
+    }
+
+    return null;
+  };
+
+  _proto.execute = function execute() {
+    var grecaptcha = this.props.grecaptcha;
+
+    if (grecaptcha && this._widgetId !== undefined) {
+      return grecaptcha.execute(this._widgetId);
+    } else {
+      this._executeRequested = true;
+    }
+  };
+
+  _proto.executeAsync = function executeAsync() {
+    var _this2 = this;
+
+    return new Promise(function (resolve, reject) {
+      _this2.executionResolve = resolve;
+      _this2.executionReject = reject;
+
+      _this2.execute();
+    });
+  };
+
+  _proto.reset = function reset() {
+    if (this.props.grecaptcha && this._widgetId !== undefined) {
+      this.props.grecaptcha.reset(this._widgetId);
+    }
+  };
+
+  _proto.handleExpired = function handleExpired() {
+    if (this.props.onExpired) {
+      this.props.onExpired();
+    } else {
+      this.handleChange(null);
+    }
+  };
+
+  _proto.handleErrored = function handleErrored() {
+    if (this.props.onErrored) {
+      this.props.onErrored();
+    }
+
+    if (this.executionReject) {
+      this.executionReject();
+      delete this.executionResolve;
+      delete this.executionReject;
+    }
+  };
+
+  _proto.handleChange = function handleChange(token) {
+    if (this.props.onChange) {
+      this.props.onChange(token);
+    }
+
+    if (this.executionResolve) {
+      this.executionResolve(token);
+      delete this.executionReject;
+      delete this.executionResolve;
+    }
+  };
+
+  _proto.explicitRender = function explicitRender() {
+    if (this.props.grecaptcha && this.props.grecaptcha.render && this._widgetId === undefined) {
+      var wrapper = document.createElement("div");
+      this._widgetId = this.props.grecaptcha.render(wrapper, {
+        sitekey: this.props.sitekey,
+        callback: this.handleChange,
+        theme: this.props.theme,
+        type: this.props.type,
+        tabindex: this.props.tabindex,
+        "expired-callback": this.handleExpired,
+        "error-callback": this.handleErrored,
+        size: this.props.size,
+        stoken: this.props.stoken,
+        hl: this.props.hl,
+        badge: this.props.badge
+      });
+      this.captcha.appendChild(wrapper);
+    }
+
+    if (this._executeRequested && this.props.grecaptcha && this._widgetId !== undefined) {
+      this._executeRequested = false;
+      this.execute();
+    }
+  };
+
+  _proto.componentDidMount = function componentDidMount() {
+    this.explicitRender();
+  };
+
+  _proto.componentDidUpdate = function componentDidUpdate() {
+    this.explicitRender();
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this._widgetId !== undefined) {
+      this.delayOfCaptchaIframeRemoving();
+      this.reset();
+    }
+  };
+
+  _proto.delayOfCaptchaIframeRemoving = function delayOfCaptchaIframeRemoving() {
+    var temporaryNode = document.createElement("div");
+    document.body.appendChild(temporaryNode);
+    temporaryNode.style.display = "none"; // move of the recaptcha to a temporary node
+
+    while (this.captcha.firstChild) {
+      temporaryNode.appendChild(this.captcha.firstChild);
+    } // delete the temporary node after reset will be done
+
+
+    setTimeout(function () {
+      document.body.removeChild(temporaryNode);
+    }, 5000);
+  };
+
+  _proto.handleRecaptchaRef = function handleRecaptchaRef(elem) {
+    this.captcha = elem;
+  };
+
+  _proto.render = function render() {
+    // consume properties owned by the reCATPCHA, pass the rest to the div so the user can style it.
+
+    /* eslint-disable no-unused-vars */
+    var _this$props = this.props,
+        sitekey = _this$props.sitekey,
+        onChange = _this$props.onChange,
+        theme = _this$props.theme,
+        type = _this$props.type,
+        tabindex = _this$props.tabindex,
+        onExpired = _this$props.onExpired,
+        onErrored = _this$props.onErrored,
+        size = _this$props.size,
+        stoken = _this$props.stoken,
+        grecaptcha = _this$props.grecaptcha,
+        badge = _this$props.badge,
+        hl = _this$props.hl,
+        childProps = _objectWithoutPropertiesLoose(_this$props, ["sitekey", "onChange", "theme", "type", "tabindex", "onExpired", "onErrored", "size", "stoken", "grecaptcha", "badge", "hl"]);
+    /* eslint-enable no-unused-vars */
+
+
+    return react_default.a.createElement("div", _extends({}, childProps, {
+      ref: this.handleRecaptchaRef
+    }));
+  };
+
+  return ReCAPTCHA;
+}(react_default.a.Component);
+
+
+recaptcha_ReCAPTCHA.displayName = "ReCAPTCHA";
+recaptcha_ReCAPTCHA.propTypes = {
+  sitekey: prop_types_default.a.string.isRequired,
+  onChange: prop_types_default.a.func,
+  grecaptcha: prop_types_default.a.object,
+  theme: prop_types_default.a.oneOf(["dark", "light"]),
+  type: prop_types_default.a.oneOf(["image", "audio"]),
+  tabindex: prop_types_default.a.number,
+  onExpired: prop_types_default.a.func,
+  onErrored: prop_types_default.a.func,
+  size: prop_types_default.a.oneOf(["compact", "normal", "invisible"]),
+  stoken: prop_types_default.a.string,
+  hl: prop_types_default.a.string,
+  badge: prop_types_default.a.oneOf(["bottomright", "bottomleft", "inline"])
+};
+recaptcha_ReCAPTCHA.defaultProps = {
+  onChange: function onChange() {},
+  theme: "light",
+  type: "image",
+  tabindex: 0,
+  size: "normal",
+  badge: "bottomright"
+};
+// EXTERNAL MODULE: ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
+var hoist_non_react_statics_cjs = __webpack_require__(28);
+var hoist_non_react_statics_cjs_default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics_cjs);
+
+// CONCATENATED MODULE: ./node_modules/react-async-script/lib/esm/async-script-loader.js
+function async_script_loader_extends() { async_script_loader_extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return async_script_loader_extends.apply(this, arguments); }
+
+function async_script_loader_objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function async_script_loader_inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
+
+
+
+
+var SCRIPT_MAP = {}; // A counter used to generate a unique id for each component that uses the function
+
+var idCount = 0;
+function makeAsyncScript(getScriptURL, options) {
+  options = options || {};
+  return function wrapWithAsyncScript(WrappedComponent) {
+    var wrappedComponentName = WrappedComponent.displayName || WrappedComponent.name || "Component";
+
+    var AsyncScriptLoader =
+    /*#__PURE__*/
+    function (_Component) {
+      async_script_loader_inheritsLoose(AsyncScriptLoader, _Component);
+
+      function AsyncScriptLoader(props, context) {
+        var _this;
+
+        _this = _Component.call(this, props, context) || this;
+        _this.state = {};
+        _this.__scriptURL = "";
+        return _this;
+      }
+
+      var _proto = AsyncScriptLoader.prototype;
+
+      _proto.asyncScriptLoaderGetScriptLoaderID = function asyncScriptLoaderGetScriptLoaderID() {
+        if (!this.__scriptLoaderID) {
+          this.__scriptLoaderID = "async-script-loader-" + idCount++;
+        }
+
+        return this.__scriptLoaderID;
+      };
+
+      _proto.setupScriptURL = function setupScriptURL() {
+        this.__scriptURL = typeof getScriptURL === "function" ? getScriptURL() : getScriptURL;
+        return this.__scriptURL;
+      };
+
+      _proto.asyncScriptLoaderHandleLoad = function asyncScriptLoaderHandleLoad(state) {
+        var _this2 = this;
+
+        // use reacts setState callback to fire props.asyncScriptOnLoad with new state/entry
+        this.setState(state, function () {
+          return _this2.props.asyncScriptOnLoad && _this2.props.asyncScriptOnLoad(_this2.state);
+        });
+      };
+
+      _proto.asyncScriptLoaderTriggerOnScriptLoaded = function asyncScriptLoaderTriggerOnScriptLoaded() {
+        var mapEntry = SCRIPT_MAP[this.__scriptURL];
+
+        if (!mapEntry || !mapEntry.loaded) {
+          throw new Error("Script is not loaded.");
+        }
+
+        for (var obsKey in mapEntry.observers) {
+          mapEntry.observers[obsKey](mapEntry);
+        }
+
+        delete window[options.callbackName];
+      };
+
+      _proto.componentDidMount = function componentDidMount() {
+        var _this3 = this;
+
+        var scriptURL = this.setupScriptURL();
+        var key = this.asyncScriptLoaderGetScriptLoaderID();
+        var _options = options,
+            globalName = _options.globalName,
+            callbackName = _options.callbackName,
+            scriptId = _options.scriptId; // check if global object already attached to window
+
+        if (globalName && typeof window[globalName] !== "undefined") {
+          SCRIPT_MAP[scriptURL] = {
+            loaded: true,
+            observers: {}
+          };
+        } // check if script loading already
+
+
+        if (SCRIPT_MAP[scriptURL]) {
+          var entry = SCRIPT_MAP[scriptURL]; // if loaded or errored then "finish"
+
+          if (entry && (entry.loaded || entry.errored)) {
+            this.asyncScriptLoaderHandleLoad(entry);
+            return;
+          } // if still loading then callback to observer queue
+
+
+          entry.observers[key] = function (entry) {
+            return _this3.asyncScriptLoaderHandleLoad(entry);
+          };
+
+          return;
+        }
+        /*
+         * hasn't started loading
+         * start the "magic"
+         * setup script to load and observers
+         */
+
+
+        var observers = {};
+
+        observers[key] = function (entry) {
+          return _this3.asyncScriptLoaderHandleLoad(entry);
+        };
+
+        SCRIPT_MAP[scriptURL] = {
+          loaded: false,
+          observers: observers
+        };
+        var script = document.createElement("script");
+        script.src = scriptURL;
+        script.async = true;
+
+        for (var attribute in options.attributes) {
+          script.setAttribute(attribute, options.attributes[attribute]);
+        }
+
+        if (scriptId) {
+          script.id = scriptId;
+        }
+
+        var callObserverFuncAndRemoveObserver = function callObserverFuncAndRemoveObserver(func) {
+          if (SCRIPT_MAP[scriptURL]) {
+            var mapEntry = SCRIPT_MAP[scriptURL];
+            var observersMap = mapEntry.observers;
+
+            for (var obsKey in observersMap) {
+              if (func(observersMap[obsKey])) {
+                delete observersMap[obsKey];
+              }
+            }
+          }
+        };
+
+        if (callbackName && typeof window !== "undefined") {
+          window[callbackName] = function () {
+            return _this3.asyncScriptLoaderTriggerOnScriptLoaded();
+          };
+        }
+
+        script.onload = function () {
+          var mapEntry = SCRIPT_MAP[scriptURL];
+
+          if (mapEntry) {
+            mapEntry.loaded = true;
+            callObserverFuncAndRemoveObserver(function (observer) {
+              if (callbackName) {
+                return false;
+              }
+
+              observer(mapEntry);
+              return true;
+            });
+          }
+        };
+
+        script.onerror = function () {
+          var mapEntry = SCRIPT_MAP[scriptURL];
+
+          if (mapEntry) {
+            mapEntry.errored = true;
+            callObserverFuncAndRemoveObserver(function (observer) {
+              observer(mapEntry);
+              return true;
+            });
+          }
+        };
+
+        document.body.appendChild(script);
+      };
+
+      _proto.componentWillUnmount = function componentWillUnmount() {
+        // Remove tag script
+        var scriptURL = this.__scriptURL;
+
+        if (options.removeOnUnmount === true) {
+          var allScripts = document.getElementsByTagName("script");
+
+          for (var i = 0; i < allScripts.length; i += 1) {
+            if (allScripts[i].src.indexOf(scriptURL) > -1) {
+              if (allScripts[i].parentNode) {
+                allScripts[i].parentNode.removeChild(allScripts[i]);
+              }
+            }
+          }
+        } // Clean the observer entry
+
+
+        var mapEntry = SCRIPT_MAP[scriptURL];
+
+        if (mapEntry) {
+          delete mapEntry.observers[this.asyncScriptLoaderGetScriptLoaderID()];
+
+          if (options.removeOnUnmount === true) {
+            delete SCRIPT_MAP[scriptURL];
+          }
+        }
+      };
+
+      _proto.render = function render() {
+        var globalName = options.globalName; // remove asyncScriptOnLoad from childProps
+
+        var _this$props = this.props,
+            asyncScriptOnLoad = _this$props.asyncScriptOnLoad,
+            forwardedRef = _this$props.forwardedRef,
+            childProps = async_script_loader_objectWithoutPropertiesLoose(_this$props, ["asyncScriptOnLoad", "forwardedRef"]); // eslint-disable-line no-unused-vars
+
+
+        if (globalName && typeof window !== "undefined") {
+          childProps[globalName] = typeof window[globalName] !== "undefined" ? window[globalName] : undefined;
+        }
+
+        childProps.ref = forwardedRef;
+        return Object(react["createElement"])(WrappedComponent, childProps);
+      };
+
+      return AsyncScriptLoader;
+    }(react["Component"]); // Note the second param "ref" provided by React.forwardRef.
+    // We can pass it along to AsyncScriptLoader as a regular prop, e.g. "forwardedRef"
+    // And it can then be attached to the Component.
+
+
+    var ForwardedComponent = Object(react["forwardRef"])(function (props, ref) {
+      return Object(react["createElement"])(AsyncScriptLoader, async_script_loader_extends({}, props, {
+        forwardedRef: ref
+      }));
+    });
+    ForwardedComponent.displayName = "AsyncScriptLoader(" + wrappedComponentName + ")";
+    ForwardedComponent.propTypes = {
+      asyncScriptOnLoad: prop_types_default.a.func
+    };
+    return hoist_non_react_statics_cjs_default()(ForwardedComponent, WrappedComponent);
+  };
+}
+// CONCATENATED MODULE: ./node_modules/react-google-recaptcha/lib/esm/recaptcha-wrapper.js
+
+
+var callbackName = "onloadcallback";
+var recaptcha_wrapper_globalName = "grecaptcha";
+
+function getOptions() {
+  return typeof window !== "undefined" && window.recaptchaOptions || {};
+}
+
+function getURL() {
+  var dynamicOptions = getOptions();
+  var hostname = dynamicOptions.useRecaptchaNet ? "recaptcha.net" : "www.google.com";
+  return "https://" + hostname + "/recaptcha/api.js?onload=" + callbackName + "&render=explicit";
+}
+
+/* harmony default export */ var recaptcha_wrapper = (makeAsyncScript(getURL, {
+  callbackName: callbackName,
+  globalName: recaptcha_wrapper_globalName
+})(recaptcha_ReCAPTCHA));
+// CONCATENATED MODULE: ./node_modules/react-google-recaptcha/lib/esm/index.js
+
+
+/* harmony default export */ var esm = __webpack_exports__["a"] = (recaptcha_wrapper);
+
+
+/***/ }),
+
+/***/ 781:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export styles */
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(144);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(145);
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(148);
+/* harmony import */ var _utils_capitalize__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(154);
+
+
+
+
+
+
+
+
+var SIZE = 44;
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      display: 'inline-block'
+    },
+
+    /* Styles applied to the root element if `variant="static"`. */
+    static: {
+      transition: theme.transitions.create('transform')
+    },
+
+    /* Styles applied to the root element if `variant="indeterminate"`. */
+    indeterminate: {
+      animation: '$circular-rotate 1.4s linear infinite'
+    },
+
+    /* Styles applied to the root element if `variant="determinate"`. */
+    determinate: {
+      transition: theme.transitions.create('transform')
+    },
+
+    /* Styles applied to the root element if `color="primary"`. */
+    colorPrimary: {
+      color: theme.palette.primary.main
+    },
+
+    /* Styles applied to the root element if `color="secondary"`. */
+    colorSecondary: {
+      color: theme.palette.secondary.main
+    },
+
+    /* Styles applied to the `svg` element. */
+    svg: {
+      display: 'block' // Keeps the progress centered
+
+    },
+
+    /* Styles applied to the `circle` svg path. */
+    circle: {
+      stroke: 'currentColor' // Use butt to follow the specification, by chance, it's already the default CSS value.
+      // strokeLinecap: 'butt',
+
+    },
+
+    /* Styles applied to the `circle` svg path if `variant="static"`. */
+    circleStatic: {
+      transition: theme.transitions.create('stroke-dashoffset')
+    },
+
+    /* Styles applied to the `circle` svg path if `variant="indeterminate"`. */
+    circleIndeterminate: {
+      animation: '$circular-dash 1.4s ease-in-out infinite',
+      // Some default value that looks fine waiting for the animation to kicks in.
+      strokeDasharray: '80px, 200px',
+      strokeDashoffset: '0px' // Add the unit to fix a Edge 16 and below bug.
+
+    },
+
+    /* Styles applied to the `circle` svg path if `variant="determinate"`. */
+    circleDeterminate: {
+      transition: theme.transitions.create('stroke-dashoffset')
+    },
+    '@keyframes circular-rotate': {
+      '0%': {
+        // Fix IE 11 wobbly
+        transformOrigin: '50% 50%'
+      },
+      '100%': {
+        transform: 'rotate(360deg)'
+      }
+    },
+    '@keyframes circular-dash': {
+      '0%': {
+        strokeDasharray: '1px, 200px',
+        strokeDashoffset: '0px'
+      },
+      '50%': {
+        strokeDasharray: '100px, 200px',
+        strokeDashoffset: '-15px'
+      },
+      '100%': {
+        strokeDasharray: '100px, 200px',
+        strokeDashoffset: '-125px'
+      }
+    },
+
+    /* Styles applied to the `circle` svg path if `disableShrink={true}`. */
+    circleDisableShrink: {
+      animation: 'none'
+    }
+  };
+};
+/**
+ * ## ARIA
+ *
+ * If the progress bar is describing the loading progress of a particular region of a page,
+ * you should use `aria-describedby` to point to the progress bar, and set the `aria-busy`
+ * attribute to `true` on that region until it has finished loading.
+ */
+
+var CircularProgress = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function CircularProgress(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      _props$color = props.color,
+      color = _props$color === void 0 ? 'primary' : _props$color,
+      _props$disableShrink = props.disableShrink,
+      disableShrink = _props$disableShrink === void 0 ? false : _props$disableShrink,
+      _props$size = props.size,
+      size = _props$size === void 0 ? 40 : _props$size,
+      style = props.style,
+      _props$thickness = props.thickness,
+      thickness = _props$thickness === void 0 ? 3.6 : _props$thickness,
+      _props$value = props.value,
+      value = _props$value === void 0 ? 0 : _props$value,
+      _props$variant = props.variant,
+      variant = _props$variant === void 0 ? 'indeterminate' : _props$variant,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(props, ["classes", "className", "color", "disableShrink", "size", "style", "thickness", "value", "variant"]);
+
+  var circleStyle = {};
+  var rootStyle = {};
+  var rootProps = {};
+
+  if (variant === 'determinate' || variant === 'static') {
+    var circumference = 2 * Math.PI * ((SIZE - thickness) / 2);
+    circleStyle.strokeDasharray = circumference.toFixed(3);
+    rootProps['aria-valuenow'] = Math.round(value);
+    circleStyle.strokeDashoffset = "".concat(((100 - value) / 100 * circumference).toFixed(3), "px");
+    rootStyle.transform = 'rotate(-90deg)';
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, className, color !== 'inherit' && classes["color".concat(Object(_utils_capitalize__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(color))], {
+      'determinate': classes.determinate,
+      'indeterminate': classes.indeterminate,
+      'static': classes.static
+    }[variant]),
+    style: Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+      width: size,
+      height: size
+    }, rootStyle, style),
+    ref: ref,
+    role: "progressbar"
+  }, rootProps, other), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("svg", {
+    className: classes.svg,
+    viewBox: "".concat(SIZE / 2, " ").concat(SIZE / 2, " ").concat(SIZE, " ").concat(SIZE)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("circle", {
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.circle, disableShrink && classes.circleDisableShrink, {
+      'determinate': classes.circleDeterminate,
+      'indeterminate': classes.circleIndeterminate,
+      'static': classes.circleStatic
+    }[variant]),
+    style: circleStyle,
+    cx: SIZE,
+    cy: SIZE,
+    r: (SIZE - thickness) / 2,
+    fill: "none",
+    strokeWidth: thickness
+  })));
+});
+ false ? undefined : void 0;
+/* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(styles, {
+  name: 'MuiCircularProgress',
+  flip: false
+})(CircularProgress));
+
+/***/ }),
+
+/***/ 799:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// UNUSED EXPORTS: styles
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
+var objectWithoutProperties = __webpack_require__(144);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+var esm_extends = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/utils/esm/formatMuiErrorMessage.js
+var formatMuiErrorMessage = __webpack_require__(819);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+var clsx_m = __webpack_require__(145);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/FormControl/formControlState.js
+var formControlState = __webpack_require__(452);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/FormControl/FormControlContext.js
+var FormControlContext = __webpack_require__(389);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
+var withStyles = __webpack_require__(148);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/capitalize.js
+var capitalize = __webpack_require__(154);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/useForkRef.js
+var useForkRef = __webpack_require__(152);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/debounce.js
+var debounce = __webpack_require__(171);
+
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/TextareaAutosize/TextareaAutosize.js
+
+
+
+
+
+
+
+function getStyleValue(computedStyle, property) {
+  return parseInt(computedStyle[property], 10) || 0;
+}
+
+var useEnhancedEffect = typeof window !== 'undefined' ? react["useLayoutEffect"] : react["useEffect"];
+var TextareaAutosize_styles = {
+  /* Styles applied to the shadow textarea element. */
+  shadow: {
+    // Visibility needed to hide the extra text area on iPads
+    visibility: 'hidden',
+    // Remove from the content flow
+    position: 'absolute',
+    // Ignore the scrollbar width
+    overflow: 'hidden',
+    height: 0,
+    top: 0,
+    left: 0,
+    // Create a new layer, increase the isolation of the computed values
+    transform: 'translateZ(0)'
+  }
+};
+var TextareaAutosize_TextareaAutosize = /*#__PURE__*/react["forwardRef"](function TextareaAutosize(props, ref) {
+  var onChange = props.onChange,
+      rows = props.rows,
+      rowsMax = props.rowsMax,
+      _props$rowsMin = props.rowsMin,
+      rowsMinProp = _props$rowsMin === void 0 ? 1 : _props$rowsMin,
+      style = props.style,
+      value = props.value,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["onChange", "rows", "rowsMax", "rowsMin", "style", "value"]);
+
+  var rowsMin = rows || rowsMinProp;
+
+  var _React$useRef = react["useRef"](value != null),
+      isControlled = _React$useRef.current;
+
+  var inputRef = react["useRef"](null);
+  var handleRef = Object(useForkRef["a" /* default */])(ref, inputRef);
+  var shadowRef = react["useRef"](null);
+  var renders = react["useRef"](0);
+
+  var _React$useState = react["useState"]({}),
+      state = _React$useState[0],
+      setState = _React$useState[1];
+
+  var syncHeight = react["useCallback"](function () {
+    var input = inputRef.current;
+    var computedStyle = window.getComputedStyle(input);
+    var inputShallow = shadowRef.current;
+    inputShallow.style.width = computedStyle.width;
+    inputShallow.value = input.value || props.placeholder || 'x';
+
+    if (inputShallow.value.slice(-1) === '\n') {
+      // Certain fonts which overflow the line height will cause the textarea
+      // to report a different scrollHeight depending on whether the last line
+      // is empty. Make it non-empty to avoid this issue.
+      inputShallow.value += ' ';
+    }
+
+    var boxSizing = computedStyle['box-sizing'];
+    var padding = getStyleValue(computedStyle, 'padding-bottom') + getStyleValue(computedStyle, 'padding-top');
+    var border = getStyleValue(computedStyle, 'border-bottom-width') + getStyleValue(computedStyle, 'border-top-width'); // The height of the inner content
+
+    var innerHeight = inputShallow.scrollHeight - padding; // Measure height of a textarea with a single row
+
+    inputShallow.value = 'x';
+    var singleRowHeight = inputShallow.scrollHeight - padding; // The height of the outer content
+
+    var outerHeight = innerHeight;
+
+    if (rowsMin) {
+      outerHeight = Math.max(Number(rowsMin) * singleRowHeight, outerHeight);
+    }
+
+    if (rowsMax) {
+      outerHeight = Math.min(Number(rowsMax) * singleRowHeight, outerHeight);
+    }
+
+    outerHeight = Math.max(outerHeight, singleRowHeight); // Take the box sizing into account for applying this value as a style.
+
+    var outerHeightStyle = outerHeight + (boxSizing === 'border-box' ? padding + border : 0);
+    var overflow = Math.abs(outerHeight - innerHeight) <= 1;
+    setState(function (prevState) {
+      // Need a large enough difference to update the height.
+      // This prevents infinite rendering loop.
+      if (renders.current < 20 && (outerHeightStyle > 0 && Math.abs((prevState.outerHeightStyle || 0) - outerHeightStyle) > 1 || prevState.overflow !== overflow)) {
+        renders.current += 1;
+        return {
+          overflow: overflow,
+          outerHeightStyle: outerHeightStyle
+        };
+      }
+
+      if (false) {}
+
+      return prevState;
+    });
+  }, [rowsMax, rowsMin, props.placeholder]);
+  react["useEffect"](function () {
+    var handleResize = Object(debounce["a" /* default */])(function () {
+      renders.current = 0;
+      syncHeight();
+    });
+    window.addEventListener('resize', handleResize);
+    return function () {
+      handleResize.clear();
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [syncHeight]);
+  useEnhancedEffect(function () {
+    syncHeight();
+  });
+  react["useEffect"](function () {
+    renders.current = 0;
+  }, [value]);
+
+  var handleChange = function handleChange(event) {
+    renders.current = 0;
+
+    if (!isControlled) {
+      syncHeight();
+    }
+
+    if (onChange) {
+      onChange(event);
+    }
+  };
+
+  return /*#__PURE__*/react["createElement"](react["Fragment"], null, /*#__PURE__*/react["createElement"]("textarea", Object(esm_extends["a" /* default */])({
+    value: value,
+    onChange: handleChange,
+    ref: handleRef // Apply the rows prop to get a "correct" first SSR paint
+    ,
+    rows: rowsMin,
+    style: Object(esm_extends["a" /* default */])({
+      height: state.outerHeightStyle,
+      // Need a large enough difference to allow scrolling.
+      // This prevents infinite rendering loop.
+      overflow: state.overflow ? 'hidden' : null
+    }, style)
+  }, other)), /*#__PURE__*/react["createElement"]("textarea", {
+    "aria-hidden": true,
+    className: props.className,
+    readOnly: true,
+    ref: shadowRef,
+    tabIndex: -1,
+    style: Object(esm_extends["a" /* default */])({}, TextareaAutosize_styles.shadow, style)
+  }));
+});
+ false ? undefined : void 0;
+/* harmony default export */ var esm_TextareaAutosize_TextareaAutosize = (TextareaAutosize_TextareaAutosize);
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/InputBase/utils.js
+var utils = __webpack_require__(394);
+
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/InputBase/InputBase.js
+
+
+
+
+/* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */
+
+
+
+
+
+
+
+
+
+
+
+var InputBase_styles = function styles(theme) {
+  var light = theme.palette.type === 'light';
+  var placeholder = {
+    color: 'currentColor',
+    opacity: light ? 0.42 : 0.5,
+    transition: theme.transitions.create('opacity', {
+      duration: theme.transitions.duration.shorter
+    })
+  };
+  var placeholderHidden = {
+    opacity: '0 !important'
+  };
+  var placeholderVisible = {
+    opacity: light ? 0.42 : 0.5
+  };
+  return {
+    '@global': {
+      '@keyframes mui-auto-fill': {},
+      '@keyframes mui-auto-fill-cancel': {}
+    },
+
+    /* Styles applied to the root element. */
+    root: Object(esm_extends["a" /* default */])({}, theme.typography.body1, {
+      color: theme.palette.text.primary,
+      lineHeight: '1.1876em',
+      // Reset (19px), match the native input line-height
+      boxSizing: 'border-box',
+      // Prevent padding issue with fullWidth.
+      position: 'relative',
+      cursor: 'text',
+      display: 'inline-flex',
+      alignItems: 'center',
+      '&$disabled': {
+        color: theme.palette.text.disabled,
+        cursor: 'default'
+      }
+    }),
+
+    /* Styles applied to the root element if the component is a descendant of `FormControl`. */
+    formControl: {},
+
+    /* Styles applied to the root element if the component is focused. */
+    focused: {},
+
+    /* Styles applied to the root element if `disabled={true}`. */
+    disabled: {},
+
+    /* Styles applied to the root element if `startAdornment` is provided. */
+    adornedStart: {},
+
+    /* Styles applied to the root element if `endAdornment` is provided. */
+    adornedEnd: {},
+
+    /* Pseudo-class applied to the root element if `error={true}`. */
+    error: {},
+
+    /* Styles applied to the `input` element if `margin="dense"`. */
+    marginDense: {},
+
+    /* Styles applied to the root element if `multiline={true}`. */
+    multiline: {
+      padding: "".concat(8 - 2, "px 0 ").concat(8 - 1, "px"),
+      '&$marginDense': {
+        paddingTop: 4 - 1
+      }
+    },
+
+    /* Styles applied to the root element if the color is secondary. */
+    colorSecondary: {},
+
+    /* Styles applied to the root element if `fullWidth={true}`. */
+    fullWidth: {
+      width: '100%'
+    },
+
+    /* Styles applied to the `input` element. */
+    input: {
+      font: 'inherit',
+      letterSpacing: 'inherit',
+      color: 'currentColor',
+      padding: "".concat(8 - 2, "px 0 ").concat(8 - 1, "px"),
+      border: 0,
+      boxSizing: 'content-box',
+      background: 'none',
+      height: '1.1876em',
+      // Reset (19px), match the native input line-height
+      margin: 0,
+      // Reset for Safari
+      WebkitTapHighlightColor: 'transparent',
+      display: 'block',
+      // Make the flex item shrink with Firefox
+      minWidth: 0,
+      width: '100%',
+      // Fix IE 11 width issue
+      animationName: 'mui-auto-fill-cancel',
+      animationDuration: '10ms',
+      '&::-webkit-input-placeholder': placeholder,
+      '&::-moz-placeholder': placeholder,
+      // Firefox 19+
+      '&:-ms-input-placeholder': placeholder,
+      // IE 11
+      '&::-ms-input-placeholder': placeholder,
+      // Edge
+      '&:focus': {
+        outline: 0
+      },
+      // Reset Firefox invalid required input style
+      '&:invalid': {
+        boxShadow: 'none'
+      },
+      '&::-webkit-search-decoration': {
+        // Remove the padding when type=search.
+        '-webkit-appearance': 'none'
+      },
+      // Show and hide the placeholder logic
+      'label[data-shrink=false] + $formControl &': {
+        '&::-webkit-input-placeholder': placeholderHidden,
+        '&::-moz-placeholder': placeholderHidden,
+        // Firefox 19+
+        '&:-ms-input-placeholder': placeholderHidden,
+        // IE 11
+        '&::-ms-input-placeholder': placeholderHidden,
+        // Edge
+        '&:focus::-webkit-input-placeholder': placeholderVisible,
+        '&:focus::-moz-placeholder': placeholderVisible,
+        // Firefox 19+
+        '&:focus:-ms-input-placeholder': placeholderVisible,
+        // IE 11
+        '&:focus::-ms-input-placeholder': placeholderVisible // Edge
+
+      },
+      '&$disabled': {
+        opacity: 1 // Reset iOS opacity
+
+      },
+      '&:-webkit-autofill': {
+        animationDuration: '5000s',
+        animationName: 'mui-auto-fill'
+      }
+    },
+
+    /* Styles applied to the `input` element if `margin="dense"`. */
+    inputMarginDense: {
+      paddingTop: 4 - 1
+    },
+
+    /* Styles applied to the `input` element if `multiline={true}`. */
+    inputMultiline: {
+      height: 'auto',
+      resize: 'none',
+      padding: 0
+    },
+
+    /* Styles applied to the `input` element if `type="search"`. */
+    inputTypeSearch: {
+      // Improve type search style.
+      '-moz-appearance': 'textfield',
+      '-webkit-appearance': 'textfield'
+    },
+
+    /* Styles applied to the `input` element if `startAdornment` is provided. */
+    inputAdornedStart: {},
+
+    /* Styles applied to the `input` element if `endAdornment` is provided. */
+    inputAdornedEnd: {},
+
+    /* Styles applied to the `input` element if `hiddenLabel={true}`. */
+    inputHiddenLabel: {}
+  };
+};
+var InputBase_useEnhancedEffect = typeof window === 'undefined' ? react["useEffect"] : react["useLayoutEffect"];
+/**
+ * `InputBase` contains as few styles as possible.
+ * It aims to be a simple building block for creating an input.
+ * It contains a load of style reset and some state logic.
+ */
+
+var InputBase_InputBase = /*#__PURE__*/react["forwardRef"](function InputBase(props, ref) {
+  var ariaDescribedby = props['aria-describedby'],
+      autoComplete = props.autoComplete,
+      autoFocus = props.autoFocus,
+      classes = props.classes,
+      className = props.className,
+      color = props.color,
+      defaultValue = props.defaultValue,
+      disabled = props.disabled,
+      endAdornment = props.endAdornment,
+      error = props.error,
+      _props$fullWidth = props.fullWidth,
+      fullWidth = _props$fullWidth === void 0 ? false : _props$fullWidth,
+      id = props.id,
+      _props$inputComponent = props.inputComponent,
+      inputComponent = _props$inputComponent === void 0 ? 'input' : _props$inputComponent,
+      _props$inputProps = props.inputProps,
+      inputPropsProp = _props$inputProps === void 0 ? {} : _props$inputProps,
+      inputRefProp = props.inputRef,
+      margin = props.margin,
+      _props$multiline = props.multiline,
+      multiline = _props$multiline === void 0 ? false : _props$multiline,
+      name = props.name,
+      onBlur = props.onBlur,
+      onChange = props.onChange,
+      onClick = props.onClick,
+      onFocus = props.onFocus,
+      onKeyDown = props.onKeyDown,
+      onKeyUp = props.onKeyUp,
+      placeholder = props.placeholder,
+      readOnly = props.readOnly,
+      renderSuffix = props.renderSuffix,
+      rows = props.rows,
+      rowsMax = props.rowsMax,
+      rowsMin = props.rowsMin,
+      startAdornment = props.startAdornment,
+      _props$type = props.type,
+      type = _props$type === void 0 ? 'text' : _props$type,
+      valueProp = props.value,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["aria-describedby", "autoComplete", "autoFocus", "classes", "className", "color", "defaultValue", "disabled", "endAdornment", "error", "fullWidth", "id", "inputComponent", "inputProps", "inputRef", "margin", "multiline", "name", "onBlur", "onChange", "onClick", "onFocus", "onKeyDown", "onKeyUp", "placeholder", "readOnly", "renderSuffix", "rows", "rowsMax", "rowsMin", "startAdornment", "type", "value"]);
+
+  var value = inputPropsProp.value != null ? inputPropsProp.value : valueProp;
+
+  var _React$useRef = react["useRef"](value != null),
+      isControlled = _React$useRef.current;
+
+  var inputRef = react["useRef"]();
+  var handleInputRefWarning = react["useCallback"](function (instance) {
+    if (false) {}
+  }, []);
+  var handleInputPropsRefProp = Object(useForkRef["a" /* default */])(inputPropsProp.ref, handleInputRefWarning);
+  var handleInputRefProp = Object(useForkRef["a" /* default */])(inputRefProp, handleInputPropsRefProp);
+  var handleInputRef = Object(useForkRef["a" /* default */])(inputRef, handleInputRefProp);
+
+  var _React$useState = react["useState"](false),
+      focused = _React$useState[0],
+      setFocused = _React$useState[1];
+
+  var muiFormControl = Object(FormControlContext["b" /* useFormControl */])();
+
+  if (false) {}
+
+  var fcs = Object(formControlState["a" /* default */])({
+    props: props,
+    muiFormControl: muiFormControl,
+    states: ['color', 'disabled', 'error', 'hiddenLabel', 'margin', 'required', 'filled']
+  });
+  fcs.focused = muiFormControl ? muiFormControl.focused : focused; // The blur won't fire when the disabled state is set on a focused input.
+  // We need to book keep the focused state manually.
+
+  react["useEffect"](function () {
+    if (!muiFormControl && disabled && focused) {
+      setFocused(false);
+
+      if (onBlur) {
+        onBlur();
+      }
+    }
+  }, [muiFormControl, disabled, focused, onBlur]);
+  var onFilled = muiFormControl && muiFormControl.onFilled;
+  var onEmpty = muiFormControl && muiFormControl.onEmpty;
+  var checkDirty = react["useCallback"](function (obj) {
+    if (Object(utils["b" /* isFilled */])(obj)) {
+      if (onFilled) {
+        onFilled();
+      }
+    } else if (onEmpty) {
+      onEmpty();
+    }
+  }, [onFilled, onEmpty]);
+  InputBase_useEnhancedEffect(function () {
+    if (isControlled) {
+      checkDirty({
+        value: value
+      });
+    }
+  }, [value, checkDirty, isControlled]);
+
+  var handleFocus = function handleFocus(event) {
+    // Fix a bug with IE 11 where the focus/blur events are triggered
+    // while the input is disabled.
+    if (fcs.disabled) {
+      event.stopPropagation();
+      return;
+    }
+
+    if (onFocus) {
+      onFocus(event);
+    }
+
+    if (inputPropsProp.onFocus) {
+      inputPropsProp.onFocus(event);
+    }
+
+    if (muiFormControl && muiFormControl.onFocus) {
+      muiFormControl.onFocus(event);
+    } else {
+      setFocused(true);
+    }
+  };
+
+  var handleBlur = function handleBlur(event) {
+    if (onBlur) {
+      onBlur(event);
+    }
+
+    if (inputPropsProp.onBlur) {
+      inputPropsProp.onBlur(event);
+    }
+
+    if (muiFormControl && muiFormControl.onBlur) {
+      muiFormControl.onBlur(event);
+    } else {
+      setFocused(false);
+    }
+  };
+
+  var handleChange = function handleChange(event) {
+    if (!isControlled) {
+      var element = event.target || inputRef.current;
+
+      if (element == null) {
+        throw new Error( false ? undefined : Object(formatMuiErrorMessage["a" /* default */])(1));
+      }
+
+      checkDirty({
+        value: element.value
+      });
+    }
+
+    for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+      args[_key - 1] = arguments[_key];
+    }
+
+    if (inputPropsProp.onChange) {
+      inputPropsProp.onChange.apply(inputPropsProp, [event].concat(args));
+    } // Perform in the willUpdate
+
+
+    if (onChange) {
+      onChange.apply(void 0, [event].concat(args));
+    }
+  }; // Check the input state on mount, in case it was filled by the user
+  // or auto filled by the browser before the hydration (for SSR).
+
+
+  react["useEffect"](function () {
+    checkDirty(inputRef.current);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  var handleClick = function handleClick(event) {
+    if (inputRef.current && event.currentTarget === event.target) {
+      inputRef.current.focus();
+    }
+
+    if (onClick) {
+      onClick(event);
+    }
+  };
+
+  var InputComponent = inputComponent;
+
+  var inputProps = Object(esm_extends["a" /* default */])({}, inputPropsProp, {
+    ref: handleInputRef
+  });
+
+  if (typeof InputComponent !== 'string') {
+    inputProps = Object(esm_extends["a" /* default */])({
+      // Rename ref to inputRef as we don't know the
+      // provided `inputComponent` structure.
+      inputRef: handleInputRef,
+      type: type
+    }, inputProps, {
+      ref: null
+    });
+  } else if (multiline) {
+    if (rows && !rowsMax && !rowsMin) {
+      InputComponent = 'textarea';
+    } else {
+      inputProps = Object(esm_extends["a" /* default */])({
+        rows: rows,
+        rowsMax: rowsMax
+      }, inputProps);
+      InputComponent = esm_TextareaAutosize_TextareaAutosize;
+    }
+  } else {
+    inputProps = Object(esm_extends["a" /* default */])({
+      type: type
+    }, inputProps);
+  }
+
+  var handleAutoFill = function handleAutoFill(event) {
+    // Provide a fake value as Chrome might not let you access it for security reasons.
+    checkDirty(event.animationName === 'mui-auto-fill-cancel' ? inputRef.current : {
+      value: 'x'
+    });
+  };
+
+  react["useEffect"](function () {
+    if (muiFormControl) {
+      muiFormControl.setAdornedStart(Boolean(startAdornment));
+    }
+  }, [muiFormControl, startAdornment]);
+  return /*#__PURE__*/react["createElement"]("div", Object(esm_extends["a" /* default */])({
+    className: Object(clsx_m["a" /* default */])(classes.root, classes["color".concat(Object(capitalize["a" /* default */])(fcs.color || 'primary'))], className, fcs.disabled && classes.disabled, fcs.error && classes.error, fullWidth && classes.fullWidth, fcs.focused && classes.focused, muiFormControl && classes.formControl, multiline && classes.multiline, startAdornment && classes.adornedStart, endAdornment && classes.adornedEnd, fcs.margin === 'dense' && classes.marginDense),
+    onClick: handleClick,
+    ref: ref
+  }, other), startAdornment, /*#__PURE__*/react["createElement"](FormControlContext["a" /* default */].Provider, {
+    value: null
+  }, /*#__PURE__*/react["createElement"](InputComponent, Object(esm_extends["a" /* default */])({
+    "aria-invalid": fcs.error,
+    "aria-describedby": ariaDescribedby,
+    autoComplete: autoComplete,
+    autoFocus: autoFocus,
+    defaultValue: defaultValue,
+    disabled: fcs.disabled,
+    id: id,
+    onAnimationStart: handleAutoFill,
+    name: name,
+    placeholder: placeholder,
+    readOnly: readOnly,
+    required: fcs.required,
+    rows: rows,
+    value: value,
+    onKeyDown: onKeyDown,
+    onKeyUp: onKeyUp
+  }, inputProps, {
+    className: Object(clsx_m["a" /* default */])(classes.input, inputPropsProp.className, fcs.disabled && classes.disabled, multiline && classes.inputMultiline, fcs.hiddenLabel && classes.inputHiddenLabel, startAdornment && classes.inputAdornedStart, endAdornment && classes.inputAdornedEnd, type === 'search' && classes.inputTypeSearch, fcs.margin === 'dense' && classes.inputMarginDense),
+    onBlur: handleBlur,
+    onChange: handleChange,
+    onFocus: handleFocus
+  }))), endAdornment, renderSuffix ? renderSuffix(Object(esm_extends["a" /* default */])({}, fcs, {
+    startAdornment: startAdornment
+  })) : null);
+});
+ false ? undefined : void 0;
+/* harmony default export */ var esm_InputBase_InputBase = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(InputBase_styles, {
+  name: 'MuiInputBase'
+})(InputBase_InputBase));
+
+/***/ }),
+
+/***/ 94:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(277);
+/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(272);
+/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(145);
+/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(226);
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(530);
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(287);
+/* harmony import */ var _material_ui_core_InputBase__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(799);
+/* harmony import */ var _material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(313);
+/* harmony import */ var _material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(312);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(148);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(166);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(271);
+/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_google_recaptcha__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(757);
+/* harmony import */ var _material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(781);
+var MetaData={title:"EOS Costa Rica: Contáctenos",description:"Pregúntenos sobre cómo integrar la tecnología blockchain EOSIO en su organización.",img:"img/metaImgBlack.png"};var GenericInput=Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"])({root:{width:'100%',padding:'10px',border:'solid 1px gray'},input:{fontFamily:'Lato',fontSize:19,fontWeight:'normal','&:-webkit-autofill':{transitionDelay:'9999s',transitionProperty:'background-color, color'}},focused:{border:'solid 1px #5484b3'}})(function(props){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_InputBase__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],props);});var ContactUs=function ContactUs(){var _clsx;var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_11__["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_11__["useMediaQuery"])({query:'(min-width: 960px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),resultsSection=_useState[0],setResultsSection=_useState[1];var ContactForm=function ContactForm(){var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),errorMessage=_useState2[0],setErrorMessage=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),recaptchaValue=_useState3[0],setRecaptchaValue=_useState3[1];var _useState4=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),submitLoading=_useState4[0],setSubmitLoading=_useState4[1];var _useState5=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])({email:'',firstName:'',lastName:'',companyName:'',additionalComments:''}),contactForm=_useState5[0],setContactForm=_useState5[1];var handleSetField=function handleSetField(field,value){var _Object$assign;setContactForm(Object.assign({},contactForm,(_Object$assign={},_Object$assign[field]=value,_Object$assign)));};var handleCloseErrorMessage=function handleCloseErrorMessage(){setErrorMessage(false);};var validateEmail=function validateEmail(mail){var regex=/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;return regex.test(mail);};var onSubmitForms=/*#__PURE__*/function(){var _ref=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(/*#__PURE__*/_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(e){return _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:e.preventDefault();setSubmitLoading(true);sendData();case 3:case"end":return _context.stop();}}},_callee);}));return function onSubmitForms(_x){return _ref.apply(this,arguments);};}();var sendData=/*#__PURE__*/function(){var _ref2=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(/*#__PURE__*/_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee2(){var jsonData,requestOptions,response;return _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee2$(_context2){while(1){switch(_context2.prev=_context2.next){case 0:jsonData={"fields":[{"name":"email","value":contactForm.email},{"name":"company","value":contactForm.companyName},{"name":"firstname","value":contactForm.firstName},{"name":"lastname","value":contactForm.lastName},{"name":"message","value":contactForm.additionalComments}],"context":{"pageUri":"https://eoscostarica.io/contact-us","pageName":"EOS Costa Rica: Contact Us"},"legalConsentOptions":{"consent":{"consentToProcess":true,"text":"I agree to allow Example Company to store and process my personal data.","communications":[{"value":true,"subscriptionTypeId":999,"text":"I agree to receive marketing communications from Example Company."}]}}};requestOptions={method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(jsonData)};_context2.next=4;return fetch("https://api.hsforms.com/submissions/v3/integration/submit/"+"9018734"+"/"+"33879049-a83c-4dd4-abbf-b739e748b01c",requestOptions);case 4:response=_context2.sent;if(response.ok)setResultsSection(true);else setErrorMessage(true);setSubmitLoading(false);case 7:case"end":return _context2.stop();}}},_callee2);}));return function sendData(){return _ref2.apply(this,arguments);};}();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form",{onSubmit:onSubmitForms,noValidate:true},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{container:true,spacing:2},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label",{htmlFor:"firstName_contact"},"Nombre"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"inputFormBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(GenericInput,{id:"firstName_contact",value:contactForm.firstName||'',onChange:function onChange(event){return handleSetField('firstName',event.target.value);},required:true}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label",{htmlFor:"lastName_contact"},"Apellido"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"inputFormBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(GenericInput,{id:"lastName_contact",value:contactForm.lastName||'',onChange:function onChange(event){return handleSetField('lastName',event.target.value);},required:true}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label",{htmlFor:"email_contact"},"Email"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"inputFormBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(GenericInput,{id:"email_contact",value:contactForm.email||'',onChange:function onChange(event){return handleSetField('email',event.target.value);},required:true}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label",{htmlFor:"companyName_contact"},"Nombre de la compa\xF1\xEDa (opcional)"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"inputFormBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(GenericInput,{id:"companyName_contact",value:contactForm.companyName||'',onChange:function onChange(event){return handleSetField('companyName',event.target.value);},required:true}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{item:true,xs:12,md:12},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label",{htmlFor:"additionalComments_contact"},"Comentarios adicionales (opcional)"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"inputFormBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(GenericInput,{id:"additionalComments_contact",value:contactForm.additionalComments||'',onChange:function onChange(event){return handleSetField('additionalComments',event.target.value);},required:true,multiline:true,rows:3}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{item:true,xs:12,md:12},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",null,"Respetamos tu privacidad. No compartiremos ninguna informaci\xF3n de contacto y solo la usaremos para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{item:true,xs:12,md:12},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_google_recaptcha__WEBPACK_IMPORTED_MODULE_13__[/* default */ "a"],{sitekey:"6Lf3CXMaAAAAAN8_to0Gc3AYeHGOBtjd6X51GFcb",onChange:function onChange(value){return setRecaptchaValue(value);}})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{item:true,xs:12,md:12},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:isMobile?"centerBox":""},submitLoading&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_14__[/* default */ "a"],{style:{color:'#5484B3'}}),!submitLoading&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input",{type:"submit",className:"buttonPrimary",value:"Enviar",disabled:!contactForm.firstName||!contactForm.lastName||!contactForm.email||!recaptchaValue||!validateEmail(contactForm.email)}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{open:errorMessage,autoHideDuration:4000,onClose:handleCloseErrorMessage},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"],{severity:"error"},"\xA1Algo pas\xF3! Int\xE9ntalo de nuevo")))));};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{title:MetaData.title,description:MetaData.description,image:MetaData.img},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_12__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_12__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("sectionContact",(_clsx={},_clsx["sectionPadding"]=isMobile,_clsx))},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1",null,"Cont\xE1ctenos")),!resultsSection&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"contactFormBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",null,"Comencemos la conversaci\xF3n. Preg\xFAntenos c\xF3mo podemos ayudarlo a implementar la tecnolog\xEDa blockchain en su organizaci\xF3n.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(ContactForm,null)),resultsSection&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"contactFormBox",style:{height:'120px'}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",null,"Gracias por contactar a EOS Costa Rica. Te responderemos a la brevedad"))))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"sectionHeroMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1",null,"Cont\xE1ctenos")),!resultsSection&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"contactFormBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",{style:{padding:0}},"Comencemos la conversaci\xF3n. Preg\xFAntenos c\xF3mo podemos ayudarlo a implementar la tecnolog\xEDa blockchain en su organizaci\xF3n.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(ContactForm,null)),resultsSection&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{className:"contactFormBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",{style:{padding:0}},"Gracias por contactar a EOS Costa Rica. Te responderemos a la brevedad"))));};/* harmony default export */ __webpack_exports__["default"] = (ContactUs);
+
 /***/ })
-])]);
+
+}]);

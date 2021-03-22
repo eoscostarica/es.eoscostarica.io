@@ -39,7 +39,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(312);
 /* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(166);
 /* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_6__);
-var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_6__["useMediaQuery"])({query:'(max-width: 769px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),open=_useState[0],setOpen=_useState[1];var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),errorMessage=_useState2[0],setErrorMessage=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(),email=_useState3[0],setEmail=_useState3[1];var handleClose=function handleClose(event,reason){if(reason==='clickaway'){return;}setOpen(false);setErrorMessage(false);};var handleSetEmail=function handleSetEmail(e){setEmail(e.target.value);};var validateEmail=function validateEmail(mail){var regex=/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;return regex.test(mail);};var onSubmitEmailResults=/*#__PURE__*/function(){var _ref=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(/*#__PURE__*/_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(e){var jsonData,requestOptions,response;return _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:e.preventDefault();if(!validateEmail(email)){_context.next=11;break;}jsonData={"fields":[{"name":"email","value":email}],"context":{"pageUri":"https://eoscostarica.io/","pageName":"EOS Costa Rica"},"legalConsentOptions":{"consent":{"consentToProcess":true,"text":"I agree to allow Example Company to store and process my personal data.","communications":[{"value":true,"subscriptionTypeId":999,"text":"I agree to receive marketing communications from Example Company."}]}}};requestOptions={method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(jsonData)};_context.next=6;return fetch("https://api.hsforms.com/submissions/v3/integration/submit/"+""+"/"+"",requestOptions);case 6:response=_context.sent;setOpen(true);setEmail("");_context.next=12;break;case 11:setErrorMessage(true);case 12:case"end":return _context.stop();}}},_callee);}));return function onSubmitEmailResults(_x){return _ref.apply(this,arguments);};}();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"specialH3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3",{className:"h3Footer"},"Suscr\xEDbete para comunicarnos ")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{paddingLeft:isMobile?'25px':0,paddingRight:isMobile?'25px':0}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form",{onSubmit:onSubmitEmailResults},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input",{className:"inputFooter",type:"text",id:"email",name:"email",placeholder:"Correo electr\xF3nico",value:email,onChange:handleSetEmail}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button",{className:"buttonPrimary",style:{padding:'11px',fontSize:'16px',float:'right'}},"Enviar"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"litleMarginTop"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",{style:{color:'white',fontSize:'14px'}},"EOS Costa Rica respeta su privacidad. Necesitamos la informaci\xF3n de contacto que nos proporciona para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:open,autoHideDuration:3000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],null,"Gracias por suscribirse")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:errorMessage,autoHideDuration:4000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{severity:"error"},"Complete el campo y verifique que sea un correo electr\xF3nico correcto")));};/* harmony default export */ __webpack_exports__["default"] = (SuscribeForm);
+var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_6__["useMediaQuery"])({query:'(max-width: 769px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),open=_useState[0],setOpen=_useState[1];var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),errorMessage=_useState2[0],setErrorMessage=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(),email=_useState3[0],setEmail=_useState3[1];var handleClose=function handleClose(event,reason){if(reason==='clickaway'){return;}setOpen(false);setErrorMessage(false);};var handleSetEmail=function handleSetEmail(e){setEmail(e.target.value);};var validateEmail=function validateEmail(mail){var regex=/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;return regex.test(mail);};var onSubmitEmailResults=/*#__PURE__*/function(){var _ref=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(/*#__PURE__*/_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(e){var jsonData,requestOptions,response;return _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:e.preventDefault();if(!validateEmail(email)){_context.next=11;break;}jsonData={"fields":[{"name":"email","value":email}],"context":{"pageUri":"https://eoscostarica.io/","pageName":"EOS Costa Rica"},"legalConsentOptions":{"consent":{"consentToProcess":true,"text":"I agree to allow Example Company to store and process my personal data.","communications":[{"value":true,"subscriptionTypeId":999,"text":"I agree to receive marketing communications from Example Company."}]}}};requestOptions={method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(jsonData)};_context.next=6;return fetch("https://api.hsforms.com/submissions/v3/integration/submit/"+"9018734"+"/"+"df605eac-d7d1-44b5-af45-dd93d65d84ee",requestOptions);case 6:response=_context.sent;setOpen(true);setEmail("");_context.next=12;break;case 11:setErrorMessage(true);case 12:case"end":return _context.stop();}}},_callee);}));return function onSubmitEmailResults(_x){return _ref.apply(this,arguments);};}();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"specialH3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h3",{className:"h3Footer"},"Suscr\xEDbete para comunicarnos ")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{paddingLeft:isMobile?'25px':0,paddingRight:isMobile?'25px':0}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form",{onSubmit:onSubmitEmailResults},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input",{className:"inputFooter",type:"text",id:"email",name:"email",placeholder:"Correo electr\xF3nico",value:email,onChange:handleSetEmail}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button",{className:"buttonPrimary",style:{padding:'11px',fontSize:'16px',float:'right'}},"Enviar"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"litleMarginTop"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p",{style:{color:'white',fontSize:'14px'}},"EOS Costa Rica respeta su privacidad. Necesitamos la informaci\xF3n de contacto que nos proporciona para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:open,autoHideDuration:3000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],null,"Gracias por suscribirse")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{open:errorMessage,autoHideDuration:4000,onClose:handleClose},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_lab_Alert__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{severity:"error"},"Complete el campo y verifique que sea un correo electr\xF3nico correcto")));};/* harmony default export */ __webpack_exports__["default"] = (SuscribeForm);
 
 /***/ }),
 /* 61 */,
@@ -2291,7 +2291,8 @@ var EnglishPluralForms={locale:'en',pluralForms:sortPluralForms(['one','other'])
 // - 2021: 92+% Browsers support Intl.PluralRules, and support will increase in the future
 // - NodeJS >= 13 has full ICU support by default
 // - In case of "mismatch" between SSR and Browser ICU support, React keeps working!
-function useLocalePluralForms(){var _useDocusaurusContext=useDocusaurusContext_1.default(),currentLocale=_useDocusaurusContext.i18n.currentLocale;return react_1.useMemo(function(){if(Intl&&Intl.PluralRules){try{return createLocalePluralForms(currentLocale);}catch(e){console.error("Failed to use Intl.PluralRules for locale="+currentLocale+".\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n");return EnglishPluralForms;}}else{console.error("Intl.PluralRules not available!\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n        ");return EnglishPluralForms;}},[currentLocale]);}function selectPluralMessage(pluralMessages,count,localePluralForms){var separator='|';var parts=pluralMessages.split(separator);if(parts.length===1){return parts[0];}else{if(parts.length>localePluralForms.pluralForms.length){console.error("For locale="+localePluralForms.locale+", a maximum of "+localePluralForms.pluralForms.length+" plural forms are expected ("+localePluralForms.pluralForms+"), but the message contains "+parts.length+" plural forms: "+pluralMessages+" ");}var pluralForm=localePluralForms.select(count);var pluralFormIndex=localePluralForms.pluralForms.indexOf(pluralForm);// In case of not enough plural form messages, we take the last one (other) instead of returning undefined
+function useLocalePluralForms(){var _useDocusaurusContext=useDocusaurusContext_1.default(),currentLocale=_useDocusaurusContext.i18n.currentLocale;return react_1.useMemo(function(){// @ts-expect-error checking Intl.PluralRules in case browser doesn't have it (e.g Safari 12-)
+if(Intl.PluralRules){try{return createLocalePluralForms(currentLocale);}catch(e){console.error("Failed to use Intl.PluralRules for locale="+currentLocale+".\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n");return EnglishPluralForms;}}else{console.error("Intl.PluralRules not available!\nDocusaurus will fallback to a default/fallback (English) Intl.PluralRules implementation.\n        ");return EnglishPluralForms;}},[currentLocale]);}function selectPluralMessage(pluralMessages,count,localePluralForms){var separator='|';var parts=pluralMessages.split(separator);if(parts.length===1){return parts[0];}else{if(parts.length>localePluralForms.pluralForms.length){console.error("For locale="+localePluralForms.locale+", a maximum of "+localePluralForms.pluralForms.length+" plural forms are expected ("+localePluralForms.pluralForms+"), but the message contains "+parts.length+" plural forms: "+pluralMessages+" ");}var pluralForm=localePluralForms.select(count);var pluralFormIndex=localePluralForms.pluralForms.indexOf(pluralForm);// In case of not enough plural form messages, we take the last one (other) instead of returning undefined
 return parts[Math.min(pluralFormIndex,parts.length-1)];}}function usePluralForm(){var localePluralForm=useLocalePluralForms();return{selectMessage:function selectMessage(count,pluralMessages){return selectPluralMessage(pluralMessages,count,localePluralForm);}};}exports.usePluralForm=usePluralForm;
 
 /***/ }),
@@ -2965,7 +2966,7 @@ var Subscribe = __webpack_require__(60);
 var IconMedium = __webpack_require__(58);
 
 // CONCATENATED MODULE: ./src/theme/Footer.js
-var Footer_Footer=function Footer(){var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 769px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 769px)'});return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footer"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerContent"},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true},isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerLogoBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'center',marginLeft:'84px',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:"mediumPaddingTop",item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Sobre nosotros")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/services/"),target:"_blank",style:{color:'white'}},"Servicios")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/the-company/"),target:"_blank",style:{color:'white'}},"La compa\xF1\xEDa")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/team/"),target:"_blank",style:{color:'white'}},"Equipo")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/projects/"),target:"_blank",style:{color:'white'}},"Proyectos")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/block-producer/"),target:"_blank",style:{color:'white'}},"Block producer"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Para usted")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:"https://guide.eoscostarica.io//",target:"_blank",style:{color:'white'}},"Aprender")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/blog/"),target:"_blank",style:{color:'white'}},"Blog")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/press/"),target:"_blank",style:{color:'white'}},"Prensa"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"litlePaddingTop":"",item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:'50px'},item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"centerBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'end',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://github.com/eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(GitHub_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://twitter.com/EOSCostaRica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Twitter_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.linkedin.com/company/eoscostarica/mycompany/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(LinkedIn_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}}))))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:3},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:isDesktop?'-3px':'',marginLeft:isDesktop?'-20px':''},item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://medium.com/@eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(IconMedium["default"],{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',className:"footerMediumIcon"})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ",target:"_blank"},/*#__PURE__*/react_default.a.createElement(YouTube_default.a,{style:{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.instagram.com/eoscostarica/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Instagram_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})))))))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopy"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopyContent"},/*#__PURE__*/react_default.a.createElement("p",{style:{fontSize:'14px'}},"Todos los derechos reservados para Sistemas Edenia Internacional S.A."))));};/* harmony default export */ var theme_Footer = (Footer_Footer);
+var Footer_Footer=function Footer(){var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 769px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 769px)'});return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footer"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerContent"},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true},isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerLogoBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'center',marginLeft:'84px',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),isMobile&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:"mediumPaddingTop",item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Sobre nosotros")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/servicios/"),target:"_blank",style:{color:'white'}},"Servicios")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/la-empresa/"),target:"_blank",style:{color:'white'}},"La compa\xF1\xEDa")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/equipo/"),target:"_blank",style:{color:'white'}},"Equipo")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/proyectos/"),target:"_blank",style:{color:'white'}},"Proyectos")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/productor-de-bloques/"),target:"_blank",style:{color:'white'}},"Block producer"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"mediumPaddingTop":"",item:true,xs:6,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"specialH3Box"},/*#__PURE__*/react_default.a.createElement("h3",{className:"h3Footer"},"Para usted")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:"https://guias.eoscostarica.io/",target:"_blank",style:{color:'white'}},"Aprender")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/blog/"),target:"_blank",style:{color:'white'}},"Blog")),/*#__PURE__*/react_default.a.createElement("p",{className:"body1Footer"},/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"linkFooter",href:Object(useBaseUrl["a" /* default */])("/prensa/"),target:"_blank",style:{color:'white'}},"Prensa"))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:isMobile?"litlePaddingTop":"",item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Subscribe["default"],null)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:'50px'},item:true,xs:12,md:1}),isDesktop&&/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:2},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"centerBox"},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])("img/logos/logo-square.svg"),alt:"EOS CR LOGO",className:"footerLogo"})),/*#__PURE__*/react_default.a.createElement("p",{style:{textAlign:'end',fontSize:'14px',marginTop:'10px',color:'#ffffff'}},"v3.1 / Feb 2021")),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:2},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://github.com/eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(GitHub_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://twitter.com/EOSCostaRica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Twitter_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.linkedin.com/company/eoscostarica/mycompany/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(LinkedIn_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}}))))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:3},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{style:{marginTop:isDesktop?'-3px':'',marginLeft:isDesktop?'-20px':''},item:true,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:isMobile?"centerBox":"leftBox"},/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://medium.com/@eoscostarica",target:"_blank"},/*#__PURE__*/react_default.a.createElement(IconMedium["default"],{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',className:"footerMediumIcon"})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ",target:"_blank"},/*#__PURE__*/react_default.a.createElement(YouTube_default.a,{style:{width:isDesktop?'42px':'45px',height:isDesktop?'42px':'45px',cursor:'pointer',color:'#ffffff'}})),/*#__PURE__*/react_default.a.createElement("a",{className:Object(clsx_m["a" /* default */])("marginIconsFooter","socialMediaAnimation"),href:"https://www.instagram.com/eoscostarica/",target:"_blank"},/*#__PURE__*/react_default.a.createElement(Instagram_default.a,{style:{width:isDesktop?'35px':'45px',height:isDesktop?'35px':'45px',cursor:'pointer',color:'#ffffff'}})))))))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopy"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"footerCopyContent"},/*#__PURE__*/react_default.a.createElement("p",{style:{fontSize:'14px'}},"Todos los derechos reservados para Sistemas Edenia Internacional S.A."))));};/* harmony default export */ var theme_Footer = (Footer_Footer);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/ExecutionEnvironment.js
 var ExecutionEnvironment = __webpack_require__(7);
 
@@ -2976,8 +2977,7 @@ var ExecutionEnvironment = __webpack_require__(7);
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */var themes={light:'light',dark:'dark'};// Ensure to always return a valid theme even if input is invalid
-var coerceToTheme=function coerceToTheme(theme){return theme===themes.dark?themes.dark:themes.light;};var useTheme_getInitialTheme=function getInitialTheme(){if(!ExecutionEnvironment["a" /* default */].canUseDOM){return themes.light;// SSR: we don't care
-}return coerceToTheme(document.documentElement.getAttribute('data-theme'));};var storeTheme=function storeTheme(newTheme){try{localStorage.setItem('theme',coerceToTheme(newTheme));}catch(err){console.error(err);}};var useTheme_useTheme=function useTheme(){var _useThemeConfig=Object(lib["useThemeConfig"])(),_useThemeConfig$color=_useThemeConfig.colorMode,disableSwitch=_useThemeConfig$color.disableSwitch,respectPrefersColorScheme=_useThemeConfig$color.respectPrefersColorScheme;var _useState=Object(react["useState"])(useTheme_getInitialTheme),theme=_useState[0],setTheme=_useState[1];var setLightTheme=Object(react["useCallback"])(function(){setTheme(themes.light);storeTheme(themes.light);},[]);var setDarkTheme=Object(react["useCallback"])(function(){setTheme(themes.dark);storeTheme(themes.dark);},[]);Object(react["useEffect"])(function(){document.documentElement.setAttribute('data-theme',coerceToTheme(theme));},[theme]);Object(react["useEffect"])(function(){if(disableSwitch){return;}try{var localStorageTheme=localStorage.getItem('theme');if(localStorageTheme!==null){setTheme(coerceToTheme(localStorageTheme));}}catch(err){console.error(err);}},[setTheme]);Object(react["useEffect"])(function(){if(disableSwitch&&!respectPrefersColorScheme){return;}window.matchMedia('(prefers-color-scheme: dark)').addListener(function(_ref){var matches=_ref.matches;setTheme(matches?themes.dark:themes.light);});},[]);return{isDarkTheme:theme===themes.dark,setLightTheme:setLightTheme,setDarkTheme:setDarkTheme};};/* harmony default export */ var hooks_useTheme = (useTheme_useTheme);
+var coerceToTheme=function coerceToTheme(theme){return theme===themes.dark?themes.dark:themes.light;};var useTheme_getInitialTheme=function getInitialTheme(defaultMode){if(!ExecutionEnvironment["a" /* default */].canUseDOM){return coerceToTheme(defaultMode);}return coerceToTheme(document.documentElement.getAttribute('data-theme'));};var storeTheme=function storeTheme(newTheme){try{localStorage.setItem('theme',coerceToTheme(newTheme));}catch(err){console.error(err);}};var useTheme_useTheme=function useTheme(){var _useThemeConfig=Object(lib["useThemeConfig"])(),_useThemeConfig$color=_useThemeConfig.colorMode,defaultMode=_useThemeConfig$color.defaultMode,disableSwitch=_useThemeConfig$color.disableSwitch,respectPrefersColorScheme=_useThemeConfig$color.respectPrefersColorScheme;var _useState=Object(react["useState"])(useTheme_getInitialTheme(defaultMode)),theme=_useState[0],setTheme=_useState[1];var setLightTheme=Object(react["useCallback"])(function(){setTheme(themes.light);storeTheme(themes.light);},[]);var setDarkTheme=Object(react["useCallback"])(function(){setTheme(themes.dark);storeTheme(themes.dark);},[]);Object(react["useEffect"])(function(){document.documentElement.setAttribute('data-theme',coerceToTheme(theme));},[theme]);Object(react["useEffect"])(function(){if(disableSwitch){return;}try{var localStorageTheme=localStorage.getItem('theme');if(localStorageTheme!==null){setTheme(coerceToTheme(localStorageTheme));}}catch(err){console.error(err);}},[setTheme]);Object(react["useEffect"])(function(){if(disableSwitch&&!respectPrefersColorScheme){return;}window.matchMedia('(prefers-color-scheme: dark)').addListener(function(_ref){var matches=_ref.matches;setTheme(matches?themes.dark:themes.light);});},[]);return{isDarkTheme:theme===themes.dark,setLightTheme:setLightTheme,setDarkTheme:setDarkTheme};};/* harmony default export */ var hooks_useTheme = (useTheme_useTheme);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/ThemeContext.js
 var ThemeContext = __webpack_require__(205);
 
@@ -15150,6 +15150,7 @@ RepeaterModifier.prototype.processShapes = function (_isFirstFrame) {
   var i;
   var dir;
   var cont;
+  var hasReloaded = false;
   if (this._mdf || _isFirstFrame) {
     var copies = Math.ceil(this.c.v);
     if (this._groups.length < copies) {
@@ -15167,6 +15168,7 @@ RepeaterModifier.prototype.processShapes = function (_isFirstFrame) {
         this._currentCopies += 1;
       }
       this.elem.reloadShapes();
+      hasReloaded = true;
     }
     cont = 0;
     var renderFlag;
@@ -15174,6 +15176,16 @@ RepeaterModifier.prototype.processShapes = function (_isFirstFrame) {
       renderFlag = cont < copies;
       this._groups[i]._render = renderFlag;
       this.changeGroupRender(this._groups[i].it, renderFlag);
+      if (!renderFlag) {
+        var elems = this.elemsData[i].it;
+        var transformData = elems[elems.length - 1];
+        if (transformData.transform.op.v !== 0) {
+          transformData.transform.op._mdf = true;
+          transformData.transform.op.v = 0;
+        } else {
+          transformData.transform.op._mdf = false;
+        }
+      }
       cont += 1;
     }
 
@@ -15223,7 +15235,10 @@ RepeaterModifier.prototype.processShapes = function (_isFirstFrame) {
       jLen = itemsTransform.length;
       items[items.length - 1].transform.mProps._mdf = true;
       items[items.length - 1].transform.op._mdf = true;
-      items[items.length - 1].transform.op.v = this.so.v + (this.eo.v - this.so.v) * (i / (this._currentCopies - 1));
+      items[items.length - 1].transform.op.v = this._currentCopies === 1
+        ? this.so.v
+        : this.so.v + (this.eo.v - this.so.v) * (i / (this._currentCopies - 1));
+
       if (iteration !== 0) {
         if ((i !== 0 && dir === 1) || (i !== this._currentCopies - 1 && dir === -1)) {
           this.applyTransforms(this.pMatrix, this.rMatrix, this.sMatrix, this.tr, 1, false);
@@ -15259,6 +15274,7 @@ RepeaterModifier.prototype.processShapes = function (_isFirstFrame) {
       i += dir;
     }
   }
+  return hasReloaded;
 };
 
 RepeaterModifier.prototype.addShape = function () {};
@@ -15600,7 +15616,11 @@ var ImagePreloader = (function () {
       this._imageLoaded();
     }.bind(this), false);
     img.setAttributeNS('http://www.w3.org/1999/xlink', 'href', path);
-    this._elementHelper.append(img);
+    if (this._elementHelper.append) {
+      this._elementHelper.append(img);
+    } else {
+      this._elementHelper.appendChild(img);
+    }
     var ob = {
       img: img,
       assetData: assetData,
@@ -15722,14 +15742,16 @@ var filtersFactory = (function () {
   ob.createFilter = createFilter;
   ob.createAlphaToLuminanceFilter = createAlphaToLuminanceFilter;
 
-  function createFilter(filId) {
+  function createFilter(filId, skipCoordinates) {
     var fil = createNS('filter');
     fil.setAttribute('id', filId);
-    fil.setAttribute('filterUnits', 'objectBoundingBox');
-    fil.setAttribute('x', '0%');
-    fil.setAttribute('y', '0%');
-    fil.setAttribute('width', '100%');
-    fil.setAttribute('height', '100%');
+    if (skipCoordinates !== true) {
+      fil.setAttribute('filterUnits', 'objectBoundingBox');
+      fil.setAttribute('x', '0%');
+      fil.setAttribute('y', '0%');
+      fil.setAttribute('width', '100%');
+      fil.setAttribute('height', '100%');
+    }
     return fil;
   }
 
@@ -15761,13 +15783,11 @@ var assetLoader = (function () {
   function loadAsset(path, callback, errorCallback) {
     var response;
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', path, true);
     // set responseType after calling open or IE will break.
     try {
       // This crashes on Android WebView prior to KitKat
       xhr.responseType = 'json';
     } catch (err) {} // eslint-disable-line no-empty
-    xhr.send();
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
@@ -15785,6 +15805,8 @@ var assetLoader = (function () {
         }
       }
     };
+    xhr.open('GET', path, true);
+    xhr.send();
   }
   return {
     load: loadAsset,
@@ -17226,6 +17248,54 @@ var bezierLengthPool = (function () {
   }
   return poolFactory(8, create);
 }());
+
+/* exported markerParser */
+
+var markerParser = (
+
+  function () {
+    function parsePayloadLines(payload) {
+      var lines = payload.split('\r\n');
+      var keys = {};
+      var line;
+      var keysCount = 0;
+      for (var i = 0; i < lines.length; i += 1) {
+        line = lines[i].split(':');
+        if (line.length === 2) {
+          keys[line[0]] = line[1].trim();
+          keysCount += 1;
+        }
+      }
+      if (keysCount === 0) {
+        throw new Error();
+      }
+      return keys;
+    }
+
+    return function (_markers) {
+      var markers = [];
+      for (var i = 0; i < _markers.length; i += 1) {
+        var _marker = _markers[i];
+        var markerData = {
+          time: _marker.tm,
+          duration: _marker.dr,
+        };
+        try {
+          markerData.payload = JSON.parse(_markers[i].cm);
+        } catch (_) {
+          try {
+            markerData.payload = parsePayloadLines(_markers[i].cm);
+          } catch (__) {
+            markerData.payload = {
+              name: _markers[i],
+            };
+          }
+        }
+        markers.push(markerData);
+      }
+      return markers;
+    };
+  }());
 
 /* global AudioElement, FontManager */
 
@@ -19683,8 +19753,14 @@ IShapeElement.prototype = {
     }
 
     len = this.shapeModifiers.length;
+    var shouldBreakProcess;
     for (i = len - 1; i >= 0; i -= 1) {
-      this.shapeModifiers[i].processShapes(this._isFirstFrame);
+      shouldBreakProcess = this.shapeModifiers[i].processShapes(this._isFirstFrame);
+      // workaround to fix cases where a repeater resets the shape so the following processes get called twice
+      // TODO: find a better solution for this
+      if (shouldBreakProcess) {
+        break;
+      }
     }
   },
   lcEnum: {
@@ -21158,7 +21234,7 @@ function SVGEffects(elem) {
   var i;
   var len = elem.data.ef ? elem.data.ef.length : 0;
   var filId = createElementID();
-  var fil = filtersFactory.createFilter(filId);
+  var fil = filtersFactory.createFilter(filId, true);
   var count = 0;
   this.filters = [];
   var filterManager;
@@ -23275,7 +23351,7 @@ var animationManager = (function () {
 /* global createElementID, subframeEnabled, ProjectInterface, ImagePreloader, audioControllerFactory, extendPrototype, BaseEvent,
 CanvasRenderer, SVGRenderer, HybridRenderer, assetLoader, dataManager, expressionsPlugin, BMEnterFrameEvent, BMCompleteLoopEvent,
 BMCompleteEvent, BMSegmentStartEvent, BMDestroyEvent, BMEnterFrameEvent, BMCompleteLoopEvent, BMCompleteEvent, BMSegmentStartEvent,
-BMDestroyEvent, BMRenderFrameErrorEvent, BMConfigErrorEvent */
+BMDestroyEvent, BMRenderFrameErrorEvent, BMConfigErrorEvent, markerParser */
 
 var AnimationItem = function () {
   this._cbs = [];
@@ -23308,6 +23384,7 @@ var AnimationItem = function () {
   this.projectInterface = ProjectInterface();
   this.imagePreloader = new ImagePreloader();
   this.audioController = audioControllerFactory();
+  this.markers = [];
 };
 
 extendPrototype([BaseEvent], AnimationItem);
@@ -23544,6 +23621,7 @@ AnimationItem.prototype.configAnimation = function (animData) {
     this.frameRate = this.animationData.fr;
     this.frameMult = this.animationData.fr / 1000;
     this.renderer.searchExtraCompositions(animData.assets);
+    this.markers = markerParser(animData.markers || []);
     this.trigger('config_ready');
     this.preloadImages();
     this.loadSegments();
@@ -23608,7 +23686,7 @@ AnimationItem.prototype.gotoFrame = function () {
 };
 
 AnimationItem.prototype.renderFrame = function () {
-  if (this.isLoaded === false) {
+  if (this.isLoaded === false || !this.renderer) {
     return;
   }
   try {
@@ -23665,11 +23743,28 @@ AnimationItem.prototype.stop = function (name) {
   this.setCurrentRawFrameValue(0);
 };
 
+AnimationItem.prototype.getMarkerData = function (markerName) {
+  var marker;
+  for (var i = 0; i < this.markers.length; i += 1) {
+    marker = this.markers[i];
+    if (marker.payload && marker.payload.name === markerName) {
+      return marker;
+    }
+  }
+  return null;
+};
+
 AnimationItem.prototype.goToAndStop = function (value, isFrame, name) {
   if (name && this.name !== name) {
     return;
   }
-  if (isFrame) {
+  var numValue = Number(value);
+  if (isNaN(numValue)) {
+    var marker = this.getMarkerData(value);
+    if (marker) {
+      this.goToAndStop(marker.time, true);
+    }
+  } else if (isFrame) {
     this.setCurrentRawFrameValue(value);
   } else {
     this.setCurrentRawFrameValue(value * this.frameModifier);
@@ -23678,7 +23773,22 @@ AnimationItem.prototype.goToAndStop = function (value, isFrame, name) {
 };
 
 AnimationItem.prototype.goToAndPlay = function (value, isFrame, name) {
-  this.goToAndStop(value, isFrame, name);
+  if (name && this.name !== name) {
+    return;
+  }
+  var numValue = Number(value);
+  if (isNaN(numValue)) {
+    var marker = this.getMarkerData(value);
+    if (marker) {
+      if (!marker.duration) {
+        this.goToAndStop(marker.time, true);
+      } else {
+        this.playSegments([marker.time, marker.time + marker.duration], true);
+      }
+    }
+  } else {
+    this.goToAndStop(numValue, isFrame, name);
+  }
   this.play();
 };
 
@@ -26768,7 +26878,7 @@ lottie.mute = animationManager.mute;
 lottie.unmute = animationManager.unmute;
 lottie.getRegisteredAnimations = animationManager.getRegisteredAnimations;
 lottie.__getFactory = getFactory;
-lottie.version = '5.7.6';
+lottie.version = '5.7.7';
 
 function checkReady() {
   if (document.readyState === 'complete') {
