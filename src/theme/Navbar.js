@@ -72,9 +72,9 @@ const PATHS = [
         icon: <ListAltIcon style={{width:'20px'}}/>
       },
       {
-        path: "/productor-de-bloques/",
+        path: "/block-producer/",
         enPath: "/block-producer/",
-        label: "Productor de bloques",
+        label: "Block Producer",
         target: '_self',
         icon: <GridOnIcon style={{width:'20px'}}/>
       },
