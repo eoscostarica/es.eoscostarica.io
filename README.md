@@ -4,37 +4,38 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
- ![EOS Costa Rica](static\img\screenshot_home.png)
+ ![EOS Costa Rica](https://raw.githubusercontent.com/eoscostarica/es.eoscostarica.io/master/static/img/screenshot_home.png)
 
- ## About the Project
+ ## Sobre el proyecto
 
-EOS Costa Rica is part of a company with over three decades of developing innovative technologies. During the 80s, we launched the first BBS (bulletin board service) in the country, a precursor to the internet. Later on, the company shifted to educating new users on using the email and browsing the web! Then, we started offering internet infrastructure, hosting, and development services.
+EOS Costa Rica es parte de una compañía con más de tres décadas desarrollando tecnologías innovadoras. Durante la década de los 80, lanzamos el primer BBS (bulletin board service) en el país, un precursor de la internet. Luego, la compañía empezó a educar nuevos usuarios sobre cómo usar el email y navegar en la web. Más adelante, comenzamos a ofrecer infraestructura de internet, hospedaje y servicios de desarrollo.
 
 
-In 2013, we began providing infrastructure for public blockchain networks and learned first-hand how blockchains work. Then, in 2018 when the EOSIO protocol was launched, we investigated the advantages of this technology and started learning how to deploy it in the real world. Our presence grew during the genesis of the EOS Mainnet and will continue to be there throughout its growth.
+En 2013, empezamos a ofrecer infraestructura para redes blockchain públicas y aprendimos de primera mano sobre cómo trabaja una blockchain. En 2018 cuando se lanzó el protocolo EOSIO, investigamos las ventajas de esta tecnología y aprendimos a implementarla en el mundo real. Nuestra presencia creció durante el nacimiento de la EOS Mainnet y continuará así durante su desarrollo.
 
- ## Table of Contents
+ ## Tabla de contenidos
 
- 1. About The Project
- 2. Content Table
- 3. Project Purpose
- 4. Version
- 5. Tech Stack
- 6. File Structure
- 7. License
- 8. Contributing
- 9. Contributors
- 10. About Company
+ 1. Sobre el proyecto
+ 2. Tabla de contenido
+ 3. Objetivo del proyecto
+ 4. Versión
+ 5. Pila de tecnologías
+ 6. Estructura de archivos
+ 7. Licencia
+ 8. Contribuir
+ 9. Colaboradores
+ 10. Acerca de la empresa
 
- ## Project Purpose
+ ## Sobre el proyecto
 
-We can co-ideate and develop the ideal solution that integrates blockchain technology into your operations following an agile and lean approach that will help you explore blockchain’s features within a restricted budget and schedule. We provide top-notch, ready-to-use blockchain infrastructures. Also, we configure, host, and maintain blockchain nodes and networks that can meet your organization’s requirements and needs.
 
- ## Version
+Podemos co-idear y desarrollar la solución ideal que integre la tecnología blockchain en sus operaciones siguiendo un enfoque ágil y esbelto que lo ayudará a explorar las características de blockchain dentro de un presupuesto y un cronograma restringidos. Proporcionamos infraestructuras de blockchain de primera categoría y listas para usar. Además, configuramos, hospedamos y mantenemos nodos y redes de blockchain que pueden cumplir con los requisitos y necesidades de su organización.
 
-we are on version 2.0
+ ## Versión
 
- ## Tech Stack
+Estamos en la version 2.0
+
+ ## Pila de tecnologías
 
  - React.js - React 17, React Router 5
  - Docusaurus 2.0.0
@@ -44,35 +45,35 @@ we are on version 2.0
  - Styles - Material-UI Theme (customizable)
 
 
- #### **Prerequisites**
+ #### **Pre-requisitos**
 
 - `yarn`
 - `git`
 - `node.js`
 
- #### **Installation**
+ #### **Instalación**
 
- 1. Clone the repository
+ 1. Clone el repositorio
 
  ```bash
  git clone https://github.com/your_username_/Project-Name.git
  ```
 
- 2. Install yarn packages
+ 2. Instale el paquete yarn
 
 
  ```bash
  yarn install
  ```
 
- 3. Run the project
+ 3. Ejecute el proyecto
  
  ```bash
  yarn start
  ```
 
- ## File Structure
- This could help the reader understand the organization inside the project, for example:
+ ## Estructura de archivos
+Esto podría ayudar al lector a comprender la organización dentro del proyecto, por ejemplo:
 
  ```text title="modify"
  /
@@ -104,29 +105,29 @@ we are on version 2.0
  └── package.json
  ```
 
- ## License
+ ## Licencia
 
  MIT © EOS Costa Rica
 
- ## Contributing
+ ## Contribuir
 
-We use a Kanban-style board. That's were we prioritize the work. [Go to Project Board](https://github.com/eoscostarica/guide.eoscostarica.io/projects/2).
+Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Vamos al tablero del proyecto](https://github.com/eoscostarica/guide.eoscostarica.io/projects/2).
 
-If you want to make a contribution, please follow the next steps:
+Si desea hacer una contribución, siga los siguientes pasos:
 
- 1. Fork the Project
- 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
- 3. Commit your Changes (`git commit -m '<type>(<scope>): <subject>'`)
- 4. Push to the Branch (`git push origin feature/AmazingFeature`)
- 5. Open a Pull Request
+ 1. Fork el proyecto
+ 2. Crea tu rama de funciones (`git checkout -b feature/AmazingFeature`)
+ 3. Commit a sus cambios (`git commit -m '<type>(<scope>): <subject>'`)
+ 4. Push a la rama (`git push origin feature/AmazingFeature`)
+ 5. Abra un Pull Request
 
- Please Read EOS Costa Rica's [Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines/) for more information about programming conventions.
+ Por favor lea EOS Costa Rica's [pautas de contribución de código abierto](https://guide.eoscostarica.io/docs/open-source-guidelines/) para obtener más información sobre las convenciones de programación.
 
- If you find a bug, please report big and small bugs by **opening an issue** [Go to issues page](https://github.com/eoscostarica/eoscostarica.io/issues).
+ Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** [Vamos a la pagina de issues](https://github.com/eoscostarica/eoscostarica.io/issues).
 
- ## Contributors
+ ## Colaboradores
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Gracias a estas maravillosas personas ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
  
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -146,7 +147,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+Este proyecto sigue el [all-contributors](https://github.com/all-contributors/all-contributors) specification. ¡Contribuciones de cualquier tipo son bienvenidos!
 
  ## About EOS Costa Rica
 
@@ -154,6 +156,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
  <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
  </div>
 
- EOS Costa Rica is an independently-owned, self-funded, bare-metal Genesis block producer that provides stable and secure infrastructure for EOSIO blockchains. We support open source software for our community while offering enterprise blockchain development and custom smart contract development for our clients.
+EOS Costa Rica es un productor independiente, autofinanciado, de bloques Génesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos el desarrollo de blockchain empresarial y el desarrollo de contratos inteligentes personalizados para nuestros clientes.
 
- [eoscostarica.io](https://eoscostarica.io/)
+ [es.eoscostarica.io](https://es.eoscostarica.io/)
