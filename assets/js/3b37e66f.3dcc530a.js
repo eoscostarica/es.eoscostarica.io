@@ -9243,7 +9243,7 @@ var Carousel = function (_Component) {
 
             var classes = this.props.classes;
 
-            var buttonVisibilityClassValue = (navButtonsAlwaysVisible ? classes.buttonVisible : classes.buttonHidden) + '}';
+            var buttonVisibilityClassValue = '' + (navButtonsAlwaysVisible ? classes.buttonVisible : classes.buttonHidden);
             var buttonCssClassValue = classes.button + ' ' + buttonVisibilityClassValue + ' ' + (fullHeightHover ? classes.fullHeightHoverButton : "") + ' ' + navButtonsProps.className;
             var buttonWrapperCssClassValue = classes.buttonWrapper + ' ' + (fullHeightHover ? classes.fullHeightHoverWrapper : "") + ' ' + navButtonsWrapperProps.className;
 

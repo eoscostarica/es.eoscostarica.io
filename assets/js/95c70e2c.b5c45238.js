@@ -45371,7 +45371,7 @@ var TTFSubset = function (_Subset) {
 
     // if it is a compound glyph, include its components
     if (glyf && glyf.numberOfContours < 0) {
-      buffer = new Buffer(buffer);
+      buffer = Buffer.from(buffer);
       for (var _iterator = glyf.components, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
         var _ref;
 
@@ -45544,7 +45544,7 @@ var CFFSubset = function (_Subset) {
         this.cff.stream.pos = subr.offset;
         res.push(this.cff.stream.readBuffer(subr.length));
       } else {
-        res.push(new Buffer([11])); // return
+        res.push(Buffer.from([11])); // return
       }
     }
 
@@ -46433,7 +46433,7 @@ var WOFFFont = function (_TTFFont) {
 
       if (table.compLength < table.length) {
         this.stream.pos += 2; // skip deflate header
-        var outBuffer = new Buffer(table.length);
+        var outBuffer = Buffer.alloc(table.length);
         var buf = tiny_inflate__WEBPACK_IMPORTED_MODULE_7___default()(this.stream.readBuffer(table.compLength - 2), outBuffer);
         return new restructure__WEBPACK_IMPORTED_MODULE_0___default.a.DecodeStream(buf);
       } else {
