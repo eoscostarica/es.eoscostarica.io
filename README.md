@@ -1,10 +1,10 @@
-# eoscostarica.io
+# es.eoscostarica.io
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
- ![EOS Costa Rica](https://raw.githubusercontent.com/eoscostarica/es.eoscostarica.io/master/static/img/screenshot_home.png)
+ ![EOS Costa Rica](https://raw.githubusercontent.com/eoscostarica/es.eoscostarica.io/master/static/img/screenshot_home.PNG)
 
  ## Sobre el proyecto
 
@@ -151,9 +151,14 @@ Gracias a estas maravillosas personas ([emoji key](https://allcontributors.org/d
 Este proyecto sigue el [all-contributors](https://github.com/all-contributors/all-contributors) specification. ¡Contribuciones de cualquier tipo son bienvenidos!
 
  ## About EOS Costa Rica
-
  <div style={{ display: "block", textAlign: "center" }}>
- <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+ <br/>
+  <p align="center">
+    <a href="https://eoscostarica.io">
+      <img src="https://github.com/eoscostarica/eos-rate/raw/master/docs/eoscostarica-logo-black.png" width="300">
+    </a>
+  </p>
+  <br/>
  </div>
 
 EOS Costa Rica es un productor independiente, autofinanciado, de bloques Génesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos el desarrollo de blockchain empresarial y el desarrollo de contratos inteligentes personalizados para nuestros clientes.
