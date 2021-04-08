@@ -150,7 +150,7 @@ Gracias a estas maravillosas personas ([emoji key](https://allcontributors.org/d
 
 Este proyecto sigue el [all-contributors](https://github.com/all-contributors/all-contributors) specification. ¡Contribuciones de cualquier tipo son bienvenidos!
 
- ## About EOS Costa Rica
+ ## Sobre EOS Costa Rica
  
  <br/>
   <p align="center">
