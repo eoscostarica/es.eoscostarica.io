@@ -160,6 +160,6 @@ Este proyecto sigue el [all-contributors](https://github.com/all-contributors/al
   </p>
   <br/>
 
-EOS Costa Rica es un productor independiente, autofinanciado, de bloques Génesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos el desarrollo de blockchain empresarial y el desarrollo de contratos inteligentes personalizados para nuestros clientes.
+EOS Costa Rica es un productor de bloques (Block Producer) independiente, autofinanciado, de bloques Génesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos el desarrollo de blockchain empresarial y el desarrollo de contratos inteligentes personalizados para nuestros clientes.
 
  [es.eoscostarica.io](https://es.eoscostarica.io/)
