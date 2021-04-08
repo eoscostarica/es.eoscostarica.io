@@ -131,7 +131,7 @@ const Press = () => {
               Buscamos posicionar la tecnología blockchain EOSIO en las noticias a través de nuestro trabajo.
             </p>
             <Box className="buttonBox">
-              <button className="buttonPrimary" onClick={() => history.push("/services/")} >Contáctenos</button>
+              <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
             </Box>
           </Box>
         }
@@ -144,7 +144,7 @@ const Press = () => {
               Buscamos posicionar la tecnología blockchain EOSIO en las noticias a través de nuestro trabajo.
             </p>
             <Box className="buttonBox">
-              <button className="buttonPrimary" onClick={() => history.push("/services/")} >Contact Us</button>
+              <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
             </Box>
           </Box>
         }
