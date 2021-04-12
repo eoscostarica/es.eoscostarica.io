@@ -156,7 +156,7 @@ Este proyecto sigue el [all-contributors](https://github.com/all-contributors/al
  <br/>
   <p align="center">
     <a href="https://es.eoscostarica.io/">
-      <img src="https://github.com/eoscostarica/eos-rate/raw/master/docs/eoscostarica-logo-black.png" width="300">
+      <img src="https://raw.githubusercontent.com/eoscostarica/es.eoscostarica.io/master/static/img/logos/eoscr-logo.png" width="300">
     </a>
   </p>
   <br/>
