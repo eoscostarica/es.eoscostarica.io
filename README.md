@@ -35,7 +35,7 @@ Podemos co-idear y desarrollar la solución ideal que integre la tecnología blo
 
 Estamos en la version 2.0
 
- ## Pila de tecnologías
+ ## Componentes tecnológicos
 
  - React.js - React 17, React Router 5
  - Docusaurus 2.0.0
