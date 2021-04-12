@@ -15,7 +15,7 @@ const AdditionalResources = () => {
         </Box>
         <Box className="spacingBox">
           <p>
-            Encuentre materiales para lectura y otros recursos para continuar aprendiendo sobre
+            Encuentre materiales para lectura y otros recursos para continuar aprendiendo sobre {" "}
             <a href="https://eoscostarica.medium.com/how-to-choose-an-enterprise-blockchainplatform-7c3665994ad6"
             target="_blank"
             > blockchain empresarial</a> y 
@@ -23,38 +23,38 @@ const AdditionalResources = () => {
           </p>
         </Box>
         <br/>
-          <Grid container spacing={5} justify="center" >
-            <Grid onClick={() => history.push("/blog/")} className="gridButton" item xs={12} md={5}>
-              <Box className={clsx("centerBox","spacingBox")}>
-                <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/blog.svg")}/>
-                <h3 style={{marginLeft:'25px', width:'210px'}}>Blog</h3>
-              </Box>
-            </Grid>
-            <Grid onClick = {() => history.push("/press/")} className="gridButton" item xs={12} md={5}>
-              <Box className={clsx("centerBox","spacingBox")}>
-                <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/press.svg")}/>
-                <h3 style={{marginLeft:'25px', width:'210px'}}>Prensa</h3>
-              </Box>
-            </Grid>
-            <Grid onClick = {() => window.open('https://guide.eoscostarica.io/')} className="gridButton" item xs={12} md={5}>
-              <Box className={clsx("centerBox","spacingBox")}>
-                <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/decs.svg")}/>
-                <Box style={{marginLeft:'25px'}}>
-                  <h3 style={{marginBottom:'5px', width:'210px'}}>Portal de </h3>
-                  <h3 style={{marginBottom:'5px', width:'210px'}}>desarrolladores</h3>
-                </Box>
-              </Box>
-            </Grid>
-            <Grid onClick={() => window.open('https://github.com/eoscostarica')} className="gridButton" item xs={12} md={5}>
-            <Box className={clsx("centerBox","spacingBox")}>
-                <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/github-ours.svg")}/>
-                <Box style={{marginLeft:'25px'}}>
-                  <h3 style={{marginBottom:'5px', width:'210px'}}>Nuestro</h3>
-                  <h3 style={{marginBottom:'5px', width:'210px'}}>Github</h3>
-                </Box>
-              </Box>
-            </Grid>
+        <Grid container spacing={5} justify="center" >
+          <Grid onClick={() => history.push("/blog/")} className="gridButton" item xs={5} md={5}>
+            <Box className={clsx("centerBox", "spacingBox", "paddingLeft")}>
+              <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/blog.svg")}/>
+              <h3 className="marginLeft" style={{ width:'210px'}}>Blog</h3>
+            </Box>
           </Grid>
+          <Grid onClick = {() => history.push("/prensa/")} className="gridButton" item xs={5} md={5}>
+            <Box className={clsx("centerBox", "spacingBox", "paddingLeft")}>
+              <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/press.svg")}/>
+              <h3 className="marginLeft" style={{ width:'210px'}}>Prensa</h3>
+            </Box>
+          </Grid>
+          <Grid onClick = {() => window.open('https://guias.eoscostarica.io/')} className="gridButton" item xs={5} md={5}>
+            <Box className={clsx("centerBox", "paddingLeft2")}>
+              <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/decs.svg")}/>
+              <Box className="marginLeft">
+                <h3 style={{ width:'210px'}}>Para </h3>
+                <h3 style={{ width:'210px'}}>Dev </h3>
+              </Box>
+            </Box>
+          </Grid>
+          <Grid onClick={() => window.open('https://github.com/eoscostarica')} className="gridButton" item xs={5} md={5}>
+          <Box className={clsx("centerBox", "paddingLeft2")}>
+              <img className="resourcesIcon" srcSet={useBaseUrl("img/icons/github-ours.svg")}/>
+              <Box className="marginLeft">
+                <h3 style={{marginBottom:'5px', width:'210px'}}>Nuestro</h3>
+                <h3 style={{marginBottom:'5px', width:'210px'}}>Github</h3>
+              </Box>
+            </Box>
+          </Grid>
+        </Grid>
       </Box>
     </Box>
   );

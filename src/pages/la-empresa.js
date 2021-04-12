@@ -31,7 +31,10 @@ const TheCompany = () => {
           <Box className="titleBox">
             <h1>Soluciones blockchain  <br/> para empresas</h1>
           </Box>
-          <p>Años de experiencia desarrollando tecnologías innovadoras hablan por nosotros. Explore el poder de la tecnología blockchain con ayuda de nuestro equipo.</p>
+          <p>
+            Años de experiencia desarrollando tecnologías innovadoras hablan por nosotros. 
+            Explore el poder de la tecnología blockchain con ayuda de nuestro equipo.
+          </p>
           <br/>
           <Box className="buttonBox">
             <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
