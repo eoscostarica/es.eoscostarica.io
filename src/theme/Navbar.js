@@ -9,19 +9,7 @@ import Drawer from '@material-ui/core/Drawer'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
 import List from '@material-ui/core/List'
-import Grid from '@material-ui/core/Grid'
 import { useLocation } from 'react-router-dom'
-import HomeIcon from '@material-ui/icons/Home'
-import ComputerIcon from '@material-ui/icons/Computer';
-import ApartmentIcon from '@material-ui/icons/Apartment'
-import GroupIcon from '@material-ui/icons/Group'
-import ListAltIcon from '@material-ui/icons/ListAlt'
-import GridOnIcon from '@material-ui/icons/GridOn'
-import EditIcon from '@material-ui/icons/Edit'
-import BusinessIcon from '@material-ui/icons/Business'
-import MenuBookIcon from '@material-ui/icons/MenuBook'
-import MailIcon from '@material-ui/icons/Mail'
-import ForumIcon from '@material-ui/icons/Forum'
 
 import CustomListItem from '../pages/components/CustomListItem'
 
@@ -32,7 +20,7 @@ const PATHS = [
     enPath: "/",
     label: "Inicio",
     target: '_self',
-    icon: <HomeIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/home.svg'
   },
   {
     dropDown:true,
@@ -48,42 +36,42 @@ const PATHS = [
         enPath: "/services/",
         label: "Servicios",
         target: '_self',
-        icon: <ComputerIcon style={{width:'20px'}}/> 
+        icon: 'img/icons/navbar/services.svg'
       },
       {
         path: "/la-empresa/",
         enPath: "/the-company/",
         label: "La empresa",
         target: '_self',
-        icon: <ApartmentIcon style={{width:'20px'}}/>
+        icon: 'img/icons/navbar/home.svg'
       },
       {
         path: "/equipo/",
         enPath: "/team/",
         label: "Equipo",
         target: '_self',
-        icon: <GroupIcon style={{width:'20px'}}/> 
+        icon: 'img/icons/navbar/team.svg'
       },
       {
         path: "/proyectos/",
         enPath: "/projects/",
         label: "Proyectos",
         target: '_self',
-        icon: <ListAltIcon style={{width:'20px'}}/>
+        icon: 'img/icons/navbar/projects.svg'
       },
       {
         path: "/productor-de-bloques/",
         enPath: "/block-producer/",
         label: "Productor de bloques",
         target: '_self',
-        icon: <GridOnIcon style={{width:'20px'}}/>
+        icon: 'img/icons/navbar/blockproducer.svg'
       },
       {
         path: "/prensa/",
         enPath: "/press/",
         label: "Prensa",
         target: '_self',
-        icon: <ForumIcon style={{width:'20px'}}/>
+        icon: 'img/icons/navbar/press.svg'
       }
     ]
   },
@@ -93,14 +81,14 @@ const PATHS = [
     enPath: "/industries/",
     label: "Industrias",
     target: '_self',
-    icon: <BusinessIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/industries.svg'
   },
   {
     dropDown:false,
     path: "https://guide.eoscostarica.io/",
     label: "Aprender",
     target: '_blank',
-    icon: <MenuBookIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/learning.svg'
   },
   {
     dropDown:false,
@@ -108,7 +96,7 @@ const PATHS = [
     enPath: "/blog/",
     label: "Blog",
     target: '_self',
-    icon: <EditIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/blog.svg'
   },
   {
     dropDown:false,
@@ -116,7 +104,7 @@ const PATHS = [
     enPath: "/contact-us/",
     label: "Contactenos",
     target: '_self',
-    icon: <MailIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/contact.svg'
   },
 ];
 
