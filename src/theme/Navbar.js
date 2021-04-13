@@ -130,6 +130,10 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
   useEffect(() => {
     setIsBlog(location.pathname.substring(0,6) === '/blog/')
   }, [location])
+
+  useEffect(() => {
+    if(isBlog) setPathname('/blog/')
+  }, [isBlog])
   
   useLayoutEffect(() => {
     const pathname = window.location.pathname;
@@ -169,7 +173,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
   }
 
   return (
-    <Box className={isBlog? clsx("navBar","navBarScroll"): clsx("navBar",{["navBarScroll"]: (trigger || isMobile)})} >
+    <Box className={clsx("navBar",{["navBarScroll"]: (trigger || isMobile)})} >
       <Box className="menuWrapper">
         {isMobile && 
           <>
@@ -228,7 +232,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
               <Box  className="imgLogoBox">
                 <a href={useBaseUrl("/")}>
                   <img
-                    className={isBlog? "imgLogoScroll": clsx("imgLogo",{["imgLogoScroll"]: trigger})}
+                    className={clsx("imgLogo",{["imgLogoScroll"]: trigger})}
                     src={useBaseUrl("img/logos/eoscr-logo.png")}
                     alt="EOS CR LOGO"
                   />
