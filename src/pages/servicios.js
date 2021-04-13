@@ -218,7 +218,7 @@ const ServicePage = () => {
                   <a href="https://eos.io/" target="_blank">
                     EOSIO
                   </a>, por su adaptabilidad a cualquier industria en sectores público y privado. 
-                  Visite nuestra <a href={useBaseUrl("/industries")} target="_blank">página de industrias</a> para conocer más.
+                  Visite nuestra <a href={useBaseUrl("/industrias")} target="_blank">página de industrias</a> para conocer más.
                 </p>
               </Box>
             </Grid>
@@ -490,7 +490,7 @@ const ServicePage = () => {
                         EOSIO. Recopilamos materiales de aprendizaje 
                         y guías para desarrolladores en un portal web. 
                         Puede acceder <a href="https://guide.eoscostarica.io/" target="_blank">
-                        aquí</a>. Además, puede <a href={useBaseUrl("/contact-us/")} target="_blank">
+                        aquí</a>. Además, puede <a href={useBaseUrl("/contactenos/")} target="_blank">
                         consultarnos </a> sobre nuestros cursos de 
                         entrenamiento para compañías y equipos.
                       </p>
@@ -620,7 +620,7 @@ const ServicePage = () => {
           </Box>
           <br/>
           <p>
-            Aprenda más sobre cómo otras industrias se están transformando con blockchain. <a href={useBaseUrl("/industries")}>Leer más.</a>
+            Aprenda más sobre cómo otras industrias se están transformando con blockchain. <a href={useBaseUrl("/industrias")}>Leer más.</a>
           </p>
         </Box>
       </Box>

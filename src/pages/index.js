@@ -341,7 +341,7 @@ const Home = () => {
               </Grid>
             </Box>
           <p>
-            <a href={useBaseUrl("/industries")}>Descubra más industrias que pueden </a>
+            <a href={useBaseUrl("/industries")}>Descubra más industrias que pueden mejorar</a>
             sus operaciones con tecnología blockchain.
           </p>
         </Box>
@@ -438,7 +438,7 @@ const Home = () => {
                       EOSIO
                     </a>{" "}
                     desde su lanzamiento, acumulando así décadas de experiencia con tecnologías innovadoras.
-                    <a href={useBaseUrl("/la-empresa")} target="_blank"> Conózcanos.</a>
+                    <a href={useBaseUrl("/la-empresa")} > Conózcanos.</a>
                   </p>
                 </Grid>
                 {isMobile && 
