@@ -34,7 +34,7 @@ El rango de talento que puede involucrarse en proyectos open source es muy varia
 
 **6. Busco recompensas externas:** En muchas ocasiones, quienes contribuyen en proyectos open source buscan otro tipo de recompensas en lugar de percibir remuneración directa. Por ejemplo, cuando requieren algún software o herramienta específica a la que podrían tener acceso dentro de la comunidad o la posibilidad de recibir algún retorno en el futuro. La idea es jugar bien las cartas.
 
-7. Finalmente, *¡contribuir a proyectos open source es divertido!* Para las personas que les gusta escribir código, esta podría ser una oportunidad de pasar el rato. Además, existen comunidades open source que invitan a sus colaboradores a participar de eventos o iniciativas grupales.
+**7.**  Finalmente, **¡contribuir a proyectos open source es divertido!** Para las personas que les gusta escribir código, esta podría ser una oportunidad de pasar el rato. Además, existen comunidades open source que invitan a sus colaboradores a participar de eventos o iniciativas grupales.
 
 
 ## **Involúcrese en nuestro proyecto open-source**
@@ -63,9 +63,9 @@ Consideramos importante que se pueda calificar estos Block Producers y los candi
 
 ** Síganos en redes sociales:**
 
-*   Website: https://eoscostarica.io/home/
-*   Twitter: https://twitter.com/eoscostarica
-*   Telegram: https://t.me/eoscr
-*   Facebook: https://www.facebook.com/costaricaeos/
-*   LinkedIn: https://www.linkedin.com/company/eoscostarica/
-*   Medium: medium/@eoscostarica
+*   [Website](https://eoscostarica.io)
+*   [Twitter](https://twitter.com/eoscostarica)
+*   [Telegram](https://t.me/eoscr)
+*   [Facebook](https://www.facebook.com/costaricaeos/)
+*   [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
+*   [Medium](https://medium.com/@eoscostarica)
