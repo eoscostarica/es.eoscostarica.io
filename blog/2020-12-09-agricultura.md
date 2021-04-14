@@ -1,11 +1,15 @@
 ---
 slug: blockchain-en-el-sector-agricola
 title: ¿Por qué implementar blockchain en el sector agrícola?
+image: /img/blog/agricultura/agricultura-cover.png
 author: Luis Diego Rojas
 author_title: Content Strategist
 author_url: https://twitter.com/ldrojas
 author_image_url: https://avatars0.githubusercontent.com/u/29232417?s=400&u=032f18555bd97e3d90f3ddfb5b2dc72dfcf0d11b&v=4
 tags: [eosio, blockchain]
+metaTitle: "EOS Costa Rica Blog: Blockchain en el sector agrícola"
+metaDescription: El sector agrícola se puede beneficiar de implementar blockchain al incrementar la eficiencia, transparencia y mejorar la administración.
+langPost: https://eoscostarica.io/blog/blockchain-in-agriculture/
 ---
 
 ![¿Qué es blockchain?](/img/blog/agricultura/agricultura-cover.png)

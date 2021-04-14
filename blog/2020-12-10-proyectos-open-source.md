@@ -1,11 +1,15 @@
 ---
 slug: proyectos-open-source
 title: ¿Por qué involucrarse en proyectos open source?
+image: /img/blog/open-source/open-source-cover.jpg
 author: Luis Diego Rojas
 author_title: Content Strategist
 author_url: https://twitter.com/ldrojas
 author_image_url: https://avatars0.githubusercontent.com/u/29232417?s=400&u=032f18555bd97e3d90f3ddfb5b2dc72dfcf0d11b&v=4
 tags: [eosio, blockchain]
+metaTitle: "EOS Costa Rica Blog: ¿Por qué involucrarse en proyectos open source?"
+metaDescription: Involucrarse en un proyecto open source podría traerle varios beneficios, a pesar de no siempre representar un ingreso económico inmediato. Lea más aquí.
+langPost: https://eoscostarica.io/blog/open-source
 ---
 
 ![Poryectos open-source](/img/blog/open-source/open-source-cover.jpg)
