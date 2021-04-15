@@ -231,7 +231,7 @@ a{
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: -0.24px;
   line-height: 25px;
   color: black;
@@ -1709,7 +1709,7 @@ a{
   }
 
   .blogAuthorTile{
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .blogHeaderListPage{
