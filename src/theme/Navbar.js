@@ -8,8 +8,8 @@ import Link from '@material-ui/core/Link'
 import Drawer from '@material-ui/core/Drawer'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
+import MenuItem from '@material-ui/core/MenuItem'
 import List from '@material-ui/core/List'
-import Grid from '@material-ui/core/Grid'
 import { useLocation } from 'react-router-dom'
 import HomeIcon from '@material-ui/icons/Home'
 import ComputerIcon from '@material-ui/icons/Computer';
@@ -22,7 +22,9 @@ import BusinessIcon from '@material-ui/icons/Business'
 import MenuBookIcon from '@material-ui/icons/MenuBook'
 import MailIcon from '@material-ui/icons/Mail'
 import ForumIcon from '@material-ui/icons/Forum'
+import LanguageIcon from '@material-ui/icons/Language'
 
+import GlobalIcon from '../../static/img/icons/globalBlack.svg'
 import CustomListItem from '../pages/components/CustomListItem'
 
 const PATHS = [
@@ -169,7 +171,45 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
   }
 
   const translateSite = () => {
-    window.open(`https://es.eoscostarica.io${getEnglishPath(pathname)}`,'_self')
+    window.open(`https://eoscostarica.io${getEnglishPath(pathname)}`,'_self')
+  }
+
+  const LanguagueSelector = () => {
+    const [langMenuHandler, seLangMenuHandler] = useState(false);
+
+    const handleClickMenuLang = () => {
+      seLangMenuHandler(true)
+    };
+  
+    const handleCloseMenuLang = () => {
+      seLangMenuHandler(false)
+    };
+
+    const handleChangeLang = () => {
+      seLangMenuHandler(false)
+      translateSite()
+    };
+
+    return (
+      <>
+        <IconButton
+          style={{padding: '5px'}}
+          onClick={handleClickMenuLang}
+        >
+          <img src={GlobalIcon} style={{width:'20px', height: '20px'}}/>
+        </IconButton>
+        {true && (
+          <Box  className={clsx("boxLanguagesSelector",{["boxLanguagesSelectorActive"]: langMenuHandler})} onMouseLeave={handleCloseMenuLang}>
+            <MenuItem onClick={handleCloseMenuLang}>
+              <p style={{fontSize: '15px'}}>ES - Spanish</p>
+            </MenuItem>
+            <MenuItem onClick={handleChangeLang}>
+              <p style={{fontSize: '15px'}}>EN - English</p>
+            </MenuItem>
+          </Box>
+        )}
+      </>
+    )
   }
 
   return (
@@ -198,7 +238,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
                     <CustomListItem href={useBaseUrl(PATHS[0].path)} target={PATHS[0].target} label={PATHS[0].label} icon={PATHS[0].icon} isSelected={pathname===PATHS[0].path}/>
                   </Box>
                   <Box className="linkGruopBox">
-                    <span className="linkGruopLabel">ABOUT US</span>
+                    <span className="linkGruopLabel">ACERCA DE NOSOTROS</span>
                     {PATHS[1].subPaths.map((subItem) => (
                       <Box key={subItem.label}>
                         {subItem.label!="Press" &&
@@ -209,7 +249,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
                     <CustomListItem href={useBaseUrl(PATHS[2].path)} target={PATHS[2].target} label={PATHS[2].label} icon={PATHS[2].icon} isSelected={pathname===PATHS[2].path}/>
                   </Box>
                   <Box className="linkGruopBox">
-                    <span className="linkGruopLabel">CONTENT FOR YOU</span>
+                    <span className="linkGruopLabel">CONTENIDO PARA USTED</span>
                     <CustomListItem href={useBaseUrl(PATHS[3].path)} target={PATHS[3].target} label={PATHS[3].label} icon={PATHS[3].icon} isSelected={pathname===PATHS[3].path}/>
                     <CustomListItem href={useBaseUrl(PATHS[4].path)} target={PATHS[4].target} label={PATHS[4].label} icon={PATHS[4].icon} isSelected={pathname===PATHS[4].path}/>
                     <CustomListItem href={useBaseUrl(PATHS[1].subPaths[5].path)} 
@@ -219,8 +259,12 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
                     isSelected={pathname===PATHS[1].subPaths[5].path}/>
                   </Box>
                   <Box className="linkGruopBox">
-                    <span className="linkGruopLabel">CONTACT</span>
+                    <span className="linkGruopLabel">CONTACTO</span>
                     <CustomListItem href={useBaseUrl(PATHS[5].path)} target={PATHS[5].target} label={PATHS[5].label} icon={PATHS[5].icon} isSelected={pathname===PATHS[5].path}/>
+                  </Box>
+                  <Box className="linkGruopBox">
+                    <span className="linkGruopLabel">OPCIONES</span>
+                    <CustomListItem href="https://eoscostarica.io/" target="_blank" label="Sitio en ingles" icon={<LanguageIcon style={{width:'20px'}}/>} isSelected={false}/>
                   </Box>
                 </List>
               </Box>
@@ -240,51 +284,36 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
               </Box>
             </Box>
             <Box className="boxRight">
-                  {/* 
-                  <Box className={"boxLanguages"}>
-                    <Grid component="label" container alignItems="center" spacing={1}>
-                      <Grid item><span className="languageLabel">Esp</span></Grid>
-                      <Grid item>
-                        <label className="switch">
-                          <input 
-                            type="checkbox" 
-                            checked
-                            onChange={translateSite}
-                          />
-                          <span className="slider round"></span>
-                        </label>
-                      </Grid>
-                      <Grid item><span className="languageLabelActive">Eng</span></Grid>
-                    </Grid>
-                  </Box>
-                  */}
-                  <Box className="boxMenuItems" id="boxMenuItems">
-                    {PATHS.map((item) => (
-                      <Box key={item.label}>
-                        {!item.dropDown && 
-                          <Link className="navBarItemTab" href={useBaseUrl(item.path)} target={item.target} key={item.label} style={{textDecoration:'none'}}>
-                            <Box className="menuItem">  
-                              <h5 className={clsx("link",{["linkActive"]: pathname === item.path})}>{item.label}</h5>                  
-                            </Box>
-                          </Link>
-                        }
-                        {item.dropDown && 
-                          <Box tabIndex="0" className={clsx("menuItem","navBarItemTab")} >  
-                              <h5 className={clsx("link",{["linkActive"]: isCurrentPath(item.subPaths)})}>{item.label}</h5>
-                            <Box className={clsx("dropDownMenu",{["dropDownMenuActive"]: isCurrentPath(item.subPaths)})} style={{width:item.markerSize}}>
-                                {item.subPaths.map((subItem) => (
-                                  <Link className="navBarItemTab" href={useBaseUrl(subItem.path)} target={subItem.target} key={subItem.label} style={{textDecoration:'none'}}>
-                                    <Box>  
-                                      <h5 className={clsx("menuItemDrop",{["menuItemDropActive"]: pathname === subItem.path})} >{subItem.label}</h5>                  
-                                    </Box>
-                                  </Link>
-                                ))}
-                            </Box>                    
-                          </Box>
-                        }
+              <Box className={"boxLanguages"}>
+                <LanguagueSelector />
+              </Box>
+              <Box className="boxMenuItems" id="boxMenuItems">
+                {PATHS.map((item) => (
+                  <Box key={item.label}>
+                    {!item.dropDown && 
+                      <Link className="navBarItemTab" href={useBaseUrl(item.path)} target={item.target} key={item.label} style={{textDecoration:'none'}}>
+                        <Box className="menuItem">  
+                          <h5 className={clsx("link",{["linkActive"]: pathname === item.path})}>{item.label}</h5>                  
+                        </Box>
+                      </Link>
+                    }
+                    {item.dropDown && 
+                      <Box tabIndex="0" className={clsx("menuItem","navBarItemTab")} >  
+                          <h5 className={clsx("link",{["linkActive"]: isCurrentPath(item.subPaths)})}>{item.label}</h5>
+                        <Box className={clsx("dropDownMenu",{["dropDownMenuActive"]: isCurrentPath(item.subPaths)})} style={{width:item.markerSize}}>
+                            {item.subPaths.map((subItem) => (
+                              <Link className="navBarItemTab" href={useBaseUrl(subItem.path)} target={subItem.target} key={subItem.label} style={{textDecoration:'none'}}>
+                                <Box>  
+                                  <h5 className={clsx("menuItemDrop",{["menuItemDropActive"]: pathname === subItem.path})} >{subItem.label}</h5>                  
+                                </Box>
+                              </Link>
+                            ))}
+                        </Box>                    
                       </Box>
-                    ))}
-                </Box> 
+                    }
+                  </Box>
+                ))}
+              </Box> 
             </Box>
           </>
         }
