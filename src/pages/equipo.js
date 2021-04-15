@@ -14,6 +14,7 @@ const MetaData={
     title:"EOS Costa Rica: Nuestro equipo",
     description:"Conozca al equipo detrás de EOS Costa Rica que desarrolla soluciones basadas en blockchain para innovación empresarial.",
     img:"img/metaImgBlack.png",
+    hrefLangPath: "https://eoscostarica.io/team/"
 }
 
 const ManagementTeam = [
@@ -372,6 +373,7 @@ const Team = () => {
             title={MetaData.title}
             description={MetaData.description}
             image={MetaData.img}
+            hrefLangPath={MetaData.hrefLangPath}
         > 
             {isDesktop &&
                 <Box className="mainContainer">

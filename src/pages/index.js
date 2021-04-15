@@ -20,6 +20,7 @@ const MetaData={
   title:"EOS Costa Rica: Tecnología blockchain empresarial | EOSIO",
   description:"En EOS Costa Rica desarrollamos soluciones en blockchain para mejorar la eficiencia, trazabilidad, transparencia y rendición de cuentas en empresas.",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/"
 }
 
 const Home = () => {
@@ -601,6 +602,7 @@ const Home = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop && 
         <Box className="mainContainer">
