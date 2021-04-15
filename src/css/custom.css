@@ -227,6 +227,14 @@ a{
 
 .blogAuthorTile{
   margin-bottom: 3px;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: -0.24px;
+  line-height: 25px;
+  color: black;
 }
 
 .blogReadMoreText{

@@ -9,6 +9,7 @@
  import Box from '@material-ui/core/Box'
  import Grid from '@material-ui/core/Grid'
  import Avatar from '@material-ui/core/Avatar'
+ import { useMediaQuery } from 'react-responsive'
  
  const MONTHS = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio ', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
  
@@ -34,7 +35,7 @@
    const authorImageURL = frontMatter.author_image_url || frontMatter.authorImageURL;
    const imageUrl = useBaseUrl(image);
    const tempImage = useBaseUrl("img/metaImgBlack.png")
- 
+   const isXS = useMediaQuery( {query:'(min-width: 400px)'} )
  
    const BlogHeader = () => {
      const match = date.substring(0, 10).split('-');
@@ -42,26 +43,37 @@
      const month = MONTHS[parseInt(match[1], 10) - 1];
      const day = parseInt(match[2], 10);
  
-     return (
-       <Box className="blogHeaderListPage" style={{width:'100%'}} >
-         <Box>
-           <h3>{title}</h3>
-           <p style={{marginBottom: '10px'}}>
-              {day} de {month}, {year}{' '}
-              {readingTime && <> · {Math.ceil(readingTime)} minutos de lectura</>}
-           </p>
-         </Box>
-         <Box className="blogAvatarBox">
-           <Avatar src={authorImageURL} alt={author} style={{width: '48px', height: '48px'}} />
-           <Box className="blogAvatarTextBox">
-             <h4 className="blogAuthorTile"><a href={authorURL} target="_blank">{author}</a></h4>
-             <h5 className="blogAuthorTile">{authorTitle}</h5>
-           </Box>
-           <p>
-             <a className="blogReadMoreText" href={permalink}>Leer más</a>
-           </p>
-         </Box>
-       </Box>
+    return (
+      <Box className="blogHeaderListPage" style={{width:'100%'}} >
+        <Box>
+          <h3>{title}</h3>
+          <p style={{marginBottom: '20px',marginTop:'10px'}}>
+            {day} de {month}, {year}{' '}
+            {readingTime && <> · {Math.ceil(readingTime)} minutos de lectura</>}
+          </p>
+        </Box>
+        <Box className="blogAvatarBox">
+          {isXS && (
+            <>
+              <Avatar src={authorImageURL} alt={author} style={{width: '48px', height: '48px'}} />
+              <Box className="blogAvatarTextBox">
+                <a 
+                  className="blogAuthorTile"
+                  style={{fontWeight: 'bold', color: 'black'}}
+                  href={authorURL}
+                  target="_blank"
+                >
+                  {author}
+                </a>
+                <h5>{authorTitle}</h5>
+              </Box>
+            </>
+          )}       
+          <p>
+            <a className="blogReadMoreText" href={permalink}>Leer más</a>
+          </p>
+        </Box>
+      </Box>
      )
    }
  
