@@ -1,11 +1,15 @@
 ---
 slug: proyectos-open-source
 title: ¿Por qué involucrarse en proyectos open source?
+image: /img/blog/open-source/open-source-cover.jpg
 author: Luis Diego Rojas
 author_title: Content Strategist
 author_url: https://twitter.com/ldrojas
 author_image_url: https://avatars0.githubusercontent.com/u/29232417?s=400&u=032f18555bd97e3d90f3ddfb5b2dc72dfcf0d11b&v=4
 tags: [eosio, blockchain]
+metaTitle: "EOS Costa Rica Blog: ¿Por qué involucrarse en proyectos open source?"
+metaDescription: Involucrarse en un proyecto open source podría traerle varios beneficios, a pesar de no siempre representar un ingreso económico inmediato. Lea más aquí.
+langPost: https://eoscostarica.io/blog/open-source
 ---
 
 ![Poryectos open-source](/img/blog/open-source/open-source-cover.jpg)
@@ -30,7 +34,7 @@ El rango de talento que puede involucrarse en proyectos open source es muy varia
 
 **6. Busco recompensas externas:** En muchas ocasiones, quienes contribuyen en proyectos open source buscan otro tipo de recompensas en lugar de percibir remuneración directa. Por ejemplo, cuando requieren algún software o herramienta específica a la que podrían tener acceso dentro de la comunidad o la posibilidad de recibir algún retorno en el futuro. La idea es jugar bien las cartas.
 
-7. Finalmente, *¡contribuir a proyectos open source es divertido!* Para las personas que les gusta escribir código, esta podría ser una oportunidad de pasar el rato. Además, existen comunidades open source que invitan a sus colaboradores a participar de eventos o iniciativas grupales.
+**7.**  Finalmente, **¡contribuir a proyectos open source es divertido!** Para las personas que les gusta escribir código, esta podría ser una oportunidad de pasar el rato. Además, existen comunidades open source que invitan a sus colaboradores a participar de eventos o iniciativas grupales.
 
 
 ## **Involúcrese en nuestro proyecto open-source**
@@ -59,9 +63,9 @@ Consideramos importante que se pueda calificar estos Block Producers y los candi
 
 ** Síganos en redes sociales:**
 
-*   Website: https://eoscostarica.io/home/
-*   Twitter: https://twitter.com/eoscostarica
-*   Telegram: https://t.me/eoscr
-*   Facebook: https://www.facebook.com/costaricaeos/
-*   LinkedIn: https://www.linkedin.com/company/eoscostarica/
-*   Medium: medium/@eoscostarica
+*   [Website](https://eoscostarica.io)
+*   [Twitter](https://twitter.com/eoscostarica)
+*   [Telegram](https://t.me/eoscr)
+*   [Facebook](https://www.facebook.com/costaricaeos/)
+*   [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
+*   [Medium](https://medium.com/@eoscostarica)

@@ -21,6 +21,7 @@ const MetaData={
   title:"EOS Costa Rica: Servicios",
   description:"EOS Costa Rica usa el protocolo de blockchain empresarial EOSIO para desarrollar soluciones para el mundo real.",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/services"
 }
 
 const strategicLocationAccordion = 
@@ -632,6 +633,7 @@ const ServicePage = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop && 
         <Box className="mainContainer">

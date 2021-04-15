@@ -13,6 +13,7 @@ const MetaData={
   title:"EOS Costa Rica: Nuestro proyectos",
   description:"EOS Costa Rica ha desarrollado soluciones para varias industrias y proyectos de código abierto para la comunidad blockchain.",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/projects"
 }
 
 const ProjectsList = [
@@ -235,6 +236,7 @@ const OurProjects = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop && 
         <Box className="mainContainer">

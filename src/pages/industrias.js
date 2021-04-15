@@ -17,6 +17,7 @@ const MetaData={
   title:"EOS Costa Rica: Industries",
   description:"",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/industries"
 }
 
 const moreIndustriesAccordion = 
@@ -346,6 +347,7 @@ const Industries = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop &&
         <Box className="mainContainer">
