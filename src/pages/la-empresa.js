@@ -32,7 +32,10 @@ const TheCompany = () => {
           <Box className="titleBox">
             <h1>Soluciones blockchain  <br/> para empresas</h1>
           </Box>
-          <p>Años de experiencia desarrollando tecnologías innovadoras hablan por nosotros. Explore el poder de la tecnología blockchain con ayuda de nuestro equipo.</p>
+          <p>
+            Años de experiencia desarrollando tecnologías innovadoras hablan por nosotros. 
+            Explore el poder de la tecnología blockchain con ayuda de nuestro equipo.
+          </p>
           <br/>
           <Box className="buttonBox">
             <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
@@ -202,7 +205,7 @@ const TheCompany = () => {
               </Box>
             }
             <Box className="boxFlexEnd">
-              <button className="buttonPrimary" onClick={() => window.open("/equipo/")} >Conozca a nuestro equipo</button>
+              <button className="buttonPrimary" onClick={() => history.push("/equipo/")} >Conozca a nuestro equipo</button>
             </Box>
           </Box>
         </Box>
@@ -398,7 +401,7 @@ const TheCompany = () => {
                 <br/>
                 <p>
                 Puede ver más de nuestros proyectos más recientes <a 
-                  href="https://eoscostarica.io/projects" target="_blank">
+                  href="https://eoscostarica.io/projects">
                     aquí
                   </a>.
                 </p>

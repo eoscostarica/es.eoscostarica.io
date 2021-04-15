@@ -182,21 +182,21 @@ const InfrastructureNetworkingTeam = [
     },
     {
         img:"",
-        name:"Ronald Gallo",
-        position:"Administrador de red",
-        bio:"",
-        linkedIn:"",
-        twitter:"",
-        color:"#ffffff"
-    },
-    {
-        img:"",
         name:"Andrés Gomez",
         position:"Desarrollador de ciberseguridad",
         bio:"Visualizo y trabajo por un mundo más seguro, privado y descentralizado",
         linkedIn:"https://www.linkedin.com/in/andres-gomez-ramirez-bb7226156/",
         twitter:"https://twitter.com/kuronosec",
         color:"#f8f8f8"
+    },
+    {
+        img:"",
+        name:"Ronald Gallo",
+        position:"Administrador de red",
+        bio:"",
+        linkedIn:"",
+        twitter:"",
+        color:"#ffffff"
     },
     {
         img:"",

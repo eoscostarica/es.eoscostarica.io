@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid'
 import { useMediaQuery } from 'react-responsive'
 import clsx from "clsx"
 import Layout from "@theme/Layout"
-import useBaseUrl from "@docusaurus/useBaseUrl"
 import Box from '@material-ui/core/Box'
 
 import AdditionalResources from './components/AdditionalResources'
@@ -128,7 +127,7 @@ const Industries = () => {
               videojuegos y salud. 
             </p>
             <Box className="buttonBoxMobile">
-              <button className="buttonPrimary" href={useBaseUrl("/contact-us")}>
+              <button className="buttonPrimary" onClick={() => history.push("/Contactenos/")}>
                 Contáctenos
               </button>
             </Box>
