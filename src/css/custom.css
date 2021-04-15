@@ -303,8 +303,8 @@ a{
 .blog-wrapper h2::before {
   display: block;
   content: " ";
-  margin-top: -100px;
-  height: 100px;
+  margin-top: -120px;
+  height: 120px;
   visibility: hidden;
   pointer-events: none;
 }
@@ -323,8 +323,8 @@ a{
 .blog-wrapper h3::before {
   display: block;
   content: " "; 
-  margin-top: -100px;
-  height: 100px;
+  margin-top: -120px;
+  height: 120px;
   visibility: hidden;
   pointer-events: none;
 }
@@ -344,8 +344,8 @@ a{
 .blog-wrapper h4::before {
   display: block;
   content: " ";
-  margin-top: -100px;
-  height: 100px;
+  margin-top: -120px;
+  height: 120px;
   visibility: hidden;
   pointer-events: none;
 }
@@ -363,8 +363,8 @@ a{
 .blog-wrapper h5::before {
   display: block;
   content: " ";
-  margin-top: -100px;
-  height: 100px;
+  margin-top: -120px;
+  height: 120px;
   visibility: hidden;
   pointer-events: none;
 }
@@ -1515,6 +1515,10 @@ a{
   .linkFooter{
     text-align: start;
     font-size: 16px;
+  }
+
+  .menuWrapper{
+    height: 90px;
   }
 
   .buttonBox{
