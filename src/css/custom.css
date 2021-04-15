@@ -1710,6 +1710,10 @@ a{
     padding-right: 25px;
   }
 
+  .imgListBlogPost{
+    min-height:initial;
+  }
+
   .blogCenterHeaderItem{
     height: auto;
   }
