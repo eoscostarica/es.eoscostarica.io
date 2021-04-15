@@ -204,7 +204,7 @@ const TheCompany = () => {
               </Box>
             }
             <Box className="boxFlexEnd">
-              <button className="buttonPrimary" onClick={() => window.open("/equipo/")} >Conozca a nuestro equipo</button>
+              <button className="buttonPrimary" onClick={() => history.push("/equipo/")} >Conozca a nuestro equipo</button>
             </Box>
           </Box>
         </Box>
@@ -400,7 +400,7 @@ const TheCompany = () => {
                 <br/>
                 <p>
                 Puede ver más de nuestros proyectos más recientes <a 
-                  href="https://eoscostarica.io/projects" target="_blank">
+                  href="https://eoscostarica.io/projects">
                     aquí
                   </a>.
                 </p>
