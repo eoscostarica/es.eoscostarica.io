@@ -366,6 +366,7 @@ a{
   font-size: 16px;
   letter-spacing: -0.24px;
   line-height: 20px;
+  background-color: blueviolet;
 }
 
 .blog-wrapper h5::before {
@@ -1707,6 +1708,10 @@ a{
     padding-right: 0;
     padding-bottom: 10px;
   }
+
+  .blogAuthorTile{
+    font-size: 20px;
+  }
   
   .blogHeaderListPage{
     padding-left: 25px;
@@ -1750,16 +1755,32 @@ a{
     padding: 0;
   }
 
+  .blog-wrapper h2::before {
+    content: none;
+  }
+
   .blog-wrapper h3{
     font-size: 20px;
     text-align: left;
     padding: 0;
   }
 
+  .blog-wrapper h3::before {
+    content: none;
+  }
+
   .blog-wrapper h4{
     font-size: 15px;
     padding: 0;
     text-align: left;
+  }
+
+  .blog-wrapper h4::before {
+    content: none;
+  }
+
+  .blog-wrapper h5::before {
+    content: none;
   }
 
   .blog-wrapper p{
