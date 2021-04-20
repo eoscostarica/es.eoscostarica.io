@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 /*Typographys*/
 
+body{
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: Lato, sans-serif;
   font-weight: bold;
@@ -192,7 +196,7 @@ a{
 }
 
 .dividerBlogBox{
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .blogAvatarBox{
@@ -236,6 +240,10 @@ a{
 
 .blogContentBox{
   margin-bottom: 30px;
+}
+
+.blogMarkdown a{
+  text-decoration: underline;
 }
 
 .blogStickyContentBox{
@@ -1767,10 +1775,6 @@ a{
   .blogChipTagsBox{
     padding-left: 25px;
     padding-right: 25px;
-  }
-
-  .blog-wrapper a {
-    /*color: #5484b3;*/
   }
 
   .blog-wrapper h1{
