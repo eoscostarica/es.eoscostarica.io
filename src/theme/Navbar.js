@@ -179,16 +179,24 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
 
     const handleClickMenuLang = () => {
       seLangMenuHandler(true)
-    };
+    }
   
     const handleCloseMenuLang = () => {
       seLangMenuHandler(false)
-    };
+    }
 
     const handleChangeLang = () => {
       seLangMenuHandler(false)
       translateSite()
-    };
+    }
+
+    const LangItem = ({label, handleClick, classN}) =>{
+      return (
+        <Box className="langItemBox" onClick={handleClick}>
+          <span className={classN} style={{fontSize: '15px'}}>{label}</span>
+        </Box>
+      )
+    }
 
     return (
       <>
@@ -200,12 +208,17 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
         </IconButton>
         {true && (
           <Box  className={clsx("boxLanguagesSelector",{["boxLanguagesSelectorActive"]: langMenuHandler})} onMouseLeave={handleCloseMenuLang}>
-            <MenuItem onClick={handleCloseMenuLang}>
-              <p style={{fontSize: '15px'}}>ES - Spanish</p>
-            </MenuItem>
-            <MenuItem onClick={handleChangeLang}>
-              <p style={{fontSize: '15px'}}>EN - English</p>
-            </MenuItem>
+            <LangItem
+              label="ES"
+              handleClick={handleCloseMenuLang}
+              classN="langItemActive"
+            />
+            <span style={{fontSize: '15px', padding: '5px'}}>|</span>
+            <LangItem 
+              label="EN"
+              handleClick={handleChangeLang}
+              classN="langItem"
+            />
           </Box>
         )}
       </>
