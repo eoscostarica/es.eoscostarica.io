@@ -16,6 +16,7 @@ const MetaData={
   title:"EOS Costa Rica: Contáctenos",
   description:"Pregúntenos sobre cómo integrar la tecnología blockchain EOSIO en su organización.",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/contact-us/"
 }
 
 const GenericInput = withStyles({
@@ -102,18 +103,18 @@ const ContactUs = () => {
             }
           ],
           "context": {
-            "pageUri": "https://eoscostarica.io/contact-us",
-            "pageName": "EOS Costa Rica: Contact Us"
+            "pageUri": "https://es.eoscostarica.io/contactenos",
+            "pageName": "EOS Costa Rica: Contáctenos"
           },
           "legalConsentOptions": {
             "consent": {
               "consentToProcess": true,
-              "text": "I agree to allow Example Company to store and process my personal data.",
+              "text": "Acepto permitir que EOS Costa Rica almacene y procese mis datos personales.",
               "communications": [
                 {
                   "value": true,
                   "subscriptionTypeId": 999,
-                  "text": "I agree to receive marketing communications from Example Company."
+                  "text": "Acepto recibir comunicaciones de marketing de EOS Costa Rica."
                 }
               ]
             }
@@ -234,6 +235,7 @@ const ContactUs = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop && 
         <Parallax strength={800}>

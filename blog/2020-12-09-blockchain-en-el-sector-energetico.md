@@ -1,11 +1,14 @@
 ---
 slug: blockchain-en-el-sector-energetico
 title: Blockchain en el sector energético
+image: /img/blog/energia/energia-cover.jpg
 author: Luis Diego Rojas
 author_title: Content Strategist
 author_url: https://twitter.com/ldrojas
 author_image_url: https://avatars0.githubusercontent.com/u/29232417?s=400&u=032f18555bd97e3d90f3ddfb5b2dc72dfcf0d11b&v=4
 tags: [eosio, blockchain]
+metaTitle: "EOS Costa Rica Blog: Blockchain en el sector energético"
+metaDescription: El sector energético se puede beneficiar de implementar blockchain al incrementar la eficiencia, transparencia y reducir costos. Lea más aquí.
 ---
 
 ![¿Qué es blockchain?](/img/blog/energia/energia-cover.jpg)
@@ -17,7 +20,7 @@ La industria energética juega un papel clave en las operaciones y la economía 
 Según la Agencia Alemana de la Energía, la tecnología blockchain cuenta con el potencial de [mejorar la eficiencia energética](https://www.sciencedirect.com/science/article/pii/S1364032118307184), acelerar el desarrollo de plataformas de Internet of things (IoT) y aportar innovación en el intercambio de energía descentralizada. Blockchain es una tecnología que permite el registro de datos de manera compartida entre varios usuarios o “nodos.” En una blockchain se registran transacciones con mayor confiabilidad, seguridad e inmutabilidad, es decir, sin posibilidad de alteración en los datos. Algunos beneficios de blockchain para el sector energía incluyen:
 
 *   Mejorar la eficiencia y la reducción de costos.
-*   Transparencia en el manejo de datos eléctricos. *   Promover la generación eléctrica privada. *   Mayor adopción de alternativas sostenibles o energías renovables.
+*   Transparencia en el manejo de datos eléctricos.*   Promover la generación eléctrica privada.*   Mayor adopción de alternativas sostenibles o energías renovables.
 
 **(Resumen al final del artículo).**
 
@@ -81,12 +84,12 @@ Por otro lado, el startup [WePower](https://wepower.network/)  conecta a consumi
 
 ** Síganos en redes sociales:**
 
-*   Website: https://eoscostarica.io/home/
-*   Twitter: https://twitter.com/eoscostarica
-*   Telegram: https://t.me/eoscr
-*   Facebook: https://www.facebook.com/costaricaeos/
-*   LinkedIn: https://www.linkedin.com/company/eoscostarica/
-*   Medium: medium/@eoscostarica
+*   [Website](https://eoscostarica.io)
+*   [Twitter](https://twitter.com/eoscostarica)
+*   [Telegram](https://t.me/eoscr)
+*   [Facebook](https://www.facebook.com/costaricaeos/)
+*   [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
+*   [Medium](https://medium.com/@eoscostarica)
 
 ## Resumen
 

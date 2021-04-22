@@ -16,6 +16,7 @@ const MetaData={
   title:"EOS Costa Rica: Página de la empresa",
   description:"EOS Costa Rica es parte de una compañía con más de tres décadas de experiencia desarrollando soluciones innovadoras.",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/the-company"
 }
 
 const TheCompany = () => {
@@ -173,7 +174,7 @@ const TheCompany = () => {
   const MeetTeam = () => {
     return (
       <Box className="containerSec">
-        <Box className="sectionPadding">
+        <Box className="sectionPaddingTop">
           <Box>
             <Box className="titleBox">
               <h2>Conozca al equipo</h2>
@@ -204,7 +205,28 @@ const TheCompany = () => {
               </Box>
             }
             <Box className="boxFlexEnd">
-              <button className="buttonPrimary" onClick={() => window.open("/equipo/")} >Conozca a nuestro equipo</button>
+              <button className="buttonPrimary" onClick={() => history.push("/equipo/")} >Conozca a nuestro equipo</button>
+            </Box>
+          </Box>
+        </Box>
+      </Box> 
+    )
+  }
+
+  const WorkWithUS = () => {
+    return (
+      <Box className="containerSec">
+        <Box className="section">
+          <Box>
+            <Box className="h3Box">
+              <h3>¿Quiere trabajar con nosotros?</h3>
+            </Box>
+            <Box className="spacingBox">
+              <p>
+                Constantemente buscamos talento.{" "} 
+                <a href={`mailto:${'jobs@eoscostarica.io'}?subject=${'Mi CV - quiero trabajar para tu empresa'}`}>Envíenos su CV</a>
+                {" "}y nos comunicaremos con usted una vez que see abra alguna posición.
+              </p>
             </Box>
           </Box>
         </Box>
@@ -400,7 +422,7 @@ const TheCompany = () => {
                 <br/>
                 <p>
                 Puede ver más de nuestros proyectos más recientes <a 
-                  href="https://eoscostarica.io/projects" target="_blank">
+                  href="https://eoscostarica.io/projects">
                     aquí
                   </a>.
                 </p>
@@ -417,6 +439,7 @@ const TheCompany = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop &&
         <Box className="mainContainer">
@@ -429,8 +452,9 @@ const TheCompany = () => {
           </Parallax>
           <WeAreOneGroup />
           <MeetTeam />
-          <TheTechnology/>
-          <SomeOurProjects/>
+          <WorkWithUS />
+          <TheTechnology />
+          <SomeOurProjects />
           <ContactUsBanner />
         </Box>
       }
@@ -440,8 +464,9 @@ const TheCompany = () => {
           <EOSCR />
           <WeAreOneGroup />
           <MeetTeam />
+          <WorkWithUS />
           <TheTechnology/>
-          <SomeOurProjects/>
+          <SomeOurProjects />
           <ContactUsBanner />
         </Box>
       }
