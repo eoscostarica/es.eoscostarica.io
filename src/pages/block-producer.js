@@ -23,7 +23,7 @@ const MetaData={
   img:"img/metaImgBlack.png",
   hrefLangPath: "https://eoscostarica.io/block-producer"
 }
- 
+
 const BlockProducer = () => {
   const history = useHistory()
   const isMobile = useMediaQuery( {query:'(max-width: 960px)'} )
