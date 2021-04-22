@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[34],{108:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"blockchain-technology","name":"blockchain technology","count":2,"permalink":"/blog/tags/blockchain-technology"}')}}]);

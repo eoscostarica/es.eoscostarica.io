@@ -4,9 +4,30 @@
         <title>Servicios de desarrollo de blockchain empresarial EOSIO - EOS Costa Rica Blog</title>
         <link>https://es.eoscostarica.io/blog</link>
         <description>Servicios de desarrollo de blockchain empresarial EOSIO - EOS Costa Rica Blog</description>
-        <lastBuildDate>Wed, 09 Dec 2020 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[The Role of NFTs for Enterprise]]></title>
+            <link>https://es.eoscostarica.io/blog/nfts-for-enterprise</link>
+            <guid>nfts-for-enterprise</guid>
+            <pubDate>Thu, 22 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Role of NFTs for Enterprise]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to Tell if Your Organization Needs Blockchain]]></title>
+            <link>https://es.eoscostarica.io/blog/do-you-need-blockchain</link>
+            <guid>do-you-need-blockchain</guid>
+            <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Why Use Blockchain Technology?]]></description>
+        </item>
+        <item>
+            <title><![CDATA[¿Por qué involucrarse en proyectos open source?]]></title>
+            <link>https://es.eoscostarica.io/blog/proyectos-open-source</link>
+            <guid>proyectos-open-source</guid>
+            <pubDate>Thu, 10 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Poryectos open-source]]></description>
+        </item>
         <item>
             <title><![CDATA[¿Por qué implementar blockchain en el sector agrícola?]]></title>
             <link>https://es.eoscostarica.io/blog/blockchain-en-el-sector-agricola</link>
@@ -43,25 +64,11 @@
             <description><![CDATA[Why Get Involved in Open Source]]></description>
         </item>
         <item>
-            <title><![CDATA[What Is Blockchain? A Quick Guide]]></title>
-            <link>https://es.eoscostarica.io/blog/what-is-blockchain</link>
-            <guid>what-is-blockchain</guid>
-            <pubDate>Wed, 15 Apr 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[What Is Blockchain]]></description>
-        </item>
-        <item>
             <title><![CDATA[Blockchain in Logistics - Transforming an Industry]]></title>
             <link>https://es.eoscostarica.io/blog/blockchain-logistics</link>
             <guid>blockchain-logistics</guid>
             <pubDate>Tue, 07 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Blockchain in Logistics]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Why Get Involved in an Open-Source Project?]]></title>
-            <link>https://es.eoscostarica.io/blog/open-source</link>
-            <guid>open-source</guid>
-            <pubDate>Mon, 27 Jan 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Why Get Involved in Open Source]]></description>
         </item>
     </channel>
 </rss>
