@@ -124,7 +124,7 @@ const DevelopTeam = [
         color:"#ffffff"
     },
     {
-        img:"",
+        img:"img/team/justin.jpg",
         name:"Justin Castillo",
         position:"Practicante",
         bio:"Busco ser parte del cambio, no solo un simple engranaje.",
@@ -181,7 +181,7 @@ const InfrastructureNetworkingTeam = [
         color:"#ffffff"
     },
     {
-        img:"",
+        img:"img/team/andres.jpg",
         name:"Andrés Gomez",
         position:"Desarrollador de ciberseguridad",
         bio:"Visualizo y trabajo por un mundo más seguro, privado y descentralizado",
@@ -190,7 +190,7 @@ const InfrastructureNetworkingTeam = [
         color:"#f8f8f8"
     },
     {
-        img:"",
+        img:"img/team/ronald.jpg",
         name:"Ronald Gallo",
         position:"Administrador de red",
         bio:"",
@@ -199,7 +199,7 @@ const InfrastructureNetworkingTeam = [
         color:"#ffffff"
     },
     {
-        img:"",
+        img:"img/team/julio.jpg",
         name:"Victor Julio Madrigal",
         position:"Desarrollador web",
         bio:"“Lo que más me gusta es desarrollar proyectos innovadores que ayuden a avanzar las nuevas tecnologías.",

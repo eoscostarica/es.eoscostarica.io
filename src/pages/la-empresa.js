@@ -90,7 +90,7 @@ const TheCompany = () => {
                 <Box className="imgBoxRight">
                   <img
                     className="imgKnowCompany"
-                    src={useBaseUrl("img/ourstory.jpg")}
+                    src={useBaseUrl("img/website_03.jpg")}
                   />
                 </Box>  
               </Grid>
@@ -103,7 +103,7 @@ const TheCompany = () => {
                   <Box className="imgBoxLeft">
                     <img
                       className="imgKnowCompany"
-                      src={useBaseUrl("img/ourvision.jpg")}
+                      src={useBaseUrl("img/website_04.jpg")}
                     />
                   </Box>  
                 </Grid>
@@ -132,7 +132,7 @@ const TheCompany = () => {
                   <Box className="imgBoxLeft">
                     <img
                       className="imgKnowCompany"
-                      src={useBaseUrl("img/company.png")}
+                      src={useBaseUrl("img/website_04.jpg")}
                     />
                   </Box>  
                 </Grid>
