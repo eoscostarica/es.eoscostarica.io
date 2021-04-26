@@ -193,13 +193,11 @@ const TheCompany = () => {
                 <Carousel animation="slide" timeout={500} indicators={false}>
                   <img
                     alt="Crew image"
-                    style={{height:'227px'}}
                     src={useBaseUrl("img/team/crew1.jpg")}
                   />
                   <img
-                      alt="Crew image 2"
-                      style={{height:'227px'}}
-                      src={useBaseUrl("img/team/crew2.jpg")}
+                    alt="Crew image 2"
+                    src={useBaseUrl("img/team/crew2.jpg")}
                   />
                 </Carousel>
               </Box>
