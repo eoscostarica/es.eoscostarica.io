@@ -18,14 +18,6 @@ const MetaData={
 
 const ProjectsList = [
   {
-    img:"img/logos/smartgate.svg",
-    name:"SMARTGATE",
-    details:"Una plataforma basada en blockchain que brinda soluciones para entradas y salidas de puertos para la industria de logística de contenedores y transmisión en tiempo real de datos requeridos para el intercambio de carga. ",
-    link:"https://smartgate.tech/",
-    color:"#ffffff",
-    linkText:"Aprenda más sobre SMARTGATE."
-  },
-  {
     img:"img/logos/eosio.svg",
     name:"EOSIO Dashboard",
     details:"EOSIO Dashboard es un proyecto de código abierto que permite a usuarios visualizar la distribución de recompensas en la red EOS en la búsqueda de rendición de cuentas y transparencia. ",
@@ -34,11 +26,19 @@ const ProjectsList = [
     linkText:"Lea más sobre EOSIO Dashboard."
   },
   {
+    img:"img/imagenotavailable.png",
+    name:"gGoods",
+    details:"gGoods es un estándar para NFTs de código abierto que permite a organizaciones crear tokens para buscar financiamiento. Los donantes pueden usar sus NFTs como activos en juegos y apps. Lea más sobre gGoods. ",
+    link:"https://ggoods.io/",
+    color:"#ffffff",
+    linkText:"Lea más sobre gGoods."
+  },
+  {
     img:"img/logos/eosrate.svg",
     name:"EOS Rate",
     details:"EOS Rate es una app de código abierto que permite a titulares de tokens EOS acceder a un sistema de calificaciones y portal de votación para productores de bloques y proxies en la blockchain EOS. ",
     link:"https://eosrate.io/",
-    color:"#ffffff",
+    color:"#f8f8f8",
     linkText:"Explore EOS Rate."
   },
   {
@@ -46,7 +46,7 @@ const ProjectsList = [
     name:"Enterprise EOSIO Forum",
     details:"Somos parte del Enterprise EOSIO Forum, una iniciativa de la comunidad para discutir sobre soluciones empresariales en blockchain implementando la tecnología EOSIO.",
     link:"https://www.linkedin.com/company/enterprise-eosio-forum/",
-    color:"#f8f8f8",
+    color:"#ffffff",
     linkText:"Más sobre Enterprise EOSIO Forum."
   },
   {
@@ -54,7 +54,7 @@ const ProjectsList = [
     name:"Evodex",
     details:"Evodex es la interfaz frontend para un protocolo de pool de liquidez en el que los usuarios votan por las tarifas de liquidez y no pagan por gas. Nuestro equipo estuvo a cargo del UX y el diseño front-end. ",
     link:"https://evodex.io/",
-    color:"#ffffff",
+    color:"#f8f8f8",
     linkText: "Pruebe Evodex."
   },
   {
@@ -62,7 +62,7 @@ const ProjectsList = [
     name:"EOS Foundation",
     details:"Somos parte de la prueba de concepto de EOS Foundation, una organización sin fines de lucro, autónoma y descentralizada, que permitiría la autorepresentación y promoción de la comunidad de EOS. ",
     link:"http://eos-foundation.eosio.cr/",
-    color:"#f8f8f8",
+    color:"#ffffff",
     linkText:"Visite EOS Foundation."
   },
   {
@@ -70,7 +70,7 @@ const ProjectsList = [
     name:"Proyecto empresarial privado",
     details:"Desarrollamos una app para un cliente estadounidense en la industria de contabilidad y finanzas para mejorar la trazabilidad de transacciones intercompañía. ",
     link:"https://eoscostarica.medium.com/why-integrating-erp-systems-into-blockchain-is-a-great-idea-e384b298a4a8",
-    color:"#ffffff",
+    color:"#f8f8f8",
     linkText:"Lea más aquí."
   },
   {
@@ -78,7 +78,7 @@ const ProjectsList = [
     name:"Notario Digital",
     details:"Notario Digital es un proyecto de código abierto que genera un hash de cualquier documento para registrarlo de forma inmutable en una red EOSIO. ",
     link:"https://notarize.eosio.cr/dashboard/notary",
-    color:"#f8f8f8",
+    color:"#ffffff",
     linkText:"Dele un vistazo."
   }
 ]
@@ -154,33 +154,59 @@ const OurProjects = () => {
       <Box className={clsx("containerSec", "reduceMarginTop")}>
         <Box className={clsx("section",{["sectionPadding"]: isMobile})}>
           <Grid container>
-              <Grid item xs={12} md={6}>
-                <Box className="projectsGridLeft">
-                  <Box className="imgBoxProjects">
-                    <img
-                      alt="LatamLink"
-                      className="sizeImageTheCompany"
-                      src={useBaseUrl("img/logos/Group47.svg")}
-                    />
-                  </Box>
+            <Grid item xs={12} md={6}>
+              <Box className="projectsGridLeft">
+                <Box className="imgBoxProjects">
+                  <img
+                    alt="LatamLink"
+                    className="sizeImageTheCompany"
+                    src={useBaseUrl("img/logos/Group47.svg")}
+                  />
                 </Box>
-              </Grid>
-              <Grid  item xs={12} md={6}>
-                <Box className="projectsGridRight">
-                  <Box className="h3Box">
-                    <h3 >LatamLink</h3>
-                  </Box>
-                  <p>
-                    Somos parte de una alianza regional, liderada por compañías tecnológicas de Latinoamérica para ofrecer un testnet
-                    basado en EOSIO a la iniciativa <a href="https://www.lacchain.net/" target="_blank">LACChain</a>{", "} 
-                    un programa para acelerar el desarrollo del ecosistema blockchain de la región.{" "}
-                    <a href="http://latamlink.io/" target="_blank">
+              </Box>
+            </Grid>
+            <Grid  item xs={12} md={6}>
+              <Box className="projectsGridRight">
+                <Box className="h3Box">
+                  <h3 >LatamLink</h3>
+                </Box>
+                <p>
+                  Somos parte de una alianza regional, liderada por compañías tecnológicas de Latinoamérica para ofrecer un testnet
+                  basado en EOSIO a la iniciativa <a href="https://www.lacchain.net/" target="_blank">LACChain</a>{", "} 
+                  un programa para acelerar el desarrollo del ecosistema blockchain de la región.{" "}
+                  <a href="http://latamlink.io/" target="_blank">
                     Descubra más sobre LatamLink
-                    </a>
-                  </p>
-                </Box>
-              </Grid>
+                  </a>
+                </p>
+              </Box>
+            </Grid>
             <Grid style={{backgroundColor:'#f8f8f8'}} item xs={12} md={6}>
+              <Box className="projectsGridLeft">
+                <Box className="imgBoxProjects">
+                  <img
+                    alt="SMARTGATE"
+                    src={useBaseUrl("img/logos/smartgate.svg")}
+                  />
+                </Box>
+              </Box>
+            </Grid>
+            <Grid style={{backgroundColor:'#f8f8f8'}} item xs={12} md={6}>
+              <Box className="projectsGridRight">
+                <Box className="h3Box">
+                  <h3 >SMARTGATE</h3>
+                </Box>
+                <p>
+                  Una plataforma basada en blockchain que brinda soluciones
+                  para entradas y salidas de puertos para la industria de
+                  logística de contenedores y transmisión en tiempo real
+                  de datos requeridos para el intercambio de carga. 
+                  <a href="https://smartgate.tech/" target="_blank">
+                    Aprenda más sobre SMARTGATE.
+                  </a>
+                </p>
+              </Box>
+            </Grid>
+            <Grid item xs={12} md={6}>
               <Box className="projectsGridLeft">
                 <Box className="imgBoxProjects">
                   <img
@@ -190,7 +216,7 @@ const OurProjects = () => {
                 </Box>
               </Box>
             </Grid>
-            <Grid style={{backgroundColor:'#f8f8f8'}} item xs={12} md={6}>
+            <Grid item xs={12} md={6}>
               <Box className="projectsGridRight">
                 <Box className="h3Box">
                   <h3 >Lifebank</h3>

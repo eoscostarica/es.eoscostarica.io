@@ -35,7 +35,7 @@ Podemos co-idear y desarrollar la solución ideal que integre la tecnología blo
 
 Estamos en la version 2.0
 
- ## Pila de tecnologías
+ ## Componentes tecnológicos
 
  - React.js - React 17, React Router 5
  - Docusaurus 2.0.0
@@ -156,7 +156,7 @@ Este proyecto sigue el [all-contributors](https://github.com/all-contributors/al
  <br/>
   <p align="center">
     <a href="https://es.eoscostarica.io/">
-      <img src="https://github.com/eoscostarica/eos-rate/raw/master/docs/eoscostarica-logo-black.png" width="300">
+      <img src="https://raw.githubusercontent.com/eoscostarica/es.eoscostarica.io/master/static/img/logos/eoscr-logo.png" width="300">
     </a>
   </p>
   <br/>

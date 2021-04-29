@@ -70,7 +70,7 @@
             </>
           )}       
           <p>
-            <a className="blogReadMoreText" href={permalink}>Leer más</a>
+            <a className="blogReadMoreText" href={permalink}>Leer más ❯</a>
           </p>
         </Box>
       </Box>
