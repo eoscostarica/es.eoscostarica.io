@@ -408,7 +408,7 @@ const Home = () => {
                   <Box className="imgBoxRight">
                     <img
                       className="imgKnow"
-                      src={useBaseUrl("img/team.png")}
+                      src={useBaseUrl("img/website_01.jpg")}
                     />
                   </Box>  
                 </Grid>
@@ -421,7 +421,7 @@ const Home = () => {
                     <Box className="imgBoxLeft">
                       <img
                         className="imgKnow"
-                        src={useBaseUrl("img/company.png")}
+                        src={useBaseUrl("img/website_02.jpg")}
                       />
                     </Box>  
                   </Grid>
@@ -447,7 +447,7 @@ const Home = () => {
                     <Box className="imgBoxLeft">
                       <img
                         className="imgKnow"
-                        src={useBaseUrl("img/company.png")}
+                        src={useBaseUrl("img/website_02.jpg")}
                       />
                     </Box>  
                   </Grid>
