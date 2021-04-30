@@ -1,11 +1,15 @@
 ---
 slug: que-es-blockchain
 title: ¿Qué es blockchain?
+image: /img/blog/que-es-blockchain/blockchain-cover.jpg
 author: Luis Diego Rojas
 author_title: Content Strategist
 author_url: https://twitter.com/ldrojas
 author_image_url: https://avatars0.githubusercontent.com/u/29232417?s=400&u=032f18555bd97e3d90f3ddfb5b2dc72dfcf0d11b&v=4
 tags: [eosio, blockchain]
+metaTitle: "EOS Costa Rica Blog: What Is Blockchain? A Quick Guide"
+metaDescription: Aprenda sobre qué es blockchain y cómo implementarla en su organización. Blockchain ofrece mayor seguridad, trazabilidad y eficiencia a su compañía.
+langPost: https://eoscostarica.io/blog/what-is-blockchain/
 ---
 
 ![¿Qué es blockchain?](/img/blog/que-es-blockchain/blockchain-cover.jpg)
@@ -72,12 +76,12 @@ Algunos ejemplos de aplicaciones de blockchain en la vida real son:
 
 ** Síganos en redes sociales:**
 
-*   Website: https://eoscostarica.io/home/
-*   Twitter: https://twitter.com/eoscostarica
-*   Telegram: https://t.me/eoscr
-*   Facebook: https://www.facebook.com/costaricaeos/
-*   LinkedIn: https://www.linkedin.com/company/eoscostarica/
-*   Medium: medium/@eoscostarica
+*   [Website](https://eoscostarica.io)
+*   [Twitter](https://twitter.com/eoscostarica)
+*   [Telegram](https://t.me/eoscr)
+*   [Facebook](https://www.facebook.com/costaricaeos/)
+*   [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
+*   [Medium](https://medium.com/@eoscostarica)
 
 ## Resumen
 

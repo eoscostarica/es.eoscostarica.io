@@ -18,7 +18,8 @@ import ContactUsBanner from './components/ContactUsBanner'
 const MetaData={
   title:"",
   description:"",
-  img:"img/metaImgBlack.png"
+  img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/press"
 }
 
 const firtsNewsRelease = [
@@ -62,7 +63,7 @@ const EOSCRNews = [
     title:"Ganadora tica de hackathon “Coding for Change” invierte premio para mejorar app Lifebank",
     date:"Oct 20, 2020",
     link:"https://www.larepublica.net/noticia/ganadora-tica-de-hackathon-coding-for-change-invierte-premio-para-mejorar-app-lifebank",
-    media:"La Republic"
+    media:"La Republica"
   },
   {
     img:"https://images.cointelegraph.com/images/717_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jZGEzMGU0M2M2ZmM0ODUzNTgwOGMyZjgzMDk0YTkyYS5qcGc=.jpg",
@@ -131,7 +132,7 @@ const Press = () => {
               Buscamos posicionar la tecnología blockchain EOSIO en las noticias a través de nuestro trabajo.
             </p>
             <Box className="buttonBox">
-              <button className="buttonPrimary" onClick={() => history.push("/services/")} >Contáctenos</button>
+              <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
             </Box>
           </Box>
         }
@@ -144,7 +145,7 @@ const Press = () => {
               Buscamos posicionar la tecnología blockchain EOSIO en las noticias a través de nuestro trabajo.
             </p>
             <Box className="buttonBox">
-              <button className="buttonPrimary" onClick={() => history.push("/services/")} >Contact Us</button>
+              <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
             </Box>
           </Box>
         }
@@ -255,6 +256,7 @@ const Press = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop && 
         <Box className="mainContainer">

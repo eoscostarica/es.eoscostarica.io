@@ -14,6 +14,7 @@ const MetaData={
     title:"EOS Costa Rica: Nuestro equipo",
     description:"Conozca al equipo detrás de EOS Costa Rica que desarrolla soluciones basadas en blockchain para innovación empresarial.",
     img:"img/metaImgBlack.png",
+    hrefLangPath: "https://eoscostarica.io/team/"
 }
 
 const ManagementTeam = [
@@ -123,7 +124,7 @@ const DevelopTeam = [
         color:"#ffffff"
     },
     {
-        img:"",
+        img:"img/team/justin.jpg",
         name:"Justin Castillo",
         position:"Practicante",
         bio:"Busco ser parte del cambio, no solo un simple engranaje.",
@@ -180,16 +181,7 @@ const InfrastructureNetworkingTeam = [
         color:"#ffffff"
     },
     {
-        img:"",
-        name:"Ronald Gallo",
-        position:"Administrador de red",
-        bio:"",
-        linkedIn:"",
-        twitter:"",
-        color:"#ffffff"
-    },
-    {
-        img:"",
+        img:"img/team/andres.jpg",
         name:"Andrés Gomez",
         position:"Desarrollador de ciberseguridad",
         bio:"Visualizo y trabajo por un mundo más seguro, privado y descentralizado",
@@ -198,7 +190,16 @@ const InfrastructureNetworkingTeam = [
         color:"#f8f8f8"
     },
     {
-        img:"",
+        img:"img/team/ronald.jpg",
+        name:"Ronald Gallo",
+        position:"Administrador de red",
+        bio:"",
+        linkedIn:"",
+        twitter:"",
+        color:"#ffffff"
+    },
+    {
+        img:"img/team/julio.jpg",
         name:"Victor Julio Madrigal",
         position:"Desarrollador web",
         bio:"“Lo que más me gusta es desarrollar proyectos innovadores que ayuden a avanzar las nuevas tecnologías.",
@@ -367,11 +368,34 @@ const Team = () => {
         )
     }
 
+    const SendCV = () => {
+    
+        return (
+            <Box className="containerGray">
+                <Box className="sectionPadding">
+                    <Grid container spacing={5}>
+                        <Grid item xs={12} md={8}> 
+                            <Box>
+                                <h2 className="centerTextOnMobile">¿Quieres trabajar con nosotras? </h2>
+                            </Box>
+                        </Grid>
+                        <Grid item xs={12} md={4}>
+                            <Box className='centerTextOnMobile'>
+                                <button className="buttonPrimary" onClick={() => window.open(`mailto:${'jobs@eoscostarica.io'}?subject=${'Mi CV - quiero trabajar para tu empresa'}`)} >Send your CV</button>
+                            </Box>
+                        </Grid>
+                    </Grid>
+                </Box>
+            </Box>
+        );
+    };
+
     return (
         <Layout
             title={MetaData.title}
             description={MetaData.description}
             image={MetaData.img}
+            hrefLangPath={MetaData.hrefLangPath}
         > 
             {isDesktop &&
                 <Box className="mainContainer">
@@ -380,6 +404,7 @@ const Team = () => {
                             <Box className="imgParallax"/>
                         </Background>
                         <HeroSection />
+                        <SendCV />
                     </Parallax>
                 </Box>
             }
@@ -387,6 +412,7 @@ const Team = () => {
                 <Box className="mainContainer">
                     <HeroSection />
                     <TeamSection />
+                    <SendCV />
                 </Box>
             }
         </Layout>

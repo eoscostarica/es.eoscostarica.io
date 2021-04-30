@@ -21,6 +21,7 @@ const MetaData={
   title:"EOS Costa Rica: Productor de bloques",
   description:"Conozca a EOS Costa Rica – candidato a productor de bloques de EOS con experiencia técnica en el desarrollo de dapps y contratos inteligentes.",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/block-producer"
 }
 
 const BlockProducer = () => {
@@ -64,7 +65,7 @@ const BlockProducer = () => {
               ayudamos a desarrollar el ecosistema blockchain EOSIO en el mundo.
             </p>
             <Box className="buttonBoxMobile"> 
-              <button className="buttonPrimary" onClick={() => history.push(" https://t.me/eoscr")} >Conecte con nosotros</button>
+              <button className="buttonPrimary" onClick={() => window.open("https://t.me/eoscr")} >Conecte con nosotros</button>
             </Box>
           </Box>
         }
@@ -588,6 +589,7 @@ const BlockProducer = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop && 
         <Box className="mainContainer">

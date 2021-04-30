@@ -16,6 +16,7 @@ const MetaData={
   title:"EOS Costa Rica: Página de la empresa",
   description:"EOS Costa Rica es parte de una compañía con más de tres décadas de experiencia desarrollando soluciones innovadoras.",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/the-company"
 }
 
 const TheCompany = () => {
@@ -31,7 +32,10 @@ const TheCompany = () => {
           <Box className="titleBox">
             <h1>Soluciones blockchain  <br/> para empresas</h1>
           </Box>
-          <p>Años de experiencia desarrollando tecnologías innovadoras hablan por nosotros. Explore el poder de la tecnología blockchain con ayuda de nuestro equipo.</p>
+          <p>
+            Años de experiencia desarrollando tecnologías innovadoras hablan por nosotros. 
+            Explore el poder de la tecnología blockchain con ayuda de nuestro equipo.
+          </p>
           <br/>
           <Box className="buttonBox">
             <button className="buttonPrimary" onClick={() => history.push("/contactenos/")} >Contáctenos</button>
@@ -86,7 +90,7 @@ const TheCompany = () => {
                 <Box className="imgBoxRight">
                   <img
                     className="imgKnowCompany"
-                    src={useBaseUrl("img/ourstory.jpg")}
+                    src={useBaseUrl("img/website_03.jpg")}
                   />
                 </Box>  
               </Grid>
@@ -99,7 +103,7 @@ const TheCompany = () => {
                   <Box className="imgBoxLeft">
                     <img
                       className="imgKnowCompany"
-                      src={useBaseUrl("img/ourvision.jpg")}
+                      src={useBaseUrl("img/website_04.jpg")}
                     />
                   </Box>  
                 </Grid>
@@ -128,7 +132,7 @@ const TheCompany = () => {
                   <Box className="imgBoxLeft">
                     <img
                       className="imgKnowCompany"
-                      src={useBaseUrl("img/company.png")}
+                      src={useBaseUrl("img/website_04.jpg")}
                     />
                   </Box>  
                 </Grid>
@@ -170,7 +174,7 @@ const TheCompany = () => {
   const MeetTeam = () => {
     return (
       <Box className="containerSec">
-        <Box className="sectionPadding">
+        <Box className="sectionPaddingTop">
           <Box>
             <Box className="titleBox">
               <h2>Conozca al equipo</h2>
@@ -189,19 +193,38 @@ const TheCompany = () => {
                 <Carousel animation="slide" timeout={500} indicators={false}>
                   <img
                     alt="Crew image"
-                    style={{height:'227px'}}
                     src={useBaseUrl("img/team/crew1.jpg")}
                   />
                   <img
-                      alt="Crew image 2"
-                      style={{height:'227px'}}
-                      src={useBaseUrl("img/team/crew2.jpg")}
+                    alt="Crew image 2"
+                    src={useBaseUrl("img/team/crew2.jpg")}
                   />
                 </Carousel>
               </Box>
             }
             <Box className="boxFlexEnd">
-              <button className="buttonPrimary" onClick={() => window.open("/equipo/")} >Conozca a nuestro equipo</button>
+              <button className="buttonPrimary" onClick={() => history.push("/equipo/")} >Conozca a nuestro equipo</button>
+            </Box>
+          </Box>
+        </Box>
+      </Box> 
+    )
+  }
+
+  const WorkWithUS = () => {
+    return (
+      <Box className="containerSec">
+        <Box className="section">
+          <Box>
+            <Box className="h3Box">
+              <h3>¿Quiere trabajar con nosotros?</h3>
+            </Box>
+            <Box className="spacingBox">
+              <p>
+                Constantemente buscamos talento.{" "} 
+                <a href={`mailto:${'jobs@eoscostarica.io'}?subject=${'Mi CV - quiero trabajar para tu empresa'}`}>Envíenos su CV</a>
+                {" "}y nos comunicaremos con usted una vez que see abra alguna posición.
+              </p>
             </Box>
           </Box>
         </Box>
@@ -397,7 +420,7 @@ const TheCompany = () => {
                 <br/>
                 <p>
                 Puede ver más de nuestros proyectos más recientes <a 
-                  href="https://eoscostarica.io/projects" target="_blank">
+                  href="https://eoscostarica.io/projects">
                     aquí
                   </a>.
                 </p>
@@ -414,6 +437,7 @@ const TheCompany = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop &&
         <Box className="mainContainer">
@@ -426,8 +450,9 @@ const TheCompany = () => {
           </Parallax>
           <WeAreOneGroup />
           <MeetTeam />
-          <TheTechnology/>
-          <SomeOurProjects/>
+          <WorkWithUS />
+          <TheTechnology />
+          <SomeOurProjects />
           <ContactUsBanner />
         </Box>
       }
@@ -437,8 +462,9 @@ const TheCompany = () => {
           <EOSCR />
           <WeAreOneGroup />
           <MeetTeam />
+          <WorkWithUS />
           <TheTechnology/>
-          <SomeOurProjects/>
+          <SomeOurProjects />
           <ContactUsBanner />
         </Box>
       }

@@ -20,6 +20,7 @@ const MetaData={
   title:"EOS Costa Rica: Tecnología blockchain empresarial | EOSIO",
   description:"En EOS Costa Rica desarrollamos soluciones en blockchain para mejorar la eficiencia, trazabilidad, transparencia y rendición de cuentas en empresas.",
   img:"img/metaImgBlack.png",
+  hrefLangPath: "https://eoscostarica.io/"
 }
 
 const Home = () => {
@@ -341,7 +342,7 @@ const Home = () => {
               </Grid>
             </Box>
           <p>
-            <a href={useBaseUrl("/industries")}>Descubra más industrias que pueden </a>
+            <a href={useBaseUrl("/industries")}>Descubra más industrias que pueden mejorar</a>
             sus operaciones con tecnología blockchain.
           </p>
         </Box>
@@ -407,7 +408,7 @@ const Home = () => {
                   <Box className="imgBoxRight">
                     <img
                       className="imgKnow"
-                      src={useBaseUrl("img/team.png")}
+                      src={useBaseUrl("img/website_01.jpg")}
                     />
                   </Box>  
                 </Grid>
@@ -420,7 +421,7 @@ const Home = () => {
                     <Box className="imgBoxLeft">
                       <img
                         className="imgKnow"
-                        src={useBaseUrl("img/company.png")}
+                        src={useBaseUrl("img/website_02.jpg")}
                       />
                     </Box>  
                   </Grid>
@@ -438,7 +439,7 @@ const Home = () => {
                       EOSIO
                     </a>{" "}
                     desde su lanzamiento, acumulando así décadas de experiencia con tecnologías innovadoras.
-                    <a href={useBaseUrl("/la-empresa")} target="_blank"> Conózcanos.</a>
+                    <a href={useBaseUrl("/la-empresa")} > Conózcanos.</a>
                   </p>
                 </Grid>
                 {isMobile && 
@@ -446,7 +447,7 @@ const Home = () => {
                     <Box className="imgBoxLeft">
                       <img
                         className="imgKnow"
-                        src={useBaseUrl("img/company.png")}
+                        src={useBaseUrl("img/website_02.jpg")}
                       />
                     </Box>  
                   </Grid>
@@ -601,6 +602,7 @@ const Home = () => {
       title={MetaData.title}
       description={MetaData.description}
       image={MetaData.img}
+      hrefLangPath={MetaData.hrefLangPath}
     > 
       {isDesktop && 
         <Box className="mainContainer">
