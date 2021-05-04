@@ -14,7 +14,7 @@ module.exports = function () {
         },
         plugins: [
           new webpack.ProvidePlugin({
-              Buffer: ['buffer', 'Buffer'],
+              Buffer: ['buffer', 'Buffer']
           })
         ],
       };
