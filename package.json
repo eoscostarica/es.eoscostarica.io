@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "docusaurus build --no-minify",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve"
@@ -36,7 +36,8 @@
     "react-responsive": "^8.1.0",
     "react-scroll-trigger": "^0.6.10",
     "react-share": "^4.4.0",
-    "react-structured-data": "^0.0.14"
+    "react-structured-data": "^0.0.14",
+    "url-loader": "^4.1.1"
   },
   "browserslist": {
     "production": [
@@ -53,5 +54,27 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "all-contributors-cli": "^6.19.0"
+  },
+  "url-loader": {
+    "version": "4.1.1",
+    "resolved": "https://registry.npmjs.org/url-loader/-/url-loader-4.1.1.tgz",
+    "integrity": "sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==",
+    "requires": {
+      "loader-utils": "^2.0.0",
+      "mime-types": "^2.1.27",
+      "schema-utils": "^3.0.0"
+    },
+    "dependencies": {
+      "schema-utils": {
+        "version": "3.0.0",
+        "resolved": "https://registry.npmjs.org/schema-utils/-/schema-utils-3.0.0.tgz",
+        "integrity": "sha512-6D82/xSzO094ajanoOSbe4YvXWMfn2A//8Y1+MUqFAJul5Bs+yn36xbK9OtNDcRVSBJ9jjeoXftM6CfztsjOAA==",
+        "requires": {
+          "@types/json-schema": "^7.0.6",
+          "ajv": "^6.12.5",
+          "ajv-keywords": "^3.5.2"
+        }
+      }
+    }
   }
 }
