@@ -7,14 +7,14 @@ module.exports = function () {
         module: {
           rules: [
             { 
-                test: /\.(png|woff|woff2|eot|ttf|svg)$/, 
+                test: /\.(png|woff|woff2|eot|ttf|svg)$/,
                 loader: 'url-loader?limit=100000'
             }
           ],
         },
         plugins: [
           new webpack.ProvidePlugin({
-              Buffer: ['buffer', 'Buffer'],
+              Buffer: ['buffer', 'Buffer']
           })
         ],
       };
