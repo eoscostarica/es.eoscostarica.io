@@ -22,7 +22,7 @@ const PATHS = [
     enPath: "/",
     label: "Inicio",
     target: '_self',
-    icon: 'img/icons/navbar/home.svg'
+    icon: 'img/icons/navbar/home.png'
   },
   {
     dropDown:true,
@@ -38,42 +38,42 @@ const PATHS = [
         enPath: "/services/",
         label: "Servicios",
         target: '_self',
-        icon: 'img/icons/navbar/services.svg'
+        icon: 'img/icons/navbar/services.png'
       },
       {
         path: "/la-empresa/",
         enPath: "/the-company/",
         label: "La empresa",
         target: '_self',
-        icon: 'img/icons/navbar/home.svg'
+        icon: 'img/icons/navbar/home.png'
       },
       {
         path: "/equipo/",
         enPath: "/team/",
         label: "Equipo",
         target: '_self',
-        icon: 'img/icons/navbar/team.svg'
+        icon: 'img/icons/navbar/team.png'
       },
       {
         path: "/proyectos/",
         enPath: "/projects/",
         label: "Proyectos",
         target: '_self',
-        icon: 'img/icons/navbar/projects.svg'
+        icon: 'img/icons/navbar/projects.png'
       },
       {
         path: "/block-producer/",
         enPath: "/block-producer/",
         label: "Block Producer",
         target: '_self',
-        icon: 'img/icons/navbar/blockproducer.svg'
+        icon: 'img/icons/navbar/blockproducer.png'
       },
       {
         path: "/prensa/",
         enPath: "/press/",
         label: "Prensa",
         target: '_self',
-        icon: 'img/icons/navbar/press.svg'
+        icon: 'img/icons/navbar/press.png'
       }
     ]
   },
@@ -83,14 +83,14 @@ const PATHS = [
     enPath: "/industries/",
     label: "Industrias",
     target: '_self',
-    icon: 'img/icons/navbar/industries.svg'
+    icon: 'img/icons/navbar/industries.png'
   },
   {
     dropDown:false,
     path: "https://guide.eoscostarica.io/",
     label: "Aprender",
     target: '_blank',
-    icon: 'img/icons/navbar/learning.svg'
+    icon: 'img/icons/navbar/learning.png'
   },
   {
     dropDown:false,
@@ -98,7 +98,7 @@ const PATHS = [
     enPath: "/blog/",
     label: "Blog",
     target: '_self',
-    icon: 'img/icons/navbar/blog.svg'
+    icon: 'img/icons/navbar/blog.png'
   },
   {
     dropDown:false,
@@ -106,7 +106,7 @@ const PATHS = [
     enPath: "/contact-us/",
     label: "Contactenos",
     target: '_self',
-    icon: 'img/icons/navbar/contact.svg'
+    icon: 'img/icons/navbar/contact.png'
   },
 ];
 
@@ -265,7 +265,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
                   </Box>
                   <Box className="linkGruopBox">
                     <span className="linkGruopLabel">OPCIONES</span>
-                    <CustomListItem href="https://eoscostarica.io/" target="_blank" label="Sitio en ingles" icon={'img/icons/navbar/global.svg'} isSelected={false}/>
+                    <CustomListItem href="https://eoscostarica.io/" target="_blank" label="Sitio en ingles" icon={'img/icons/navbar/global.png'} isSelected={false}/>
                   </Box>
                 </List>
               </Box>
