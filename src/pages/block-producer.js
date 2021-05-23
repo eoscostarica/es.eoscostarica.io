@@ -393,7 +393,7 @@ const BlockProducer = () => {
                   que permite a usuarios visualizar la distribución de
                   recompensas en la red EOS en la búsqueda de rendición
                   de cuentas y transparencia.{" "} 
-                  <a href="https://mainnet.eosio.cr/" target="_blank">Lea más sobre EOSIO Dashboard.</a>
+                  <a href="https://mainnet.eosio.online/" target="_blank">Monitor de red del EOS Mainnet.</a>
                 </p>
               </Grid>
             </Grid>

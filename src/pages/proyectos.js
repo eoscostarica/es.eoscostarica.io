@@ -21,9 +21,9 @@ const ProjectsList = [
     img:"img/logos/eosio.svg",
     name:"EOSIO Dashboard",
     details:"EOSIO Dashboard es un proyecto de código abierto que permite a usuarios visualizar la distribución de recompensas en la red EOS en la búsqueda de rendición de cuentas y transparencia. ",
-    link:"https://mainnet.eosio.cr/",
+    link:"https://mainnet.eosio.online/",
     color:"#f8f8f8",
-    linkText:"Lea más sobre EOSIO Dashboard."
+    linkText:"Monitor de red del EOS Mainnet."
   },
   {
     img:"img/imagenotavailable.png",
