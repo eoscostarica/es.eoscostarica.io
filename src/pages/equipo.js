@@ -376,12 +376,12 @@ const Team = () => {
                     <Grid container spacing={5}>
                         <Grid item xs={12} md={8}> 
                             <Box>
-                                <h2 className="centerTextOnMobile">¿Quieres trabajar con nosotros? </h2>
+                                <h2 className="centerTextOnMobile">¿Le interesa trabajar con nosotros? </h2>
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={4}>
                             <Box className='centerTextOnMobile'>
-                                <button className="buttonPrimary" onClick={() => window.open(`mailto:${'jobs@eoscostarica.io'}?subject=${'Mi CV - quiero trabajar para tu empresa'}`)} >Enviar el CV</button>
+                                <button className="buttonPrimary" onClick={() => window.open(`mailto:${'jobs@eoscostarica.io'}?subject=${'Mi CV - quiero trabajar para tu empresa'}`)} >Envíe su CV</button>
                             </Box>
                         </Grid>
                     </Grid>

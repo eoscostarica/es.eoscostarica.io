@@ -19,10 +19,10 @@ function NotFound() {
             <Box className="containerSec">
               <Box className="sectionHero">
                 <Box className="titleBox">
-                  <h1 className="centerText">Oops! We couldn’t find this page.</h1>
-                  <h1 className="centerText">Please, go back to the <a href="/">homepage</a> and try it again.</h1>
+                  <h1 className="centerText">Oops! No pudimos encontrar esta página.</h1>
+                  <h1 className="centerText">Por favor, regrese a la <a href="/">página de inicio</a> y vuelva a intentarlo.</h1>
                 </Box>
-                <p className="centerText">If you have any questions regarding EOSIO and blockchain, please <a href="/contactenos">contact us</a> or go to our <a href="/blog">blog</a>!</p>
+                <p className="centerText">Si tiene alguna pregunta sobre EOSIO y blockchain, <a href="/contactenos">contáctenos</a> o visite nuestro <a href="/blog">blog</a>!</p>
               </Box>
             </Box>
           </Parallax>
@@ -34,13 +34,13 @@ function NotFound() {
             <Box className="sectionHeroMobile">
               <Box className="section">
                 <Box className="titleBox">
-                    <h1>Oops! We couldn’t find this page.</h1>
-                    <h2>Please, go back to the <a href="/">homepage</a> and try it again.</h2>
-                  </Box>
-                  <p>If you have any questions regarding EOSIO and blockchain, please <a href="/contactenos">contact us</a> or go to our <a href="/blog">blog</a>!</p>
+                  <h1>Oops! No pudimos encontrar esta página.</h1>
+                  <h2>Por favor, regrese a la <a href="/">página de inicio</a> y vuelva a intentarlo.</h2>
                 </Box>
+                <p>Si tiene alguna pregunta sobre EOSIO y blockchain, <a href="/contactenos">contáctenos </a> o visite nuestro <a href="/blog">blog</a>!</p>
               </Box>
             </Box>
+          </Box>
         </Box>
       }
     </Layout>
