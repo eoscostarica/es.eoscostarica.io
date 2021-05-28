@@ -116,7 +116,7 @@ const PATHS = [
     dropDown:false,
     path: "/contactenos/",
     enPath: "/contact-us/",
-    label: "Contactenos",
+    label: "Contáctenos",
     target: '_self',
     icon: <MailIcon style={{width:'20px'}}/>
   },
