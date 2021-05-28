@@ -201,25 +201,14 @@
            <Box className="blogContentBox">
              <Grid container spacing={2}>
                <Grid item xs={12} md={8}>
-                <Box className="blogMarkdown">
-                 <BlogPostContents />
-                  <Box style={{marginTop: '20px'}}>
-                    {editUrl && 
-                      <a 
-                        href={editUrl}
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        <IconEdit /> Editar esta página
-                      </a>
-                    }
+                  <Box className="blogMarkdown">
+                    <BlogPostContents />
                   </Box>
-                 </Box>
                </Grid>
                <Grid item xs={12} md={4}>
-                 <Box className="blogStickyContentBox">
-                   <TOC toc={BlogPostContents.toc} />
-                 </Box>
+                  <Box className="blogStickyContentBox">
+                    <TOC toc={BlogPostContents.toc} />
+                  </Box>
                </Grid>
              </Grid>
            </Box>
