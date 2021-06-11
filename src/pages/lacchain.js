@@ -184,7 +184,7 @@ const LacchainLanding = () => {
                                 dentro de un ambiente local de desarrollo.
                               </p>
                               <Box style={{marginTop:'30px', marginBottom:'30px'}}>
-                                <button className="buttonSecondary" onClick={''}>Aprender más</button>
+                                <button className="buttonSecondary" onClick={'https://eosio.lacchain.net'}>Aprender más</button>
                               </Box>
                             </Grid>
                             {isMobile &&
