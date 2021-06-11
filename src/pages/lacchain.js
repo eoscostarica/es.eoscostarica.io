@@ -157,7 +157,7 @@ const LacchainLanding = () => {
   const GeneralInfo = () => {
     return (
         <Box className="containerSec">
-            <Box className={isDesktop ? 'sectionPadding' : 'sectionNoPadding'}>
+            <Box className='sectionPadding'>
                 <Box className="spacingBox">
                     <Box className="spacingBox">
                         <Grid container spacing={5}>
@@ -183,8 +183,8 @@ const LacchainLanding = () => {
                                 sus aplicaciones descentralizadas e infraestructura
                                 dentro de un ambiente local de desarrollo.
                               </p>
-                              <Box style={{marginTop:'30px', marginBottom:'30px'}}>
-                                <button className="buttonSecondary" onClick={'https://eosio.lacchain.net'}>Aprender más</button>
+                              <Box className={isMobile ? 'centerBox' : ''} style={{marginTop:'30px', marginBottom:'30px'}}>
+                                <button className="buttonSecondary" onClick={() => window.open('https://eosio.lacchain.net')}>Aprender más</button>
                               </Box>
                             </Grid>
                             {isMobile &&
