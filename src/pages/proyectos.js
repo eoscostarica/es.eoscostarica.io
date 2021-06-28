@@ -158,9 +158,9 @@ const OurProjects = () => {
               <Box className="projectsGridLeft">
                 <Box className="imgBoxProjects">
                   <img
-                    alt="LatamLink"
-                    className="sizeImageTheCompany"
-                    src={useBaseUrl("img/logos/Group47.svg")}
+                    alt="LACChain EOSIO"
+                    style={{width: '450px'}}
+                    src={useBaseUrl("img/logos/lacchain-eosio.svg")}
                   />
                 </Box>
               </Box>
@@ -168,14 +168,15 @@ const OurProjects = () => {
             <Grid  item xs={12} md={6}>
               <Box className="projectsGridRight">
                 <Box className="h3Box">
-                  <h3 >LatamLink</h3>
+                  <h3 >LACChain EOSIO</h3>
                 </Box>
                 <p>
-                  Somos parte de una alianza regional, liderada por compañías tecnológicas de Latinoamérica para ofrecer un testnet
-                  basado en EOSIO a la iniciativa <a href="https://www.lacchain.net/" target="_blank">LACChain</a>{", "} 
-                  un programa para acelerar el desarrollo del ecosistema blockchain de la región.{" "}
-                  <a href="http://latamlink.io/" target="_blank">
-                    Descubra más sobre LatamLink
+                  Somos parte de LACChain EOSIO, una
+                  iniciativa de código abierto que ofrece
+                  una red de blockchain EOSIO que se integra
+                  en la red de LACChain. {" "}
+                  <a href="https://eosio.lacchain.net/" target="_blank">
+                    Descubra más sobre LACChain EOSIO
                   </a>
                 </p>
               </Box>
