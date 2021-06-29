@@ -104,7 +104,7 @@ const PATHS = [
     dropDown:false,
     path: "/contactenos/",
     enPath: "/contact-us/",
-    label: "Contactenos",
+    label: "Contáctenos",
     target: '_self',
     icon: 'img/icons/navbar/contact.png'
   },

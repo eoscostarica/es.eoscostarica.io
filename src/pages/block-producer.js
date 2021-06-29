@@ -393,7 +393,7 @@ const BlockProducer = () => {
                   que permite a usuarios visualizar la distribución de
                   recompensas en la red EOS en la búsqueda de rendición
                   de cuentas y transparencia.{" "} 
-                  <a href="https://mainnet.eosio.cr/" target="_blank">Lea más sobre EOSIO Dashboard.</a>
+                  <a href="https://mainnet.eosio.online/" target="_blank">Monitor de red del EOS Mainnet.</a>
                 </p>
               </Grid>
             </Grid>
@@ -559,7 +559,7 @@ const BlockProducer = () => {
                 </Box>
                 <p>
                   Desarrollamos y apoyamos proyectos open-source como
-                  EOS Rate, LatamLink, Lifebank, EOSIO Dashboard y otros con el
+                  EOS Rate, LACChain EOSIO, Lifebank, EOSIO Dashboard y otros con el
                   fin de impulsar el ecosistema EOSIO. Estos proyectos han sido
                   creados por desarrolladores y profesionales talentosos que
                   creen en los beneficios de la red.
