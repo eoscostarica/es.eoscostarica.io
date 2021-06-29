@@ -8,11 +8,9 @@ import Link from '@material-ui/core/Link'
 import Drawer from '@material-ui/core/Drawer'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
-import MenuItem from '@material-ui/core/MenuItem'
 import List from '@material-ui/core/List'
 import { useLocation } from 'react-router-dom'
 
-import GlobalIcon from '../../static/img/icons/globalBlack.svg'
 import CustomListItem from '../pages/components/CustomListItem'
 
 const PATHS = [
@@ -45,7 +43,7 @@ const PATHS = [
         enPath: "/the-company/",
         label: "La empresa",
         target: '_self',
-        icon: 'img/icons/navbar/home.png'
+        icon: 'img/icons/navbar/company.png'
       },
       {
         path: "/equipo/",
@@ -108,7 +106,7 @@ const PATHS = [
     target: '_self',
     icon: 'img/icons/navbar/contact.png'
   },
-];
+]
 
 const NavbarMenu = ({isMobile, isDesktop}) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -126,8 +124,8 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
   }, [isBlog])
   
   useLayoutEffect(() => {
-    const pathname = window.location.pathname;
-    setPathname(pathname);
+    const pathname = window.location.pathname
+    setPathname(pathname)
   }, [])
 
   const handlerDrawer = () =>{
@@ -163,7 +161,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
   }
 
   const LanguagueSelector = () => {
-    const [langMenuHandler, seLangMenuHandler] = useState(false);
+    const [langMenuHandler, seLangMenuHandler] = useState(false)
 
     const handleClickMenuLang = () => {
       seLangMenuHandler(true)
@@ -189,10 +187,10 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
     return (
       <>
         <IconButton
-          style={{padding: '5px'}}
+          style={{padding:'0', marginTop:'-10px'}}
           onClick={handleClickMenuLang}
         >
-          <img src={GlobalIcon} style={{width:'20px', height: '20px'}}/>
+          <img src={'../../static/img/icons/navbar/global.png'} style={{width:'45px', height: '45px'}}/>
         </IconButton>
         {true && (
           <Box  className={clsx("boxLanguagesSelector",{["boxLanguagesSelectorActive"]: langMenuHandler})} onMouseLeave={handleCloseMenuLang}>
@@ -320,12 +318,12 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
         }
       </Box>
     </Box> 
-  );
-};
+  )
+}
 
 NavbarMenu.propTypes = {
   isDesktop:PropTypes.bool,
   isMobile:PropTypes.bool,
 }
 
-export default NavbarMenu;
+export default NavbarMenu
