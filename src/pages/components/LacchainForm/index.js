@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import clsx from "clsx"
-import Layout from "@theme/Layout"
 import Box from '@material-ui/core/Box'
 import Grid from '@material-ui/core/Grid'
 import InputBase from '@material-ui/core/InputBase'
@@ -8,16 +7,8 @@ import Snackbar from '@material-ui/core/Snackbar'
 import Alert from '@material-ui/lab/Alert'
 import { withStyles } from '@material-ui/core/styles'
 import { useMediaQuery } from 'react-responsive'
-import { Parallax, Background } from 'react-parallax'
 import ReCAPTCHA from "react-google-recaptcha"
 import CircularProgress from '@material-ui/core/CircularProgress'
-
-const MetaData={
-  title:"EOS Costa Rica: Contáctenos",
-  description:"Pregúntenos sobre cómo integrar la tecnología blockchain EOSIO en su organización.",
-  img:"img/metaImgBlack.png",
-  hrefLangPath: "https://eoscostarica.io/contact-us/"
-}
 
 const GenericInput = withStyles({
   root: {
@@ -39,7 +30,7 @@ const GenericInput = withStyles({
   }
 })((props) => <InputBase {...props} />);
 
-const ContactUs = () => {
+const LacchainForm = () => {
   const isMobile = useMediaQuery( {query:'(max-width: 960px)'} )
   const isDesktop = useMediaQuery( {query:'(min-width: 960px)'} )
   const [resultsSection, setResultsSection] = useState(false)
@@ -103,8 +94,8 @@ const ContactUs = () => {
             }
           ],
           "context": {
-            "pageUri": "https://es.eoscostarica.io/contactenos",
-            "pageName": "EOS Costa Rica: Contáctenos"
+            "pageUri": "https://es.eoscostarica.io/lacchain",
+            "pageName": "EOS Costa Rica: LACChain EOSIO"
           },
           "legalConsentOptions": {
             "consent": {
@@ -121,13 +112,12 @@ const ContactUs = () => {
           }
         }
 
-    const requestOptions = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(jsonData)
-    }
-    
-    const response = await fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${process.env.HUBSPOT_PORTAL_ID}/${process.env.HUBSPOT_CONTACT_ES_FORM}`, requestOptions);
+      const requestOptions = {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(jsonData)
+      };
+      const response = await fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${process.env.HUBSPOT_PORTAL_ID}/${process.env.HUBSPOT_LACCHAIN_FORM}`, requestOptions);
       if(response.ok) setResultsSection(true)
       else setErrorMessage(true)
       setSubmitLoading(false)
@@ -138,7 +128,7 @@ const ContactUs = () => {
         <form onSubmit={onSubmitForms} noValidate> 
           <Grid container spacing={2}> 
             <Grid item xs={12} md={6}>
-              <label htmlFor="firstName_contact">Nombre</label>
+              <label htmlFor="firstName_contact">Nombre *</label>
               <Box className="inputFormBox">
                   <GenericInput 
                     id="firstName_contact" 
@@ -149,7 +139,7 @@ const ContactUs = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
-              <label htmlFor="lastName_contact">Apellido</label>
+              <label htmlFor="lastName_contact">Apellido *</label>
               <Box className="inputFormBox">
                   <GenericInput 
                     id="lastName_contact" 
@@ -160,7 +150,7 @@ const ContactUs = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
-              <label htmlFor="email_contact">Email</label>
+              <label htmlFor="email_contact">Email *</label>
               <Box className="inputFormBox">
                   <GenericInput 
                     id="email_contact" 
@@ -171,7 +161,7 @@ const ContactUs = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
-              <label htmlFor="companyName_contact">Nombre de la compañía (opcional)</label>
+              <label htmlFor="companyName_contact">Organización o compañía</label>
                 <Box className="inputFormBox">
                     <GenericInput 
                       id="companyName_contact" 
@@ -182,7 +172,7 @@ const ContactUs = () => {
                 </Box>
             </Grid>
             <Grid item xs={12} md={12}>
-              <label htmlFor="additionalComments_contact">Comentarios adicionales (opcional)</label>
+              <label htmlFor="additionalComments_contact">Comentarios adicionales</label>
                 <Box className="inputFormBox">
                     <GenericInput 
                       id="additionalComments_contact" 
@@ -196,7 +186,7 @@ const ContactUs = () => {
             </Grid>
             <Grid item xs={12} md={12}>
               <p>
-                Respetamos tu privacidad. No compartiremos ninguna información de contacto y solo la usaremos para comunicarnos con usted acerca de nuestros servicios. Puede darse de baja de estas comunicaciones en cualquier momento.
+                Respetamos su privacidad. No compartiremos su información de contacto y la usaremos únicamente para contactarlo acerca de nuestros servicios. Puede desinscribirse de estas comunicaciones en cualquier momento.
               </p>
             </Grid>
             <Grid item xs={12} md={12}>
@@ -211,11 +201,12 @@ const ContactUs = () => {
                     <CircularProgress style={{color:'#5484B3'}}/>
                 }
                 {!submitLoading && 
-                    <input type="submit" className="buttonPrimary" value="Enviar" 
+                    <input type="submit" className="buttonPrimary" value="Submit" 
                     disabled={
                       !contactForm.firstName ||
                       !contactForm.lastName ||
                       !contactForm.email ||
+                      !contactForm.companyName ||
                       !recaptchaValue ||
                       !validateEmail(contactForm.email)
                     }/>
@@ -232,43 +223,33 @@ const ContactUs = () => {
   }
 
   return(
-    <Layout
-      title={MetaData.title}
-      description={MetaData.description}
-      image={MetaData.img}
-      hrefLangPath={MetaData.hrefLangPath}
-    > 
+    <>
       {isDesktop && 
-        <Parallax strength={800}>
-          <Background className="bgParallax">
-              <Box className="imgParallax"/>
-          </Background>
-          <Box className="containerSec">
-            <Box className={clsx("sectionContact",{["sectionPadding"]: isMobile})}>
-              <Box className="h3Box">
-                <h1>Contáctenos</h1>
-              </Box>
-              {!resultsSection && 
-                <Box className="contactFormBox">
-                  <Box className="spacingBox">
-                    <p>Comencemos la conversación. Pregúntenos cómo podemos ayudarlo a implementar la tecnología blockchain en su organización.</p>
-                  </Box>
-                  <ContactForm />
-                </Box>
-              }
-              {resultsSection && 
-                <Box className="contactFormBox" style={{height:'120px'}}>
-                    <p>Gracias por contactar a EOS Costa Rica. Te responderemos a la brevedad</p>
-                </Box>
-              }
+        <Box className="containerSec">
+          <Box className="section">
+            <Box className="h3Box">
+              <h1>Crear una cuenta en LACChain EOSIO</h1>
             </Box>
+            {!resultsSection && 
+              <Box className="contactFormBox">
+                <Box className="spacingBox">
+                  <p>¿Todo listo para crear una cuenta y empezar a usar LACChain EOSIO? ¡Contáctenos!</p>
+                </Box>
+                <ContactForm />
+              </Box>
+            }
+            {resultsSection && 
+              <Box className="contactFormBox" style={{height:'120px'}}>
+                  <p>Gracias por contactar a EOS Costa Rica. Te responderemos a la brevedad</p>
+              </Box>
+            }
           </Box>
-        </Parallax>
+        </Box>
       }
       {isMobile && 
         <Box className="sectionHeroMobile">
             <Box className="h3Box">
-              <h1>Contáctenos</h1>
+              <h1>Contact Us</h1>
             </Box>
             {!resultsSection && 
               <Box className="contactFormBox">
@@ -286,8 +267,8 @@ const ContactUs = () => {
 
         </Box>
       }
-    </Layout>
+    </>
   )
 }
 
-export default ContactUs;
+export default LacchainForm
