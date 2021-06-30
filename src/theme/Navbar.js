@@ -8,23 +8,9 @@ import Link from '@material-ui/core/Link'
 import Drawer from '@material-ui/core/Drawer'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
-import MenuItem from '@material-ui/core/MenuItem'
 import List from '@material-ui/core/List'
 import { useLocation } from 'react-router-dom'
-import HomeIcon from '@material-ui/icons/Home'
-import ComputerIcon from '@material-ui/icons/Computer';
-import ApartmentIcon from '@material-ui/icons/Apartment'
-import GroupIcon from '@material-ui/icons/Group'
-import ListAltIcon from '@material-ui/icons/ListAlt'
-import GridOnIcon from '@material-ui/icons/GridOn'
-import EditIcon from '@material-ui/icons/Edit'
-import BusinessIcon from '@material-ui/icons/Business'
-import MenuBookIcon from '@material-ui/icons/MenuBook'
-import MailIcon from '@material-ui/icons/Mail'
-import ForumIcon from '@material-ui/icons/Forum'
-import LanguageIcon from '@material-ui/icons/Language'
 
-import GlobalIcon from '../../static/img/icons/globalBlack.svg'
 import CustomListItem from '../pages/components/CustomListItem'
 
 const PATHS = [
@@ -34,7 +20,7 @@ const PATHS = [
     enPath: "/",
     label: "Inicio",
     target: '_self',
-    icon: <HomeIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/home.png'
   },
   {
     dropDown:true,
@@ -50,42 +36,42 @@ const PATHS = [
         enPath: "/services/",
         label: "Servicios",
         target: '_self',
-        icon: <ComputerIcon style={{width:'20px'}}/> 
+        icon: 'img/icons/navbar/services.png'
       },
       {
         path: "/la-empresa/",
         enPath: "/the-company/",
         label: "La empresa",
         target: '_self',
-        icon: <ApartmentIcon style={{width:'20px'}}/>
+        icon: 'img/icons/navbar/company.png'
       },
       {
         path: "/equipo/",
         enPath: "/team/",
         label: "Equipo",
         target: '_self',
-        icon: <GroupIcon style={{width:'20px'}}/> 
+        icon: 'img/icons/navbar/team.png'
       },
       {
         path: "/proyectos/",
         enPath: "/projects/",
         label: "Proyectos",
         target: '_self',
-        icon: <ListAltIcon style={{width:'20px'}}/>
+        icon: 'img/icons/navbar/projects.png'
       },
       {
         path: "/block-producer/",
         enPath: "/block-producer/",
         label: "Block Producer",
         target: '_self',
-        icon: <GridOnIcon style={{width:'20px'}}/>
+        icon: 'img/icons/navbar/blockproducer.png'
       },
       {
         path: "/prensa/",
         enPath: "/press/",
         label: "Prensa",
         target: '_self',
-        icon: <ForumIcon style={{width:'20px'}}/>
+        icon: 'img/icons/navbar/press.png'
       }
     ]
   },
@@ -95,14 +81,14 @@ const PATHS = [
     enPath: "/industries/",
     label: "Industrias",
     target: '_self',
-    icon: <BusinessIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/industries.png'
   },
   {
     dropDown:false,
     path: "https://guide.eoscostarica.io/",
     label: "Aprender",
     target: '_blank',
-    icon: <MenuBookIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/learning.png'
   },
   {
     dropDown:false,
@@ -110,7 +96,7 @@ const PATHS = [
     enPath: "/blog/",
     label: "Blog",
     target: '_self',
-    icon: <EditIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/blog.png'
   },
   {
     dropDown:false,
@@ -118,9 +104,9 @@ const PATHS = [
     enPath: "/contact-us/",
     label: "Contáctenos",
     target: '_self',
-    icon: <MailIcon style={{width:'20px'}}/>
+    icon: 'img/icons/navbar/contact.png'
   },
-];
+]
 
 const NavbarMenu = ({isMobile, isDesktop}) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -138,8 +124,8 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
   }, [isBlog])
   
   useLayoutEffect(() => {
-    const pathname = window.location.pathname;
-    setPathname(pathname);
+    const pathname = window.location.pathname
+    setPathname(pathname)
   }, [])
 
   const handlerDrawer = () =>{
@@ -175,7 +161,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
   }
 
   const LanguagueSelector = () => {
-    const [langMenuHandler, seLangMenuHandler] = useState(false);
+    const [langMenuHandler, seLangMenuHandler] = useState(false)
 
     const handleClickMenuLang = () => {
       seLangMenuHandler(true)
@@ -201,10 +187,10 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
     return (
       <>
         <IconButton
-          style={{padding: '5px'}}
+          style={{padding:'0', marginTop:'-10px'}}
           onClick={handleClickMenuLang}
         >
-          <img src={GlobalIcon} style={{width:'20px', height: '20px'}}/>
+          <img src={useBaseUrl('img/icons/navbar/global.png')} style={{width:'45px', height: '45px'}}/>
         </IconButton>
         {true && (
           <Box  className={clsx("boxLanguagesSelector",{["boxLanguagesSelectorActive"]: langMenuHandler})} onMouseLeave={handleCloseMenuLang}>
@@ -277,7 +263,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
                   </Box>
                   <Box className="linkGruopBox">
                     <span className="linkGruopLabel">OPCIONES</span>
-                    <CustomListItem href="https://eoscostarica.io/" target="_blank" label="Sitio en ingles" icon={<LanguageIcon style={{width:'20px'}}/>} isSelected={false}/>
+                    <CustomListItem href="https://eoscostarica.io/" target="_blank" label="Sitio en ingles" icon={'img/icons/navbar/global.png'} isSelected={false}/>
                   </Box>
                 </List>
               </Box>
@@ -332,12 +318,12 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
         }
       </Box>
     </Box> 
-  );
-};
+  )
+}
 
 NavbarMenu.propTypes = {
   isDesktop:PropTypes.bool,
   isMobile:PropTypes.bool,
 }
 
-export default NavbarMenu;
+export default NavbarMenu
