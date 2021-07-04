@@ -49,23 +49,23 @@ const ManagementTeam = [
 
 const MarketingSalesTeam = [
     {
+        img:"img/team/johanna.jpg",
+        name:"Johanna Yee",
+        position:"Director de arte y gerente de marca",
+        bio:"Creo que la creatividad y la innovación son indispensables para proponer soluciones eficientes y disruptivas.",
+        linkedIn:"https://www.linkedin.com/in/johanna-yee-bonilla-abab2017a/",
+        twitter:"",
+        color:"#f8f8f8"
+    },
+    {
         img:"img/team/luisD.jpg",
         name:"Luis Diego Rojas",
         position:"Estrategia de comunicaciones y contenido",
         bio:"Creo que comunicar nuevas tecnologías juega un papel fundamental en su adopción.",
         linkedIn:"https://www.linkedin.com/in/ldrojas/",
         twitter:"https://twitter.com/ldrojas",
-        color:"#f8f8f8"
-    },
-    {
-        img:"img/team/rodolfo.jpg",
-        name:"Rodolfo Perez",
-        position:"Director de arte y gerente de marca",
-        bio:"Así como las personas, cada compañía debe desarrollar su propia esencia para componer una identidad.",
-        linkedIn:"https://www.linkedin.com/in/rodolfo-eduardo-p%C3%ABrez-nava-73442164/",
-        twitter:"https://twitter.com/monsieurRoaf",
         color:"#ffffff"
-    },
+    }
 ]
 
 const DevelopTeam = [
@@ -106,30 +106,12 @@ const DevelopTeam = [
         color:"#ffffff"
     },
     {
-        img:"img/team/jean.jpg",
-        name:"Jean Vega",
-        position:"Practicante",
-        bio:"Disfruto aprender y experimentar con nuevas tecnologías, especialmente para adquirir conocimientos en distintas áreas.",
-        linkedIn:"https://www.linkedin.com/in/jeanvegad/",
-        twitter:"",
-        color:"#f8f8f8"
-    },
-    {
         img:"img/team/jorge.jpg",
         name:"Jorge Murillo",
         position:"Diseñador UX Sr.",
         bio:"Entender las necesidades es crucial para crear interfases para apps de alta tecnología y mediar entre usuarios, diseñadores y desarrolladores.",
         linkedIn:"https://www.linkedin.com/in/jmurilloux/",
         twitter:"https://twitter.com/Oquedo",
-        color:"#ffffff"
-    },
-    {
-        img:"img/team/justin.jpg",
-        name:"Justin Castillo",
-        position:"Practicante",
-        bio:"Busco ser parte del cambio, no solo un simple engranaje.",
-        linkedIn:"https://www.linkedin.com/in/jacv/",
-        twitter:"https://twitter.com/_JustinCast",
         color:"#f8f8f8"
     },
     {
@@ -157,7 +139,7 @@ const DevelopTeam = [
         bio:"El mundo tecnológico siempre está evolucionando, por lo que creo que debemos ser valientes.",
         linkedIn:"https://www.linkedin.com/in/stephaniedelgadobrenes/",
         twitter:"",
-        color:"#f8f8f8"
+        color:"#ffffff"
     },
     {
         img:"img/team/teto.jpg",
@@ -166,7 +148,7 @@ const DevelopTeam = [
         bio:"Mantener un equipo feliz puede garantizar un resultado final exitoso.",
         linkedIn:"https://www.linkedin.com/in/terencio-gomez-14784ba3/",
         twitter:"",
-        color:"#ffffff"
+        color:"#f8f8f8"
     }
 ]
 
