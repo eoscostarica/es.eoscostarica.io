@@ -39,7 +39,7 @@ const ManagementTeam = [
     {
         img:"img/team/xavier.jpg",
         name:"Xavier Fernández",
-        position:"Co-founder & Tech Lead",
+        position:"Co-founder & Líder técnico",
         bio:"La tecnología blockchain ayuda a promover confianza entre partes con mayor transparencia y descentralización.",
         linkedIn:"https://www.linkedin.com/in/xaviercr/",
         twitter:"https://twitter.com/xaviercr",
@@ -51,7 +51,7 @@ const MarketingSalesTeam = [
     {
         img:"img/team/johanna.jpg",
         name:"Johanna Yee",
-        position:"Director de arte y gerente de marca",
+        position:"Directora de arte y gerente de marca",
         bio:"Creo que la creatividad y la innovación son indispensables para proponer soluciones eficientes y disruptivas.",
         linkedIn:"https://www.linkedin.com/in/johanna-yee-bonilla-abab2017a/",
         twitter:"",
@@ -81,7 +81,7 @@ const DevelopTeam = [
     {
         img:"img/team/angelo.jpg",
         name:"Angelo Castro",
-        position:"Practicante",
+        position:"Desarrollador Jr Full Stack",
         bio:"Estoy listo para desarrollar ideas innovadoras y enfrentar nuevos desafíos.",
         linkedIn:"https://www.linkedin.com/in/angelo-castro-gamboa/",
         twitter:"",
