@@ -141,7 +141,7 @@ const NavbarMenu = ({isMobile, isDesktop}) => {
   }
 
   const getEnglishPath = (path) => {
-    let enPath
+    let enPath = path
 
     PATHS.map((item) => {
       if(item.dropDown){
