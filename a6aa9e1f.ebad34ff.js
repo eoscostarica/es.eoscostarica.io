@@ -1,4 +1,27 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[89,5,13,80,93,94],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[56,5,13,80,93,94],{
+
+/***/ 125:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(234);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(174);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(731);
+/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(235);
+/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _theme_BlogPostItem__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(722);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var colors=["rgb(240,240,240,0.5)","rgb(255,255,255,0)"];var metaData={title:"EOS Costa Rica: Blog - Lea sobre blockchain",description:"Encuentre artículos útiles sobre cómo blockchain puede mejorar la seguridad y transparencia en operaciones empresariales.",img:"img/metaImgBlack.png"};function BlogListPage(props){var items=props.items;var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_2__["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_2__["useMediaQuery"])({query:'(min-width: 960px)'});var HeroSection=function HeroSection(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"containerSec"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"sectionHeroBlog",style:{marginBottom:"10px"}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Blog"))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"sectionHeroMobileBlog"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Blog"))));};var ListArticles=function ListArticles(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"section"},items.map(function(_ref,index){var BlogPostContent=_ref.content;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_BlogPostItem__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{key:BlogPostContent.metadata.permalink,frontMatter:BlogPostContent.frontMatter,metadata:BlogPostContent.metadata,truncated:BlogPostContent.metadata.truncated,color:colors[index%2],isMobile:isMobile});})));};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{title:metaData.title,description:metaData.description,image:metaData.img},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_4__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_4__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListArticles,null))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListArticles,null)));}/* harmony default export */ __webpack_exports__["default"] = (BlogListPage);
+
+/***/ }),
 
 /***/ 155:
 /***/ (function(module, exports, __webpack_require__) {
@@ -3409,7 +3432,7 @@ var react_router = __webpack_require__(2);
 var CustomListItem = __webpack_require__(58);
 
 // CONCATENATED MODULE: ./src/theme/Navbar.js
-var PATHS=[{dropDown:false,path:"/",enPath:"/",label:"Inicio",target:'_self',icon:'img/icons/navbar/home.png'},{dropDown:true,path:"/servicios/",enPath:"/services/",label:"Sobre nosotros",target:'_self',markerSize:"120px",subPaths:[{path:"/servicios/",enPath:"/services/",label:"Servicios",target:'_self',icon:'img/icons/navbar/services.png'},{path:"/la-empresa/",enPath:"/the-company/",label:"La empresa",target:'_self',icon:'img/icons/navbar/company.png'},{path:"/equipo/",enPath:"/team/",label:"Equipo",target:'_self',icon:'img/icons/navbar/team.png'},{path:"/proyectos/",enPath:"/projects/",label:"Proyectos",target:'_self',icon:'img/icons/navbar/projects.png'},{path:"/block-producer/",enPath:"/block-producer/",label:"Block Producer",target:'_self',icon:'img/icons/navbar/blockproducer.png'},{path:"/prensa/",enPath:"/press/",label:"Prensa",target:'_self',icon:'img/icons/navbar/press.png'}]},{dropDown:false,path:"/industrias/",enPath:"/industries/",label:"Industrias",target:'_self',icon:'img/icons/navbar/industries.png'},{dropDown:false,path:"https://guide.eoscostarica.io/",label:"Aprender",target:'_blank',icon:'img/icons/navbar/learning.png'},{dropDown:false,path:"/blog/",enPath:"/blog/",label:"Blog",target:'_self',icon:'img/icons/navbar/blog.png'},{dropDown:false,path:"/contactenos/",enPath:"/contact-us/",label:"Contáctenos",target:'_self',icon:'img/icons/navbar/contact.png'}];var Navbar_NavbarMenu=function NavbarMenu(_ref){var _clsx2,_clsx3;var isMobile=_ref.isMobile,isDesktop=_ref.isDesktop;var _useState=Object(react["useState"])(false),isOpen=_useState[0],setIsOpen=_useState[1];var location=Object(react_router["l" /* useLocation */])();var _useState2=Object(react["useState"])(),isBlog=_useState2[0],setIsBlog=_useState2[1];var _useState3=Object(react["useState"])(""),pathname=_useState3[0],setPathname=_useState3[1];var trigger=useScrollTrigger({disableHysteresis:true});Object(react["useEffect"])(function(){setIsBlog(location.pathname.substring(0,6)==='/blog/');},[location]);Object(react["useEffect"])(function(){if(isBlog)setPathname('/blog/');},[isBlog]);Object(react["useLayoutEffect"])(function(){var pathname=window.location.pathname;setPathname(pathname);},[]);var handlerDrawer=function handlerDrawer(){setIsOpen(!isOpen);};var isCurrentPath=function isCurrentPath(subPaths){var res=false;subPaths.map(function(item){if(pathname===item.path)res=true;});return res;};var getEnglishPath=function getEnglishPath(path){var enPath;PATHS.map(function(item){if(item.dropDown){item.subPaths.map(function(subitem){if(subitem.path===path)enPath=subitem.enPath;});}else{if(item.path===path)enPath=item.enPath;}});return enPath;};var translateSite=function translateSite(){window.open("https://eoscostarica.io"+getEnglishPath(pathname),'_self');};var LanguagueSelector=function LanguagueSelector(){var _clsx;var _useState4=Object(react["useState"])(false),langMenuHandler=_useState4[0],seLangMenuHandler=_useState4[1];var handleClickMenuLang=function handleClickMenuLang(){seLangMenuHandler(true);};var handleCloseMenuLang=function handleCloseMenuLang(){seLangMenuHandler(false);};var handleChangeLang=function handleChangeLang(){seLangMenuHandler(false);translateSite();};var LangItem=function LangItem(_ref2){var label=_ref2.label,handleClick=_ref2.handleClick,classN=_ref2.classN;return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"langItemBox",onClick:handleClick},/*#__PURE__*/react_default.a.createElement("span",{className:classN,style:{fontSize:'15px'}},label));};return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],{style:{padding:'0',marginTop:'-10px'},onClick:handleClickMenuLang},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])('img/icons/navbar/global.png'),style:{width:'45px',height:'45px'}})), true&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("boxLanguagesSelector",(_clsx={},_clsx["boxLanguagesSelectorActive"]=langMenuHandler,_clsx)),onMouseLeave:handleCloseMenuLang},/*#__PURE__*/react_default.a.createElement(LangItem,{label:"ES",handleClick:handleCloseMenuLang,classN:"langItemActive"}),/*#__PURE__*/react_default.a.createElement("span",{style:{fontSize:'15px',padding:'5px'}},"|"),/*#__PURE__*/react_default.a.createElement(LangItem,{label:"EN",handleClick:handleChangeLang,classN:"langItem"})));};return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("navBar",(_clsx2={},_clsx2["navBarScroll"]=trigger||isMobile,_clsx2))},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"menuWrapper"},isMobile&&/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"imgLogoBoxMobile"},/*#__PURE__*/react_default.a.createElement("a",{href:Object(useBaseUrl["a" /* default */])("/"),alt:"EOS CR LOGO"},/*#__PURE__*/react_default.a.createElement("img",{className:"imgLogoScroll",src:Object(useBaseUrl["a" /* default */])("img/logos/eoscr-logo.png"),alt:"EOS CR LOGO"}))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"btnDrawer"},/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],{onClick:handlerDrawer},/*#__PURE__*/react_default.a.createElement(Menu_default.a,{fontSize:"large"}))),/*#__PURE__*/react_default.a.createElement(esm_Drawer_Drawer,{anchor:'right',open:isOpen,onClose:handlerDrawer},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"drawerContent"},/*#__PURE__*/react_default.a.createElement(List["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[0].path),target:PATHS[0].target,label:PATHS[0].label,icon:PATHS[0].icon,isSelected:pathname===PATHS[0].path})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement("span",{className:"linkGruopLabel"},"ACERCA DE NOSOTROS"),PATHS[1].subPaths.map(function(subItem){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{key:subItem.label},subItem.label!="Press"&&/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(subItem.path),target:subItem.target,label:subItem.label,icon:subItem.icon,isSelected:pathname===subItem.path}));}),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[2].path),target:PATHS[2].target,label:PATHS[2].label,icon:PATHS[2].icon,isSelected:pathname===PATHS[2].path})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement("span",{className:"linkGruopLabel"},"CONTENIDO PARA USTED"),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[3].path),target:PATHS[3].target,label:PATHS[3].label,icon:PATHS[3].icon,isSelected:pathname===PATHS[3].path}),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[4].path),target:PATHS[4].target,label:PATHS[4].label,icon:PATHS[4].icon,isSelected:pathname===PATHS[4].path}),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[1].subPaths[5].path),target:PATHS[1].subPaths[5].target,label:PATHS[1].subPaths[5].label,icon:PATHS[1].subPaths[5].icon,isSelected:pathname===PATHS[1].subPaths[5].path})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement("span",{className:"linkGruopLabel"},"CONTACTO"),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[5].path),target:PATHS[5].target,label:PATHS[5].label,icon:PATHS[5].icon,isSelected:pathname===PATHS[5].path})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement("span",{className:"linkGruopLabel"},"OPCIONES"),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:"https://eoscostarica.io/",target:"_blank",label:"Sitio en ingles",icon:'img/icons/navbar/global.png',isSelected:false})))))),isDesktop&&/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"boxLeft"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"imgLogoBox"},/*#__PURE__*/react_default.a.createElement("a",{href:Object(useBaseUrl["a" /* default */])("/")},/*#__PURE__*/react_default.a.createElement("img",{className:Object(clsx_m["a" /* default */])("imgLogo",(_clsx3={},_clsx3["imgLogoScroll"]=trigger,_clsx3)),src:Object(useBaseUrl["a" /* default */])("img/logos/eoscr-logo.png"),alt:"EOS CR LOGO"})))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"boxRight"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"boxLanguages"},/*#__PURE__*/react_default.a.createElement(LanguagueSelector,null)),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"boxMenuItems",id:"boxMenuItems"},PATHS.map(function(item){var _clsx4,_clsx5,_clsx6;return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{key:item.label},!item.dropDown&&/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"navBarItemTab",href:Object(useBaseUrl["a" /* default */])(item.path),target:item.target,key:item.label,style:{textDecoration:'none'}},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"menuItem"},/*#__PURE__*/react_default.a.createElement("h5",{className:Object(clsx_m["a" /* default */])("link",(_clsx4={},_clsx4["linkActive"]=pathname===item.path,_clsx4))},item.label))),item.dropDown&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{tabIndex:"0",className:Object(clsx_m["a" /* default */])("menuItem","navBarItemTab")},/*#__PURE__*/react_default.a.createElement("h5",{className:Object(clsx_m["a" /* default */])("link",(_clsx5={},_clsx5["linkActive"]=isCurrentPath(item.subPaths),_clsx5))},item.label),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("dropDownMenu",(_clsx6={},_clsx6["dropDownMenuActive"]=isCurrentPath(item.subPaths),_clsx6)),style:{width:item.markerSize}},item.subPaths.map(function(subItem){var _clsx7;return/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"navBarItemTab",href:Object(useBaseUrl["a" /* default */])(subItem.path),target:subItem.target,key:subItem.label,style:{textDecoration:'none'}},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("h5",{className:Object(clsx_m["a" /* default */])("menuItemDrop",(_clsx7={},_clsx7["menuItemDropActive"]=pathname===subItem.path,_clsx7))},subItem.label)));}))));}))))));};Navbar_NavbarMenu.propTypes={isDesktop:prop_types_default.a.bool,isMobile:prop_types_default.a.bool};/* harmony default export */ var Navbar = (Navbar_NavbarMenu);
+var PATHS=[{dropDown:false,path:"/",enPath:"/",label:"Inicio",target:'_self',icon:'img/icons/navbar/home.png'},{dropDown:true,path:"/servicios/",enPath:"/services/",label:"Sobre nosotros",target:'_self',markerSize:"120px",subPaths:[{path:"/servicios/",enPath:"/services/",label:"Servicios",target:'_self',icon:'img/icons/navbar/services.png'},{path:"/la-empresa/",enPath:"/the-company/",label:"La empresa",target:'_self',icon:'img/icons/navbar/company.png'},{path:"/equipo/",enPath:"/team/",label:"Equipo",target:'_self',icon:'img/icons/navbar/team.png'},{path:"/proyectos/",enPath:"/projects/",label:"Proyectos",target:'_self',icon:'img/icons/navbar/projects.png'},{path:"/block-producer/",enPath:"/block-producer/",label:"Block Producer",target:'_self',icon:'img/icons/navbar/blockproducer.png'},{path:"/prensa/",enPath:"/press/",label:"Prensa",target:'_self',icon:'img/icons/navbar/press.png'}]},{dropDown:false,path:"/industrias/",enPath:"/industries/",label:"Industrias",target:'_self',icon:'img/icons/navbar/industries.png'},{dropDown:false,path:"https://guide.eoscostarica.io/",label:"Aprender",target:'_blank',icon:'img/icons/navbar/learning.png'},{dropDown:false,path:"/blog/",enPath:"/blog/",label:"Blog",target:'_self',icon:'img/icons/navbar/blog.png'},{dropDown:false,path:"/contactenos/",enPath:"/contact-us/",label:"Contáctenos",target:'_self',icon:'img/icons/navbar/contact.png'}];var Navbar_NavbarMenu=function NavbarMenu(_ref){var _clsx2,_clsx3;var isMobile=_ref.isMobile,isDesktop=_ref.isDesktop;var _useState=Object(react["useState"])(false),isOpen=_useState[0],setIsOpen=_useState[1];var location=Object(react_router["l" /* useLocation */])();var _useState2=Object(react["useState"])(),isBlog=_useState2[0],setIsBlog=_useState2[1];var _useState3=Object(react["useState"])(""),pathname=_useState3[0],setPathname=_useState3[1];var trigger=useScrollTrigger({disableHysteresis:true});Object(react["useEffect"])(function(){setIsBlog(location.pathname.substring(0,6)==='/blog/');},[location]);Object(react["useEffect"])(function(){if(isBlog)setPathname('/blog/');},[isBlog]);Object(react["useLayoutEffect"])(function(){var pathname=window.location.pathname;setPathname(pathname);},[]);var handlerDrawer=function handlerDrawer(){setIsOpen(!isOpen);};var isCurrentPath=function isCurrentPath(subPaths){var res=false;subPaths.map(function(item){if(pathname===item.path)res=true;});return res;};var getEnglishPath=function getEnglishPath(path){var enPath=path;PATHS.map(function(item){if(item.dropDown){item.subPaths.map(function(subitem){if(subitem.path===path)enPath=subitem.enPath;});}else{if(item.path===path)enPath=item.enPath;}});return enPath;};var translateSite=function translateSite(){window.open("https://eoscostarica.io"+getEnglishPath(pathname),'_self');};var LanguagueSelector=function LanguagueSelector(){var _clsx;var _useState4=Object(react["useState"])(false),langMenuHandler=_useState4[0],seLangMenuHandler=_useState4[1];var handleClickMenuLang=function handleClickMenuLang(){seLangMenuHandler(true);};var handleCloseMenuLang=function handleCloseMenuLang(){seLangMenuHandler(false);};var handleChangeLang=function handleChangeLang(){seLangMenuHandler(false);translateSite();};var LangItem=function LangItem(_ref2){var label=_ref2.label,handleClick=_ref2.handleClick,classN=_ref2.classN;return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"langItemBox",onClick:handleClick},/*#__PURE__*/react_default.a.createElement("span",{className:classN,style:{fontSize:'15px'}},label));};return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],{style:{padding:'0',marginTop:'-10px'},onClick:handleClickMenuLang},/*#__PURE__*/react_default.a.createElement("img",{src:Object(useBaseUrl["a" /* default */])('img/icons/navbar/global.png'),style:{width:'45px',height:'45px'}})), true&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("boxLanguagesSelector",(_clsx={},_clsx["boxLanguagesSelectorActive"]=langMenuHandler,_clsx)),onMouseLeave:handleCloseMenuLang},/*#__PURE__*/react_default.a.createElement(LangItem,{label:"ES",handleClick:handleCloseMenuLang,classN:"langItemActive"}),/*#__PURE__*/react_default.a.createElement("span",{style:{fontSize:'15px',padding:'5px'}},"|"),/*#__PURE__*/react_default.a.createElement(LangItem,{label:"EN",handleClick:handleChangeLang,classN:"langItem"})));};return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("navBar",(_clsx2={},_clsx2["navBarScroll"]=trigger||isMobile,_clsx2))},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"menuWrapper"},isMobile&&/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"imgLogoBoxMobile"},/*#__PURE__*/react_default.a.createElement("a",{href:Object(useBaseUrl["a" /* default */])("/"),alt:"EOS CR LOGO"},/*#__PURE__*/react_default.a.createElement("img",{className:"imgLogoScroll",src:Object(useBaseUrl["a" /* default */])("img/logos/eoscr-logo.png"),alt:"EOS CR LOGO"}))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"btnDrawer"},/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],{onClick:handlerDrawer},/*#__PURE__*/react_default.a.createElement(Menu_default.a,{fontSize:"large"}))),/*#__PURE__*/react_default.a.createElement(esm_Drawer_Drawer,{anchor:'right',open:isOpen,onClose:handlerDrawer},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"drawerContent"},/*#__PURE__*/react_default.a.createElement(List["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[0].path),target:PATHS[0].target,label:PATHS[0].label,icon:PATHS[0].icon,isSelected:pathname===PATHS[0].path})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement("span",{className:"linkGruopLabel"},"ACERCA DE NOSOTROS"),PATHS[1].subPaths.map(function(subItem){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{key:subItem.label},subItem.label!="Press"&&/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(subItem.path),target:subItem.target,label:subItem.label,icon:subItem.icon,isSelected:pathname===subItem.path}));}),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[2].path),target:PATHS[2].target,label:PATHS[2].label,icon:PATHS[2].icon,isSelected:pathname===PATHS[2].path})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement("span",{className:"linkGruopLabel"},"CONTENIDO PARA USTED"),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[3].path),target:PATHS[3].target,label:PATHS[3].label,icon:PATHS[3].icon,isSelected:pathname===PATHS[3].path}),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[4].path),target:PATHS[4].target,label:PATHS[4].label,icon:PATHS[4].icon,isSelected:pathname===PATHS[4].path}),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[1].subPaths[5].path),target:PATHS[1].subPaths[5].target,label:PATHS[1].subPaths[5].label,icon:PATHS[1].subPaths[5].icon,isSelected:pathname===PATHS[1].subPaths[5].path})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement("span",{className:"linkGruopLabel"},"CONTACTO"),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:Object(useBaseUrl["a" /* default */])(PATHS[5].path),target:PATHS[5].target,label:PATHS[5].label,icon:PATHS[5].icon,isSelected:pathname===PATHS[5].path})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"linkGruopBox"},/*#__PURE__*/react_default.a.createElement("span",{className:"linkGruopLabel"},"OPCIONES"),/*#__PURE__*/react_default.a.createElement(CustomListItem["default"],{href:"https://eoscostarica.io/",target:"_blank",label:"Sitio en ingles",icon:'img/icons/navbar/global.png',isSelected:false})))))),isDesktop&&/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"boxLeft"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"imgLogoBox"},/*#__PURE__*/react_default.a.createElement("a",{href:Object(useBaseUrl["a" /* default */])("/")},/*#__PURE__*/react_default.a.createElement("img",{className:Object(clsx_m["a" /* default */])("imgLogo",(_clsx3={},_clsx3["imgLogoScroll"]=trigger,_clsx3)),src:Object(useBaseUrl["a" /* default */])("img/logos/eoscr-logo.png"),alt:"EOS CR LOGO"})))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"boxRight"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"boxLanguages"},/*#__PURE__*/react_default.a.createElement(LanguagueSelector,null)),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"boxMenuItems",id:"boxMenuItems"},PATHS.map(function(item){var _clsx4,_clsx5,_clsx6;return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{key:item.label},!item.dropDown&&/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"navBarItemTab",href:Object(useBaseUrl["a" /* default */])(item.path),target:item.target,key:item.label,style:{textDecoration:'none'}},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"menuItem"},/*#__PURE__*/react_default.a.createElement("h5",{className:Object(clsx_m["a" /* default */])("link",(_clsx4={},_clsx4["linkActive"]=pathname===item.path,_clsx4))},item.label))),item.dropDown&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{tabIndex:"0",className:Object(clsx_m["a" /* default */])("menuItem","navBarItemTab")},/*#__PURE__*/react_default.a.createElement("h5",{className:Object(clsx_m["a" /* default */])("link",(_clsx5={},_clsx5["linkActive"]=isCurrentPath(item.subPaths),_clsx5))},item.label),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("dropDownMenu",(_clsx6={},_clsx6["dropDownMenuActive"]=isCurrentPath(item.subPaths),_clsx6)),style:{width:item.markerSize}},item.subPaths.map(function(subItem){var _clsx7;return/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"navBarItemTab",href:Object(useBaseUrl["a" /* default */])(subItem.path),target:subItem.target,key:subItem.label,style:{textDecoration:'none'}},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("h5",{className:Object(clsx_m["a" /* default */])("menuItemDrop",(_clsx7={},_clsx7["menuItemDropActive"]=pathname===subItem.path,_clsx7))},subItem.label)));}))));}))))));};Navbar_NavbarMenu.propTypes={isDesktop:prop_types_default.a.bool,isMobile:prop_types_default.a.bool};/* harmony default export */ var Navbar = (Navbar_NavbarMenu);
 // EXTERNAL MODULE: ./node_modules/react-responsive/dist/react-responsive.js
 var react_responsive = __webpack_require__(174);
 
@@ -8391,20 +8414,229 @@ var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__W
 
 /***/ }),
 
-/***/ 736:
+/***/ 722:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(235);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(174);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(234);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(731);
-function NotFound(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_2__["useMediaQuery"])({query:'(max-width: 1100px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_2__["useMediaQuery"])({query:'(min-width: 1100px)'});return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"sectionHero"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",{className:"centerText"},"Oops! No pudimos encontrar esta p\xE1gina."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",{className:"centerText"},"Por favor, regrese a la ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/"},"p\xE1gina de inicio")," y vuelva a intentarlo.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{className:"centerText"},"Si tiene alguna pregunta sobre EOSIO y blockchain, ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/contactenos"},"cont\xE1ctenos")," o visite nuestro ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/blog"},"blog"),"!"))))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"sectionHeroMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"section"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Oops! No pudimos encontrar esta p\xE1gina."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Por favor, regrese a la ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/"},"p\xE1gina de inicio")," y vuelva a intentarlo.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Si tiene alguna pregunta sobre EOSIO y blockchain, ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/contactenos"},"cont\xE1ctenos ")," o visite nuestro ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/blog"},"blog"),"!"))))));}/* harmony default export */ __webpack_exports__["default"] = (NotFound);
+/* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(167);
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(731);
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(798);
+/* harmony import */ var _material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(734);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(174);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_5__);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var MONTHS=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio ','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];function BlogPostItem(props){var frontMatter=props.frontMatter,metadata=props.metadata,color=props.color,isMobile=props.isMobile;var date=metadata.date,permalink=metadata.permalink,readingTime=metadata.readingTime;var author=frontMatter.author,title=frontMatter.title,image=frontMatter.image;var authorURL=frontMatter.author_url||frontMatter.authorURL;var authorTitle=frontMatter.author_title||frontMatter.authorTitle;var authorImageURL=frontMatter.author_image_url||frontMatter.authorImageURL;var imageUrl=Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(image);var tempImage=Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])("img/metaImgBlack.png");var isXS=Object(react_responsive__WEBPACK_IMPORTED_MODULE_5__["useMediaQuery"])({query:'(min-width: 400px)'});var BlogHeader=function BlogHeader(){var match=date.substring(0,10).split('-');var year=match[0];var month=MONTHS[parseInt(match[1],10)-1];var day=parseInt(match[2],10);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"blogHeaderListPage",style:{width:'100%'}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,title),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{marginBottom:'20px',marginTop:'10px'}},day," de ",month,", ",year,' ',readingTime&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null," \xB7 ",Math.ceil(readingTime)," minutos de lectura"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"blogAvatarBox"},isXS&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{src:authorImageURL,alt:author,style:{width:'48px',height:'48px'}}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"blogAvatarTextBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{className:"blogAuthorTile",style:{fontWeight:'bold',color:'black'},href:authorURL,target:"_blank"},author),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5",null,authorTitle))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{className:"blogReadMoreText",href:permalink},"Leer m\xE1s \u276F"))));};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{style:{backgroundColor:color},className:"blogPostItemBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{container:true,spacing:isMobile?0:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{item:true,xs:12,md:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:imageUrl||tempImage,alt:"blog post image",className:"imgListBlogPost"}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{item:true,xs:12,md:7},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"blogCenterHeaderItem"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlogHeader,null)))));}/* harmony default export */ __webpack_exports__["a"] = (BlogPostItem);
+
+/***/ }),
+
+/***/ 734:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// UNUSED EXPORTS: styles
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+var esm_extends = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
+var objectWithoutProperties = __webpack_require__(152);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+var clsx_m = __webpack_require__(153);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
+var withStyles = __webpack_require__(154);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/createSvgIcon.js + 1 modules
+var createSvgIcon = __webpack_require__(183);
+
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/internal/svg-icons/Person.js
+
+
+/**
+ * @ignore - internal component.
+ */
+
+/* harmony default export */ var Person = (Object(createSvgIcon["a" /* default */])( /*#__PURE__*/react["createElement"]("path", {
+  d: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+}), 'Person'));
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Avatar/Avatar.js
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      position: 'relative',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      flexShrink: 0,
+      width: 40,
+      height: 40,
+      fontFamily: theme.typography.fontFamily,
+      fontSize: theme.typography.pxToRem(20),
+      lineHeight: 1,
+      borderRadius: '50%',
+      overflow: 'hidden',
+      userSelect: 'none'
+    },
+
+    /* Styles applied to the root element if not `src` or `srcSet`. */
+    colorDefault: {
+      color: theme.palette.background.default,
+      backgroundColor: theme.palette.type === 'light' ? theme.palette.grey[400] : theme.palette.grey[600]
+    },
+
+    /* Styles applied to the root element if `variant="circle"`. */
+    circle: {},
+
+    /* Styles applied to the root element if `variant="circular"`. */
+    circular: {},
+
+    /* Styles applied to the root element if `variant="rounded"`. */
+    rounded: {
+      borderRadius: theme.shape.borderRadius
+    },
+
+    /* Styles applied to the root element if `variant="square"`. */
+    square: {
+      borderRadius: 0
+    },
+
+    /* Styles applied to the img element if either `src` or `srcSet` is defined. */
+    img: {
+      width: '100%',
+      height: '100%',
+      textAlign: 'center',
+      // Handle non-square image. The property isn't supported by IE 11.
+      objectFit: 'cover',
+      // Hide alt text.
+      color: 'transparent',
+      // Hide the image broken icon, only works on Chrome.
+      textIndent: 10000
+    },
+
+    /* Styles applied to the fallback icon */
+    fallback: {
+      width: '75%',
+      height: '75%'
+    }
+  };
+};
+
+function useLoaded(_ref) {
+  var src = _ref.src,
+      srcSet = _ref.srcSet;
+
+  var _React$useState = react["useState"](false),
+      loaded = _React$useState[0],
+      setLoaded = _React$useState[1];
+
+  react["useEffect"](function () {
+    if (!src && !srcSet) {
+      return undefined;
+    }
+
+    setLoaded(false);
+    var active = true;
+    var image = new Image();
+    image.src = src;
+    image.srcSet = srcSet;
+
+    image.onload = function () {
+      if (!active) {
+        return;
+      }
+
+      setLoaded('loaded');
+    };
+
+    image.onerror = function () {
+      if (!active) {
+        return;
+      }
+
+      setLoaded('error');
+    };
+
+    return function () {
+      active = false;
+    };
+  }, [src, srcSet]);
+  return loaded;
+}
+
+var Avatar_Avatar = /*#__PURE__*/react["forwardRef"](function Avatar(props, ref) {
+  var alt = props.alt,
+      childrenProp = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      imgProps = props.imgProps,
+      sizes = props.sizes,
+      src = props.src,
+      srcSet = props.srcSet,
+      _props$variant = props.variant,
+      variant = _props$variant === void 0 ? 'circular' : _props$variant,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["alt", "children", "classes", "className", "component", "imgProps", "sizes", "src", "srcSet", "variant"]);
+
+  var children = null; // Use a hook instead of onError on the img element to support server-side rendering.
+
+  var loaded = useLoaded({
+    src: src,
+    srcSet: srcSet
+  });
+  var hasImg = src || srcSet;
+  var hasImgNotFailing = hasImg && loaded !== 'error';
+
+  if (hasImgNotFailing) {
+    children = /*#__PURE__*/react["createElement"]("img", Object(esm_extends["a" /* default */])({
+      alt: alt,
+      src: src,
+      srcSet: srcSet,
+      sizes: sizes,
+      className: classes.img
+    }, imgProps));
+  } else if (childrenProp != null) {
+    children = childrenProp;
+  } else if (hasImg && alt) {
+    children = alt[0];
+  } else {
+    children = /*#__PURE__*/react["createElement"](Person, {
+      className: classes.fallback
+    });
+  }
+
+  return /*#__PURE__*/react["createElement"](Component, Object(esm_extends["a" /* default */])({
+    className: Object(clsx_m["a" /* default */])(classes.root, classes.system, classes[variant], className, !hasImgNotFailing && classes.colorDefault),
+    ref: ref
+  }, other), children);
+});
+ false ? undefined : void 0;
+/* harmony default export */ var esm_Avatar_Avatar = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(styles, {
+  name: 'MuiAvatar'
+})(Avatar_Avatar));
 
 /***/ })
 
