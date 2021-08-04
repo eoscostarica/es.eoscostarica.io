@@ -42,11 +42,19 @@ const ProjectsList = [
     linkText:"Explore EOS Rate."
   },
   {
+    img:"img/logos/inmutrust.svg",
+    name:"InmuTrust",
+    details:"InmuTrust es una plataforma desarrollada en colaboración con LACChain. Utiliza la tecnología blockchain EOSIO para mejorar la transparencia y confianza en la distribución de vacunas contra la COVID-19. ",
+    link:"https://inmutrust.com/",
+    color:"#ffffff",
+    linkText:"Explore InmuTrust."
+  },
+  {
     img:"img/logos/eosioforum.svg",
     name:"Enterprise EOSIO Forum",
     details:"Somos parte del Enterprise EOSIO Forum, una iniciativa de la comunidad para discutir sobre soluciones empresariales en blockchain implementando la tecnología EOSIO.",
     link:"https://www.linkedin.com/company/enterprise-eosio-forum/",
-    color:"#ffffff",
+    color:"#f8f8f8",
     linkText:"Más sobre Enterprise EOSIO Forum."
   },
   {
@@ -54,7 +62,7 @@ const ProjectsList = [
     name:"Evodex",
     details:"Evodex es la interfaz frontend para un protocolo de pool de liquidez en el que los usuarios votan por las tarifas de liquidez y no pagan por gas. Nuestro equipo estuvo a cargo del UX y el diseño front-end. ",
     link:"https://evodex.io/",
-    color:"#f8f8f8",
+    color:"#ffffff",
     linkText: "Pruebe Evodex."
   },
   {
@@ -62,7 +70,7 @@ const ProjectsList = [
     name:"EOS Foundation",
     details:"Somos parte de la prueba de concepto de EOS Foundation, una organización sin fines de lucro, autónoma y descentralizada, que permitiría la autorepresentación y promoción de la comunidad de EOS. ",
     link:"http://eos-foundation.eosio.cr/",
-    color:"#ffffff",
+    color:"#f8f8f8",
     linkText:"Visite EOS Foundation."
   },
   {
@@ -70,7 +78,7 @@ const ProjectsList = [
     name:"Proyecto empresarial privado",
     details:"Desarrollamos una app para un cliente estadounidense en la industria de contabilidad y finanzas para mejorar la trazabilidad de transacciones intercompañía. ",
     link:"https://eoscostarica.medium.com/why-integrating-erp-systems-into-blockchain-is-a-great-idea-e384b298a4a8",
-    color:"#f8f8f8",
+    color:"#ffffff",
     linkText:"Lea más aquí."
   },
   {
@@ -78,7 +86,7 @@ const ProjectsList = [
     name:"Notario Digital",
     details:"Notario Digital es un proyecto de código abierto que genera un hash de cualquier documento para registrarlo de forma inmutable en una red EOSIO. ",
     link:"https://notarize.eosio.cr/dashboard/notary",
-    color:"#ffffff",
+    color:"#f8f8f8",
     linkText:"Dele un vistazo."
   }
 ]
@@ -129,6 +137,7 @@ const OurProjects = () => {
           <Box className="projectsGridLeft">
             <Box className="imgBoxProjects">
               <img
+                style={{maxWidth: '50%'}}
                 alt={name}
                 src={useBaseUrl(img)}
               />
