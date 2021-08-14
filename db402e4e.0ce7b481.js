@@ -1,4 +1,34 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[68,5,11,32,60,72],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[54,5,11,17,32,44,50,53,60,70,72],{
+
+/***/ 118:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(210);
+/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(311);
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(132);
+/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(209);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(151);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(146);
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(767);
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(247);
+/* harmony import */ var _material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(698);
+/* harmony import */ var _material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(692);
+/* harmony import */ var _material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(691);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(2);
+/* harmony import */ var _components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(66);
+/* harmony import */ var _components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(63);
+/* harmony import */ var _SvgComponents_DevelopmentServices__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(73);
+/* harmony import */ var _SvgComponents_Blockchaininfrastructure__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(71);
+var MetaData={title:"EOS Costa Rica: Servicios",description:"EOS Costa Rica usa el protocolo de blockchain empresarial EOSIO para desarrollar soluciones para el mundo real.",img:"img/metaImgBlack.png",hrefLangPath:"https://eoscostarica.io/services"};var strategicLocationAccordion=[{title:'Interconectividad de redes',content:'Costa Rica cuenta con costas en los océanos Pacífico y Atlántico y conecta tres cables de fibra óptica submarinos – ARCOS-1, MAYA-1 y Pan American Crossing (PAC) – los cuales brindan la mayoría del ancho de banda del país. Esta interconexión provee conmutación en tiempo real y redundancia a nuestra infraestructura. Costa Rica es parte de las seis naciones centroamericanas interconectadas por una red de fibra óptica (REDCA). Adicionalmente, al tener conexiones directas a portadores upstream, permite a la red del país prevenir fallas de un solo punto.',target:'panel_interconnectivity'},{title:'Estructura política estable',content:'Costa Rica valora los Derechos Humanos, la Paz y la Democracia. El país es uno de los más estables y con mayor historia democrática en América. Costa Rica abolió su ejército en 1948 para promover la educación y el bienestar, y sobresale en cuanto a equidad e innovación. Además, la capital, San José, es base del Instituto Interamericano de Derechos Humanos.',target:'panel_framework'},{title:'Conciencia ambiental',content:'A pesar de ser un país pequeño, Costa Rica alberga a más del 4% de la biodiversidad del planeta. Los líderes del país han promovido la ecología y el desarrollo sostenible. Liderando con el ejemplo, más del 26% de su territorio lo componen áreas protegidas y Parques Nacionales.',target:'panel_awareness'}];var enterpriseBlockchainAccordionLeft=[{title:'Más transparencia',content:'Blockchain permite un registro de datos transparente y en tiempo real que puede incrementar la confianza y trazabilidad en los procesos, por ejemplo, logística o reclamos de seguros.',target:'panel_addedTransparency'},{title:'Mayor seguridad',content:'Las capacidades de encriptación e inmutabilidad de blockchain pueden reducir la manipulación de datos, errores causados por humanos y fraudes cibernéticos. Blockchain usa funciones hash – funciones matemáticas que transforman una entrada de información en líneas de código – lo que hace a las blockchains difíciles de hackear.',target:'panel_improvedSecurity'}];var enterpriseBlockchainAccordionRight=[{title:'Mayor eficiencia',content:'Los contratos inteligentes pueden ayudarle a procesar transacciones rápidamente, con mayor eficiencia en comparación a otras plataformas en la nube, y a un menor costo al reducir tarifas administrativas y eliminando intermediarios.',target:'panel_boostedEfficiency'},{title:'Auditabilidad mejorada',content:'Una blockchain permisionada permite a una organización controlar los accesos y autorizaciones en la red, aumentando la rendición de cuentas en el equipo y facilitando la auditabilidad.',target:'panel_enhancedAuditability'}];var solutionBaseAccordionLeft=[{title:'Enfoque centrado en el usuario',content:'Nos enfocamos en el usuario. Entendemos la importancia de investigar al usuario para identificar posibles puntos de dolor y necesidades. Una buena investigación nos ayuda a entender quién es el usuario para encontrar soluciones específicas a problemas.',target:'panel_userCentered'},{title:'Adaptabilidad e innovación',content:'Continuamente exploramos nuevas tendencias en tecnología blockchain para dar el mejor servicio a nuestros clientes. Además, ofrecemos una plataforma abierta e ilimitada que facilita la innovación.',target:'panel_daptabilityInnovation'}];var solutionBaseAccordionRight=[{title:'Tech stack dinámico',content:'Implementamos el tech stack más óptimo disponible para aprovechar el protocolo blockchain que usamos, el cual llamamos “EOS Dream Stack.” Este nos permite explorar más allá los distintos beneficios que ofrece la tecnología.',target:'panel_dynamicTech'},{title:'Metodologías ágiles',content:'Implementamos un enfoque Agile (ágil) que estimula la colaboración entre funciones, la flexibilidad y adaptabilidad para fomentar la mejora en todo momento.',target:'panel_agileMethodology'}];var ServicePage=function ServicePage(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_5__["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_5__["useMediaQuery"])({query:'(min-width: 960px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('panel_interconnectivity'),expandedMap=_useState[0],setExpandedMap=_useState[1];var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),expandedSolution=_useState2[0],setExpandedSolution=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),expandedEnterprise=_useState3[0],setExpandedEnterprise=_useState3[1];var _useState4=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('panel_Workshops'),expandedEducation=_useState4[0],setExpandedEducation=_useState4[1];var history=Object(react_router_dom__WEBPACK_IMPORTED_MODULE_12__[/* useHistory */ "k"])();var refDevelopment=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);var refInfraestrcture=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);var refEducation=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);var handleScrollDev=function handleScrollDev(){return refDevelopment.current.scrollIntoView({behavior:'smooth',block:'start',inline:'nearest'});};var handleScrollInfra=function handleScrollInfra(){return refInfraestrcture.current.scrollIntoView({behavior:'smooth',block:'start',inline:'nearest'});};var handleScrollEdu=function handleScrollEdu(){return refEducation.current.scrollIntoView({behavior:'smooth',block:'start',inline:'nearest'});};var handleChangeMap=function handleChangeMap(panel){return function(event,newExpanded){setExpandedMap(newExpanded?panel:false);};};var handleChangeSolution=function handleChangeSolution(panel){return function(event,newExpanded){setExpandedSolution(newExpanded?panel:false);};};var handleChangeEnterprise=function handleChangeEnterprise(panel){return function(event,newExpanded){setExpandedEnterprise(newExpanded?panel:false);};};var handleChangeEducation=function handleChangeEducation(panel){return function(event,newExpanded){setExpandedEducation(newExpanded?panel:false);};};Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function(){handleChangeMap('panel_interconnectivity');handleChangeEducation('panel_Workshops');},[]);var HeroSection=function HeroSection(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"containerSec"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"sectionHero"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Soluciones blockchain ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," a la medida")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Potencie su organizaci\xF3n con tecnolog\xEDa blockchain. Nuestro equipo le ayudar\xE1 a explorar el poder de esta innovadora tecnolog\xEDa. Contamos con a\xF1os de experiencia integrando soluciones blockchain empresariales y desarrollando infraestructura para fines empresariales."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"doubleSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonSecondary",style:{padding:"19px",height:"90px",width:"100%"},onClick:handleScrollDev},"Desarrollo de",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"Servicios")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonSecondary",style:{padding:"19px",height:"90px",width:"100%"},onClick:handleScrollInfra},"Infraestructura",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"Blockchain")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonSecondary",style:{padding:"19px",height:"90px",width:"100%"},onClick:handleScrollEdu},"Educaci\xF3n y",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," Entrenamiento"))))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"sectionHeroMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Soluciones blockchain a la medida")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Potencie su organizaci\xF3n con tecnolog\xEDa blockchain. Nuestro equipo le ayudar\xE1 a explorar el poder de esta innovadora tecnolog\xEDa.",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"Contamos con a\xF1os de experiencia integrando soluciones blockchain empresariales y desarrollando infraestructura para fines empresariales."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"buttonBoxMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/la-empresa/");}},"Con\xF3zcanos"))));};var BlockchainDev=function BlockchainDev(){var _clsx;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{ref:refDevelopment,className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("section",(_clsx={},_clsx["sectionPadding"]=isMobile,_clsx))},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Servicios de desarrollo ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," de blockchain")),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SvgComponents_DevelopmentServices__WEBPACK_IMPORTED_MODULE_15__["default"],{width:"214.409"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Explore las posibilidades que ofrece la tecnolog\xEDa blockchain. Impulse sus operaciones con mayor transparencia, seguridad y trazabilidad. Contamos con experiencia trabajando con empresas globales de gran tama\xF1o y PYMES, entidades de gobierno, organizaciones sin fines de lucro, y proyectos de c\xF3digo abierto. Nuestro equipo es agn\xF3stico a la tecnolog\xEDa por lo que le guiaremos en encontrar la soluci\xF3n ideal. Nos especializamos en el protocolo blockchain de c\xF3digo abierto "," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://eos.io/",target:"_blank"},"EOSIO"),", por su adaptabilidad a cualquier industria en sectores p\xFAblico y privado. Visite nuestra ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/industrias"),target:"_blank"},"p\xE1gina de industrias")," para conocer m\xE1s."))),isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{style:{marginTop:'-40px'},className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SvgComponents_DevelopmentServices__WEBPACK_IMPORTED_MODULE_15__["default"],null))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:12},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Blockchain empresarial")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"EOS Costa Rica usa tecnolog\xEDa blockchain para dise\xF1ar soluciones empresariales que se integran a otros sistemas. Blockchain permite la implementaci\xF3n de contratos inteligentes \u2013 c\xF3digos de computadora que se pueden ejecutar de forma autom\xE1tica y aut\xF3noma. Los contratos inteligentes permiten mayor eficiencia y reducci\xF3n de costos asociados a transacciones. Lea m\xE1s sobre blockchain empresarial:")))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"accordionBox"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:enterpriseBlockchainAccordionLeft,expanded:expandedEnterprise,handleChange:handleChangeEnterprise,bgColor:'white'})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:enterpriseBlockchainAccordionRight,expanded:expandedEnterprise,handleChange:handleChangeEnterprise,bgColor:'white'}))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:enterpriseBlockchainAccordionLeft,expanded:expandedEnterprise,handleChange:handleChangeEnterprise,bgColor:'white'}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:enterpriseBlockchainAccordionRight,expanded:expandedEnterprise,handleChange:handleChangeEnterprise,bgColor:'white'}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"doubleSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:12},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Un enfoque en soluciones")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"El equipo multidisciplinario de EOS Costa Rica implementa metodolog\xEDas \xE1giles para mejores resultados. Buscamos eficiencia y colaboraci\xF3n y ponemos como prioridad las necesidades del cliente para desarrollar soluciones que agregan valor a los usuarios. Adem\xE1s, nos adaptamos al presupuesto del cliente sin comprometer el liderazgo y calidad en nuestro trabajo. Aprenda m\xE1s sobre nuestro estilo de trabajo:")))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"accordionBox"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:solutionBaseAccordionLeft,expanded:expandedSolution,handleChange:handleChangeSolution,bgColor:'white'})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:solutionBaseAccordionRight,expanded:expandedSolution,handleChange:handleChangeSolution,bgColor:'white'}))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:solutionBaseAccordionLeft,expanded:expandedSolution,handleChange:handleChangeSolution,bgColor:'white'}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:solutionBaseAccordionRight,expanded:expandedSolution,handleChange:handleChangeSolution,bgColor:'white'})))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Nuestro proceso de principio a fin")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:isDesktop?Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("centerBox","doubleSpacingBox"):Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("centerBox","reduceMargin")},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/process.jpg")}),!isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/processVertical.gif")})))));};var BlockchainInfrastructure=function BlockchainInfrastructure(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{ref:refInfraestrcture,className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"section"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Infraestructura ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," blockchain")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Infraestructura blockchain de primer nivel")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Una blockchain opera como una red descentralizada entre pares en la que varias computadoras o \u201Cnodos\u201D se interconectan entre s\xED. Estos nodos mantienen una copia de los registros y act\xFAan como validadores de nuevas transacciones. Estas caracter\xEDsticas hacen que el desarrollo de redes robustas sea cr\xEDtico para cumplir con los requisitos de una blockchain.")),isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SvgComponents_Blockchaininfrastructure__WEBPACK_IMPORTED_MODULE_16__["default"],null)))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"topSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",null," Desarrollo de nodos de blockchain")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Configuramos, hospedamos y damos mantenimiento a nodos de blockchain y redes para usos p\xFAblico y privado con monitoreo y uptime 24/7. Esto permite a cualquier organizaci\xF3n implementar redes de acuerdo a sus requisitos y necesidades.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",null,"API endpoints")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"La red de nuestro datacenter permite la instalaci\xF3n de API endpoints entre blockchains y otros tech stacks. Un API endpoint es un punto de contacto de comunicaci\xF3n e interacci\xF3n entre un API (Programa de Interfaz de Aplicaciones) y un servidor.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",null,"Infraestructura lista para usar")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Desarrollamos una infraestructura robusta y de primer nivel, lista para hospedar redes blockchain para nuestros clientes y proyectos de c\xF3digo abierto desde nuestro datacenter en Costa Rica.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",null,"Experiencia implementando redes")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Nos aliamos con entidades locales e instituciones multilaterales de desarrollo para participar en el desarrollo de redes blockchain y plataformas de blockchain como servicio.")))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"doubleSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Ubicaci\xF3n estrat\xE9gica")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Nuestro datacenter, ubicado en San Jos\xE9, Costa Rica, est\xE1 estrat\xE9gicamente ubicado en el medio del continente americano, permitiendo as\xED interconectividad conveniente entre redes. Costa Rica ofrece alta estabilidad pol\xEDtica, una democracia de muchos a\xF1os, altos \xEDndices de educaci\xF3n y una estructura corporativa flexible \u2013 todo esto apropiado para redes descentralizadas. Estas son algunas de las ventajas que este pa\xEDs puede a\xF1adir a su infraestructura:")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:!isMobile?"centerBox":Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("centerBox","reduceMargin")},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/map-loacation.svg")}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"accordionBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:strategicLocationAccordion,expanded:expandedMap,handleChange:handleChangeMap,bgColor:'white'}))))));};var EducationTraining=function EducationTraining(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{ref:refEducation,className:"containerGray"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"sectionPadding"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Educaci\xF3n y entrenamiento")),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/imgCubes/eos-education.svg")})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"accordionBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"],{square:true,expanded:expandedEducation==='panel_Workshops',onChange:handleChangeEducation('panel_Workshops'),style:{backgroundColor:'#f8f8f8',boxShadow:'none'},className:"accordion"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"],{style:{padding:1},expandIcon:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2___default.a,{style:{color:'#5484B3'}})},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",{style:{margin:'2px',padding:0}},"Talleres ejecutivos")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],{style:{padding:1}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{padding:0}},"Sabemos que tecnolog\xEDas tan innovadoras como blockchain pueden tener una curva de aprendizaje pronunciada. Por eso, ofrecemos talleres sobre blockchain y tecnolog\xEDa EOSIO para ejecutivos, directivos y equipos que quieran mantenerse actualizados y aprender m\xE1s sobre blockchain y casos de uso empresariales. Estos talleres incluyen contenido multimodal como videos, charlas y casos de uso."))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"],{square:true,expanded:expandedEducation==='panel_Developers',onChange:handleChangeEducation('panel_Developers'),style:{backgroundColor:'#f8f8f8',boxShadow:'none'},className:"accordion"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"],{style:{padding:1},expandIcon:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2___default.a,{style:{color:'#5484B3'}})},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",{style:{margin:'2px',padding:0}},"Entrenamiento para desarrolladores")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],{style:{padding:1}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{padding:0}},"Tambi\xE9n brindamos recursos de entrenamiento y educativos para nuevos talentos que quieran iniciar su carrera en blockchain y el protocolo EOSIO. Recopilamos materiales de aprendizaje y gu\xEDas para desarrolladores en un portal web. Puede acceder ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://guide.eoscostarica.io/",target:"_blank"},"aqu\xED"),". Adem\xE1s, puede ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/contactenos/"),target:"_blank"},"consultarnos ")," sobre nuestros cursos de entrenamiento para compa\xF1\xEDas y equipos."))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"],{square:true,expanded:expandedEducation==='panel_Building',onChange:handleChangeEducation('panel_Building'),style:{backgroundColor:'#f8f8f8',boxShadow:'none'},className:"accordion"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"],{style:{padding:1},expandIcon:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2___default.a,{style:{color:'#5484B3'}})},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",{style:{margin:'2px',padding:0}},"Desarrollo de comunidad")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],{style:{padding:1}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{padding:0}},"Ayudamos a promover los ecosistemas de blockchain y EOSIO al organizar y asistir a actividades de la comunidad. Tambi\xE9n, nos gusta hablar sobre blockchain y participar en eventos relacionados a tecnolog\xEDa e innovaci\xF3n. Todos los a\xF1os organizamos un evento de team-building llamado "," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://eosurf.com/",target:"_blank"}," EOSurf "),"en el que llevamos las operaciones a la playa por algunos d\xEDas para cambiar las computadores y c\xF3digo por sesiones de yoga y surf."))))),isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/imgCubes/eos-education.svg")})))))));};var IndustryBlockchain=function IndustryBlockchain(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"sectionPadding"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null," \xBFC\xF3mo puede su industria implementar ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," blockchain?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"La tecnolog\xEDa blockchain tiene las capacidades de transformar muchas industrias, incluyendo:"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:7},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"imgBoxServices"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("img/icons/logistics.svg"),style:{paddingTop:'25px'},className:"imageIndrustries"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Pagos y transferencias")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Blockchain permite una manera eficiente y segura para registrar transacciones. Blockchain puede facilitar los pagos y la auditabilidad en tiempo real con encriptaci\xF3n para reducir la filtraci\xF3n de datos."," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://eoscostarica.medium.com/why-integrating-erp-systems-into-blockchain-is-a-great-idea-e384b298a4a8",target:"_blank"},"Aprende m\xE1s"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"imgBoxServices"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("img/icons/payments.svg"),style:{paddingTop:'25px'},className:"imageIndrustriesLogistics"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Log\xEDstica")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"En una industria que involucra a docenas de participantes, las capacidades de blockchain y de los contratos inteligentes son ideales para trazabilidad, gesti\xF3n de autorizaciones y automatizaci\xF3n."," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/blog/blockchain-logistics"),target:"_blank"},"Aprende m\xE1s"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"imgBoxServices"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("img/icons/gaming.svg"),style:{paddingTop:'20px'},className:"imageIndrustries"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Videojuegos")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Blockchain permite una mejor manera de transferir, valorizar y coleccionar activos digitales de juegos. Adem\xE1s, las capacidades de mejorar la seguridad y ofrecer transacciones m\xE1s eficientes pueden subir el nivel de los juegos en l\xEDnea."," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/blog/gaming-blockchain"),target:"_blank"},"Aprende m\xE1s"))))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Aprenda m\xE1s sobre c\xF3mo otras industrias se est\xE1n transformando con blockchain. ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/industrias")},"Leer m\xE1s."))));};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{title:MetaData.title,description:MetaData.description,image:MetaData.img,hrefLangPath:MetaData.hrefLangPath},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlockchainDev,null)),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlockchainInfrastructure,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(EducationTraining,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IndustryBlockchain,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_14__["default"],null)),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlockchainDev,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlockchainInfrastructure,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(EducationTraining,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IndustryBlockchain,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_14__["default"],null)));};/* harmony default export */ __webpack_exports__["default"] = (ServicePage);
+
+/***/ }),
 
 /***/ 133:
 /***/ (function(module, exports, __webpack_require__) {
@@ -3271,7 +3301,7 @@ var dist = __webpack_require__(212);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function LayoutHead(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig;var siteTitle=siteConfig.title,favicon=siteConfig.favicon,_siteConfig$themeConf=siteConfig.themeConfig,defaultImage=_siteConfig$themeConf.image,metadatas=_siteConfig$themeConf.metadatas,siteUrl=siteConfig.url;var title=props.title,description=props.description,image=props.image,hrefLangPath=props.hrefLangPath,keywords=props.keywords,permalink=props.permalink;var metaTitle=title||siteTitle;var metaImage=image||defaultImage;var metaImageUrl=Object(useBaseUrl["a" /* default */])(metaImage,{absolute:true});var faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);var htmlLang="es";var location=Object(react_router["l" /* useLocation */])();return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:htmlLang}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:"Image for "+metaTitle}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),permalink&&/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:"https://es.eoscostarica.io"+location.pathname,hreflang:"es-us"}),hrefLangPath&&/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:hrefLangPath,hreflang:"en-us"}),/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:"https://es.eoscostarica.io"+location.pathname})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */]// it's important to have an additional <Head> element here,
+ */function LayoutHead(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig;var siteTitle=siteConfig.title,favicon=siteConfig.favicon,_siteConfig$themeConf=siteConfig.themeConfig,defaultImage=_siteConfig$themeConf.image,metadatas=_siteConfig$themeConf.metadatas,siteUrl=siteConfig.url;var title=props.title,description=props.description,image=props.image,hrefLangPath=props.hrefLangPath,keywords=props.keywords,permalink=props.permalink;var metaTitle=title||siteTitle;var metaImage=image||defaultImage;var metaImageUrl=Object(useBaseUrl["a" /* default */])(metaImage,{absolute:true});var faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);var htmlLang="es-us";var location=Object(react_router["l" /* useLocation */])();return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:htmlLang}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:"Image for "+metaTitle}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),permalink&&/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:"https://es.eoscostarica.io"+location.pathname,hreflang:"es-us"}),hrefLangPath&&/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:hrefLangPath,hreflang:"en-us"}),/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:"https://es.eoscostarica.io"+location.pathname})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */]// it's important to have an additional <Head> element here,
 // as it allows react-helmet to override values set in previous <Head>
 // ie we can override default metadatas such as "twitter:card"
 // In same Head, the same meta would appear twice instead of overriding
@@ -7693,6 +7723,300 @@ var Modal_Modal = /*#__PURE__*/react["forwardRef"](function Modal(inProps, ref) 
 
 /***/ }),
 
+/***/ 310:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/**
+ * @ignore - internal component.
+ * @type {React.Context<{} | {expanded: boolean, disabled: boolean, toggle: () => void}>}
+ */
+
+var AccordionContext = react__WEBPACK_IMPORTED_MODULE_0__["createContext"]({});
+
+if (false) {}
+
+/* harmony default export */ __webpack_exports__["a"] = (AccordionContext);
+
+/***/ }),
+
+/***/ 311:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(136);
+
+var _interopRequireWildcard = __webpack_require__(133);
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(0));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(144));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+}), 'ExpandMore');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ 471:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export styles */
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(176);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(131);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(132);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(772);
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(135);
+/* harmony import */ var _styles_transitions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(155);
+/* harmony import */ var _transitions_utils__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(165);
+/* harmony import */ var _styles_useTheme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(154);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(138);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      height: 0,
+      overflow: 'hidden',
+      transition: theme.transitions.create('height')
+    },
+
+    /* Styles applied to the root element when the transition has entered. */
+    entered: {
+      height: 'auto',
+      overflow: 'visible'
+    },
+
+    /* Styles applied to the root element when the transition has exited and `collapsedSize` != 0px. */
+    hidden: {
+      visibility: 'hidden'
+    },
+
+    /* Styles applied to the outer wrapper element. */
+    wrapper: {
+      // Hack to get children with a negative margin to not falsify the height computation.
+      display: 'flex'
+    },
+
+    /* Styles applied to the inner wrapper element. */
+    wrapperInner: {
+      width: '100%'
+    }
+  };
+};
+/**
+ * The Collapse transition is used by the
+ * [Vertical Stepper](/components/steppers/#vertical-stepper) StepContent component.
+ * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+ */
+
+var Collapse = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["forwardRef"](function Collapse(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      collapsedHeight = props.collapsedHeight,
+      _props$collapsedSize = props.collapsedSize,
+      collapsedSizeProp = _props$collapsedSize === void 0 ? '0px' : _props$collapsedSize,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      _props$disableStrictM = props.disableStrictModeCompat,
+      disableStrictModeCompat = _props$disableStrictM === void 0 ? false : _props$disableStrictM,
+      inProp = props.in,
+      onEnter = props.onEnter,
+      onEntered = props.onEntered,
+      onEntering = props.onEntering,
+      onExit = props.onExit,
+      onExited = props.onExited,
+      onExiting = props.onExiting,
+      style = props.style,
+      _props$timeout = props.timeout,
+      timeout = _props$timeout === void 0 ? _styles_transitions__WEBPACK_IMPORTED_MODULE_8__[/* duration */ "b"].standard : _props$timeout,
+      _props$TransitionComp = props.TransitionComponent,
+      TransitionComponent = _props$TransitionComp === void 0 ? react_transition_group__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"] : _props$TransitionComp,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(props, ["children", "classes", "className", "collapsedHeight", "collapsedSize", "component", "disableStrictModeCompat", "in", "onEnter", "onEntered", "onEntering", "onExit", "onExited", "onExiting", "style", "timeout", "TransitionComponent"]);
+
+  var theme = Object(_styles_useTheme__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"])();
+  var timer = react__WEBPACK_IMPORTED_MODULE_3__["useRef"]();
+  var wrapperRef = react__WEBPACK_IMPORTED_MODULE_3__["useRef"](null);
+  var autoTransitionDuration = react__WEBPACK_IMPORTED_MODULE_3__["useRef"]();
+  var collapsedSize = typeof (collapsedHeight || collapsedSizeProp) === 'number' ? "".concat(collapsedHeight || collapsedSizeProp, "px") : collapsedHeight || collapsedSizeProp;
+  react__WEBPACK_IMPORTED_MODULE_3__["useEffect"](function () {
+    return function () {
+      clearTimeout(timer.current);
+    };
+  }, []);
+  var enableStrictModeCompat = theme.unstable_strictMode && !disableStrictModeCompat;
+  var nodeRef = react__WEBPACK_IMPORTED_MODULE_3__["useRef"](null);
+  var handleRef = Object(_utils__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"])(ref, enableStrictModeCompat ? nodeRef : undefined);
+
+  var normalizedTransitionCallback = function normalizedTransitionCallback(callback) {
+    return function (nodeOrAppearing, maybeAppearing) {
+      if (callback) {
+        var _ref = enableStrictModeCompat ? [nodeRef.current, nodeOrAppearing] : [nodeOrAppearing, maybeAppearing],
+            _ref2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(_ref, 2),
+            node = _ref2[0],
+            isAppearing = _ref2[1]; // onEnterXxx and onExitXxx callbacks have a different arguments.length value.
+
+
+        if (isAppearing === undefined) {
+          callback(node);
+        } else {
+          callback(node, isAppearing);
+        }
+      }
+    };
+  };
+
+  var handleEnter = normalizedTransitionCallback(function (node, isAppearing) {
+    node.style.height = collapsedSize;
+
+    if (onEnter) {
+      onEnter(node, isAppearing);
+    }
+  });
+  var handleEntering = normalizedTransitionCallback(function (node, isAppearing) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+
+    var _getTransitionProps = Object(_transitions_utils__WEBPACK_IMPORTED_MODULE_9__[/* getTransitionProps */ "a"])({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'enter'
+    }),
+        transitionDuration = _getTransitionProps.duration;
+
+    if (timeout === 'auto') {
+      var duration2 = theme.transitions.getAutoHeightDuration(wrapperHeight);
+      node.style.transitionDuration = "".concat(duration2, "ms");
+      autoTransitionDuration.current = duration2;
+    } else {
+      node.style.transitionDuration = typeof transitionDuration === 'string' ? transitionDuration : "".concat(transitionDuration, "ms");
+    }
+
+    node.style.height = "".concat(wrapperHeight, "px");
+
+    if (onEntering) {
+      onEntering(node, isAppearing);
+    }
+  });
+  var handleEntered = normalizedTransitionCallback(function (node, isAppearing) {
+    node.style.height = 'auto';
+
+    if (onEntered) {
+      onEntered(node, isAppearing);
+    }
+  });
+  var handleExit = normalizedTransitionCallback(function (node) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+    node.style.height = "".concat(wrapperHeight, "px");
+
+    if (onExit) {
+      onExit(node);
+    }
+  });
+  var handleExited = normalizedTransitionCallback(onExited);
+  var handleExiting = normalizedTransitionCallback(function (node) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+
+    var _getTransitionProps2 = Object(_transitions_utils__WEBPACK_IMPORTED_MODULE_9__[/* getTransitionProps */ "a"])({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'exit'
+    }),
+        transitionDuration = _getTransitionProps2.duration;
+
+    if (timeout === 'auto') {
+      var duration2 = theme.transitions.getAutoHeightDuration(wrapperHeight);
+      node.style.transitionDuration = "".concat(duration2, "ms");
+      autoTransitionDuration.current = duration2;
+    } else {
+      node.style.transitionDuration = typeof transitionDuration === 'string' ? transitionDuration : "".concat(transitionDuration, "ms");
+    }
+
+    node.style.height = collapsedSize;
+
+    if (onExiting) {
+      onExiting(node);
+    }
+  });
+
+  var addEndListener = function addEndListener(nodeOrNext, maybeNext) {
+    var next = enableStrictModeCompat ? nodeOrNext : maybeNext;
+
+    if (timeout === 'auto') {
+      timer.current = setTimeout(next, autoTransitionDuration.current || 0);
+    }
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"](TransitionComponent, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+    in: inProp,
+    onEnter: handleEnter,
+    onEntered: handleEntered,
+    onEntering: handleEntering,
+    onExit: handleExit,
+    onExited: handleExited,
+    onExiting: handleExiting,
+    addEndListener: addEndListener,
+    nodeRef: enableStrictModeCompat ? nodeRef : undefined,
+    timeout: timeout === 'auto' ? null : timeout
+  }, other), function (state, childProps) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"](Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+      className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, classes.container, className, {
+        'entered': classes.entered,
+        'exited': !inProp && collapsedSize === '0px' && classes.hidden
+      }[state]),
+      style: Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+        minHeight: collapsedSize
+      }, style),
+      ref: handleRef
+    }, childProps), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
+      className: classes.wrapper,
+      ref: wrapperRef
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
+      className: classes.wrapperInner
+    }, children)));
+  });
+});
+ false ? undefined : void 0;
+Collapse.muiSupportAuto = true;
+/* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(styles, {
+  name: 'MuiCollapse'
+})(Collapse));
+
+/***/ }),
+
 /***/ 57:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7740,20 +8064,468 @@ var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__W
 
 /***/ }),
 
-/***/ 699:
+/***/ 63:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(210);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(151);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(209);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(767);
-function NotFound(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_2__["useMediaQuery"])({query:'(max-width: 1100px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_2__["useMediaQuery"])({query:'(min-width: 1100px)'});return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"sectionHero"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",{className:"centerText"},"Oops! No pudimos encontrar esta p\xE1gina."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",{className:"centerText"},"Por favor, regrese a la ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/"},"p\xE1gina de inicio")," y vuelva a intentarlo.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{className:"centerText"},"Si tiene alguna pregunta sobre EOSIO y blockchain, ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/contactenos"},"cont\xE1ctenos")," o visite nuestro ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/blog"},"blog"),"!"))))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"sectionHeroMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"section"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Oops! No pudimos encontrar esta p\xE1gina."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Por favor, regrese a la ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/"},"p\xE1gina de inicio")," y vuelva a intentarlo.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Si tiene alguna pregunta sobre EOSIO y blockchain, ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/contactenos"},"cont\xE1ctenos ")," o visite nuestro ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/blog"},"blog"),"!"))))));}/* harmony default export */ __webpack_exports__["default"] = (NotFound);
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(767);
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(247);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
+var ContactUsBanner=function ContactUsBanner(){var history=Object(react_router_dom__WEBPACK_IMPORTED_MODULE_3__[/* useHistory */ "k"])();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"containerGray"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"sectionPadding"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{item:true,xs:12,md:8},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",{className:"centerTextOnMobile"},"Comience a trabajar con nosotros ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," implementando ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," tecnolog\xEDa blockchain "))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"buttonBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/contactenos/");}},"Cont\xE1ctenos"))))));};/* harmony default export */ __webpack_exports__["default"] = (ContactUsBanner);
+
+/***/ }),
+
+/***/ 66:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(698);
+/* harmony import */ var _material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(692);
+/* harmony import */ var _material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(691);
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(311);
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_5__);
+var AccordionComp=function AccordionComp(_ref){var data=_ref.data,handleChange=_ref.handleChange,expanded=_ref.expanded,bgColor=_ref.bgColor;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null,data.map(function(item){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{key:item.target,square:true,expanded:expanded===item.target,style:{backgroundColor:bgColor,boxShadow:'none'},onChange:handleChange(item.target),className:"accordion"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{style:{padding:1},expandIcon:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_5___default.a,{style:{color:'#5484B3'}})},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",{style:{margin:'2px',padding:0}},item.title)),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{padding:1,marginTop:'-15px'}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{padding:0}},item.content)));}));};AccordionComp.propTypes={data:prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array,handleChange:prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func};AccordionComp.defaultProps={data:[]};/* harmony default export */ __webpack_exports__["default"] = (AccordionComp);
+
+/***/ }),
+
+/***/ 691:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export styles */
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(131);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(132);
+/* harmony import */ var _ButtonBase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(769);
+/* harmony import */ var _IconButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(476);
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(135);
+/* harmony import */ var _Accordion_AccordionContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(310);
+
+
+
+/* eslint-disable jsx-a11y/aria-role */
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  var transition = {
+    duration: theme.transitions.duration.shortest
+  };
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      display: 'flex',
+      minHeight: 8 * 6,
+      transition: theme.transitions.create(['min-height', 'background-color'], transition),
+      padding: theme.spacing(0, 2),
+      '&:hover:not($disabled)': {
+        cursor: 'pointer'
+      },
+      '&$expanded': {
+        minHeight: 64
+      },
+      '&$focused, &$focusVisible': {
+        backgroundColor: theme.palette.action.focus
+      },
+      '&$disabled': {
+        opacity: theme.palette.action.disabledOpacity
+      }
+    },
+
+    /* Pseudo-class applied to the root element, children wrapper element and `IconButton` component if `expanded={true}`. */
+    expanded: {},
+
+    /* Pseudo-class applied to the ButtonBase root element if the button is keyboard focused. */
+    focused: {},
+
+    /* Pseudo-class applied to the ButtonBase root element if the button is keyboard focused. */
+    focusVisible: {},
+
+    /* Pseudo-class applied to the root element if `disabled={true}`. */
+    disabled: {},
+
+    /* Styles applied to the children wrapper element. */
+    content: {
+      display: 'flex',
+      flexGrow: 1,
+      transition: theme.transitions.create(['margin'], transition),
+      margin: '12px 0',
+      '&$expanded': {
+        margin: '20px 0'
+      }
+    },
+
+    /* Styles applied to the `IconButton` component when `expandIcon` is supplied. */
+    expandIcon: {
+      transform: 'rotate(0deg)',
+      transition: theme.transitions.create('transform', transition),
+      '&:hover': {
+        // Disable the hover effect for the IconButton,
+        // because a hover effect should apply to the entire Expand button and
+        // not only to the IconButton.
+        backgroundColor: 'transparent'
+      },
+      '&$expanded': {
+        transform: 'rotate(180deg)'
+      }
+    }
+  };
+};
+var AccordionSummary = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function AccordionSummary(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      expandIcon = props.expandIcon,
+      focusVisibleClassName = props.focusVisibleClassName,
+      _props$IconButtonProp = props.IconButtonProps,
+      IconButtonProps = _props$IconButtonProp === void 0 ? {} : _props$IconButtonProp,
+      onClick = props.onClick,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(props, ["children", "classes", "className", "expandIcon", "focusVisibleClassName", "IconButtonProps", "onClick"]);
+
+  var _React$useContext = react__WEBPACK_IMPORTED_MODULE_2__["useContext"](_Accordion_AccordionContext__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"]),
+      _React$useContext$dis = _React$useContext.disabled,
+      disabled = _React$useContext$dis === void 0 ? false : _React$useContext$dis,
+      expanded = _React$useContext.expanded,
+      toggle = _React$useContext.toggle;
+
+  var handleChange = function handleChange(event) {
+    if (toggle) {
+      toggle(event);
+    }
+
+    if (onClick) {
+      onClick(event);
+    }
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_ButtonBase__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+    focusRipple: false,
+    disableRipple: true,
+    disabled: disabled,
+    component: "div",
+    "aria-expanded": expanded,
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, className, disabled && classes.disabled, expanded && classes.expanded),
+    focusVisibleClassName: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.focusVisible, classes.focused, focusVisibleClassName),
+    onClick: handleChange,
+    ref: ref
+  }, other), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.content, expanded && classes.expanded)
+  }, children), expandIcon && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_IconButton__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.expandIcon, expanded && classes.expanded),
+    edge: "end",
+    component: "div",
+    tabIndex: null,
+    role: null,
+    "aria-hidden": true
+  }, IconButtonProps), expandIcon));
+});
+ false ? undefined : void 0;
+/* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(styles, {
+  name: 'MuiAccordionSummary'
+})(AccordionSummary));
+
+/***/ }),
+
+/***/ 692:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export styles */
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(131);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(132);
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(135);
+
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      display: 'flex',
+      padding: theme.spacing(1, 2, 2)
+    }
+  };
+};
+var AccordionDetails = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function AccordionDetails(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(props, ["classes", "className"]);
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, className),
+    ref: ref
+  }, other));
+});
+ false ? undefined : void 0;
+/* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(styles, {
+  name: 'MuiAccordionDetails'
+})(AccordionDetails));
+
+/***/ }),
+
+/***/ 698:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// UNUSED EXPORTS: styles
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+var esm_extends = __webpack_require__(3);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js
+var arrayWithHoles = __webpack_require__(390);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js
+var iterableToArray = __webpack_require__(388);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js
+var unsupportedIterableToArray = __webpack_require__(387);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js
+var nonIterableRest = __webpack_require__(391);
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/toArray.js
+
+
+
+
+function _toArray(arr) {
+  return Object(arrayWithHoles["a" /* default */])(arr) || Object(iterableToArray["a" /* default */])(arr) || Object(unsupportedIterableToArray["a" /* default */])(arr) || Object(nonIterableRest["a" /* default */])();
+}
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 1 modules
+var slicedToArray = __webpack_require__(176);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
+var objectWithoutProperties = __webpack_require__(131);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/react-is/index.js
+var react_is = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+var clsx_m = __webpack_require__(132);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Collapse/Collapse.js
+var Collapse = __webpack_require__(471);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Paper/Paper.js
+var Paper = __webpack_require__(766);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
+var withStyles = __webpack_require__(135);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Accordion/AccordionContext.js
+var AccordionContext = __webpack_require__(310);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/useControlled.js
+var useControlled = __webpack_require__(162);
+
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Accordion/Accordion.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  var transition = {
+    duration: theme.transitions.duration.shortest
+  };
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      position: 'relative',
+      transition: theme.transitions.create(['margin'], transition),
+      '&:before': {
+        position: 'absolute',
+        left: 0,
+        top: -1,
+        right: 0,
+        height: 1,
+        content: '""',
+        opacity: 1,
+        backgroundColor: theme.palette.divider,
+        transition: theme.transitions.create(['opacity', 'background-color'], transition)
+      },
+      '&:first-child': {
+        '&:before': {
+          display: 'none'
+        }
+      },
+      '&$expanded': {
+        margin: '16px 0',
+        '&:first-child': {
+          marginTop: 0
+        },
+        '&:last-child': {
+          marginBottom: 0
+        },
+        '&:before': {
+          opacity: 0
+        }
+      },
+      '&$expanded + &': {
+        '&:before': {
+          display: 'none'
+        }
+      },
+      '&$disabled': {
+        backgroundColor: theme.palette.action.disabledBackground
+      }
+    },
+
+    /* Styles applied to the root element if `square={false}`. */
+    rounded: {
+      borderRadius: 0,
+      '&:first-child': {
+        borderTopLeftRadius: theme.shape.borderRadius,
+        borderTopRightRadius: theme.shape.borderRadius
+      },
+      '&:last-child': {
+        borderBottomLeftRadius: theme.shape.borderRadius,
+        borderBottomRightRadius: theme.shape.borderRadius,
+        // Fix a rendering issue on Edge
+        '@supports (-ms-ime-align: auto)': {
+          borderBottomLeftRadius: 0,
+          borderBottomRightRadius: 0
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `expanded={true}`. */
+    expanded: {},
+
+    /* Styles applied to the root element if `disabled={true}`. */
+    disabled: {}
+  };
+};
+var Accordion_Accordion = /*#__PURE__*/react["forwardRef"](function Accordion(props, ref) {
+  var childrenProp = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$defaultExpande = props.defaultExpanded,
+      defaultExpanded = _props$defaultExpande === void 0 ? false : _props$defaultExpande,
+      _props$disabled = props.disabled,
+      disabled = _props$disabled === void 0 ? false : _props$disabled,
+      expandedProp = props.expanded,
+      onChange = props.onChange,
+      _props$square = props.square,
+      square = _props$square === void 0 ? false : _props$square,
+      _props$TransitionComp = props.TransitionComponent,
+      TransitionComponent = _props$TransitionComp === void 0 ? Collapse["a" /* default */] : _props$TransitionComp,
+      TransitionProps = props.TransitionProps,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["children", "classes", "className", "defaultExpanded", "disabled", "expanded", "onChange", "square", "TransitionComponent", "TransitionProps"]);
+
+  var _useControlled = Object(useControlled["a" /* default */])({
+    controlled: expandedProp,
+    default: defaultExpanded,
+    name: 'Accordion',
+    state: 'expanded'
+  }),
+      _useControlled2 = Object(slicedToArray["a" /* default */])(_useControlled, 2),
+      expanded = _useControlled2[0],
+      setExpandedState = _useControlled2[1];
+
+  var handleChange = react["useCallback"](function (event) {
+    setExpandedState(!expanded);
+
+    if (onChange) {
+      onChange(event, !expanded);
+    }
+  }, [expanded, onChange, setExpandedState]);
+
+  var _React$Children$toArr = react["Children"].toArray(childrenProp),
+      _React$Children$toArr2 = _toArray(_React$Children$toArr),
+      summary = _React$Children$toArr2[0],
+      children = _React$Children$toArr2.slice(1);
+
+  var contextValue = react["useMemo"](function () {
+    return {
+      expanded: expanded,
+      disabled: disabled,
+      toggle: handleChange
+    };
+  }, [expanded, disabled, handleChange]);
+  return /*#__PURE__*/react["createElement"](Paper["a" /* default */], Object(esm_extends["a" /* default */])({
+    className: Object(clsx_m["a" /* default */])(classes.root, className, expanded && classes.expanded, disabled && classes.disabled, !square && classes.rounded),
+    ref: ref,
+    square: square
+  }, other), /*#__PURE__*/react["createElement"](AccordionContext["a" /* default */].Provider, {
+    value: contextValue
+  }, summary), /*#__PURE__*/react["createElement"](TransitionComponent, Object(esm_extends["a" /* default */])({
+    in: expanded,
+    timeout: "auto"
+  }, TransitionProps), /*#__PURE__*/react["createElement"]("div", {
+    "aria-labelledby": summary.props.id,
+    id: summary.props['aria-controls'],
+    role: "region"
+  }, children)));
+});
+ false ? undefined : void 0;
+/* harmony default export */ var esm_Accordion_Accordion = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(styles, {
+  name: 'MuiAccordion'
+})(Accordion_Accordion));
+
+/***/ }),
+
+/***/ 71:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var Blockchaininfrastructure=function Blockchaininfrastructure(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:"300",height:"300",viewBox:"0 0 96.409 213.887"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_166","data-name":"Group 166",transform:"translate(-429.83 -650.487)"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_161","data-name":"Group 161"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_115","data-name":"Path 115",d:"M513.17,790.144l-5.19-1.78-5.17,1.77,5.18,1.77,9.95,3.4-40.59,13.86L436.76,795.3l9.95-3.4,5.18-1.77-5.17-1.77-5.19,1.78-11.7,3.99v54.01l47.52,16.23,47.52-16.23v-54.01Zm-37.57,70.09-42.27-14.44v-48.12L475.6,812.1Zm45.77-14.44-42.27,14.44V812.1l42.27-14.43Zm-42.27-63.75V778.5l-1.75-.6-1.75.6v3.54l1.75-.6Z"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_162","data-name":"Group 162"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_116","data-name":"Path 116",d:"M477.35,715.9l-47.52,16.23v54.01l11.7,4,5.18,1.76,30.64,10.47,30.64-10.47,5.18-1.76,11.7-4v-54.01Zm0,3.54,40.59,13.86-40.59,13.86L436.76,733.3Zm-1.75,78.79-23.71-8.1-5.17-1.77-13.39-4.57v-48.12L475.6,750.1Zm45.77-14.44-13.39,4.57-5.17,1.77-23.71,8.1V750.1l42.27-14.43Z"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_165","data-name":"Group 165"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_164","data-name":"Group 164"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_163","data-name":"Group 163"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_117","data-name":"Path 117",d:"M526.239,667.537v56.73l-47.52,17.04-47.51-17.04v-56.73l47.51-17.05Zm-3.5,54.26v-50.54l-42.27,15.16v50.55Zm-44.02-38.47,40.59-14.56-40.59-14.56-40.58,14.56Zm-1.75,53.64v-50.55l-42.26-15.16V721.8Z"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_118","data-name":"Path 118",d:"M522.739,671.257V721.8l-42.27,15.17v-50.55Z",fill:"#5383b3"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_119","data-name":"Path 119",d:"M519.309,668.767l-40.59,14.56-40.58-14.56,40.58-14.56Z",fill:"#5383b3"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_120","data-name":"Path 120",d:"M476.969,686.417v50.55l-42.26-15.17v-50.54Z",fill:"#5383b3"}))))));};/* harmony default export */ __webpack_exports__["default"] = (Blockchaininfrastructure);
+
+/***/ }),
+
+/***/ 73:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var DevelopmentServices=function DevelopmentServices(_ref){var _ref$width=_ref.width,width=_ref$width===void 0?"314.409":_ref$width,_ref$height=_ref.height,height=_ref$height===void 0?"294.887":_ref$height;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:width,height:height,viewBox:"0 0 214.409 194.887"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_173","data-name":"Group 173",transform:"translate(-867.83 -625.28)"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_168","data-name":"Group 168"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_167","data-name":"Group 167"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_121","data-name":"Path 121",d:"M1082.239,642.33v56.73l-47.52,17.04-47.51-17.04V642.33l47.51-17.05Zm-3.5,54.26V646.05l-42.27,15.16v50.55Zm-44.02-38.47,40.59-14.56L1034.719,629l-40.58,14.56Zm-1.75,53.64V661.21l-42.26-15.16v50.54Z"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_122","data-name":"Path 122",d:"M1078.739,646.05v50.54l-42.27,15.17v-50.55Z",fill:"#5383b3"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_123","data-name":"Path 123",d:"M1075.309,643.56l-40.59,14.56-40.58-14.56,40.58-14.56Z",fill:"#5383b3"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_124","data-name":"Path 124",d:"M1032.969,661.211v50.55l-42.26-15.17V646.05Z",fill:"#5383b3"}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_169","data-name":"Group 169"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_125","data-name":"Path 125",d:"M915.35,733.7l-1.75.6v3.54l1.4-.48.35-.12.65.22,1.1.38V734.3Zm0,40.47-1.75-.6v6.79l1.75.6,1.75-.6v-6.79Zm0,6.79-1.75-.6V796.3l1.75-.6,1.75.6v-15.94Zm0-16-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm17.48,45.7-15.73,5.37v-35.67l-1.75.6-1.75-.6v35.67l-15.73-5.37-3.5-1.2V813l3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2v-3.54Zm-15.73-46.3v3.54l15.73-5.37v-3.54Zm-1.75.6-1.75-.6-8.79-3-5.11,1.79,13.9,4.75v28.4l1.75-.6,1.75.6v-31.94Zm1.75-.6v3.54l15.73-5.37v-3.54Zm-1.75.6-1.75-.6-8.79-3-5.11,1.79,13.9,4.75v28.4l1.75-.6,1.75.6v-31.94Zm34.58-19.44h-.01l-.21-.08-5.19-1.78-3.71,1.27-1.47.5,5.18,1.77.3.11h.01l11.11,3.79-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6-8.79-3-6.94-2.37-3.5-1.19-19.61-6.7,11.42-3.9,5.18-1.77-1.47-.5-3.71-1.27-5.19,1.78-9.66,3.3-3.5,1.19v54.01l3.5,1.2,8.2,2.8,5.18,1.76,9.66,3.3,3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,9.66-3.3,5.18-1.76,11.7-4v-54.01Zm-36.33,70.51-15.73-5.37-3.5-1.2-4.48-1.53-5.17-1.77-13.39-4.57v-48.12l23.04,7.87,3.5,1.19,1.83.62,13.9,4.75Zm45.77-14.44-13.39,4.57-5.17,1.77-4.48,1.53-3.5,1.2-15.73,5.37V767.9l15.73-5.37,3.5-1.19,23.04-7.87Zm-44.02-36.63-1.75-.6-8.79-3-5.11,1.79,13.9,4.75v28.4l1.75-.6,1.75.6v-31.94Zm1.75-.6v3.54l15.73-5.37v-3.54Zm-1.75.6-1.75-.6-8.79-3-5.11,1.79,13.9,4.75v28.4l1.75-.6,1.75.6v-31.94Zm1.75-.6v3.54l15.73-5.37v-3.54Zm15.73,46.3-15.73,5.37v-35.67l-1.75.6-1.75-.6v35.67l-15.73-5.37-3.5-1.2V813l3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2v-3.54Zm-17.48-45.7-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,9.21-1.75-.6V796.3l1.75-.6,1.75.6v-22.73Z"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_170","data-name":"Group 170"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_126","data-name":"Path 126",d:"M915.35,701.957l-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38v-36.48Zm-17.48-5.97-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm17.48,5.97-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38v-36.48Zm-17.48-5.97-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm17.48,10.71-1.75.6v30.54l1.4-.48.35-.12.65.22,1.1.38V707.3Zm-17.48-10.71-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm41.47,49.44-3.01,1.03-3.5,1.19-15.73,5.38v-34.67l-1.75.6-1.75-.6v34.67l-15.73-5.38-3.5-1.19-3.01-1.03-5.18,1.77,8.19,2.8,3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8Zm-41.47-49.44-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm41.47,49.44-3.01,1.03-3.5,1.19-15.73,5.38v-34.67l-1.75.6-1.75-.6v34.67l-15.73-5.38-3.5-1.19V750l3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8Zm-41.47-49.44-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm61.5-10.25-23.04-7.87-3.5-1.2L917.1,671.3l-1.75-.6-1.75.6-15.73,5.37-3.5,1.2-23.04,7.87-3.5,1.19v54.01l3.5,1.2,8.2,2.8,1.46.5,3.72,1.26,1.47.5,8.19,2.8,3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8,1.47-.5,3.72-1.26,1.46-.5,11.7-4v-54.01Zm-65-4.34,3.5-1.19,15.73-5.37,1.75-.6,1.75.6,15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6-15.73-5.37-3.5-1.19-19.61-6.7Zm19.23,71.63-15.73-5.38-3.5-1.19-3.01-1.03-1.47-.5-3.71-1.27-1.46-.5-13.39-4.57v-48.12l23.04,7.87,3.5,1.19,15.73,5.37Zm45.77-14.44-13.39,4.57-1.46.5-3.71,1.27-1.47.5-3.01,1.03-3.5,1.19-15.73,5.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87Zm-61.5-42.6-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm41.47,49.44-3.01,1.03-3.5,1.19-15.73,5.38v-34.67l-1.75.6-1.75-.6v34.67l-15.73-5.38-3.5-1.19-3.01-1.03-5.18,1.77,8.19,2.8,3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8Zm-41.47-49.44v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm17.48,10.71-1.75.6v30.54l1.4-.48.35-.12.65.22,1.1.38V707.3Zm-17.48-10.71-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm17.48,5.97-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38v-36.48Zm-17.48-5.97-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm0,51.66-3.5-1.19-3.01-1.03-5.18,1.77,8.19,2.8,3.5,1.2,15.73,5.37v-3.54Zm17.48-28.69-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm.65,18.5-.65-.22-.35.12-1.4.48V750.3l1.75-.6,1.75.6v-12.46Zm-.65-30.76-1.75.6v11.06l1.75.6,1.75-.6V707.3Z"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_171","data-name":"Group 171"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("rect",{id:"Rectangle_15","data-name":"Rectangle 15",width:"1",height:"3",transform:"translate(915 735.457)"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_172","data-name":"Group 172"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_127","data-name":"Path 127",d:"M980.35,750.167l-1.75-.6v7.79l1.75.6,1.75-.6v-7.79Zm.65,26.29-.65-.22-.35.12-1.4.48V789.3l1.75-.6,1.75.6v-12.46Zm-.65-18.5-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-17.48,28.69-3.5-1.19V789l3.5,1.2,15.73,5.37v-3.54Zm8.64-48.71-8.64-2.95-3.5-1.19v3.54l3.5,1.19,3.53,1.2,12.2,4.17v-3.54Zm8.84,20.02-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-47.52,1.03v3.54l3.5-1.19V757.8Zm47.52-1.03-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-47.52,1.03v3.54l3.5-1.19V757.8Zm83.81-36.9h-.01l-15.3-5.22-3.5-1.2L982.1,710.3l-1.75-.6-1.75.6-15.73,5.37-3.5,1.2v3.53l3.5-1.19,15.73-5.37,1.4-.48.35-.12.65.22,1.1.38,15.73,5.37,3.5,1.19,10.2,3.48h.01l9.4,3.22-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6-7.09-2.42-8.64-2.95-3.5-1.19v3.54l3.5,1.19,3.53,1.2,12.2,4.17v48.13l-15.73-5.38-3.5-1.19V789l3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8,1.47-.5,3.72-1.26,1.46-.5,11.7-4v-54.01Zm7.73,55.5-13.39,4.57-1.46.5-3.71,1.27-1.47.5-3.01,1.03-3.5,1.19-15.73,5.38V743.9l15.73-5.37,3.5-1.19,23.04-7.87Zm-91.54-15.06,3.5-1.19V757.8l-3.5,1.19Zm47.52-4.57-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-47.52,1.03v3.54l3.5-1.19V757.8Zm0-11.34v3.55l3.5-1.2v-3.54Zm47.52,10.31-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-47.52,1.03v3.54l3.5-1.19V757.8Zm47.52-1.03-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Z"}))));};/* harmony default export */ __webpack_exports__["default"] = (DevelopmentServices);
 
 /***/ })
 

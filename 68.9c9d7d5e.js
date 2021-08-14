@@ -1,29 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[27,5,11,32,60,72],{
-
-/***/ 100:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(151);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(210);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(767);
-/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(209);
-/* harmony import */ var _theme_BlogPostItem__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(689);
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(247);
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var metaData={title:"EOS Costa Rica: Blog Tags",description:"",img:"img/metaImgBlack.png"};var colors=["rgb(240,240,240,0.5)","rgb(255,255,255,0)"];function pluralize(count,word){return count>1?word+"s":word;}function BlogTagsPostPage(props){var metadata=props.metadata,items=props.items;var tagName=metadata.name,count=metadata.count;var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_1__["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_1__["useMediaQuery"])({query:'(min-width: 960px)'});var history=Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__[/* useHistory */ "k"])();var HeroSection=function HeroSection(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"containerSec"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"sectionHeroBlog",style:{marginBottom:"10px"}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,count," ",pluralize(count,'artículo')," ",pluralize(count,'etiquetado')," con \"",tagName,"\"")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"doubleSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonSecondary",style:{padding:"19px",height:"90px",width:"100%"},onClick:function onClick(){return history.push("/blog/tags");}},"Ver todas las etiquetas")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonSecondary",style:{padding:"19px",height:"90px",width:"100%"},onClick:function onClick(){return history.push("/blog/");}},"Ver todas los art\xEDculos"))))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"sectionHeroMobileBlog",style:{marginBottom:"50px"}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,count," ",pluralize(count,'post'),"  etiquetados con \"",tagName,"\"")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"buttonBoxMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/blog/tags");}},"Ver todas las etiquetas"))));};var ListArticles=function ListArticles(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"section"},items.map(function(_ref,index){var BlogPostContent=_ref.content;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_BlogPostItem__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"],{key:BlogPostContent.metadata.permalink,frontMatter:BlogPostContent.frontMatter,metadata:BlogPostContent.metadata,truncated:BlogPostContent.metadata.truncated,color:colors[index%2],isMobile:isMobile});})));};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"],{title:metaData.title,description:metaData.description,image:metaData.img},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_3__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_3__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListArticles,null))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ListArticles,null)));}/* harmony default export */ __webpack_exports__["default"] = (BlogTagsPostPage);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[68,5,11,32,60,72],{
 
 /***/ 133:
 /***/ (function(module, exports, __webpack_require__) {
@@ -3296,7 +3271,7 @@ var dist = __webpack_require__(212);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function LayoutHead(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig;var siteTitle=siteConfig.title,favicon=siteConfig.favicon,_siteConfig$themeConf=siteConfig.themeConfig,defaultImage=_siteConfig$themeConf.image,metadatas=_siteConfig$themeConf.metadatas,siteUrl=siteConfig.url;var title=props.title,description=props.description,image=props.image,hrefLangPath=props.hrefLangPath,keywords=props.keywords,permalink=props.permalink;var metaTitle=title||siteTitle;var metaImage=image||defaultImage;var metaImageUrl=Object(useBaseUrl["a" /* default */])(metaImage,{absolute:true});var faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);var htmlLang="es";var location=Object(react_router["l" /* useLocation */])();return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:htmlLang}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:"Image for "+metaTitle}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),permalink&&/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:"https://es.eoscostarica.io"+location.pathname,hreflang:"es-us"}),hrefLangPath&&/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:hrefLangPath,hreflang:"en-us"}),/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:"https://es.eoscostarica.io"+location.pathname})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */]// it's important to have an additional <Head> element here,
+ */function LayoutHead(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig;var siteTitle=siteConfig.title,favicon=siteConfig.favicon,_siteConfig$themeConf=siteConfig.themeConfig,defaultImage=_siteConfig$themeConf.image,metadatas=_siteConfig$themeConf.metadatas,siteUrl=siteConfig.url;var title=props.title,description=props.description,image=props.image,hrefLangPath=props.hrefLangPath,keywords=props.keywords,permalink=props.permalink;var metaTitle=title||siteTitle;var metaImage=image||defaultImage;var metaImageUrl=Object(useBaseUrl["a" /* default */])(metaImage,{absolute:true});var faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);var htmlLang="es-us";var location=Object(react_router["l" /* useLocation */])();return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:htmlLang}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:"Image for "+metaTitle}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),permalink&&/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:"https://es.eoscostarica.io"+location.pathname,hreflang:"es-us"}),hrefLangPath&&/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:hrefLangPath,hreflang:"en-us"}),/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:"https://es.eoscostarica.io"+location.pathname})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */]// it's important to have an additional <Head> element here,
 // as it allows react-helmet to override values set in previous <Head>
 // ie we can override default metadatas such as "twitter:card"
 // In same Head, the same meta would appear twice instead of overriding
@@ -7765,229 +7740,20 @@ var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__W
 
 /***/ }),
 
-/***/ 689:
+/***/ 699:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(146);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(767);
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(247);
-/* harmony import */ var _material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(697);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(151);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_5__);
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var MONTHS=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio ','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];function BlogPostItem(props){var frontMatter=props.frontMatter,metadata=props.metadata,color=props.color,isMobile=props.isMobile;var date=metadata.date,permalink=metadata.permalink,readingTime=metadata.readingTime;var author=frontMatter.author,title=frontMatter.title,image=frontMatter.image;var authorURL=frontMatter.author_url||frontMatter.authorURL;var authorTitle=frontMatter.author_title||frontMatter.authorTitle;var authorImageURL=frontMatter.author_image_url||frontMatter.authorImageURL;var imageUrl=Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(image);var tempImage=Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])("img/metaImgBlack.png");var isXS=Object(react_responsive__WEBPACK_IMPORTED_MODULE_5__["useMediaQuery"])({query:'(min-width: 400px)'});var BlogHeader=function BlogHeader(){var match=date.substring(0,10).split('-');var year=match[0];var month=MONTHS[parseInt(match[1],10)-1];var day=parseInt(match[2],10);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"blogHeaderListPage",style:{width:'100%'}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,title),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{marginBottom:'20px',marginTop:'10px'}},day," de ",month,", ",year,' ',readingTime&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null," \xB7 ",Math.ceil(readingTime)," minutos de lectura"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"blogAvatarBox"},isXS&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Avatar__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{src:authorImageURL,alt:author,style:{width:'48px',height:'48px'}}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"blogAvatarTextBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{className:"blogAuthorTile",style:{fontWeight:'bold',color:'black'},href:authorURL,target:"_blank"},author),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5",null,authorTitle))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{className:"blogReadMoreText",href:permalink},"Leer m\xE1s \u276F"))));};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{style:{backgroundColor:color},className:"blogPostItemBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{container:true,spacing:isMobile?0:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{item:true,xs:12,md:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:imageUrl||tempImage,alt:"blog post image",className:"imgListBlogPost"}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{item:true,xs:12,md:7},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{className:"blogCenterHeaderItem"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlogHeader,null)))));}/* harmony default export */ __webpack_exports__["a"] = (BlogPostItem);
-
-/***/ }),
-
-/***/ 697:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// UNUSED EXPORTS: styles
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
-var esm_extends = __webpack_require__(3);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
-var objectWithoutProperties = __webpack_require__(131);
-
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(0);
-
-// EXTERNAL MODULE: ./node_modules/prop-types/index.js
-var prop_types = __webpack_require__(1);
-
-// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
-var clsx_m = __webpack_require__(132);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
-var withStyles = __webpack_require__(135);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/createSvgIcon.js + 1 modules
-var createSvgIcon = __webpack_require__(177);
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/internal/svg-icons/Person.js
-
-
-/**
- * @ignore - internal component.
- */
-
-/* harmony default export */ var Person = (Object(createSvgIcon["a" /* default */])( /*#__PURE__*/react["createElement"]("path", {
-  d: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
-}), 'Person'));
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Avatar/Avatar.js
-
-
-
-
-
-
-
-
-var styles = function styles(theme) {
-  return {
-    /* Styles applied to the root element. */
-    root: {
-      position: 'relative',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      flexShrink: 0,
-      width: 40,
-      height: 40,
-      fontFamily: theme.typography.fontFamily,
-      fontSize: theme.typography.pxToRem(20),
-      lineHeight: 1,
-      borderRadius: '50%',
-      overflow: 'hidden',
-      userSelect: 'none'
-    },
-
-    /* Styles applied to the root element if not `src` or `srcSet`. */
-    colorDefault: {
-      color: theme.palette.background.default,
-      backgroundColor: theme.palette.type === 'light' ? theme.palette.grey[400] : theme.palette.grey[600]
-    },
-
-    /* Styles applied to the root element if `variant="circle"`. */
-    circle: {},
-
-    /* Styles applied to the root element if `variant="circular"`. */
-    circular: {},
-
-    /* Styles applied to the root element if `variant="rounded"`. */
-    rounded: {
-      borderRadius: theme.shape.borderRadius
-    },
-
-    /* Styles applied to the root element if `variant="square"`. */
-    square: {
-      borderRadius: 0
-    },
-
-    /* Styles applied to the img element if either `src` or `srcSet` is defined. */
-    img: {
-      width: '100%',
-      height: '100%',
-      textAlign: 'center',
-      // Handle non-square image. The property isn't supported by IE 11.
-      objectFit: 'cover',
-      // Hide alt text.
-      color: 'transparent',
-      // Hide the image broken icon, only works on Chrome.
-      textIndent: 10000
-    },
-
-    /* Styles applied to the fallback icon */
-    fallback: {
-      width: '75%',
-      height: '75%'
-    }
-  };
-};
-
-function useLoaded(_ref) {
-  var src = _ref.src,
-      srcSet = _ref.srcSet;
-
-  var _React$useState = react["useState"](false),
-      loaded = _React$useState[0],
-      setLoaded = _React$useState[1];
-
-  react["useEffect"](function () {
-    if (!src && !srcSet) {
-      return undefined;
-    }
-
-    setLoaded(false);
-    var active = true;
-    var image = new Image();
-    image.src = src;
-    image.srcSet = srcSet;
-
-    image.onload = function () {
-      if (!active) {
-        return;
-      }
-
-      setLoaded('loaded');
-    };
-
-    image.onerror = function () {
-      if (!active) {
-        return;
-      }
-
-      setLoaded('error');
-    };
-
-    return function () {
-      active = false;
-    };
-  }, [src, srcSet]);
-  return loaded;
-}
-
-var Avatar_Avatar = /*#__PURE__*/react["forwardRef"](function Avatar(props, ref) {
-  var alt = props.alt,
-      childrenProp = props.children,
-      classes = props.classes,
-      className = props.className,
-      _props$component = props.component,
-      Component = _props$component === void 0 ? 'div' : _props$component,
-      imgProps = props.imgProps,
-      sizes = props.sizes,
-      src = props.src,
-      srcSet = props.srcSet,
-      _props$variant = props.variant,
-      variant = _props$variant === void 0 ? 'circular' : _props$variant,
-      other = Object(objectWithoutProperties["a" /* default */])(props, ["alt", "children", "classes", "className", "component", "imgProps", "sizes", "src", "srcSet", "variant"]);
-
-  var children = null; // Use a hook instead of onError on the img element to support server-side rendering.
-
-  var loaded = useLoaded({
-    src: src,
-    srcSet: srcSet
-  });
-  var hasImg = src || srcSet;
-  var hasImgNotFailing = hasImg && loaded !== 'error';
-
-  if (hasImgNotFailing) {
-    children = /*#__PURE__*/react["createElement"]("img", Object(esm_extends["a" /* default */])({
-      alt: alt,
-      src: src,
-      srcSet: srcSet,
-      sizes: sizes,
-      className: classes.img
-    }, imgProps));
-  } else if (childrenProp != null) {
-    children = childrenProp;
-  } else if (hasImg && alt) {
-    children = alt[0];
-  } else {
-    children = /*#__PURE__*/react["createElement"](Person, {
-      className: classes.fallback
-    });
-  }
-
-  return /*#__PURE__*/react["createElement"](Component, Object(esm_extends["a" /* default */])({
-    className: Object(clsx_m["a" /* default */])(classes.root, classes.system, classes[variant], className, !hasImgNotFailing && classes.colorDefault),
-    ref: ref
-  }, other), children);
-});
- false ? undefined : void 0;
-/* harmony default export */ var esm_Avatar_Avatar = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(styles, {
-  name: 'MuiAvatar'
-})(Avatar_Avatar));
+/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(210);
+/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(151);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(209);
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(767);
+function NotFound(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_2__["useMediaQuery"])({query:'(max-width: 1100px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_2__["useMediaQuery"])({query:'(min-width: 1100px)'});return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],null,isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"sectionHero"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",{className:"centerText"},"Oops! No pudimos encontrar esta p\xE1gina."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",{className:"centerText"},"Por favor, regrese a la ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/"},"p\xE1gina de inicio")," y vuelva a intentarlo.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{className:"centerText"},"Si tiene alguna pregunta sobre EOSIO y blockchain, ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/contactenos"},"cont\xE1ctenos")," o visite nuestro ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/blog"},"blog"),"!"))))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"sectionHeroMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"section"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Oops! No pudimos encontrar esta p\xE1gina."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Por favor, regrese a la ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/"},"p\xE1gina de inicio")," y vuelva a intentarlo.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Si tiene alguna pregunta sobre EOSIO y blockchain, ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/contactenos"},"cont\xE1ctenos ")," o visite nuestro ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"/blog"},"blog"),"!"))))));}/* harmony default export */ __webpack_exports__["default"] = (NotFound);
 
 /***/ })
 

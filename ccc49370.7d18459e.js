@@ -1,32 +1,409 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[54,5,11,17,32,44,50,53,60,70,72],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[52,5,11,32,60,72],{
 
-/***/ 118:
+/***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(210);
-/* harmony import */ var react_parallax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_parallax__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(311);
-/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(132);
-/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(209);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(151);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(146);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(767);
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(247);
-/* harmony import */ var _material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(698);
-/* harmony import */ var _material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(692);
-/* harmony import */ var _material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(691);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(2);
-/* harmony import */ var _components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(66);
-/* harmony import */ var _components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(63);
-/* harmony import */ var _SvgComponents_DevelopmentServices__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(73);
-/* harmony import */ var _SvgComponents_Blockchaininfrastructure__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(71);
-var MetaData={title:"EOS Costa Rica: Servicios",description:"EOS Costa Rica usa el protocolo de blockchain empresarial EOSIO para desarrollar soluciones para el mundo real.",img:"img/metaImgBlack.png",hrefLangPath:"https://eoscostarica.io/services"};var strategicLocationAccordion=[{title:'Interconectividad de redes',content:'Costa Rica cuenta con costas en los océanos Pacífico y Atlántico y conecta tres cables de fibra óptica submarinos – ARCOS-1, MAYA-1 y Pan American Crossing (PAC) – los cuales brindan la mayoría del ancho de banda del país. Esta interconexión provee conmutación en tiempo real y redundancia a nuestra infraestructura. Costa Rica es parte de las seis naciones centroamericanas interconectadas por una red de fibra óptica (REDCA). Adicionalmente, al tener conexiones directas a portadores upstream, permite a la red del país prevenir fallas de un solo punto.',target:'panel_interconnectivity'},{title:'Estructura política estable',content:'Costa Rica valora los Derechos Humanos, la Paz y la Democracia. El país es uno de los más estables y con mayor historia democrática en América. Costa Rica abolió su ejército en 1948 para promover la educación y el bienestar, y sobresale en cuanto a equidad e innovación. Además, la capital, San José, es base del Instituto Interamericano de Derechos Humanos.',target:'panel_framework'},{title:'Conciencia ambiental',content:'A pesar de ser un país pequeño, Costa Rica alberga a más del 4% de la biodiversidad del planeta. Los líderes del país han promovido la ecología y el desarrollo sostenible. Liderando con el ejemplo, más del 26% de su territorio lo componen áreas protegidas y Parques Nacionales.',target:'panel_awareness'}];var enterpriseBlockchainAccordionLeft=[{title:'Más transparencia',content:'Blockchain permite un registro de datos transparente y en tiempo real que puede incrementar la confianza y trazabilidad en los procesos, por ejemplo, logística o reclamos de seguros.',target:'panel_addedTransparency'},{title:'Mayor seguridad',content:'Las capacidades de encriptación e inmutabilidad de blockchain pueden reducir la manipulación de datos, errores causados por humanos y fraudes cibernéticos. Blockchain usa funciones hash – funciones matemáticas que transforman una entrada de información en líneas de código – lo que hace a las blockchains difíciles de hackear.',target:'panel_improvedSecurity'}];var enterpriseBlockchainAccordionRight=[{title:'Mayor eficiencia',content:'Los contratos inteligentes pueden ayudarle a procesar transacciones rápidamente, con mayor eficiencia en comparación a otras plataformas en la nube, y a un menor costo al reducir tarifas administrativas y eliminando intermediarios.',target:'panel_boostedEfficiency'},{title:'Auditabilidad mejorada',content:'Una blockchain permisionada permite a una organización controlar los accesos y autorizaciones en la red, aumentando la rendición de cuentas en el equipo y facilitando la auditabilidad.',target:'panel_enhancedAuditability'}];var solutionBaseAccordionLeft=[{title:'Enfoque centrado en el usuario',content:'Nos enfocamos en el usuario. Entendemos la importancia de investigar al usuario para identificar posibles puntos de dolor y necesidades. Una buena investigación nos ayuda a entender quién es el usuario para encontrar soluciones específicas a problemas.',target:'panel_userCentered'},{title:'Adaptabilidad e innovación',content:'Continuamente exploramos nuevas tendencias en tecnología blockchain para dar el mejor servicio a nuestros clientes. Además, ofrecemos una plataforma abierta e ilimitada que facilita la innovación.',target:'panel_daptabilityInnovation'}];var solutionBaseAccordionRight=[{title:'Tech stack dinámico',content:'Implementamos el tech stack más óptimo disponible para aprovechar el protocolo blockchain que usamos, el cual llamamos “EOS Dream Stack.” Este nos permite explorar más allá los distintos beneficios que ofrece la tecnología.',target:'panel_dynamicTech'},{title:'Metodologías ágiles',content:'Implementamos un enfoque Agile (ágil) que estimula la colaboración entre funciones, la flexibilidad y adaptabilidad para fomentar la mejora en todo momento.',target:'panel_agileMethodology'}];var ServicePage=function ServicePage(){var isMobile=Object(react_responsive__WEBPACK_IMPORTED_MODULE_5__["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive__WEBPACK_IMPORTED_MODULE_5__["useMediaQuery"])({query:'(min-width: 960px)'});var _useState=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('panel_interconnectivity'),expandedMap=_useState[0],setExpandedMap=_useState[1];var _useState2=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),expandedSolution=_useState2[0],setExpandedSolution=_useState2[1];var _useState3=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),expandedEnterprise=_useState3[0],setExpandedEnterprise=_useState3[1];var _useState4=Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('panel_Workshops'),expandedEducation=_useState4[0],setExpandedEducation=_useState4[1];var history=Object(react_router_dom__WEBPACK_IMPORTED_MODULE_12__[/* useHistory */ "k"])();var refDevelopment=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);var refInfraestrcture=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);var refEducation=Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);var handleScrollDev=function handleScrollDev(){return refDevelopment.current.scrollIntoView({behavior:'smooth',block:'start',inline:'nearest'});};var handleScrollInfra=function handleScrollInfra(){return refInfraestrcture.current.scrollIntoView({behavior:'smooth',block:'start',inline:'nearest'});};var handleScrollEdu=function handleScrollEdu(){return refEducation.current.scrollIntoView({behavior:'smooth',block:'start',inline:'nearest'});};var handleChangeMap=function handleChangeMap(panel){return function(event,newExpanded){setExpandedMap(newExpanded?panel:false);};};var handleChangeSolution=function handleChangeSolution(panel){return function(event,newExpanded){setExpandedSolution(newExpanded?panel:false);};};var handleChangeEnterprise=function handleChangeEnterprise(panel){return function(event,newExpanded){setExpandedEnterprise(newExpanded?panel:false);};};var handleChangeEducation=function handleChangeEducation(panel){return function(event,newExpanded){setExpandedEducation(newExpanded?panel:false);};};Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function(){handleChangeMap('panel_interconnectivity');handleChangeEducation('panel_Workshops');},[]);var HeroSection=function HeroSection(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"containerSec"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"sectionHero"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Soluciones blockchain ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," a la medida")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Potencie su organizaci\xF3n con tecnolog\xEDa blockchain. Nuestro equipo le ayudar\xE1 a explorar el poder de esta innovadora tecnolog\xEDa. Contamos con a\xF1os de experiencia integrando soluciones blockchain empresariales y desarrollando infraestructura para fines empresariales."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"doubleSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonSecondary",style:{padding:"19px",height:"90px",width:"100%"},onClick:handleScrollDev},"Desarrollo de",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"Servicios")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonSecondary",style:{padding:"19px",height:"90px",width:"100%"},onClick:handleScrollInfra},"Infraestructura",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"Blockchain")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonSecondary",style:{padding:"19px",height:"90px",width:"100%"},onClick:handleScrollEdu},"Educaci\xF3n y",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," Entrenamiento"))))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"sectionHeroMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1",null,"Soluciones blockchain a la medida")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Potencie su organizaci\xF3n con tecnolog\xEDa blockchain. Nuestro equipo le ayudar\xE1 a explorar el poder de esta innovadora tecnolog\xEDa.",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),"Contamos con a\xF1os de experiencia integrando soluciones blockchain empresariales y desarrollando infraestructura para fines empresariales."),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"buttonBoxMobile"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/la-empresa/");}},"Con\xF3zcanos"))));};var BlockchainDev=function BlockchainDev(){var _clsx;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{ref:refDevelopment,className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("section",(_clsx={},_clsx["sectionPadding"]=isMobile,_clsx))},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Servicios de desarrollo ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," de blockchain")),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SvgComponents_DevelopmentServices__WEBPACK_IMPORTED_MODULE_15__["default"],{width:"214.409"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Explore las posibilidades que ofrece la tecnolog\xEDa blockchain. Impulse sus operaciones con mayor transparencia, seguridad y trazabilidad. Contamos con experiencia trabajando con empresas globales de gran tama\xF1o y PYMES, entidades de gobierno, organizaciones sin fines de lucro, y proyectos de c\xF3digo abierto. Nuestro equipo es agn\xF3stico a la tecnolog\xEDa por lo que le guiaremos en encontrar la soluci\xF3n ideal. Nos especializamos en el protocolo blockchain de c\xF3digo abierto "," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://eos.io/",target:"_blank"},"EOSIO"),", por su adaptabilidad a cualquier industria en sectores p\xFAblico y privado. Visite nuestra ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/industrias"),target:"_blank"},"p\xE1gina de industrias")," para conocer m\xE1s."))),isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{style:{marginTop:'-40px'},className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SvgComponents_DevelopmentServices__WEBPACK_IMPORTED_MODULE_15__["default"],null))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:12},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Blockchain empresarial")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"EOS Costa Rica usa tecnolog\xEDa blockchain para dise\xF1ar soluciones empresariales que se integran a otros sistemas. Blockchain permite la implementaci\xF3n de contratos inteligentes \u2013 c\xF3digos de computadora que se pueden ejecutar de forma autom\xE1tica y aut\xF3noma. Los contratos inteligentes permiten mayor eficiencia y reducci\xF3n de costos asociados a transacciones. Lea m\xE1s sobre blockchain empresarial:")))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"accordionBox"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:enterpriseBlockchainAccordionLeft,expanded:expandedEnterprise,handleChange:handleChangeEnterprise,bgColor:'white'})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:enterpriseBlockchainAccordionRight,expanded:expandedEnterprise,handleChange:handleChangeEnterprise,bgColor:'white'}))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:enterpriseBlockchainAccordionLeft,expanded:expandedEnterprise,handleChange:handleChangeEnterprise,bgColor:'white'}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:enterpriseBlockchainAccordionRight,expanded:expandedEnterprise,handleChange:handleChangeEnterprise,bgColor:'white'}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"doubleSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:12},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Un enfoque en soluciones")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"El equipo multidisciplinario de EOS Costa Rica implementa metodolog\xEDas \xE1giles para mejores resultados. Buscamos eficiencia y colaboraci\xF3n y ponemos como prioridad las necesidades del cliente para desarrollar soluciones que agregan valor a los usuarios. Adem\xE1s, nos adaptamos al presupuesto del cliente sin comprometer el liderazgo y calidad en nuestro trabajo. Aprenda m\xE1s sobre nuestro estilo de trabajo:")))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"accordionBox"},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:solutionBaseAccordionLeft,expanded:expandedSolution,handleChange:handleChangeSolution,bgColor:'white'})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:solutionBaseAccordionRight,expanded:expandedSolution,handleChange:handleChangeSolution,bgColor:'white'}))),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:solutionBaseAccordionLeft,expanded:expandedSolution,handleChange:handleChangeSolution,bgColor:'white'}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:solutionBaseAccordionRight,expanded:expandedSolution,handleChange:handleChangeSolution,bgColor:'white'})))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Nuestro proceso de principio a fin")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:isDesktop?Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("centerBox","doubleSpacingBox"):Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("centerBox","reduceMargin")},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/process.jpg")}),!isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/processVertical.gif")})))));};var BlockchainInfrastructure=function BlockchainInfrastructure(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{ref:refInfraestrcture,className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"section"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Infraestructura ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," blockchain")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Infraestructura blockchain de primer nivel")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Una blockchain opera como una red descentralizada entre pares en la que varias computadoras o \u201Cnodos\u201D se interconectan entre s\xED. Estos nodos mantienen una copia de los registros y act\xFAan como validadores de nuevas transacciones. Estas caracter\xEDsticas hacen que el desarrollo de redes robustas sea cr\xEDtico para cumplir con los requisitos de una blockchain.")),isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SvgComponents_Blockchaininfrastructure__WEBPACK_IMPORTED_MODULE_16__["default"],null)))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"topSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",null," Desarrollo de nodos de blockchain")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Configuramos, hospedamos y damos mantenimiento a nodos de blockchain y redes para usos p\xFAblico y privado con monitoreo y uptime 24/7. Esto permite a cualquier organizaci\xF3n implementar redes de acuerdo a sus requisitos y necesidades.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",null,"API endpoints")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"La red de nuestro datacenter permite la instalaci\xF3n de API endpoints entre blockchains y otros tech stacks. Un API endpoint es un punto de contacto de comunicaci\xF3n e interacci\xF3n entre un API (Programa de Interfaz de Aplicaciones) y un servidor.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",null,"Infraestructura lista para usar")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Desarrollamos una infraestructura robusta y de primer nivel, lista para hospedar redes blockchain para nuestros clientes y proyectos de c\xF3digo abierto desde nuestro datacenter en Costa Rica.")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",null,"Experiencia implementando redes")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Nos aliamos con entidades locales e instituciones multilaterales de desarrollo para participar en el desarrollo de redes blockchain y plataformas de blockchain como servicio.")))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"doubleSpacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Ubicaci\xF3n estrat\xE9gica")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Nuestro datacenter, ubicado en San Jos\xE9, Costa Rica, est\xE1 estrat\xE9gicamente ubicado en el medio del continente americano, permitiendo as\xED interconectividad conveniente entre redes. Costa Rica ofrece alta estabilidad pol\xEDtica, una democracia de muchos a\xF1os, altos \xEDndices de educaci\xF3n y una estructura corporativa flexible \u2013 todo esto apropiado para redes descentralizadas. Estas son algunas de las ventajas que este pa\xEDs puede a\xF1adir a su infraestructura:")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:!isMobile?"centerBox":Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])("centerBox","reduceMargin")},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/map-loacation.svg")}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"accordionBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AccordionComp__WEBPACK_IMPORTED_MODULE_13__["default"],{data:strategicLocationAccordion,expanded:expandedMap,handleChange:handleChangeMap,bgColor:'white'}))))));};var EducationTraining=function EducationTraining(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{ref:refEducation,className:"containerGray"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"sectionPadding"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null,"Educaci\xF3n y entrenamiento")),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/imgCubes/eos-education.svg")})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"accordionBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"],{square:true,expanded:expandedEducation==='panel_Workshops',onChange:handleChangeEducation('panel_Workshops'),style:{backgroundColor:'#f8f8f8',boxShadow:'none'},className:"accordion"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"],{style:{padding:1},expandIcon:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2___default.a,{style:{color:'#5484B3'}})},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",{style:{margin:'2px',padding:0}},"Talleres ejecutivos")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],{style:{padding:1}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{padding:0}},"Sabemos que tecnolog\xEDas tan innovadoras como blockchain pueden tener una curva de aprendizaje pronunciada. Por eso, ofrecemos talleres sobre blockchain y tecnolog\xEDa EOSIO para ejecutivos, directivos y equipos que quieran mantenerse actualizados y aprender m\xE1s sobre blockchain y casos de uso empresariales. Estos talleres incluyen contenido multimodal como videos, charlas y casos de uso."))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"],{square:true,expanded:expandedEducation==='panel_Developers',onChange:handleChangeEducation('panel_Developers'),style:{backgroundColor:'#f8f8f8',boxShadow:'none'},className:"accordion"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"],{style:{padding:1},expandIcon:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2___default.a,{style:{color:'#5484B3'}})},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",{style:{margin:'2px',padding:0}},"Entrenamiento para desarrolladores")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],{style:{padding:1}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{padding:0}},"Tambi\xE9n brindamos recursos de entrenamiento y educativos para nuevos talentos que quieran iniciar su carrera en blockchain y el protocolo EOSIO. Recopilamos materiales de aprendizaje y gu\xEDas para desarrolladores en un portal web. Puede acceder ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://guide.eoscostarica.io/",target:"_blank"},"aqu\xED"),". Adem\xE1s, puede ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/contactenos/"),target:"_blank"},"consultarnos ")," sobre nuestros cursos de entrenamiento para compa\xF1\xEDas y equipos."))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"],{square:true,expanded:expandedEducation==='panel_Building',onChange:handleChangeEducation('panel_Building'),style:{backgroundColor:'#f8f8f8',boxShadow:'none'},className:"accordion"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"],{style:{padding:1},expandIcon:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_2___default.a,{style:{color:'#5484B3'}})},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",{style:{margin:'2px',padding:0}},"Desarrollo de comunidad")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"],{style:{padding:1}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{padding:0}},"Ayudamos a promover los ecosistemas de blockchain y EOSIO al organizar y asistir a actividades de la comunidad. Tambi\xE9n, nos gusta hablar sobre blockchain y participar en eventos relacionados a tecnolog\xEDa e innovaci\xF3n. Todos los a\xF1os organizamos un evento de team-building llamado "," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://eosurf.com/",target:"_blank"}," EOSurf "),"en el que llevamos las operaciones a la playa por algunos d\xEDas para cambiar las computadores y c\xF3digo por sesiones de yoga y surf."))))),isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:6},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"centerBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/img/imgCubes/eos-education.svg")})))))));};var IndustryBlockchain=function IndustryBlockchain(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"containerSec"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"sectionPadding"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"titleBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",null," \xBFC\xF3mo puede su industria implementar ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," blockchain?")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"La tecnolog\xEDa blockchain tiene las capacidades de transformar muchas industrias, incluyendo:"),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"spacingBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{container:true,spacing:7},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"imgBoxServices"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("img/icons/logistics.svg"),style:{paddingTop:'25px'},className:"imageIndrustries"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Pagos y transferencias")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Blockchain permite una manera eficiente y segura para registrar transacciones. Blockchain puede facilitar los pagos y la auditabilidad en tiempo real con encriptaci\xF3n para reducir la filtraci\xF3n de datos."," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:"https://eoscostarica.medium.com/why-integrating-erp-systems-into-blockchain-is-a-great-idea-e384b298a4a8",target:"_blank"},"Aprende m\xE1s"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"imgBoxServices"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("img/icons/payments.svg"),style:{paddingTop:'25px'},className:"imageIndrustriesLogistics"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Log\xEDstica")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"En una industria que involucra a docenas de participantes, las capacidades de blockchain y de los contratos inteligentes son ideales para trazabilidad, gesti\xF3n de autorizaciones y automatizaci\xF3n."," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/blog/blockchain-logistics"),target:"_blank"},"Aprende m\xE1s"))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"imgBoxServices"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img",{src:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("img/icons/gaming.svg"),style:{paddingTop:'20px'},className:"imageIndrustries"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"h3Box"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3",null,"Videojuegos")),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Blockchain permite una mejor manera de transferir, valorizar y coleccionar activos digitales de juegos. Adem\xE1s, las capacidades de mejorar la seguridad y ofrecer transacciones m\xE1s eficientes pueden subir el nivel de los juegos en l\xEDnea."," ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/blog/gaming-blockchain"),target:"_blank"},"Aprende m\xE1s"))))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",null,"Aprenda m\xE1s sobre c\xF3mo otras industrias se est\xE1n transformando con blockchain. ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a",{href:Object(_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])("/industrias")},"Leer m\xE1s."))));};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Layout__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{title:MetaData.title,description:MetaData.description,image:MetaData.img,hrefLangPath:MetaData.hrefLangPath},isDesktop&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Parallax"],{strength:800},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_parallax__WEBPACK_IMPORTED_MODULE_1__["Background"],{className:"bgParallax"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"imgParallax"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlockchainDev,null)),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlockchainInfrastructure,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(EducationTraining,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IndustryBlockchain,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_14__["default"],null)),isMobile&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"],{className:"mainContainer"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroSection,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlockchainDev,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlockchainInfrastructure,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(EducationTraining,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IndustryBlockchain,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ContactUsBanner__WEBPACK_IMPORTED_MODULE_14__["default"],null)));};/* harmony default export */ __webpack_exports__["default"] = (ServicePage);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// EXTERNAL MODULE: ./src/theme/Layout/index.js + 14 modules
+var Layout = __webpack_require__(209);
+
+// EXTERNAL MODULE: ./node_modules/react-parallax/lib/index.js
+var lib = __webpack_require__(210);
+
+// EXTERNAL MODULE: ./node_modules/react-responsive/dist/react-responsive.js
+var react_responsive = __webpack_require__(151);
+
+// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
+var react_router = __webpack_require__(2);
+
+// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+var clsx_m = __webpack_require__(132);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Box/Box.js + 12 modules
+var Box = __webpack_require__(767);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Grid/Grid.js
+var Grid = __webpack_require__(247);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Divider/Divider.js
+var Divider = __webpack_require__(722);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Avatar/Avatar.js + 1 modules
+var Avatar = __webpack_require__(697);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
+var useBaseUrl = __webpack_require__(146);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Chip/Chip.js + 1 modules
+var Chip = __webpack_require__(742);
+
+// CONCATENATED MODULE: ./node_modules/react-share/es/utils/assert.js
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var AssertionError = /** @class */ (function (_super) {
+    __extends(AssertionError, _super);
+    function AssertionError(message) {
+        var _this = _super.call(this, message) || this;
+        _this.name = 'AssertionError';
+        return _this;
+    }
+    return AssertionError;
+}(Error));
+function assert(value, message) {
+    if (!value) {
+        throw new AssertionError(message);
+    }
+}
+
+// CONCATENATED MODULE: ./node_modules/react-share/es/utils/objectToGetParams.js
+function objectToGetParams(object) {
+    var params = Object.entries(object)
+        .filter(function (_a) {
+        var value = _a[1];
+        return value !== undefined && value !== null;
+    })
+        .map(function (_a) {
+        var key = _a[0], value = _a[1];
+        return encodeURIComponent(key) + "=" + encodeURIComponent(String(value));
+    });
+    return params.length > 0 ? "?" + params.join('&') : '';
+}
+
+// EXTERNAL MODULE: ./node_modules/classnames/index.js
+var classnames = __webpack_require__(739);
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+
+// CONCATENATED MODULE: ./node_modules/react-share/es/ShareButton.js
+var ShareButton_extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+var __rest = (undefined && undefined.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+};
+
+
+var isPromise = function (obj) {
+    return !!obj && (typeof obj === 'object' || typeof obj === 'function') && typeof obj.then === 'function';
+};
+var getBoxPositionOnWindowCenter = function (width, height) { return ({
+    left: window.outerWidth / 2 + (window.screenX || window.screenLeft || 0) - width / 2,
+    top: window.outerHeight / 2 + (window.screenY || window.screenTop || 0) - height / 2,
+}); };
+var getBoxPositionOnScreenCenter = function (width, height) { return ({
+    top: (window.screen.height - height) / 2,
+    left: (window.screen.width - width) / 2,
+}); };
+function windowOpen(url, _a, onClose) {
+    var height = _a.height, width = _a.width, configRest = __rest(_a, ["height", "width"]);
+    var config = __assign({ height: height,
+        width: width, location: 'no', toolbar: 'no', status: 'no', directories: 'no', menubar: 'no', scrollbars: 'yes', resizable: 'no', centerscreen: 'yes', chrome: 'yes' }, configRest);
+    var shareDialog = window.open(url, '', Object.keys(config)
+        .map(function (key) { return key + "=" + config[key]; })
+        .join(', '));
+    if (onClose) {
+        var interval_1 = window.setInterval(function () {
+            try {
+                if (shareDialog === null || shareDialog.closed) {
+                    window.clearInterval(interval_1);
+                    onClose(shareDialog);
+                }
+            }
+            catch (e) {
+                /* eslint-disable no-console */
+                console.error(e);
+                /* eslint-enable no-console */
+            }
+        }, 1000);
+    }
+    return shareDialog;
+}
+var ShareButton_ShareButton = /** @class */ (function (_super) {
+    ShareButton_extends(ShareButton, _super);
+    function ShareButton() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.openShareDialog = function (link) {
+            var _a = _this.props, onShareWindowClose = _a.onShareWindowClose, _b = _a.windowHeight, windowHeight = _b === void 0 ? 400 : _b, _c = _a.windowPosition, windowPosition = _c === void 0 ? 'windowCenter' : _c, _d = _a.windowWidth, windowWidth = _d === void 0 ? 550 : _d;
+            var windowConfig = __assign({ height: windowHeight, width: windowWidth }, (windowPosition === 'windowCenter'
+                ? getBoxPositionOnWindowCenter(windowWidth, windowHeight)
+                : getBoxPositionOnScreenCenter(windowWidth, windowHeight)));
+            windowOpen(link, windowConfig, onShareWindowClose);
+        };
+        _this.handleClick = function (event) { return __awaiter(_this, void 0, void 0, function () {
+            var _a, beforeOnClick, disabled, networkLink, onClick, url, openShareDialogOnClick, opts, link, returnVal;
+            return __generator(this, function (_b) {
+                switch (_b.label) {
+                    case 0:
+                        _a = this.props, beforeOnClick = _a.beforeOnClick, disabled = _a.disabled, networkLink = _a.networkLink, onClick = _a.onClick, url = _a.url, openShareDialogOnClick = _a.openShareDialogOnClick, opts = _a.opts;
+                        link = networkLink(url, opts);
+                        if (disabled) {
+                            return [2 /*return*/];
+                        }
+                        event.preventDefault();
+                        if (!beforeOnClick) return [3 /*break*/, 2];
+                        returnVal = beforeOnClick();
+                        if (!isPromise(returnVal)) return [3 /*break*/, 2];
+                        return [4 /*yield*/, returnVal];
+                    case 1:
+                        _b.sent();
+                        _b.label = 2;
+                    case 2:
+                        if (openShareDialogOnClick) {
+                            this.openShareDialog(link);
+                        }
+                        if (onClick) {
+                            onClick(event, link);
+                        }
+                        return [2 /*return*/];
+                }
+            });
+        }); };
+        return _this;
+    }
+    ShareButton.prototype.render = function () {
+        var _a = this.props, beforeOnClick = _a.beforeOnClick, children = _a.children, className = _a.className, disabled = _a.disabled, disabledStyle = _a.disabledStyle, forwardedRef = _a.forwardedRef, networkLink = _a.networkLink, networkName = _a.networkName, onShareWindowClose = _a.onShareWindowClose, openShareDialogOnClick = _a.openShareDialogOnClick, opts = _a.opts, resetButtonStyle = _a.resetButtonStyle, style = _a.style, url = _a.url, windowHeight = _a.windowHeight, windowPosition = _a.windowPosition, windowWidth = _a.windowWidth, rest = __rest(_a, ["beforeOnClick", "children", "className", "disabled", "disabledStyle", "forwardedRef", "networkLink", "networkName", "onShareWindowClose", "openShareDialogOnClick", "opts", "resetButtonStyle", "style", "url", "windowHeight", "windowPosition", "windowWidth"]);
+        var newClassName = classnames_default()('react-share__ShareButton', {
+            'react-share__ShareButton--disabled': !!disabled,
+            disabled: !!disabled,
+        }, className);
+        var newStyle = resetButtonStyle
+            ? __assign(__assign({ backgroundColor: 'transparent', border: 'none', padding: 0, font: 'inherit', color: 'inherit', cursor: 'pointer' }, style), (disabled && disabledStyle)) : __assign(__assign({}, style), (disabled && disabledStyle));
+        return (react_default.a.createElement("button", __assign({}, rest, { "aria-label": rest['aria-label'] || networkName, className: newClassName, onClick: this.handleClick, ref: forwardedRef, style: newStyle }), children));
+    };
+    ShareButton.defaultProps = {
+        disabledStyle: { opacity: 0.6 },
+        openShareDialogOnClick: true,
+        resetButtonStyle: true,
+    };
+    return ShareButton;
+}(react["Component"]));
+/* harmony default export */ var es_ShareButton = (ShareButton_ShareButton);
+
+// CONCATENATED MODULE: ./node_modules/react-share/es/hocs/createShareButton.js
+var createShareButton_assign = (undefined && undefined.__assign) || function () {
+    createShareButton_assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return createShareButton_assign.apply(this, arguments);
+};
+
+
+function createShareButton(networkName, link, optsMap, defaultProps) {
+    function CreatedButton(props, ref) {
+        var opts = optsMap(props);
+        var passedProps = createShareButton_assign({}, props);
+        // remove keys from passed props that are passed as opts
+        var optsKeys = Object.keys(opts);
+        optsKeys.forEach(function (key) {
+            delete passedProps[key];
+        });
+        return (react_default.a.createElement(es_ShareButton, createShareButton_assign({}, defaultProps, passedProps, { forwardedRef: ref, networkName: networkName, networkLink: link, opts: optsMap(props) })));
+    }
+    CreatedButton.displayName = "ShareButton-" + networkName;
+    return Object(react["forwardRef"])(CreatedButton);
+}
+/* harmony default export */ var hocs_createShareButton = (createShareButton);
+
+// CONCATENATED MODULE: ./node_modules/react-share/es/TwitterShareButton.js
+
+
+
+function twitterLink(url, _a) {
+    var title = _a.title, via = _a.via, _b = _a.hashtags, hashtags = _b === void 0 ? [] : _b, _c = _a.related, related = _c === void 0 ? [] : _c;
+    assert(url, 'twitter.url');
+    assert(Array.isArray(hashtags), 'twitter.hashtags is not an array');
+    assert(Array.isArray(related), 'twitter.related is not an array');
+    return ('https://twitter.com/share' +
+        objectToGetParams({
+            url: url,
+            text: title,
+            via: via,
+            hashtags: hashtags.length > 0 ? hashtags.join(',') : undefined,
+            related: related.length > 0 ? related.join(',') : undefined,
+        }));
+}
+var TwitterShareButton = hocs_createShareButton('twitter', twitterLink, function (props) { return ({
+    hashtags: props.hashtags,
+    title: props.title,
+    via: props.via,
+    related: props.related,
+}); }, {
+    windowWidth: 550,
+    windowHeight: 400,
+});
+/* harmony default export */ var es_TwitterShareButton = (TwitterShareButton);
+
+// CONCATENATED MODULE: ./node_modules/react-share/es/LinkedinShareButton.js
+
+
+
+function linkedinLink(url, _a) {
+    var title = _a.title, summary = _a.summary, source = _a.source;
+    assert(url, 'linkedin.url');
+    return ('https://linkedin.com/shareArticle' +
+        objectToGetParams({ url: url, mini: 'true', title: title, summary: summary, source: source }));
+}
+var LinkedinShareButton = hocs_createShareButton('linkedin', linkedinLink, function (_a) {
+    var title = _a.title, summary = _a.summary, source = _a.source;
+    return ({ title: title, summary: summary, source: source });
+}, {
+    windowWidth: 750,
+    windowHeight: 600,
+});
+/* harmony default export */ var es_LinkedinShareButton = (LinkedinShareButton);
+
+// CONCATENATED MODULE: ./node_modules/react-share/es/FacebookShareButton.js
+
+
+
+function facebookLink(url, _a) {
+    var quote = _a.quote, hashtag = _a.hashtag;
+    assert(url, 'facebook.url');
+    return ('https://www.facebook.com/sharer/sharer.php' +
+        objectToGetParams({
+            u: url,
+            quote: quote,
+            hashtag: hashtag,
+        }));
+}
+var FacebookShareButton = hocs_createShareButton('facebook', facebookLink, function (props) { return ({
+    quote: props.quote,
+    hashtag: props.hashtag,
+}); }, {
+    windowWidth: 550,
+    windowHeight: 400,
+});
+/* harmony default export */ var es_FacebookShareButton = (FacebookShareButton);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/IconButton/IconButton.js
+var IconButton = __webpack_require__(476);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/icons/Facebook.js
+var Facebook = __webpack_require__(740);
+var Facebook_default = /*#__PURE__*/__webpack_require__.n(Facebook);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/icons/LinkedIn.js
+var LinkedIn = __webpack_require__(188);
+var LinkedIn_default = /*#__PURE__*/__webpack_require__.n(LinkedIn);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/icons/Twitter.js
+var Twitter = __webpack_require__(187);
+var Twitter_default = /*#__PURE__*/__webpack_require__.n(Twitter);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/icons/Language.js
+var Language = __webpack_require__(738);
+var Language_default = /*#__PURE__*/__webpack_require__.n(Language);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
+var Link = __webpack_require__(312);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogPostPaginator/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function BlogPostPaginator(props){var nextItem=props.nextItem,prevItem=props.prevItem;return/*#__PURE__*/react_default.a.createElement("nav",{className:"pagination-nav","aria-label":"Blog post page navigation"},/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__item"},prevItem&&/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"pagination-nav__link",to:prevItem.permalink},/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__sublabel"},"Newer Post"),/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__label"},"\xAB ",prevItem.title))),/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__item pagination-nav__item--next"},nextItem&&/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"pagination-nav__link",to:nextItem.permalink},/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__sublabel"},"Older Post"),/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__label"},nextItem.title," \xBB"))));}/* harmony default export */ var theme_BlogPostPaginator = (BlogPostPaginator);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/index.js + 1 modules
+var TOC = __webpack_require__(694);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconEdit/index.js
+var IconEdit = __webpack_require__(479);
+
+// CONCATENATED MODULE: ./src/theme/BlogPostPage/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var MONTHS=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio ','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];function BlogPostPage(props){var BlogPostContents=props.content;var frontMatter=BlogPostContents.frontMatter,metadata=BlogPostContents.metadata;var title=metadata.title,description=metadata.description,date=metadata.date,readingTime=metadata.readingTime,tags=metadata.tags,nextItem=metadata.nextItem,prevItem=metadata.prevItem,editUrl=metadata.editUrl;var author=frontMatter.author,image=frontMatter.image,metaTitle=frontMatter.metaTitle,metaDescription=frontMatter.metaDescription,langPost=frontMatter.langPost;var authorURL=frontMatter.author_url||frontMatter.authorURL;var authorTitle=frontMatter.author_title||frontMatter.authorTitle;var authorImageURL=frontMatter.author_image_url||frontMatter.authorImageURL;var imageUrl=Object(useBaseUrl["a" /* default */])(image);var tempImage=Object(useBaseUrl["a" /* default */])("img/metaImgBlack.png");var history=Object(react_router["k" /* useHistory */])();var location=Object(react_router["l" /* useLocation */])();var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 960px)'});var HeroSection=function HeroSection(){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"containerSec"},isDesktop&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"sectionHeroBlog"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{style:{marginBottom:'30px'}},/*#__PURE__*/react_default.a.createElement("h1",null,title)),langPost&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogLanguageAvailableBox"},/*#__PURE__*/react_default.a.createElement(Language_default.a,{style:{marginRight:'5px',color:'#0091FF'}}),/*#__PURE__*/react_default.a.createElement("p",null,/*#__PURE__*/react_default.a.createElement("a",{rel:"alternate",href:langPost,hrefLang:"en-us"},"Art\xEDculo disponible en ingl\xE9s"))),/*#__PURE__*/react_default.a.createElement(BlogHeader,null)),isMobile&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"sectionHeroMobileBlog"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"titleBox"},/*#__PURE__*/react_default.a.createElement("h1",null,title)),langPost&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogLanguageAvailableBox"},/*#__PURE__*/react_default.a.createElement(Language_default.a,{style:{marginRight:'5px',color:'#0091FF'}}),/*#__PURE__*/react_default.a.createElement("p",{style:{lineHeight:'25px'}},/*#__PURE__*/react_default.a.createElement("a",{rel:"alternate",href:langPost,hrefLang:"en-us"},"Art\xEDculo disponible en ingl\xE9s"))),/*#__PURE__*/react_default.a.createElement(BlogHeader,null)));};var BlogHeader=function BlogHeader(){var match=date.substring(0,10).split('-');var year=match[0];var month=MONTHS[parseInt(match[1],10)-1];var day=parseInt(match[2],10);return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"subHeaderBlogBox"},/*#__PURE__*/react_default.a.createElement("p",null,day," de ",month,", ",year,' ',readingTime&&/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null," \xB7 ",Math.ceil(readingTime)," minutos de lectura")),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogAvatarBox"},/*#__PURE__*/react_default.a.createElement(Avatar["a" /* default */],{src:authorImageURL,alt:author,style:{width:'48px',height:'48px'}}),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogAvatarTextBox"},/*#__PURE__*/react_default.a.createElement("a",{className:"blogAuthorTile",style:{fontWeight:'bold',color:'black'},href:authorURL,target:"_blank"},author),/*#__PURE__*/react_default.a.createElement("h5",null,authorTitle))));};var BlogDivider=function BlogDivider(){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"containerSec"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("sectionNoPadding","dividerBlogBox")},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:8,xs:12},/*#__PURE__*/react_default.a.createElement("p",null,"Etiquetas: "),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogTagsBox"},tags.map(function(_ref){var label=_ref.label,tagPermalink=_ref.permalink;return/*#__PURE__*/react_default.a.createElement(Chip["a" /* default */],{style:{marginRight:'5px',marginBottom:'5px',backgroundColor:'#f1f1f1'},key:tagPermalink,onClick:function onClick(){return history.push(tagPermalink);},label:label});}))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:4,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogIconsBox"},/*#__PURE__*/react_default.a.createElement(es_TwitterShareButton,{title:title+" | ",via:"EOSCostaRica",hashtags:tags.map(function(tag){return tag.label;}),url:"eoscostarica.io"+location.pathname},/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Twitter_default.a,null))),/*#__PURE__*/react_default.a.createElement(es_LinkedinShareButton,{title:title,summary:description,url:"eoscostarica.io"+location.pathname},/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(LinkedIn_default.a,null))),/*#__PURE__*/react_default.a.createElement(es_FacebookShareButton,{quote:title,url:"eoscostarica.io"+location.pathname},/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Facebook_default.a,null)))))),/*#__PURE__*/react_default.a.createElement(Divider["a" /* default */],null)));};var BlogContent=function BlogContent(){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"containerSec"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"section"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogContentBox"},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true,spacing:2},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:8},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogMarkdown"},/*#__PURE__*/react_default.a.createElement(BlogPostContents,null))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogStickyContentBox"},/*#__PURE__*/react_default.a.createElement(TOC["a" /* default */],{toc:BlogPostContents.toc}))))),(nextItem||prevItem)&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(theme_BlogPostPaginator,{nextItem:nextItem,prevItem:prevItem}))));};return/*#__PURE__*/react_default.a.createElement(Layout["a" /* default */],{title:metaTitle,description:metaDescription,image:imageUrl||tempImage,wrapperClassName:"blog-wrapper"},isDesktop&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:""},/*#__PURE__*/react_default.a.createElement(lib["Parallax"],{strength:800,style:{overflow:'inherit'}},/*#__PURE__*/react_default.a.createElement(lib["Background"],{className:"bgParallax"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"imgParallax"})),/*#__PURE__*/react_default.a.createElement(HeroSection,null),/*#__PURE__*/react_default.a.createElement(BlogDivider,null),/*#__PURE__*/react_default.a.createElement(BlogContent,null))),isMobile&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"mainContainer"},/*#__PURE__*/react_default.a.createElement(HeroSection,null),/*#__PURE__*/react_default.a.createElement(BlogDivider,null),/*#__PURE__*/react_default.a.createElement(BlogContent,null)));}/* harmony default export */ var theme_BlogPostPage = __webpack_exports__["default"] = (BlogPostPage);
 
 /***/ }),
 
@@ -3301,7 +3678,7 @@ var dist = __webpack_require__(212);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function LayoutHead(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig;var siteTitle=siteConfig.title,favicon=siteConfig.favicon,_siteConfig$themeConf=siteConfig.themeConfig,defaultImage=_siteConfig$themeConf.image,metadatas=_siteConfig$themeConf.metadatas,siteUrl=siteConfig.url;var title=props.title,description=props.description,image=props.image,hrefLangPath=props.hrefLangPath,keywords=props.keywords,permalink=props.permalink;var metaTitle=title||siteTitle;var metaImage=image||defaultImage;var metaImageUrl=Object(useBaseUrl["a" /* default */])(metaImage,{absolute:true});var faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);var htmlLang="es";var location=Object(react_router["l" /* useLocation */])();return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:htmlLang}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:"Image for "+metaTitle}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),permalink&&/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:"https://es.eoscostarica.io"+location.pathname,hreflang:"es-us"}),hrefLangPath&&/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:hrefLangPath,hreflang:"en-us"}),/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:"https://es.eoscostarica.io"+location.pathname})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */]// it's important to have an additional <Head> element here,
+ */function LayoutHead(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig;var siteTitle=siteConfig.title,favicon=siteConfig.favicon,_siteConfig$themeConf=siteConfig.themeConfig,defaultImage=_siteConfig$themeConf.image,metadatas=_siteConfig$themeConf.metadatas,siteUrl=siteConfig.url;var title=props.title,description=props.description,image=props.image,hrefLangPath=props.hrefLangPath,keywords=props.keywords,permalink=props.permalink;var metaTitle=title||siteTitle;var metaImage=image||defaultImage;var metaImageUrl=Object(useBaseUrl["a" /* default */])(metaImage,{absolute:true});var faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);var htmlLang="es-us";var location=Object(react_router["l" /* useLocation */])();return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:htmlLang}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:"Image for "+metaTitle}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),permalink&&/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:"https://es.eoscostarica.io"+location.pathname,hreflang:"es-us"}),hrefLangPath&&/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:hrefLangPath,hreflang:"en-us"}),/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:"https://es.eoscostarica.io"+location.pathname})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */]// it's important to have an additional <Head> element here,
 // as it allows react-helmet to override values set in previous <Head>
 // ie we can override default metadatas such as "twitter:card"
 // In same Head, the same meta would appear twice instead of overriding
@@ -7723,297 +8100,88 @@ var Modal_Modal = /*#__PURE__*/react["forwardRef"](function Modal(inProps, ref) 
 
 /***/ }),
 
-/***/ 310:
+/***/ 312:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// EXTERNAL MODULE: ./node_modules/react-router-dom/esm/react-router-dom.js
+var react_router_dom = __webpack_require__(11);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/isInternalUrl.js
+var isInternalUrl = __webpack_require__(179);
+
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/ExecutionEnvironment.js
+var ExecutionEnvironment = __webpack_require__(8);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/LinksCollector.js
 /**
- * @ignore - internal component.
- * @type {React.Context<{} | {expanded: boolean, disabled: boolean, toggle: () => void}>}
- */
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var createStatefulLinksCollector=function createStatefulLinksCollector(){// Set to dedup, as it's not useful to collect multiple times the same link
+var allLinks=new Set();return{collectLink:function collectLink(link){allLinks.add(link);},getCollectedLinks:function getCollectedLinks(){return[].concat(allLinks);}};};var Context=/*#__PURE__*/Object(react["createContext"])({collectLink:function collectLink(){// noop by default for client
+// we only use the broken links checker server-side
+}});var LinksCollector_useLinksCollector=function useLinksCollector(){return Object(react["useContext"])(Context);};var LinksCollector_ProvideLinksCollector=function ProvideLinksCollector(_ref){var children=_ref.children,linksCollector=_ref.linksCollector;return/*#__PURE__*/react_default.a.createElement(Context.Provider,{value:linksCollector},children);};
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
+var useBaseUrl = __webpack_require__(146);
 
-var AccordionContext = react__WEBPACK_IMPORTED_MODULE_0__["createContext"]({});
-
-if (false) {}
-
-/* harmony default export */ __webpack_exports__["a"] = (AccordionContext);
+// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var __rest=undefined&&undefined.__rest||function(s,e){var t={};for(var p in s){if(Object.prototype.hasOwnProperty.call(s,p)&&e.indexOf(p)<0)t[p]=s[p];}if(s!=null&&typeof Object.getOwnPropertySymbols==="function")for(var i=0,p=Object.getOwnPropertySymbols(s);i<p.length;i++){if(e.indexOf(p[i])<0&&Object.prototype.propertyIsEnumerable.call(s,p[i]))t[p[i]]=s[p[i]];}return t;};// TODO all this wouldn't be necessary if we used ReactRouter basename feature
+// We don't automatically add base urls to all links,
+// only the "safe" ones, starting with / (like /docs/introduction)
+// this is because useBaseUrl() actually transforms relative links
+// like "introduction" to "/baseUrl/introduction" => bad behavior to fix
+var shouldAddBaseUrlAutomatically=function shouldAddBaseUrlAutomatically(to){return to.startsWith('/');};function Link(_a){var _b;var isNavLink=_a.isNavLink,to=_a.to,href=_a.href,activeClassName=_a.activeClassName,isActive=_a.isActive,noBrokenLinkCheck=_a['data-noBrokenLinkCheck'],_a$autoAddBaseUrl=_a.autoAddBaseUrl,autoAddBaseUrl=_a$autoAddBaseUrl===void 0?true:_a$autoAddBaseUrl,props=__rest(_a,["isNavLink","to","href","activeClassName","isActive",'data-noBrokenLinkCheck',"autoAddBaseUrl"]);var _useBaseUrlUtils=Object(useBaseUrl["b" /* useBaseUrlUtils */])(),withBaseUrl=_useBaseUrlUtils.withBaseUrl;var linksCollector=LinksCollector_useLinksCollector();// IMPORTANT: using to or href should not change anything
+// For example, MDX links will ALWAYS give us the href props
+// Using one prop or the other should not be used to distinguish
+// internal links (/docs/myDoc) from external links (https://github.com)
+var targetLinkUnprefixed=to||href;function maybeAddBaseUrl(str){return autoAddBaseUrl&&shouldAddBaseUrlAutomatically(str)?withBaseUrl(str):str;}var isInternal=Object(isInternalUrl["a" /* default */])(targetLinkUnprefixed);// pathname:// is a special "protocol" we use to tell Docusaurus link
+// that a link is not "internal" and that we shouldn't use history.push()
+// this is not ideal but a good enough escape hatch for now
+// see https://github.com/facebook/docusaurus/issues/3309
+// note: we want baseUrl to be appended (see issue for details)
+// TODO read routes and automatically detect internal/external links?
+var targetLinkWithoutPathnameProtocol=targetLinkUnprefixed===null||targetLinkUnprefixed===void 0?void 0:targetLinkUnprefixed.replace('pathname://','');// TODO we should use ReactRouter basename feature instead!
+// Automatically apply base url in links that start with /
+var targetLink=typeof targetLinkWithoutPathnameProtocol!=='undefined'?maybeAddBaseUrl(targetLinkWithoutPathnameProtocol):undefined;var preloaded=Object(react["useRef"])(false);var LinkComponent=isNavLink?react_router_dom["e" /* NavLink */]:react_router_dom["c" /* Link */];var IOSupported=ExecutionEnvironment["a" /* default */].canUseIntersectionObserver;var io;var handleIntersection=function handleIntersection(el,cb){io=new window.IntersectionObserver(function(entries){entries.forEach(function(entry){if(el===entry.target){// If element is in viewport, stop listening/observing and run callback.
+// https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+if(entry.isIntersecting||entry.intersectionRatio>0){io.unobserve(el);io.disconnect();cb();}}});});// Add element to the observer.
+io.observe(el);};var handleRef=function handleRef(ref){if(IOSupported&&ref&&isInternal){// If IO supported and element reference found, setup Observer functionality.
+handleIntersection(ref,function(){window.docusaurus.prefetch(targetLink);});}};var onMouseEnter=function onMouseEnter(){if(!preloaded.current){window.docusaurus.preload(targetLink);preloaded.current=true;}};Object(react["useEffect"])(function(){// If IO is not supported. We prefetch by default (only once).
+if(!IOSupported&&isInternal){window.docusaurus.prefetch(targetLink);}// When unmounting, stop intersection observer from watching.
+return function(){if(IOSupported&&io){io.disconnect();}};},[targetLink,IOSupported,isInternal]);var isAnchorLink=(_b=targetLink===null||targetLink===void 0?void 0:targetLink.startsWith('#'))!==null&&_b!==void 0?_b:false;var isRegularHtmlLink=!targetLink||!isInternal||isAnchorLink;if(targetLink&&isInternal&&!isAnchorLink&&!noBrokenLinkCheck){linksCollector.collectLink(targetLink);}return isRegularHtmlLink?/*#__PURE__*/ // eslint-disable-next-line jsx-a11y/anchor-has-content
+react_default.a.createElement("a",Object.assign({href:targetLink},targetLinkUnprefixed&&!isInternal&&{target:'_blank',rel:'noopener noreferrer'},props)):/*#__PURE__*/react_default.a.createElement(LinkComponent,Object.assign({},props,{onMouseEnter:onMouseEnter,innerRef:handleRef,to:targetLink||''},isNavLink&&{isActive:isActive,activeClassName:activeClassName}));}/* harmony default export */ var exports_Link = __webpack_exports__["a"] = (Link);
 
 /***/ }),
 
-/***/ 311:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(136);
-
-var _interopRequireWildcard = __webpack_require__(133);
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(__webpack_require__(0));
-
-var _createSvgIcon = _interopRequireDefault(__webpack_require__(144));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-}), 'ExpandMore');
-
-exports.default = _default;
-
-/***/ }),
-
-/***/ 471:
+/***/ 479:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export styles */
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
-/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(176);
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(131);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(132);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(772);
-/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(135);
-/* harmony import */ var _styles_transitions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(155);
-/* harmony import */ var _transitions_utils__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(165);
-/* harmony import */ var _styles_useTheme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(154);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(138);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var styles = function styles(theme) {
-  return {
-    /* Styles applied to the root element. */
-    root: {
-      height: 0,
-      overflow: 'hidden',
-      transition: theme.transitions.create('height')
-    },
-
-    /* Styles applied to the root element when the transition has entered. */
-    entered: {
-      height: 'auto',
-      overflow: 'visible'
-    },
-
-    /* Styles applied to the root element when the transition has exited and `collapsedSize` != 0px. */
-    hidden: {
-      visibility: 'hidden'
-    },
-
-    /* Styles applied to the outer wrapper element. */
-    wrapper: {
-      // Hack to get children with a negative margin to not falsify the height computation.
-      display: 'flex'
-    },
-
-    /* Styles applied to the inner wrapper element. */
-    wrapperInner: {
-      width: '100%'
-    }
-  };
-};
-/**
- * The Collapse transition is used by the
- * [Vertical Stepper](/components/steppers/#vertical-stepper) StepContent component.
- * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
- */
-
-var Collapse = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["forwardRef"](function Collapse(props, ref) {
-  var children = props.children,
-      classes = props.classes,
-      className = props.className,
-      collapsedHeight = props.collapsedHeight,
-      _props$collapsedSize = props.collapsedSize,
-      collapsedSizeProp = _props$collapsedSize === void 0 ? '0px' : _props$collapsedSize,
-      _props$component = props.component,
-      Component = _props$component === void 0 ? 'div' : _props$component,
-      _props$disableStrictM = props.disableStrictModeCompat,
-      disableStrictModeCompat = _props$disableStrictM === void 0 ? false : _props$disableStrictM,
-      inProp = props.in,
-      onEnter = props.onEnter,
-      onEntered = props.onEntered,
-      onEntering = props.onEntering,
-      onExit = props.onExit,
-      onExited = props.onExited,
-      onExiting = props.onExiting,
-      style = props.style,
-      _props$timeout = props.timeout,
-      timeout = _props$timeout === void 0 ? _styles_transitions__WEBPACK_IMPORTED_MODULE_8__[/* duration */ "b"].standard : _props$timeout,
-      _props$TransitionComp = props.TransitionComponent,
-      TransitionComponent = _props$TransitionComp === void 0 ? react_transition_group__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"] : _props$TransitionComp,
-      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(props, ["children", "classes", "className", "collapsedHeight", "collapsedSize", "component", "disableStrictModeCompat", "in", "onEnter", "onEntered", "onEntering", "onExit", "onExited", "onExiting", "style", "timeout", "TransitionComponent"]);
-
-  var theme = Object(_styles_useTheme__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"])();
-  var timer = react__WEBPACK_IMPORTED_MODULE_3__["useRef"]();
-  var wrapperRef = react__WEBPACK_IMPORTED_MODULE_3__["useRef"](null);
-  var autoTransitionDuration = react__WEBPACK_IMPORTED_MODULE_3__["useRef"]();
-  var collapsedSize = typeof (collapsedHeight || collapsedSizeProp) === 'number' ? "".concat(collapsedHeight || collapsedSizeProp, "px") : collapsedHeight || collapsedSizeProp;
-  react__WEBPACK_IMPORTED_MODULE_3__["useEffect"](function () {
-    return function () {
-      clearTimeout(timer.current);
-    };
-  }, []);
-  var enableStrictModeCompat = theme.unstable_strictMode && !disableStrictModeCompat;
-  var nodeRef = react__WEBPACK_IMPORTED_MODULE_3__["useRef"](null);
-  var handleRef = Object(_utils__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"])(ref, enableStrictModeCompat ? nodeRef : undefined);
-
-  var normalizedTransitionCallback = function normalizedTransitionCallback(callback) {
-    return function (nodeOrAppearing, maybeAppearing) {
-      if (callback) {
-        var _ref = enableStrictModeCompat ? [nodeRef.current, nodeOrAppearing] : [nodeOrAppearing, maybeAppearing],
-            _ref2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(_ref, 2),
-            node = _ref2[0],
-            isAppearing = _ref2[1]; // onEnterXxx and onExitXxx callbacks have a different arguments.length value.
-
-
-        if (isAppearing === undefined) {
-          callback(node);
-        } else {
-          callback(node, isAppearing);
-        }
-      }
-    };
-  };
-
-  var handleEnter = normalizedTransitionCallback(function (node, isAppearing) {
-    node.style.height = collapsedSize;
-
-    if (onEnter) {
-      onEnter(node, isAppearing);
-    }
-  });
-  var handleEntering = normalizedTransitionCallback(function (node, isAppearing) {
-    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
-
-    var _getTransitionProps = Object(_transitions_utils__WEBPACK_IMPORTED_MODULE_9__[/* getTransitionProps */ "a"])({
-      style: style,
-      timeout: timeout
-    }, {
-      mode: 'enter'
-    }),
-        transitionDuration = _getTransitionProps.duration;
-
-    if (timeout === 'auto') {
-      var duration2 = theme.transitions.getAutoHeightDuration(wrapperHeight);
-      node.style.transitionDuration = "".concat(duration2, "ms");
-      autoTransitionDuration.current = duration2;
-    } else {
-      node.style.transitionDuration = typeof transitionDuration === 'string' ? transitionDuration : "".concat(transitionDuration, "ms");
-    }
-
-    node.style.height = "".concat(wrapperHeight, "px");
-
-    if (onEntering) {
-      onEntering(node, isAppearing);
-    }
-  });
-  var handleEntered = normalizedTransitionCallback(function (node, isAppearing) {
-    node.style.height = 'auto';
-
-    if (onEntered) {
-      onEntered(node, isAppearing);
-    }
-  });
-  var handleExit = normalizedTransitionCallback(function (node) {
-    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
-    node.style.height = "".concat(wrapperHeight, "px");
-
-    if (onExit) {
-      onExit(node);
-    }
-  });
-  var handleExited = normalizedTransitionCallback(onExited);
-  var handleExiting = normalizedTransitionCallback(function (node) {
-    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
-
-    var _getTransitionProps2 = Object(_transitions_utils__WEBPACK_IMPORTED_MODULE_9__[/* getTransitionProps */ "a"])({
-      style: style,
-      timeout: timeout
-    }, {
-      mode: 'exit'
-    }),
-        transitionDuration = _getTransitionProps2.duration;
-
-    if (timeout === 'auto') {
-      var duration2 = theme.transitions.getAutoHeightDuration(wrapperHeight);
-      node.style.transitionDuration = "".concat(duration2, "ms");
-      autoTransitionDuration.current = duration2;
-    } else {
-      node.style.transitionDuration = typeof transitionDuration === 'string' ? transitionDuration : "".concat(transitionDuration, "ms");
-    }
-
-    node.style.height = collapsedSize;
-
-    if (onExiting) {
-      onExiting(node);
-    }
-  });
-
-  var addEndListener = function addEndListener(nodeOrNext, maybeNext) {
-    var next = enableStrictModeCompat ? nodeOrNext : maybeNext;
-
-    if (timeout === 'auto') {
-      timer.current = setTimeout(next, autoTransitionDuration.current || 0);
-    }
-  };
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"](TransitionComponent, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-    in: inProp,
-    onEnter: handleEnter,
-    onEntered: handleEntered,
-    onEntering: handleEntering,
-    onExit: handleExit,
-    onExited: handleExited,
-    onExiting: handleExiting,
-    addEndListener: addEndListener,
-    nodeRef: enableStrictModeCompat ? nodeRef : undefined,
-    timeout: timeout === 'auto' ? null : timeout
-  }, other), function (state, childProps) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"](Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-      className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, classes.container, className, {
-        'entered': classes.entered,
-        'exited': !inProp && collapsedSize === '0px' && classes.hidden
-      }[state]),
-      style: Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-        minHeight: collapsedSize
-      }, style),
-      ref: handleRef
-    }, childProps), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
-      className: classes.wrapper,
-      ref: wrapperRef
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
-      className: classes.wrapperInner
-    }, children)));
-  });
-});
- false ? undefined : void 0;
-Collapse.muiSupportAuto = true;
-/* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(styles, {
-  name: 'MuiCollapse'
-})(Collapse));
+/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
+/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(132);
+/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(77);
+/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_module_css__WEBPACK_IMPORTED_MODULE_4__);
+var _excluded=["className"];/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var IconEdit=function IconEdit(_ref){var className=_ref.className,restProps=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(_ref,_excluded);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("svg",Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({fill:"currentColor",height:"1.2em",width:"1.2em",preserveAspectRatio:"xMidYMid meet",role:"img",viewBox:"0 0 40 40",className:Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_styles_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.iconEdit,className)},restProps),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("g",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("path",{d:"m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"})));};/* harmony default export */ __webpack_exports__["a"] = (IconEdit);
 
 /***/ }),
 
@@ -8064,58 +8232,86 @@ var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__W
 
 /***/ }),
 
-/***/ 63:
+/***/ 694:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(767);
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(247);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
-var ContactUsBanner=function ContactUsBanner(){var history=Object(react_router_dom__WEBPACK_IMPORTED_MODULE_3__[/* useHistory */ "k"])();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"containerGray"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"sectionPadding"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{item:true,xs:12,md:8},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",{className:"centerTextOnMobile"},"Comience a trabajar con nosotros ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," implementando ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," tecnolog\xEDa blockchain "))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"buttonBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/contactenos/");}},"Cont\xE1ctenos"))))));};/* harmony default export */ __webpack_exports__["default"] = (ContactUsBanner);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+var clsx_m = __webpack_require__(132);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/useTOCHighlight.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function useTOCHighlight(linkClassName,linkActiveClassName,topOffset){var _useState=Object(react["useState"])(undefined),lastActiveLink=_useState[0],setLastActiveLink=_useState[1];Object(react["useEffect"])(function(){function setActiveLink(){function getActiveHeaderAnchor(){var headersAnchors=Array.from(document.getElementsByClassName('anchor'));var firstAnchorUnderViewportTop=headersAnchors.find(function(anchor){var _anchor$getBoundingCl=anchor.getBoundingClientRect(),top=_anchor$getBoundingCl.top;return top>=topOffset;});if(firstAnchorUnderViewportTop){// If first anchor in viewport is under a certain threshold, we consider it's not the active anchor.
+// In such case, the active anchor is the previous one (if it exists), that may be above the viewport
+if(firstAnchorUnderViewportTop.getBoundingClientRect().top>=topOffset){var previousAnchor=headersAnchors[headersAnchors.indexOf(firstAnchorUnderViewportTop)-1];return previousAnchor!==null&&previousAnchor!==void 0?previousAnchor:firstAnchorUnderViewportTop;}// If the anchor is at the top of the viewport, we consider it's the first anchor
+else{return firstAnchorUnderViewportTop;}}// no anchor under viewport top? (ie we are at the bottom of the page)
+else{// highlight the last anchor found
+return headersAnchors[headersAnchors.length-1];}}var activeHeaderAnchor=getActiveHeaderAnchor();if(activeHeaderAnchor){var index=0;var itemHighlighted=false;// @ts-expect-error: Must be <a> tags.
+var links=document.getElementsByClassName(linkClassName);while(index<links.length&&!itemHighlighted){var link=links[index];var href=link.href;var anchorValue=decodeURIComponent(href.substring(href.indexOf('#')+1));if(activeHeaderAnchor.id===anchorValue){if(lastActiveLink){lastActiveLink.classList.remove(linkActiveClassName);}link.classList.add(linkActiveClassName);setLastActiveLink(link);itemHighlighted=true;}index+=1;}}}document.addEventListener('scroll',setActiveLink);document.addEventListener('resize',setActiveLink);setActiveLink();return function(){document.removeEventListener('scroll',setActiveLink);document.removeEventListener('resize',setActiveLink);};});}/* harmony default export */ var hooks_useTOCHighlight = (useTOCHighlight);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/styles.module.css
+var styles_module = __webpack_require__(76);
+var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
+
+// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var LINK_CLASS_NAME='table-of-contents__link';var ACTIVE_LINK_CLASS_NAME='table-of-contents__link--active';var TOP_OFFSET=100;/* eslint-disable jsx-a11y/control-has-associated-label */function Headings(_ref){var toc=_ref.toc,isChild=_ref.isChild;if(!toc.length){return null;}return/*#__PURE__*/react_default.a.createElement("ul",{className:isChild?'':'table-of-contents table-of-contents__left-border'},toc.map(function(heading){return/*#__PURE__*/react_default.a.createElement("li",{key:heading.id},/*#__PURE__*/react_default.a.createElement("a",{href:"#"+heading.id,className:LINK_CLASS_NAME// Developer provided the HTML, so assume it's safe.
+// eslint-disable-next-line react/no-danger
+,dangerouslySetInnerHTML:{__html:heading.value}}),/*#__PURE__*/react_default.a.createElement(Headings,{isChild:true,toc:heading.children}));}));}function TOC(_ref2){var toc=_ref2.toc;hooks_useTOCHighlight(LINK_CLASS_NAME,ACTIVE_LINK_CLASS_NAME,TOP_OFFSET);return/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])(styles_module_default.a.tableOfContents,'thin-scrollbar')},/*#__PURE__*/react_default.a.createElement(Headings,{toc:toc}));}/* harmony default export */ var theme_TOC = __webpack_exports__["a"] = (TOC);
 
 /***/ }),
 
-/***/ 66:
+/***/ 697:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(698);
-/* harmony import */ var _material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(692);
-/* harmony import */ var _material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(691);
-/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(311);
-/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_5__);
-var AccordionComp=function AccordionComp(_ref){var data=_ref.data,handleChange=_ref.handleChange,expanded=_ref.expanded,bgColor=_ref.bgColor;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,null,data.map(function(item){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{key:item.target,square:true,expanded:expanded===item.target,style:{backgroundColor:bgColor,boxShadow:'none'},onChange:handleChange(item.target),className:"accordion"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"],{style:{padding:1},expandIcon:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_5___default.a,{style:{color:'#5484B3'}})},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4",{style:{margin:'2px',padding:0}},item.title)),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"],{style:{padding:1,marginTop:'-15px'}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p",{style:{padding:0}},item.content)));}));};AccordionComp.propTypes={data:prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array,handleChange:prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func};AccordionComp.defaultProps={data:[]};/* harmony default export */ __webpack_exports__["default"] = (AccordionComp);
 
-/***/ }),
+// UNUSED EXPORTS: styles
 
-/***/ 691:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+var esm_extends = __webpack_require__(3);
 
-"use strict";
-/* unused harmony export styles */
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(131);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(132);
-/* harmony import */ var _ButtonBase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(769);
-/* harmony import */ var _IconButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(476);
-/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(135);
-/* harmony import */ var _Accordion_AccordionContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(310);
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
+var objectWithoutProperties = __webpack_require__(131);
+
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(0);
+
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
+var clsx_m = __webpack_require__(132);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
+var withStyles = __webpack_require__(135);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/createSvgIcon.js + 1 modules
+var createSvgIcon = __webpack_require__(177);
+
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/internal/svg-icons/Person.js
 
 
+/**
+ * @ignore - internal component.
+ */
 
-/* eslint-disable jsx-a11y/aria-role */
+/* harmony default export */ var Person = (Object(createSvgIcon["a" /* default */])( /*#__PURE__*/react["createElement"]("path", {
+  d: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+}), 'Person'));
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Avatar/Avatar.js
 
 
 
@@ -8125,125 +8321,164 @@ var AccordionComp=function AccordionComp(_ref){var data=_ref.data,handleChange=_
 
 
 var styles = function styles(theme) {
-  var transition = {
-    duration: theme.transitions.duration.shortest
-  };
   return {
     /* Styles applied to the root element. */
     root: {
+      position: 'relative',
       display: 'flex',
-      minHeight: 8 * 6,
-      transition: theme.transitions.create(['min-height', 'background-color'], transition),
-      padding: theme.spacing(0, 2),
-      '&:hover:not($disabled)': {
-        cursor: 'pointer'
-      },
-      '&$expanded': {
-        minHeight: 64
-      },
-      '&$focused, &$focusVisible': {
-        backgroundColor: theme.palette.action.focus
-      },
-      '&$disabled': {
-        opacity: theme.palette.action.disabledOpacity
-      }
+      alignItems: 'center',
+      justifyContent: 'center',
+      flexShrink: 0,
+      width: 40,
+      height: 40,
+      fontFamily: theme.typography.fontFamily,
+      fontSize: theme.typography.pxToRem(20),
+      lineHeight: 1,
+      borderRadius: '50%',
+      overflow: 'hidden',
+      userSelect: 'none'
     },
 
-    /* Pseudo-class applied to the root element, children wrapper element and `IconButton` component if `expanded={true}`. */
-    expanded: {},
-
-    /* Pseudo-class applied to the ButtonBase root element if the button is keyboard focused. */
-    focused: {},
-
-    /* Pseudo-class applied to the ButtonBase root element if the button is keyboard focused. */
-    focusVisible: {},
-
-    /* Pseudo-class applied to the root element if `disabled={true}`. */
-    disabled: {},
-
-    /* Styles applied to the children wrapper element. */
-    content: {
-      display: 'flex',
-      flexGrow: 1,
-      transition: theme.transitions.create(['margin'], transition),
-      margin: '12px 0',
-      '&$expanded': {
-        margin: '20px 0'
-      }
+    /* Styles applied to the root element if not `src` or `srcSet`. */
+    colorDefault: {
+      color: theme.palette.background.default,
+      backgroundColor: theme.palette.type === 'light' ? theme.palette.grey[400] : theme.palette.grey[600]
     },
 
-    /* Styles applied to the `IconButton` component when `expandIcon` is supplied. */
-    expandIcon: {
-      transform: 'rotate(0deg)',
-      transition: theme.transitions.create('transform', transition),
-      '&:hover': {
-        // Disable the hover effect for the IconButton,
-        // because a hover effect should apply to the entire Expand button and
-        // not only to the IconButton.
-        backgroundColor: 'transparent'
-      },
-      '&$expanded': {
-        transform: 'rotate(180deg)'
-      }
+    /* Styles applied to the root element if `variant="circle"`. */
+    circle: {},
+
+    /* Styles applied to the root element if `variant="circular"`. */
+    circular: {},
+
+    /* Styles applied to the root element if `variant="rounded"`. */
+    rounded: {
+      borderRadius: theme.shape.borderRadius
+    },
+
+    /* Styles applied to the root element if `variant="square"`. */
+    square: {
+      borderRadius: 0
+    },
+
+    /* Styles applied to the img element if either `src` or `srcSet` is defined. */
+    img: {
+      width: '100%',
+      height: '100%',
+      textAlign: 'center',
+      // Handle non-square image. The property isn't supported by IE 11.
+      objectFit: 'cover',
+      // Hide alt text.
+      color: 'transparent',
+      // Hide the image broken icon, only works on Chrome.
+      textIndent: 10000
+    },
+
+    /* Styles applied to the fallback icon */
+    fallback: {
+      width: '75%',
+      height: '75%'
     }
   };
 };
-var AccordionSummary = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function AccordionSummary(props, ref) {
-  var children = props.children,
+
+function useLoaded(_ref) {
+  var src = _ref.src,
+      srcSet = _ref.srcSet;
+
+  var _React$useState = react["useState"](false),
+      loaded = _React$useState[0],
+      setLoaded = _React$useState[1];
+
+  react["useEffect"](function () {
+    if (!src && !srcSet) {
+      return undefined;
+    }
+
+    setLoaded(false);
+    var active = true;
+    var image = new Image();
+    image.src = src;
+    image.srcSet = srcSet;
+
+    image.onload = function () {
+      if (!active) {
+        return;
+      }
+
+      setLoaded('loaded');
+    };
+
+    image.onerror = function () {
+      if (!active) {
+        return;
+      }
+
+      setLoaded('error');
+    };
+
+    return function () {
+      active = false;
+    };
+  }, [src, srcSet]);
+  return loaded;
+}
+
+var Avatar_Avatar = /*#__PURE__*/react["forwardRef"](function Avatar(props, ref) {
+  var alt = props.alt,
+      childrenProp = props.children,
       classes = props.classes,
       className = props.className,
-      expandIcon = props.expandIcon,
-      focusVisibleClassName = props.focusVisibleClassName,
-      _props$IconButtonProp = props.IconButtonProps,
-      IconButtonProps = _props$IconButtonProp === void 0 ? {} : _props$IconButtonProp,
-      onClick = props.onClick,
-      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(props, ["children", "classes", "className", "expandIcon", "focusVisibleClassName", "IconButtonProps", "onClick"]);
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      imgProps = props.imgProps,
+      sizes = props.sizes,
+      src = props.src,
+      srcSet = props.srcSet,
+      _props$variant = props.variant,
+      variant = _props$variant === void 0 ? 'circular' : _props$variant,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["alt", "children", "classes", "className", "component", "imgProps", "sizes", "src", "srcSet", "variant"]);
 
-  var _React$useContext = react__WEBPACK_IMPORTED_MODULE_2__["useContext"](_Accordion_AccordionContext__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"]),
-      _React$useContext$dis = _React$useContext.disabled,
-      disabled = _React$useContext$dis === void 0 ? false : _React$useContext$dis,
-      expanded = _React$useContext.expanded,
-      toggle = _React$useContext.toggle;
+  var children = null; // Use a hook instead of onError on the img element to support server-side rendering.
 
-  var handleChange = function handleChange(event) {
-    if (toggle) {
-      toggle(event);
-    }
+  var loaded = useLoaded({
+    src: src,
+    srcSet: srcSet
+  });
+  var hasImg = src || srcSet;
+  var hasImgNotFailing = hasImg && loaded !== 'error';
 
-    if (onClick) {
-      onClick(event);
-    }
-  };
+  if (hasImgNotFailing) {
+    children = /*#__PURE__*/react["createElement"]("img", Object(esm_extends["a" /* default */])({
+      alt: alt,
+      src: src,
+      srcSet: srcSet,
+      sizes: sizes,
+      className: classes.img
+    }, imgProps));
+  } else if (childrenProp != null) {
+    children = childrenProp;
+  } else if (hasImg && alt) {
+    children = alt[0];
+  } else {
+    children = /*#__PURE__*/react["createElement"](Person, {
+      className: classes.fallback
+    });
+  }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_ButtonBase__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-    focusRipple: false,
-    disableRipple: true,
-    disabled: disabled,
-    component: "div",
-    "aria-expanded": expanded,
-    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, className, disabled && classes.disabled, expanded && classes.expanded),
-    focusVisibleClassName: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.focusVisible, classes.focused, focusVisibleClassName),
-    onClick: handleChange,
+  return /*#__PURE__*/react["createElement"](Component, Object(esm_extends["a" /* default */])({
+    className: Object(clsx_m["a" /* default */])(classes.root, classes.system, classes[variant], className, !hasImgNotFailing && classes.colorDefault),
     ref: ref
-  }, other), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
-    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.content, expanded && classes.expanded)
-  }, children), expandIcon && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_IconButton__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.expandIcon, expanded && classes.expanded),
-    edge: "end",
-    component: "div",
-    tabIndex: null,
-    role: null,
-    "aria-hidden": true
-  }, IconButtonProps), expandIcon));
+  }, other), children);
 });
  false ? undefined : void 0;
-/* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(styles, {
-  name: 'MuiAccordionSummary'
-})(AccordionSummary));
+/* harmony default export */ var esm_Avatar_Avatar = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(styles, {
+  name: 'MuiAvatar'
+})(Avatar_Avatar));
 
 /***/ }),
 
-/***/ 692:
+/***/ 722:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8256,6 +8491,8 @@ var AccordionSummary = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardR
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(132);
 /* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(135);
+/* harmony import */ var _styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(229);
+
 
 
 
@@ -8266,29 +8503,202 @@ var styles = function styles(theme) {
   return {
     /* Styles applied to the root element. */
     root: {
-      display: 'flex',
-      padding: theme.spacing(1, 2, 2)
+      height: 1,
+      margin: 0,
+      // Reset browser default style.
+      border: 'none',
+      flexShrink: 0,
+      backgroundColor: theme.palette.divider
+    },
+
+    /* Styles applied to the root element if `absolute={true}`. */
+    absolute: {
+      position: 'absolute',
+      bottom: 0,
+      left: 0,
+      width: '100%'
+    },
+
+    /* Styles applied to the root element if `variant="inset"`. */
+    inset: {
+      marginLeft: 72
+    },
+
+    /* Styles applied to the root element if `light={true}`. */
+    light: {
+      backgroundColor: Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__[/* alpha */ "a"])(theme.palette.divider, 0.08)
+    },
+
+    /* Styles applied to the root element if `variant="middle"`. */
+    middle: {
+      marginLeft: theme.spacing(2),
+      marginRight: theme.spacing(2)
+    },
+
+    /* Styles applied to the root element if `orientation="vertical"`. */
+    vertical: {
+      height: '100%',
+      width: 1
+    },
+
+    /* Styles applied to the root element if `flexItem={true}`. */
+    flexItem: {
+      alignSelf: 'stretch',
+      height: 'auto'
     }
   };
 };
-var AccordionDetails = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function AccordionDetails(props, ref) {
-  var classes = props.classes,
+var Divider = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function Divider(props, ref) {
+  var _props$absolute = props.absolute,
+      absolute = _props$absolute === void 0 ? false : _props$absolute,
+      classes = props.classes,
       className = props.className,
-      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(props, ["classes", "className"]);
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'hr' : _props$component,
+      _props$flexItem = props.flexItem,
+      flexItem = _props$flexItem === void 0 ? false : _props$flexItem,
+      _props$light = props.light,
+      light = _props$light === void 0 ? false : _props$light,
+      _props$orientation = props.orientation,
+      orientation = _props$orientation === void 0 ? 'horizontal' : _props$orientation,
+      _props$role = props.role,
+      role = _props$role === void 0 ? Component !== 'hr' ? 'separator' : undefined : _props$role,
+      _props$variant = props.variant,
+      variant = _props$variant === void 0 ? 'fullWidth' : _props$variant,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(props, ["absolute", "classes", "className", "component", "flexItem", "light", "orientation", "role", "variant"]);
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, className),
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, className, variant !== 'fullWidth' && classes[variant], absolute && classes.absolute, flexItem && classes.flexItem, light && classes.light, orientation === 'vertical' && classes.vertical),
+    role: role,
     ref: ref
   }, other));
 });
  false ? undefined : void 0;
 /* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(styles, {
-  name: 'MuiAccordionDetails'
-})(AccordionDetails));
+  name: 'MuiDivider'
+})(Divider));
 
 /***/ }),
 
-/***/ 698:
+/***/ 738:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(136);
+
+var _interopRequireWildcard = __webpack_require__(133);
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(0));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(144));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"
+}), 'Language');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ 739:
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+  Copyright (c) 2018 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+/* global define */
+
+(function () {
+	'use strict';
+
+	var hasOwn = {}.hasOwnProperty;
+
+	function classNames() {
+		var classes = [];
+
+		for (var i = 0; i < arguments.length; i++) {
+			var arg = arguments[i];
+			if (!arg) continue;
+
+			var argType = typeof arg;
+
+			if (argType === 'string' || argType === 'number') {
+				classes.push(arg);
+			} else if (Array.isArray(arg)) {
+				if (arg.length) {
+					var inner = classNames.apply(null, arg);
+					if (inner) {
+						classes.push(inner);
+					}
+				}
+			} else if (argType === 'object') {
+				if (arg.toString === Object.prototype.toString) {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes.push(key);
+						}
+					}
+				} else {
+					classes.push(arg.toString());
+				}
+			}
+		}
+
+		return classes.join(' ');
+	}
+
+	if ( true && module.exports) {
+		classNames.default = classNames;
+		module.exports = classNames;
+	} else if (true) {
+		// register as 'classnames', consistent with npm package name
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+			return classNames;
+		}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {}
+}());
+
+
+/***/ }),
+
+/***/ 740:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(136);
+
+var _interopRequireWildcard = __webpack_require__(133);
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(__webpack_require__(0));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(144));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+}), 'Facebook');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ 742:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8298,37 +8708,11 @@ var AccordionDetails = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardR
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
 var esm_extends = __webpack_require__(3);
 
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js
-var arrayWithHoles = __webpack_require__(390);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js
-var iterableToArray = __webpack_require__(388);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js
-var unsupportedIterableToArray = __webpack_require__(387);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js
-var nonIterableRest = __webpack_require__(391);
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/toArray.js
-
-
-
-
-function _toArray(arr) {
-  return Object(arrayWithHoles["a" /* default */])(arr) || Object(iterableToArray["a" /* default */])(arr) || Object(unsupportedIterableToArray["a" /* default */])(arr) || Object(nonIterableRest["a" /* default */])();
-}
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 1 modules
-var slicedToArray = __webpack_require__(176);
-
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
 var objectWithoutProperties = __webpack_require__(131);
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(0);
-
-// EXTERNAL MODULE: ./node_modules/react-is/index.js
-var react_is = __webpack_require__(26);
 
 // EXTERNAL MODULE: ./node_modules/prop-types/index.js
 var prop_types = __webpack_require__(1);
@@ -8336,196 +8720,453 @@ var prop_types = __webpack_require__(1);
 // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
 var clsx_m = __webpack_require__(132);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Collapse/Collapse.js
-var Collapse = __webpack_require__(471);
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/createSvgIcon.js + 1 modules
+var createSvgIcon = __webpack_require__(177);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Paper/Paper.js
-var Paper = __webpack_require__(766);
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/internal/svg-icons/Cancel.js
 
+
+/**
+ * @ignore - internal component.
+ */
+
+/* harmony default export */ var Cancel = (Object(createSvgIcon["a" /* default */])( /*#__PURE__*/react["createElement"]("path", {
+  d: "M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+}), 'Cancel'));
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
 var withStyles = __webpack_require__(135);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Accordion/AccordionContext.js
-var AccordionContext = __webpack_require__(310);
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/colorManipulator.js
+var colorManipulator = __webpack_require__(229);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/useControlled.js
-var useControlled = __webpack_require__(162);
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/useForkRef.js
+var useForkRef = __webpack_require__(138);
 
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Accordion/Accordion.js
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/capitalize.js
+var capitalize = __webpack_require__(143);
 
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/ButtonBase/ButtonBase.js + 4 modules
+var ButtonBase = __webpack_require__(769);
 
-
-
-
-
-
-
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Chip/Chip.js
 
 
 
 
 
 
-var styles = function styles(theme) {
-  var transition = {
-    duration: theme.transitions.duration.shortest
-  };
+
+
+
+
+
+
+var Chip_styles = function styles(theme) {
+  var backgroundColor = theme.palette.type === 'light' ? theme.palette.grey[300] : theme.palette.grey[700];
+  var deleteIconColor = Object(colorManipulator["a" /* alpha */])(theme.palette.text.primary, 0.26);
   return {
     /* Styles applied to the root element. */
     root: {
-      position: 'relative',
-      transition: theme.transitions.create(['margin'], transition),
-      '&:before': {
-        position: 'absolute',
-        left: 0,
-        top: -1,
-        right: 0,
-        height: 1,
-        content: '""',
-        opacity: 1,
-        backgroundColor: theme.palette.divider,
-        transition: theme.transitions.create(['opacity', 'background-color'], transition)
-      },
-      '&:first-child': {
-        '&:before': {
-          display: 'none'
-        }
-      },
-      '&$expanded': {
-        margin: '16px 0',
-        '&:first-child': {
-          marginTop: 0
-        },
-        '&:last-child': {
-          marginBottom: 0
-        },
-        '&:before': {
-          opacity: 0
-        }
-      },
-      '&$expanded + &': {
-        '&:before': {
-          display: 'none'
-        }
-      },
+      fontFamily: theme.typography.fontFamily,
+      fontSize: theme.typography.pxToRem(13),
+      display: 'inline-flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      height: 32,
+      color: theme.palette.getContrastText(backgroundColor),
+      backgroundColor: backgroundColor,
+      borderRadius: 32 / 2,
+      whiteSpace: 'nowrap',
+      transition: theme.transitions.create(['background-color', 'box-shadow']),
+      // label will inherit this from root, then `clickable` class overrides this for both
+      cursor: 'default',
+      // We disable the focus ring for mouse, touch and keyboard users.
+      outline: 0,
+      textDecoration: 'none',
+      border: 'none',
+      // Remove `button` border
+      padding: 0,
+      // Remove `button` padding
+      verticalAlign: 'middle',
+      boxSizing: 'border-box',
       '&$disabled': {
-        backgroundColor: theme.palette.action.disabledBackground
-      }
-    },
-
-    /* Styles applied to the root element if `square={false}`. */
-    rounded: {
-      borderRadius: 0,
-      '&:first-child': {
-        borderTopLeftRadius: theme.shape.borderRadius,
-        borderTopRightRadius: theme.shape.borderRadius
+        opacity: 0.5,
+        pointerEvents: 'none'
       },
-      '&:last-child': {
-        borderBottomLeftRadius: theme.shape.borderRadius,
-        borderBottomRightRadius: theme.shape.borderRadius,
-        // Fix a rendering issue on Edge
-        '@supports (-ms-ime-align: auto)': {
-          borderBottomLeftRadius: 0,
-          borderBottomRightRadius: 0
-        }
+      '& $avatar': {
+        marginLeft: 5,
+        marginRight: -6,
+        width: 24,
+        height: 24,
+        color: theme.palette.type === 'light' ? theme.palette.grey[700] : theme.palette.grey[300],
+        fontSize: theme.typography.pxToRem(12)
+      },
+      '& $avatarColorPrimary': {
+        color: theme.palette.primary.contrastText,
+        backgroundColor: theme.palette.primary.dark
+      },
+      '& $avatarColorSecondary': {
+        color: theme.palette.secondary.contrastText,
+        backgroundColor: theme.palette.secondary.dark
+      },
+      '& $avatarSmall': {
+        marginLeft: 4,
+        marginRight: -4,
+        width: 18,
+        height: 18,
+        fontSize: theme.typography.pxToRem(10)
       }
     },
 
-    /* Styles applied to the root element if `expanded={true}`. */
-    expanded: {},
+    /* Styles applied to the root element if `size="small"`. */
+    sizeSmall: {
+      height: 24
+    },
 
-    /* Styles applied to the root element if `disabled={true}`. */
-    disabled: {}
+    /* Styles applied to the root element if `color="primary"`. */
+    colorPrimary: {
+      backgroundColor: theme.palette.primary.main,
+      color: theme.palette.primary.contrastText
+    },
+
+    /* Styles applied to the root element if `color="secondary"`. */
+    colorSecondary: {
+      backgroundColor: theme.palette.secondary.main,
+      color: theme.palette.secondary.contrastText
+    },
+
+    /* Pseudo-class applied to the root element if `disabled={true}`. */
+    disabled: {},
+
+    /* Styles applied to the root element if `onClick` is defined or `clickable={true}`. */
+    clickable: {
+      userSelect: 'none',
+      WebkitTapHighlightColor: 'transparent',
+      cursor: 'pointer',
+      '&:hover, &:focus': {
+        backgroundColor: Object(colorManipulator["d" /* emphasize */])(backgroundColor, 0.08)
+      },
+      '&:active': {
+        boxShadow: theme.shadows[1]
+      }
+    },
+
+    /* Styles applied to the root element if `onClick` and `color="primary"` is defined or `clickable={true}`. */
+    clickableColorPrimary: {
+      '&:hover, &:focus': {
+        backgroundColor: Object(colorManipulator["d" /* emphasize */])(theme.palette.primary.main, 0.08)
+      }
+    },
+
+    /* Styles applied to the root element if `onClick` and `color="secondary"` is defined or `clickable={true}`. */
+    clickableColorSecondary: {
+      '&:hover, &:focus': {
+        backgroundColor: Object(colorManipulator["d" /* emphasize */])(theme.palette.secondary.main, 0.08)
+      }
+    },
+
+    /* Styles applied to the root element if `onDelete` is defined. */
+    deletable: {
+      '&:focus': {
+        backgroundColor: Object(colorManipulator["d" /* emphasize */])(backgroundColor, 0.08)
+      }
+    },
+
+    /* Styles applied to the root element if `onDelete` and `color="primary"` is defined. */
+    deletableColorPrimary: {
+      '&:focus': {
+        backgroundColor: Object(colorManipulator["d" /* emphasize */])(theme.palette.primary.main, 0.2)
+      }
+    },
+
+    /* Styles applied to the root element if `onDelete` and `color="secondary"` is defined. */
+    deletableColorSecondary: {
+      '&:focus': {
+        backgroundColor: Object(colorManipulator["d" /* emphasize */])(theme.palette.secondary.main, 0.2)
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"`. */
+    outlined: {
+      backgroundColor: 'transparent',
+      border: "1px solid ".concat(theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.23)' : 'rgba(255, 255, 255, 0.23)'),
+      '$clickable&:hover, $clickable&:focus, $deletable&:focus': {
+        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.text.primary, theme.palette.action.hoverOpacity)
+      },
+      '& $avatar': {
+        marginLeft: 4
+      },
+      '& $avatarSmall': {
+        marginLeft: 2
+      },
+      '& $icon': {
+        marginLeft: 4
+      },
+      '& $iconSmall': {
+        marginLeft: 2
+      },
+      '& $deleteIcon': {
+        marginRight: 5
+      },
+      '& $deleteIconSmall': {
+        marginRight: 3
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"` and `color="primary"`. */
+    outlinedPrimary: {
+      color: theme.palette.primary.main,
+      border: "1px solid ".concat(theme.palette.primary.main),
+      '$clickable&:hover, $clickable&:focus, $deletable&:focus': {
+        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.primary.main, theme.palette.action.hoverOpacity)
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"` and `color="secondary"`. */
+    outlinedSecondary: {
+      color: theme.palette.secondary.main,
+      border: "1px solid ".concat(theme.palette.secondary.main),
+      '$clickable&:hover, $clickable&:focus, $deletable&:focus': {
+        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.main, theme.palette.action.hoverOpacity)
+      }
+    },
+    // TODO v5: remove
+
+    /* Styles applied to the `avatar` element. */
+    avatar: {},
+
+    /* Styles applied to the `avatar` element if `size="small"`. */
+    avatarSmall: {},
+
+    /* Styles applied to the `avatar` element if `color="primary"`. */
+    avatarColorPrimary: {},
+
+    /* Styles applied to the `avatar` element if `color="secondary"`. */
+    avatarColorSecondary: {},
+
+    /* Styles applied to the `icon` element. */
+    icon: {
+      color: theme.palette.type === 'light' ? theme.palette.grey[700] : theme.palette.grey[300],
+      marginLeft: 5,
+      marginRight: -6
+    },
+
+    /* Styles applied to the `icon` element if `size="small"`. */
+    iconSmall: {
+      width: 18,
+      height: 18,
+      marginLeft: 4,
+      marginRight: -4
+    },
+
+    /* Styles applied to the `icon` element if `color="primary"`. */
+    iconColorPrimary: {
+      color: 'inherit'
+    },
+
+    /* Styles applied to the `icon` element if `color="secondary"`. */
+    iconColorSecondary: {
+      color: 'inherit'
+    },
+
+    /* Styles applied to the label `span` element. */
+    label: {
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      paddingLeft: 12,
+      paddingRight: 12,
+      whiteSpace: 'nowrap'
+    },
+
+    /* Styles applied to the label `span` element if `size="small"`. */
+    labelSmall: {
+      paddingLeft: 8,
+      paddingRight: 8
+    },
+
+    /* Styles applied to the `deleteIcon` element. */
+    deleteIcon: {
+      WebkitTapHighlightColor: 'transparent',
+      color: deleteIconColor,
+      height: 22,
+      width: 22,
+      cursor: 'pointer',
+      margin: '0 5px 0 -6px',
+      '&:hover': {
+        color: Object(colorManipulator["a" /* alpha */])(deleteIconColor, 0.4)
+      }
+    },
+
+    /* Styles applied to the `deleteIcon` element if `size="small"`. */
+    deleteIconSmall: {
+      height: 16,
+      width: 16,
+      marginRight: 4,
+      marginLeft: -4
+    },
+
+    /* Styles applied to the deleteIcon element if `color="primary"` and `variant="default"`. */
+    deleteIconColorPrimary: {
+      color: Object(colorManipulator["a" /* alpha */])(theme.palette.primary.contrastText, 0.7),
+      '&:hover, &:active': {
+        color: theme.palette.primary.contrastText
+      }
+    },
+
+    /* Styles applied to the deleteIcon element if `color="secondary"` and `variant="default"`. */
+    deleteIconColorSecondary: {
+      color: Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.contrastText, 0.7),
+      '&:hover, &:active': {
+        color: theme.palette.secondary.contrastText
+      }
+    },
+
+    /* Styles applied to the deleteIcon element if `color="primary"` and `variant="outlined"`. */
+    deleteIconOutlinedColorPrimary: {
+      color: Object(colorManipulator["a" /* alpha */])(theme.palette.primary.main, 0.7),
+      '&:hover, &:active': {
+        color: theme.palette.primary.main
+      }
+    },
+
+    /* Styles applied to the deleteIcon element if `color="secondary"` and `variant="outlined"`. */
+    deleteIconOutlinedColorSecondary: {
+      color: Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.main, 0.7),
+      '&:hover, &:active': {
+        color: theme.palette.secondary.main
+      }
+    }
   };
 };
-var Accordion_Accordion = /*#__PURE__*/react["forwardRef"](function Accordion(props, ref) {
-  var childrenProp = props.children,
+
+function isDeleteKeyboardEvent(keyboardEvent) {
+  return keyboardEvent.key === 'Backspace' || keyboardEvent.key === 'Delete';
+}
+/**
+ * Chips represent complex entities in small blocks, such as a contact.
+ */
+
+
+var Chip_Chip = /*#__PURE__*/react["forwardRef"](function Chip(props, ref) {
+  var avatarProp = props.avatar,
       classes = props.classes,
       className = props.className,
-      _props$defaultExpande = props.defaultExpanded,
-      defaultExpanded = _props$defaultExpande === void 0 ? false : _props$defaultExpande,
+      clickableProp = props.clickable,
+      _props$color = props.color,
+      color = _props$color === void 0 ? 'default' : _props$color,
+      ComponentProp = props.component,
+      deleteIconProp = props.deleteIcon,
       _props$disabled = props.disabled,
       disabled = _props$disabled === void 0 ? false : _props$disabled,
-      expandedProp = props.expanded,
-      onChange = props.onChange,
-      _props$square = props.square,
-      square = _props$square === void 0 ? false : _props$square,
-      _props$TransitionComp = props.TransitionComponent,
-      TransitionComponent = _props$TransitionComp === void 0 ? Collapse["a" /* default */] : _props$TransitionComp,
-      TransitionProps = props.TransitionProps,
-      other = Object(objectWithoutProperties["a" /* default */])(props, ["children", "classes", "className", "defaultExpanded", "disabled", "expanded", "onChange", "square", "TransitionComponent", "TransitionProps"]);
+      iconProp = props.icon,
+      label = props.label,
+      onClick = props.onClick,
+      onDelete = props.onDelete,
+      onKeyDown = props.onKeyDown,
+      onKeyUp = props.onKeyUp,
+      _props$size = props.size,
+      size = _props$size === void 0 ? 'medium' : _props$size,
+      _props$variant = props.variant,
+      variant = _props$variant === void 0 ? 'default' : _props$variant,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["avatar", "classes", "className", "clickable", "color", "component", "deleteIcon", "disabled", "icon", "label", "onClick", "onDelete", "onKeyDown", "onKeyUp", "size", "variant"]);
 
-  var _useControlled = Object(useControlled["a" /* default */])({
-    controlled: expandedProp,
-    default: defaultExpanded,
-    name: 'Accordion',
-    state: 'expanded'
-  }),
-      _useControlled2 = Object(slicedToArray["a" /* default */])(_useControlled, 2),
-      expanded = _useControlled2[0],
-      setExpandedState = _useControlled2[1];
+  var chipRef = react["useRef"](null);
+  var handleRef = Object(useForkRef["a" /* default */])(chipRef, ref);
 
-  var handleChange = react["useCallback"](function (event) {
-    setExpandedState(!expanded);
+  var handleDeleteIconClick = function handleDeleteIconClick(event) {
+    // Stop the event from bubbling up to the `Chip`
+    event.stopPropagation();
 
-    if (onChange) {
-      onChange(event, !expanded);
+    if (onDelete) {
+      onDelete(event);
     }
-  }, [expanded, onChange, setExpandedState]);
+  };
 
-  var _React$Children$toArr = react["Children"].toArray(childrenProp),
-      _React$Children$toArr2 = _toArray(_React$Children$toArr),
-      summary = _React$Children$toArr2[0],
-      children = _React$Children$toArr2.slice(1);
+  var handleKeyDown = function handleKeyDown(event) {
+    // Ignore events from children of `Chip`.
+    if (event.currentTarget === event.target && isDeleteKeyboardEvent(event)) {
+      // will be handled in keyUp, otherwise some browsers
+      // might init navigation
+      event.preventDefault();
+    }
 
-  var contextValue = react["useMemo"](function () {
-    return {
-      expanded: expanded,
-      disabled: disabled,
-      toggle: handleChange
-    };
-  }, [expanded, disabled, handleChange]);
-  return /*#__PURE__*/react["createElement"](Paper["a" /* default */], Object(esm_extends["a" /* default */])({
-    className: Object(clsx_m["a" /* default */])(classes.root, className, expanded && classes.expanded, disabled && classes.disabled, !square && classes.rounded),
-    ref: ref,
-    square: square
-  }, other), /*#__PURE__*/react["createElement"](AccordionContext["a" /* default */].Provider, {
-    value: contextValue
-  }, summary), /*#__PURE__*/react["createElement"](TransitionComponent, Object(esm_extends["a" /* default */])({
-    in: expanded,
-    timeout: "auto"
-  }, TransitionProps), /*#__PURE__*/react["createElement"]("div", {
-    "aria-labelledby": summary.props.id,
-    id: summary.props['aria-controls'],
-    role: "region"
-  }, children)));
+    if (onKeyDown) {
+      onKeyDown(event);
+    }
+  };
+
+  var handleKeyUp = function handleKeyUp(event) {
+    // Ignore events from children of `Chip`.
+    if (event.currentTarget === event.target) {
+      if (onDelete && isDeleteKeyboardEvent(event)) {
+        onDelete(event);
+      } else if (event.key === 'Escape' && chipRef.current) {
+        chipRef.current.blur();
+      }
+    }
+
+    if (onKeyUp) {
+      onKeyUp(event);
+    }
+  };
+
+  var clickable = clickableProp !== false && onClick ? true : clickableProp;
+  var small = size === 'small';
+  var Component = ComponentProp || (clickable ? ButtonBase["a" /* default */] : 'div');
+  var moreProps = Component === ButtonBase["a" /* default */] ? {
+    component: 'div'
+  } : {};
+  var deleteIcon = null;
+
+  if (onDelete) {
+    var customClasses = Object(clsx_m["a" /* default */])(color !== 'default' && (variant === "default" ? classes["deleteIconColor".concat(Object(capitalize["a" /* default */])(color))] : classes["deleteIconOutlinedColor".concat(Object(capitalize["a" /* default */])(color))]), small && classes.deleteIconSmall);
+    deleteIcon = deleteIconProp && /*#__PURE__*/react["isValidElement"](deleteIconProp) ? /*#__PURE__*/react["cloneElement"](deleteIconProp, {
+      className: Object(clsx_m["a" /* default */])(deleteIconProp.props.className, classes.deleteIcon, customClasses),
+      onClick: handleDeleteIconClick
+    }) : /*#__PURE__*/react["createElement"](Cancel, {
+      className: Object(clsx_m["a" /* default */])(classes.deleteIcon, customClasses),
+      onClick: handleDeleteIconClick
+    });
+  }
+
+  var avatar = null;
+
+  if (avatarProp && /*#__PURE__*/react["isValidElement"](avatarProp)) {
+    avatar = /*#__PURE__*/react["cloneElement"](avatarProp, {
+      className: Object(clsx_m["a" /* default */])(classes.avatar, avatarProp.props.className, small && classes.avatarSmall, color !== 'default' && classes["avatarColor".concat(Object(capitalize["a" /* default */])(color))])
+    });
+  }
+
+  var icon = null;
+
+  if (iconProp && /*#__PURE__*/react["isValidElement"](iconProp)) {
+    icon = /*#__PURE__*/react["cloneElement"](iconProp, {
+      className: Object(clsx_m["a" /* default */])(classes.icon, iconProp.props.className, small && classes.iconSmall, color !== 'default' && classes["iconColor".concat(Object(capitalize["a" /* default */])(color))])
+    });
+  }
+
+  if (false) {}
+
+  return /*#__PURE__*/react["createElement"](Component, Object(esm_extends["a" /* default */])({
+    role: clickable || onDelete ? 'button' : undefined,
+    className: Object(clsx_m["a" /* default */])(classes.root, className, color !== 'default' && [classes["color".concat(Object(capitalize["a" /* default */])(color))], clickable && classes["clickableColor".concat(Object(capitalize["a" /* default */])(color))], onDelete && classes["deletableColor".concat(Object(capitalize["a" /* default */])(color))]], variant !== "default" && [classes.outlined, {
+      'primary': classes.outlinedPrimary,
+      'secondary': classes.outlinedSecondary
+    }[color]], disabled && classes.disabled, small && classes.sizeSmall, clickable && classes.clickable, onDelete && classes.deletable),
+    "aria-disabled": disabled ? true : undefined,
+    tabIndex: clickable || onDelete ? 0 : undefined,
+    onClick: onClick,
+    onKeyDown: handleKeyDown,
+    onKeyUp: handleKeyUp,
+    ref: handleRef
+  }, moreProps, other), avatar || icon, /*#__PURE__*/react["createElement"]("span", {
+    className: Object(clsx_m["a" /* default */])(classes.label, small && classes.labelSmall)
+  }, label), deleteIcon);
 });
  false ? undefined : void 0;
-/* harmony default export */ var esm_Accordion_Accordion = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(styles, {
-  name: 'MuiAccordion'
-})(Accordion_Accordion));
-
-/***/ }),
-
-/***/ 71:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var Blockchaininfrastructure=function Blockchaininfrastructure(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:"300",height:"300",viewBox:"0 0 96.409 213.887"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_166","data-name":"Group 166",transform:"translate(-429.83 -650.487)"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_161","data-name":"Group 161"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_115","data-name":"Path 115",d:"M513.17,790.144l-5.19-1.78-5.17,1.77,5.18,1.77,9.95,3.4-40.59,13.86L436.76,795.3l9.95-3.4,5.18-1.77-5.17-1.77-5.19,1.78-11.7,3.99v54.01l47.52,16.23,47.52-16.23v-54.01Zm-37.57,70.09-42.27-14.44v-48.12L475.6,812.1Zm45.77-14.44-42.27,14.44V812.1l42.27-14.43Zm-42.27-63.75V778.5l-1.75-.6-1.75.6v3.54l1.75-.6Z"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_162","data-name":"Group 162"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_116","data-name":"Path 116",d:"M477.35,715.9l-47.52,16.23v54.01l11.7,4,5.18,1.76,30.64,10.47,30.64-10.47,5.18-1.76,11.7-4v-54.01Zm0,3.54,40.59,13.86-40.59,13.86L436.76,733.3Zm-1.75,78.79-23.71-8.1-5.17-1.77-13.39-4.57v-48.12L475.6,750.1Zm45.77-14.44-13.39,4.57-5.17,1.77-23.71,8.1V750.1l42.27-14.43Z"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_165","data-name":"Group 165"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_164","data-name":"Group 164"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_163","data-name":"Group 163"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_117","data-name":"Path 117",d:"M526.239,667.537v56.73l-47.52,17.04-47.51-17.04v-56.73l47.51-17.05Zm-3.5,54.26v-50.54l-42.27,15.16v50.55Zm-44.02-38.47,40.59-14.56-40.59-14.56-40.58,14.56Zm-1.75,53.64v-50.55l-42.26-15.16V721.8Z"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_118","data-name":"Path 118",d:"M522.739,671.257V721.8l-42.27,15.17v-50.55Z",fill:"#5383b3"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_119","data-name":"Path 119",d:"M519.309,668.767l-40.59,14.56-40.58-14.56,40.58-14.56Z",fill:"#5383b3"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_120","data-name":"Path 120",d:"M476.969,686.417v50.55l-42.26-15.17v-50.54Z",fill:"#5383b3"}))))));};/* harmony default export */ __webpack_exports__["default"] = (Blockchaininfrastructure);
-
-/***/ }),
-
-/***/ 73:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var DevelopmentServices=function DevelopmentServices(_ref){var _ref$width=_ref.width,width=_ref$width===void 0?"314.409":_ref$width,_ref$height=_ref.height,height=_ref$height===void 0?"294.887":_ref$height;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:width,height:height,viewBox:"0 0 214.409 194.887"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_173","data-name":"Group 173",transform:"translate(-867.83 -625.28)"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_168","data-name":"Group 168"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_167","data-name":"Group 167"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_121","data-name":"Path 121",d:"M1082.239,642.33v56.73l-47.52,17.04-47.51-17.04V642.33l47.51-17.05Zm-3.5,54.26V646.05l-42.27,15.16v50.55Zm-44.02-38.47,40.59-14.56L1034.719,629l-40.58,14.56Zm-1.75,53.64V661.21l-42.26-15.16v50.54Z"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_122","data-name":"Path 122",d:"M1078.739,646.05v50.54l-42.27,15.17v-50.55Z",fill:"#5383b3"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_123","data-name":"Path 123",d:"M1075.309,643.56l-40.59,14.56-40.58-14.56,40.58-14.56Z",fill:"#5383b3"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_124","data-name":"Path 124",d:"M1032.969,661.211v50.55l-42.26-15.17V646.05Z",fill:"#5383b3"}))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_169","data-name":"Group 169"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_125","data-name":"Path 125",d:"M915.35,733.7l-1.75.6v3.54l1.4-.48.35-.12.65.22,1.1.38V734.3Zm0,40.47-1.75-.6v6.79l1.75.6,1.75-.6v-6.79Zm0,6.79-1.75-.6V796.3l1.75-.6,1.75.6v-15.94Zm0-16-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm17.48,45.7-15.73,5.37v-35.67l-1.75.6-1.75-.6v35.67l-15.73-5.37-3.5-1.2V813l3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2v-3.54Zm-15.73-46.3v3.54l15.73-5.37v-3.54Zm-1.75.6-1.75-.6-8.79-3-5.11,1.79,13.9,4.75v28.4l1.75-.6,1.75.6v-31.94Zm1.75-.6v3.54l15.73-5.37v-3.54Zm-1.75.6-1.75-.6-8.79-3-5.11,1.79,13.9,4.75v28.4l1.75-.6,1.75.6v-31.94Zm34.58-19.44h-.01l-.21-.08-5.19-1.78-3.71,1.27-1.47.5,5.18,1.77.3.11h.01l11.11,3.79-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6-8.79-3-6.94-2.37-3.5-1.19-19.61-6.7,11.42-3.9,5.18-1.77-1.47-.5-3.71-1.27-5.19,1.78-9.66,3.3-3.5,1.19v54.01l3.5,1.2,8.2,2.8,5.18,1.76,9.66,3.3,3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,9.66-3.3,5.18-1.76,11.7-4v-54.01Zm-36.33,70.51-15.73-5.37-3.5-1.2-4.48-1.53-5.17-1.77-13.39-4.57v-48.12l23.04,7.87,3.5,1.19,1.83.62,13.9,4.75Zm45.77-14.44-13.39,4.57-5.17,1.77-4.48,1.53-3.5,1.2-15.73,5.37V767.9l15.73-5.37,3.5-1.19,23.04-7.87Zm-44.02-36.63-1.75-.6-8.79-3-5.11,1.79,13.9,4.75v28.4l1.75-.6,1.75.6v-31.94Zm1.75-.6v3.54l15.73-5.37v-3.54Zm-1.75.6-1.75-.6-8.79-3-5.11,1.79,13.9,4.75v28.4l1.75-.6,1.75.6v-31.94Zm1.75-.6v3.54l15.73-5.37v-3.54Zm15.73,46.3-15.73,5.37v-35.67l-1.75.6-1.75-.6v35.67l-15.73-5.37-3.5-1.2V813l3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2v-3.54Zm-17.48-45.7-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,0-1.75-.6V796.3l1.75-.6,1.75.6v-31.94Zm0,9.21-1.75-.6V796.3l1.75-.6,1.75.6v-22.73Z"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_170","data-name":"Group 170"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_126","data-name":"Path 126",d:"M915.35,701.957l-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38v-36.48Zm-17.48-5.97-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm17.48,5.97-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38v-36.48Zm-17.48-5.97-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm17.48,10.71-1.75.6v30.54l1.4-.48.35-.12.65.22,1.1.38V707.3Zm-17.48-10.71-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm41.47,49.44-3.01,1.03-3.5,1.19-15.73,5.38v-34.67l-1.75.6-1.75-.6v34.67l-15.73-5.38-3.5-1.19-3.01-1.03-5.18,1.77,8.19,2.8,3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8Zm-41.47-49.44-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm41.47,49.44-3.01,1.03-3.5,1.19-15.73,5.38v-34.67l-1.75.6-1.75-.6v34.67l-15.73-5.38-3.5-1.19V750l3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8Zm-41.47-49.44-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm61.5-10.25-23.04-7.87-3.5-1.2L917.1,671.3l-1.75-.6-1.75.6-15.73,5.37-3.5,1.2-23.04,7.87-3.5,1.19v54.01l3.5,1.2,8.2,2.8,1.46.5,3.72,1.26,1.47.5,8.19,2.8,3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8,1.47-.5,3.72-1.26,1.46-.5,11.7-4v-54.01Zm-65-4.34,3.5-1.19,15.73-5.37,1.75-.6,1.75.6,15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6-15.73-5.37-3.5-1.19-19.61-6.7Zm19.23,71.63-15.73-5.38-3.5-1.19-3.01-1.03-1.47-.5-3.71-1.27-1.46-.5-13.39-4.57v-48.12l23.04,7.87,3.5,1.19,15.73,5.37Zm45.77-14.44-13.39,4.57-1.46.5-3.71,1.27-1.47.5-3.01,1.03-3.5,1.19-15.73,5.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87Zm-61.5-42.6-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm41.47,49.44-3.01,1.03-3.5,1.19-15.73,5.38v-34.67l-1.75.6-1.75-.6v34.67l-15.73-5.38-3.5-1.19-3.01-1.03-5.18,1.77,8.19,2.8,3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8Zm-41.47-49.44v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12v3.54l15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm38.46-18.12-3.5-1.2L917.1,671.3v3.54l15.73,5.37,3.5,1.19,19.61,6.7-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38V704.9l15.73-5.37,3.5-1.19,23.04-7.87v-4.73Zm-38.46,18.12-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm17.48,10.71-1.75.6v30.54l1.4-.48.35-.12.65.22,1.1.38V707.3Zm-17.48-10.71-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm17.48,5.97-1.75-.6v36.48l1.4-.48.35-.12.65.22,1.1.38v-36.48Zm-17.48-5.97-3.5-1.19-19.61-6.7,19.61-6.7v-3.53l-23.04,7.87v4.73l23.04,7.87,3.5,1.19,15.73,5.37v-3.54Zm0,51.66-3.5-1.19-3.01-1.03-5.18,1.77,8.19,2.8,3.5,1.2,15.73,5.37v-3.54Zm17.48-28.69-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm.65,18.5-.65-.22-.35.12-1.4.48V750.3l1.75-.6,1.75.6v-12.46Zm-.65-30.76-1.75.6v11.06l1.75.6,1.75-.6V707.3Z"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_171","data-name":"Group 171"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("rect",{id:"Rectangle_15","data-name":"Rectangle 15",width:"1",height:"3",transform:"translate(915 735.457)"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g",{id:"Group_172","data-name":"Group 172"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path",{id:"Path_127","data-name":"Path 127",d:"M980.35,750.167l-1.75-.6v7.79l1.75.6,1.75-.6v-7.79Zm.65,26.29-.65-.22-.35.12-1.4.48V789.3l1.75-.6,1.75.6v-12.46Zm-.65-18.5-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-17.48,28.69-3.5-1.19V789l3.5,1.2,15.73,5.37v-3.54Zm8.64-48.71-8.64-2.95-3.5-1.19v3.54l3.5,1.19,3.53,1.2,12.2,4.17v-3.54Zm8.84,20.02-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-47.52,1.03v3.54l3.5-1.19V757.8Zm47.52-1.03-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-47.52,1.03v3.54l3.5-1.19V757.8Zm83.81-36.9h-.01l-15.3-5.22-3.5-1.2L982.1,710.3l-1.75-.6-1.75.6-15.73,5.37-3.5,1.2v3.53l3.5-1.19,15.73-5.37,1.4-.48.35-.12.65.22,1.1.38,15.73,5.37,3.5,1.19,10.2,3.48h.01l9.4,3.22-19.61,6.7-3.5,1.19-15.73,5.37-1.75.6-1.75-.6-7.09-2.42-8.64-2.95-3.5-1.19v3.54l3.5,1.19,3.53,1.2,12.2,4.17v48.13l-15.73-5.38-3.5-1.19V789l3.5,1.2,15.73,5.37,1.75.6,1.75-.6,15.73-5.37,3.5-1.2,8.19-2.8,1.47-.5,3.72-1.26,1.46-.5,11.7-4v-54.01Zm7.73,55.5-13.39,4.57-1.46.5-3.71,1.27-1.47.5-3.01,1.03-3.5,1.19-15.73,5.38V743.9l15.73-5.37,3.5-1.19,23.04-7.87Zm-91.54-15.06,3.5-1.19V757.8l-3.5,1.19Zm47.52-4.57-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-47.52,1.03v3.54l3.5-1.19V757.8Zm0-11.34v3.55l3.5-1.2v-3.54Zm47.52,10.31-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Zm-47.52,1.03v3.54l3.5-1.19V757.8Zm47.52-1.03-1.75-.6v19.48l1.4-.48.35-.12.65.22,1.1.38v-19.48Z"}))));};/* harmony default export */ __webpack_exports__["default"] = (DevelopmentServices);
+/* harmony default export */ var esm_Chip_Chip = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(Chip_styles, {
+  name: 'MuiChip'
+})(Chip_Chip));
 
 /***/ })
 

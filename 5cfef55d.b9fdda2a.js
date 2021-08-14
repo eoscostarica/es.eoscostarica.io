@@ -1,6 +1,6 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[52,5,11,32,60,72],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[24,5,11,17,32,60,72],{
 
-/***/ 127:
+/***/ 128:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11,399 +11,524 @@ __webpack_require__.r(__webpack_exports__);
 var react = __webpack_require__(0);
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
-// EXTERNAL MODULE: ./src/theme/Layout/index.js + 14 modules
-var Layout = __webpack_require__(209);
+// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
+var react_router = __webpack_require__(2);
 
 // EXTERNAL MODULE: ./node_modules/react-parallax/lib/index.js
 var lib = __webpack_require__(210);
 
-// EXTERNAL MODULE: ./node_modules/react-responsive/dist/react-responsive.js
-var react_responsive = __webpack_require__(151);
-
-// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
-var react_router = __webpack_require__(2);
-
 // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
 var clsx_m = __webpack_require__(132);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Box/Box.js + 12 modules
-var Box = __webpack_require__(767);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Grid/Grid.js
 var Grid = __webpack_require__(247);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Divider/Divider.js
-var Divider = __webpack_require__(722);
+// EXTERNAL MODULE: ./src/theme/Layout/index.js + 14 modules
+var Layout = __webpack_require__(209);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Avatar/Avatar.js + 1 modules
-var Avatar = __webpack_require__(697);
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Box/Box.js + 12 modules
+var Box = __webpack_require__(767);
 
-// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
-var useBaseUrl = __webpack_require__(146);
+// EXTERNAL MODULE: ./node_modules/react-responsive/dist/react-responsive.js
+var react_responsive = __webpack_require__(151);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Chip/Chip.js + 1 modules
-var Chip = __webpack_require__(742);
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+var esm_extends = __webpack_require__(3);
 
-// CONCATENATED MODULE: ./node_modules/react-share/es/utils/assert.js
-var __extends = (undefined && undefined.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-var AssertionError = /** @class */ (function (_super) {
-    __extends(AssertionError, _super);
-    function AssertionError(message) {
-        var _this = _super.call(this, message) || this;
-        _this.name = 'AssertionError';
-        return _this;
-    }
-    return AssertionError;
-}(Error));
-function assert(value, message) {
-    if (!value) {
-        throw new AssertionError(message);
-    }
-}
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
+var objectWithoutProperties = __webpack_require__(131);
 
-// CONCATENATED MODULE: ./node_modules/react-share/es/utils/objectToGetParams.js
-function objectToGetParams(object) {
-    var params = Object.entries(object)
-        .filter(function (_a) {
-        var value = _a[1];
-        return value !== undefined && value !== null;
-    })
-        .map(function (_a) {
-        var key = _a[0], value = _a[1];
-        return encodeURIComponent(key) + "=" + encodeURIComponent(String(value));
-    });
-    return params.length > 0 ? "?" + params.join('&') : '';
-}
+// EXTERNAL MODULE: ./node_modules/prop-types/index.js
+var prop_types = __webpack_require__(1);
 
-// EXTERNAL MODULE: ./node_modules/classnames/index.js
-var classnames = __webpack_require__(739);
-var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Paper/Paper.js
+var Paper = __webpack_require__(766);
 
-// CONCATENATED MODULE: ./node_modules/react-share/es/ShareButton.js
-var ShareButton_extends = (undefined && undefined.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-var __assign = (undefined && undefined.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
+var withStyles = __webpack_require__(135);
+
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Card/Card.js
+
+
+
+
+
+
+
+var Card_styles = {
+  /* Styles applied to the root element. */
+  root: {
+    overflow: 'hidden'
+  }
 };
-var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
-    function verb(n) { return function (v) { return step([n, v]); }; }
-    function step(op) {
-        if (f) throw new TypeError("Generator is already executing.");
-        while (_) try {
-            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [op[0] & 2, t.value];
-            switch (op[0]) {
-                case 0: case 1: t = op; break;
-                case 4: _.label++; return { value: op[1], done: false };
-                case 5: _.label++; y = op[1]; op = [0]; continue;
-                case 7: op = _.ops.pop(); _.trys.pop(); continue;
-                default:
-                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
-                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
-                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
-                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
-                    if (t[2]) _.ops.pop();
-                    _.trys.pop(); continue;
-            }
-            op = body.call(thisArg, _);
-        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
-        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
-    }
-};
-var __rest = (undefined && undefined.__rest) || function (s, e) {
-    var t = {};
-    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
-        t[p] = s[p];
-    if (s != null && typeof Object.getOwnPropertySymbols === "function")
-        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
-                t[p[i]] = s[p[i]];
-        }
-    return t;
-};
+var Card_Card = /*#__PURE__*/react["forwardRef"](function Card(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      _props$raised = props.raised,
+      raised = _props$raised === void 0 ? false : _props$raised,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["classes", "className", "raised"]);
 
-
-var isPromise = function (obj) {
-    return !!obj && (typeof obj === 'object' || typeof obj === 'function') && typeof obj.then === 'function';
-};
-var getBoxPositionOnWindowCenter = function (width, height) { return ({
-    left: window.outerWidth / 2 + (window.screenX || window.screenLeft || 0) - width / 2,
-    top: window.outerHeight / 2 + (window.screenY || window.screenTop || 0) - height / 2,
-}); };
-var getBoxPositionOnScreenCenter = function (width, height) { return ({
-    top: (window.screen.height - height) / 2,
-    left: (window.screen.width - width) / 2,
-}); };
-function windowOpen(url, _a, onClose) {
-    var height = _a.height, width = _a.width, configRest = __rest(_a, ["height", "width"]);
-    var config = __assign({ height: height,
-        width: width, location: 'no', toolbar: 'no', status: 'no', directories: 'no', menubar: 'no', scrollbars: 'yes', resizable: 'no', centerscreen: 'yes', chrome: 'yes' }, configRest);
-    var shareDialog = window.open(url, '', Object.keys(config)
-        .map(function (key) { return key + "=" + config[key]; })
-        .join(', '));
-    if (onClose) {
-        var interval_1 = window.setInterval(function () {
-            try {
-                if (shareDialog === null || shareDialog.closed) {
-                    window.clearInterval(interval_1);
-                    onClose(shareDialog);
-                }
-            }
-            catch (e) {
-                /* eslint-disable no-console */
-                console.error(e);
-                /* eslint-enable no-console */
-            }
-        }, 1000);
-    }
-    return shareDialog;
-}
-var ShareButton_ShareButton = /** @class */ (function (_super) {
-    ShareButton_extends(ShareButton, _super);
-    function ShareButton() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.openShareDialog = function (link) {
-            var _a = _this.props, onShareWindowClose = _a.onShareWindowClose, _b = _a.windowHeight, windowHeight = _b === void 0 ? 400 : _b, _c = _a.windowPosition, windowPosition = _c === void 0 ? 'windowCenter' : _c, _d = _a.windowWidth, windowWidth = _d === void 0 ? 550 : _d;
-            var windowConfig = __assign({ height: windowHeight, width: windowWidth }, (windowPosition === 'windowCenter'
-                ? getBoxPositionOnWindowCenter(windowWidth, windowHeight)
-                : getBoxPositionOnScreenCenter(windowWidth, windowHeight)));
-            windowOpen(link, windowConfig, onShareWindowClose);
-        };
-        _this.handleClick = function (event) { return __awaiter(_this, void 0, void 0, function () {
-            var _a, beforeOnClick, disabled, networkLink, onClick, url, openShareDialogOnClick, opts, link, returnVal;
-            return __generator(this, function (_b) {
-                switch (_b.label) {
-                    case 0:
-                        _a = this.props, beforeOnClick = _a.beforeOnClick, disabled = _a.disabled, networkLink = _a.networkLink, onClick = _a.onClick, url = _a.url, openShareDialogOnClick = _a.openShareDialogOnClick, opts = _a.opts;
-                        link = networkLink(url, opts);
-                        if (disabled) {
-                            return [2 /*return*/];
-                        }
-                        event.preventDefault();
-                        if (!beforeOnClick) return [3 /*break*/, 2];
-                        returnVal = beforeOnClick();
-                        if (!isPromise(returnVal)) return [3 /*break*/, 2];
-                        return [4 /*yield*/, returnVal];
-                    case 1:
-                        _b.sent();
-                        _b.label = 2;
-                    case 2:
-                        if (openShareDialogOnClick) {
-                            this.openShareDialog(link);
-                        }
-                        if (onClick) {
-                            onClick(event, link);
-                        }
-                        return [2 /*return*/];
-                }
-            });
-        }); };
-        return _this;
-    }
-    ShareButton.prototype.render = function () {
-        var _a = this.props, beforeOnClick = _a.beforeOnClick, children = _a.children, className = _a.className, disabled = _a.disabled, disabledStyle = _a.disabledStyle, forwardedRef = _a.forwardedRef, networkLink = _a.networkLink, networkName = _a.networkName, onShareWindowClose = _a.onShareWindowClose, openShareDialogOnClick = _a.openShareDialogOnClick, opts = _a.opts, resetButtonStyle = _a.resetButtonStyle, style = _a.style, url = _a.url, windowHeight = _a.windowHeight, windowPosition = _a.windowPosition, windowWidth = _a.windowWidth, rest = __rest(_a, ["beforeOnClick", "children", "className", "disabled", "disabledStyle", "forwardedRef", "networkLink", "networkName", "onShareWindowClose", "openShareDialogOnClick", "opts", "resetButtonStyle", "style", "url", "windowHeight", "windowPosition", "windowWidth"]);
-        var newClassName = classnames_default()('react-share__ShareButton', {
-            'react-share__ShareButton--disabled': !!disabled,
-            disabled: !!disabled,
-        }, className);
-        var newStyle = resetButtonStyle
-            ? __assign(__assign({ backgroundColor: 'transparent', border: 'none', padding: 0, font: 'inherit', color: 'inherit', cursor: 'pointer' }, style), (disabled && disabledStyle)) : __assign(__assign({}, style), (disabled && disabledStyle));
-        return (react_default.a.createElement("button", __assign({}, rest, { "aria-label": rest['aria-label'] || networkName, className: newClassName, onClick: this.handleClick, ref: forwardedRef, style: newStyle }), children));
-    };
-    ShareButton.defaultProps = {
-        disabledStyle: { opacity: 0.6 },
-        openShareDialogOnClick: true,
-        resetButtonStyle: true,
-    };
-    return ShareButton;
-}(react["Component"]));
-/* harmony default export */ var es_ShareButton = (ShareButton_ShareButton);
-
-// CONCATENATED MODULE: ./node_modules/react-share/es/hocs/createShareButton.js
-var createShareButton_assign = (undefined && undefined.__assign) || function () {
-    createShareButton_assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return createShareButton_assign.apply(this, arguments);
-};
-
-
-function createShareButton(networkName, link, optsMap, defaultProps) {
-    function CreatedButton(props, ref) {
-        var opts = optsMap(props);
-        var passedProps = createShareButton_assign({}, props);
-        // remove keys from passed props that are passed as opts
-        var optsKeys = Object.keys(opts);
-        optsKeys.forEach(function (key) {
-            delete passedProps[key];
-        });
-        return (react_default.a.createElement(es_ShareButton, createShareButton_assign({}, defaultProps, passedProps, { forwardedRef: ref, networkName: networkName, networkLink: link, opts: optsMap(props) })));
-    }
-    CreatedButton.displayName = "ShareButton-" + networkName;
-    return Object(react["forwardRef"])(CreatedButton);
-}
-/* harmony default export */ var hocs_createShareButton = (createShareButton);
-
-// CONCATENATED MODULE: ./node_modules/react-share/es/TwitterShareButton.js
-
-
-
-function twitterLink(url, _a) {
-    var title = _a.title, via = _a.via, _b = _a.hashtags, hashtags = _b === void 0 ? [] : _b, _c = _a.related, related = _c === void 0 ? [] : _c;
-    assert(url, 'twitter.url');
-    assert(Array.isArray(hashtags), 'twitter.hashtags is not an array');
-    assert(Array.isArray(related), 'twitter.related is not an array');
-    return ('https://twitter.com/share' +
-        objectToGetParams({
-            url: url,
-            text: title,
-            via: via,
-            hashtags: hashtags.length > 0 ? hashtags.join(',') : undefined,
-            related: related.length > 0 ? related.join(',') : undefined,
-        }));
-}
-var TwitterShareButton = hocs_createShareButton('twitter', twitterLink, function (props) { return ({
-    hashtags: props.hashtags,
-    title: props.title,
-    via: props.via,
-    related: props.related,
-}); }, {
-    windowWidth: 550,
-    windowHeight: 400,
+  return /*#__PURE__*/react["createElement"](Paper["a" /* default */], Object(esm_extends["a" /* default */])({
+    className: Object(clsx_m["a" /* default */])(classes.root, className),
+    elevation: raised ? 8 : 1,
+    ref: ref
+  }, other));
 });
-/* harmony default export */ var es_TwitterShareButton = (TwitterShareButton);
+ false ? undefined : void 0;
+/* harmony default export */ var esm_Card_Card = (Object(withStyles["a" /* default */])(Card_styles, {
+  name: 'MuiCard'
+})(Card_Card));
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/colorManipulator.js
+var colorManipulator = __webpack_require__(229);
 
-// CONCATENATED MODULE: ./node_modules/react-share/es/LinkedinShareButton.js
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/ButtonBase/ButtonBase.js + 4 modules
+var ButtonBase = __webpack_require__(769);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/capitalize.js
+var capitalize = __webpack_require__(143);
+
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Button/Button.js
 
 
 
-function linkedinLink(url, _a) {
-    var title = _a.title, summary = _a.summary, source = _a.source;
-    assert(url, 'linkedin.url');
-    return ('https://linkedin.com/shareArticle' +
-        objectToGetParams({ url: url, mini: 'true', title: title, summary: summary, source: source }));
-}
-var LinkedinShareButton = hocs_createShareButton('linkedin', linkedinLink, function (_a) {
-    var title = _a.title, summary = _a.summary, source = _a.source;
-    return ({ title: title, summary: summary, source: source });
-}, {
-    windowWidth: 750,
-    windowHeight: 600,
+
+
+
+
+
+
+var Button_styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: Object(esm_extends["a" /* default */])({}, theme.typography.button, {
+      boxSizing: 'border-box',
+      minWidth: 64,
+      padding: '6px 16px',
+      borderRadius: theme.shape.borderRadius,
+      color: theme.palette.text.primary,
+      transition: theme.transitions.create(['background-color', 'box-shadow', 'border'], {
+        duration: theme.transitions.duration.short
+      }),
+      '&:hover': {
+        textDecoration: 'none',
+        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.text.primary, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        },
+        '&$disabled': {
+          backgroundColor: 'transparent'
+        }
+      },
+      '&$disabled': {
+        color: theme.palette.action.disabled
+      }
+    }),
+
+    /* Styles applied to the span element that wraps the children. */
+    label: {
+      width: '100%',
+      // Ensure the correct width for iOS Safari
+      display: 'inherit',
+      alignItems: 'inherit',
+      justifyContent: 'inherit'
+    },
+
+    /* Styles applied to the root element if `variant="text"`. */
+    text: {
+      padding: '6px 8px'
+    },
+
+    /* Styles applied to the root element if `variant="text"` and `color="primary"`. */
+    textPrimary: {
+      color: theme.palette.primary.main,
+      '&:hover': {
+        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.primary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `variant="text"` and `color="secondary"`. */
+    textSecondary: {
+      color: theme.palette.secondary.main,
+      '&:hover': {
+        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"`. */
+    outlined: {
+      padding: '5px 15px',
+      border: "1px solid ".concat(theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.23)' : 'rgba(255, 255, 255, 0.23)'),
+      '&$disabled': {
+        border: "1px solid ".concat(theme.palette.action.disabledBackground)
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"` and `color="primary"`. */
+    outlinedPrimary: {
+      color: theme.palette.primary.main,
+      border: "1px solid ".concat(Object(colorManipulator["a" /* alpha */])(theme.palette.primary.main, 0.5)),
+      '&:hover': {
+        border: "1px solid ".concat(theme.palette.primary.main),
+        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.primary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `variant="outlined"` and `color="secondary"`. */
+    outlinedSecondary: {
+      color: theme.palette.secondary.main,
+      border: "1px solid ".concat(Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.main, 0.5)),
+      '&:hover': {
+        border: "1px solid ".concat(theme.palette.secondary.main),
+        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.main, theme.palette.action.hoverOpacity),
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: 'transparent'
+        }
+      },
+      '&$disabled': {
+        border: "1px solid ".concat(theme.palette.action.disabled)
+      }
+    },
+
+    /* Styles applied to the root element if `variant="contained"`. */
+    contained: {
+      color: theme.palette.getContrastText(theme.palette.grey[300]),
+      backgroundColor: theme.palette.grey[300],
+      boxShadow: theme.shadows[2],
+      '&:hover': {
+        backgroundColor: theme.palette.grey.A100,
+        boxShadow: theme.shadows[4],
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          boxShadow: theme.shadows[2],
+          backgroundColor: theme.palette.grey[300]
+        },
+        '&$disabled': {
+          backgroundColor: theme.palette.action.disabledBackground
+        }
+      },
+      '&$focusVisible': {
+        boxShadow: theme.shadows[6]
+      },
+      '&:active': {
+        boxShadow: theme.shadows[8]
+      },
+      '&$disabled': {
+        color: theme.palette.action.disabled,
+        boxShadow: theme.shadows[0],
+        backgroundColor: theme.palette.action.disabledBackground
+      }
+    },
+
+    /* Styles applied to the root element if `variant="contained"` and `color="primary"`. */
+    containedPrimary: {
+      color: theme.palette.primary.contrastText,
+      backgroundColor: theme.palette.primary.main,
+      '&:hover': {
+        backgroundColor: theme.palette.primary.dark,
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: theme.palette.primary.main
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `variant="contained"` and `color="secondary"`. */
+    containedSecondary: {
+      color: theme.palette.secondary.contrastText,
+      backgroundColor: theme.palette.secondary.main,
+      '&:hover': {
+        backgroundColor: theme.palette.secondary.dark,
+        // Reset on touch devices, it doesn't add specificity
+        '@media (hover: none)': {
+          backgroundColor: theme.palette.secondary.main
+        }
+      }
+    },
+
+    /* Styles applied to the root element if `disableElevation={true}`. */
+    disableElevation: {
+      boxShadow: 'none',
+      '&:hover': {
+        boxShadow: 'none'
+      },
+      '&$focusVisible': {
+        boxShadow: 'none'
+      },
+      '&:active': {
+        boxShadow: 'none'
+      },
+      '&$disabled': {
+        boxShadow: 'none'
+      }
+    },
+
+    /* Pseudo-class applied to the ButtonBase root element if the button is keyboard focused. */
+    focusVisible: {},
+
+    /* Pseudo-class applied to the root element if `disabled={true}`. */
+    disabled: {},
+
+    /* Styles applied to the root element if `color="inherit"`. */
+    colorInherit: {
+      color: 'inherit',
+      borderColor: 'currentColor'
+    },
+
+    /* Styles applied to the root element if `size="small"` and `variant="text"`. */
+    textSizeSmall: {
+      padding: '4px 5px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+
+    /* Styles applied to the root element if `size="large"` and `variant="text"`. */
+    textSizeLarge: {
+      padding: '8px 11px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+
+    /* Styles applied to the root element if `size="small"` and `variant="outlined"`. */
+    outlinedSizeSmall: {
+      padding: '3px 9px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+
+    /* Styles applied to the root element if `size="large"` and `variant="outlined"`. */
+    outlinedSizeLarge: {
+      padding: '7px 21px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+
+    /* Styles applied to the root element if `size="small"` and `variant="contained"`. */
+    containedSizeSmall: {
+      padding: '4px 10px',
+      fontSize: theme.typography.pxToRem(13)
+    },
+
+    /* Styles applied to the root element if `size="large"` and `variant="contained"`. */
+    containedSizeLarge: {
+      padding: '8px 22px',
+      fontSize: theme.typography.pxToRem(15)
+    },
+
+    /* Styles applied to the root element if `size="small"`. */
+    sizeSmall: {},
+
+    /* Styles applied to the root element if `size="large"`. */
+    sizeLarge: {},
+
+    /* Styles applied to the root element if `fullWidth={true}`. */
+    fullWidth: {
+      width: '100%'
+    },
+
+    /* Styles applied to the startIcon element if supplied. */
+    startIcon: {
+      display: 'inherit',
+      marginRight: 8,
+      marginLeft: -4,
+      '&$iconSizeSmall': {
+        marginLeft: -2
+      }
+    },
+
+    /* Styles applied to the endIcon element if supplied. */
+    endIcon: {
+      display: 'inherit',
+      marginRight: -4,
+      marginLeft: 8,
+      '&$iconSizeSmall': {
+        marginRight: -2
+      }
+    },
+
+    /* Styles applied to the icon element if supplied and `size="small"`. */
+    iconSizeSmall: {
+      '& > *:first-child': {
+        fontSize: 18
+      }
+    },
+
+    /* Styles applied to the icon element if supplied and `size="medium"`. */
+    iconSizeMedium: {
+      '& > *:first-child': {
+        fontSize: 20
+      }
+    },
+
+    /* Styles applied to the icon element if supplied and `size="large"`. */
+    iconSizeLarge: {
+      '& > *:first-child': {
+        fontSize: 22
+      }
+    }
+  };
+};
+var Button_Button = /*#__PURE__*/react["forwardRef"](function Button(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$color = props.color,
+      color = _props$color === void 0 ? 'default' : _props$color,
+      _props$component = props.component,
+      component = _props$component === void 0 ? 'button' : _props$component,
+      _props$disabled = props.disabled,
+      disabled = _props$disabled === void 0 ? false : _props$disabled,
+      _props$disableElevati = props.disableElevation,
+      disableElevation = _props$disableElevati === void 0 ? false : _props$disableElevati,
+      _props$disableFocusRi = props.disableFocusRipple,
+      disableFocusRipple = _props$disableFocusRi === void 0 ? false : _props$disableFocusRi,
+      endIconProp = props.endIcon,
+      focusVisibleClassName = props.focusVisibleClassName,
+      _props$fullWidth = props.fullWidth,
+      fullWidth = _props$fullWidth === void 0 ? false : _props$fullWidth,
+      _props$size = props.size,
+      size = _props$size === void 0 ? 'medium' : _props$size,
+      startIconProp = props.startIcon,
+      _props$type = props.type,
+      type = _props$type === void 0 ? 'button' : _props$type,
+      _props$variant = props.variant,
+      variant = _props$variant === void 0 ? 'text' : _props$variant,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["children", "classes", "className", "color", "component", "disabled", "disableElevation", "disableFocusRipple", "endIcon", "focusVisibleClassName", "fullWidth", "size", "startIcon", "type", "variant"]);
+
+  var startIcon = startIconProp && /*#__PURE__*/react["createElement"]("span", {
+    className: Object(clsx_m["a" /* default */])(classes.startIcon, classes["iconSize".concat(Object(capitalize["a" /* default */])(size))])
+  }, startIconProp);
+  var endIcon = endIconProp && /*#__PURE__*/react["createElement"]("span", {
+    className: Object(clsx_m["a" /* default */])(classes.endIcon, classes["iconSize".concat(Object(capitalize["a" /* default */])(size))])
+  }, endIconProp);
+  return /*#__PURE__*/react["createElement"](ButtonBase["a" /* default */], Object(esm_extends["a" /* default */])({
+    className: Object(clsx_m["a" /* default */])(classes.root, classes[variant], className, color === 'inherit' ? classes.colorInherit : color !== 'default' && classes["".concat(variant).concat(Object(capitalize["a" /* default */])(color))], size !== 'medium' && [classes["".concat(variant, "Size").concat(Object(capitalize["a" /* default */])(size))], classes["size".concat(Object(capitalize["a" /* default */])(size))]], disableElevation && classes.disableElevation, disabled && classes.disabled, fullWidth && classes.fullWidth),
+    component: component,
+    disabled: disabled,
+    focusRipple: !disableFocusRipple,
+    focusVisibleClassName: Object(clsx_m["a" /* default */])(classes.focusVisible, focusVisibleClassName),
+    ref: ref,
+    type: type
+  }, other), /*#__PURE__*/react["createElement"]("span", {
+    className: classes.label
+  }, startIcon, children, endIcon));
 });
-/* harmony default export */ var es_LinkedinShareButton = (LinkedinShareButton);
+ false ? undefined : void 0;
+/* harmony default export */ var esm_Button_Button = (Object(withStyles["a" /* default */])(Button_styles, {
+  name: 'MuiButton'
+})(Button_Button));
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/CardContent/CardContent.js
 
-// CONCATENATED MODULE: ./node_modules/react-share/es/FacebookShareButton.js
 
 
 
-function facebookLink(url, _a) {
-    var quote = _a.quote, hashtag = _a.hashtag;
-    assert(url, 'facebook.url');
-    return ('https://www.facebook.com/sharer/sharer.php' +
-        objectToGetParams({
-            u: url,
-            quote: quote,
-            hashtag: hashtag,
-        }));
-}
-var FacebookShareButton = hocs_createShareButton('facebook', facebookLink, function (props) { return ({
-    quote: props.quote,
-    hashtag: props.hashtag,
-}); }, {
-    windowWidth: 550,
-    windowHeight: 400,
+
+
+var CardContent_styles = {
+  /* Styles applied to the root element. */
+  root: {
+    padding: 16,
+    '&:last-child': {
+      paddingBottom: 24
+    }
+  }
+};
+var CardContent_CardContent = /*#__PURE__*/react["forwardRef"](function CardContent(props, ref) {
+  var classes = props.classes,
+      className = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["classes", "className", "component"]);
+
+  return /*#__PURE__*/react["createElement"](Component, Object(esm_extends["a" /* default */])({
+    className: Object(clsx_m["a" /* default */])(classes.root, className),
+    ref: ref
+  }, other));
 });
-/* harmony default export */ var es_FacebookShareButton = (FacebookShareButton);
+ false ? undefined : void 0;
+/* harmony default export */ var esm_CardContent_CardContent = (Object(withStyles["a" /* default */])(CardContent_styles, {
+  name: 'MuiCardContent'
+})(CardContent_CardContent));
+// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/CardMedia/CardMedia.js
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/IconButton/IconButton.js
-var IconButton = __webpack_require__(476);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/icons/Facebook.js
-var Facebook = __webpack_require__(740);
-var Facebook_default = /*#__PURE__*/__webpack_require__.n(Facebook);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/icons/LinkedIn.js
-var LinkedIn = __webpack_require__(188);
-var LinkedIn_default = /*#__PURE__*/__webpack_require__.n(LinkedIn);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/icons/Twitter.js
-var Twitter = __webpack_require__(187);
-var Twitter_default = /*#__PURE__*/__webpack_require__.n(Twitter);
 
-// EXTERNAL MODULE: ./node_modules/@material-ui/icons/Language.js
-var Language = __webpack_require__(738);
-var Language_default = /*#__PURE__*/__webpack_require__.n(Language);
 
-// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
-var Link = __webpack_require__(312);
 
-// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogPostPaginator/index.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */function BlogPostPaginator(props){var nextItem=props.nextItem,prevItem=props.prevItem;return/*#__PURE__*/react_default.a.createElement("nav",{className:"pagination-nav","aria-label":"Blog post page navigation"},/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__item"},prevItem&&/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"pagination-nav__link",to:prevItem.permalink},/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__sublabel"},"Newer Post"),/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__label"},"\xAB ",prevItem.title))),/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__item pagination-nav__item--next"},nextItem&&/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{className:"pagination-nav__link",to:nextItem.permalink},/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__sublabel"},"Older Post"),/*#__PURE__*/react_default.a.createElement("div",{className:"pagination-nav__label"},nextItem.title," \xBB"))));}/* harmony default export */ var theme_BlogPostPaginator = (BlogPostPaginator);
-// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/index.js + 1 modules
-var TOC = __webpack_require__(694);
+var CardMedia_styles = {
+  /* Styles applied to the root element. */
+  root: {
+    display: 'block',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center'
+  },
 
-// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconEdit/index.js
-var IconEdit = __webpack_require__(479);
+  /* Styles applied to the root element if `component="video, audio, picture, iframe, or img"`. */
+  media: {
+    width: '100%'
+  },
 
-// CONCATENATED MODULE: ./src/theme/BlogPostPage/index.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var MONTHS=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio ','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];function BlogPostPage(props){var BlogPostContents=props.content;var frontMatter=BlogPostContents.frontMatter,metadata=BlogPostContents.metadata;var title=metadata.title,description=metadata.description,date=metadata.date,readingTime=metadata.readingTime,tags=metadata.tags,nextItem=metadata.nextItem,prevItem=metadata.prevItem,editUrl=metadata.editUrl;var author=frontMatter.author,image=frontMatter.image,metaTitle=frontMatter.metaTitle,metaDescription=frontMatter.metaDescription,langPost=frontMatter.langPost;var authorURL=frontMatter.author_url||frontMatter.authorURL;var authorTitle=frontMatter.author_title||frontMatter.authorTitle;var authorImageURL=frontMatter.author_image_url||frontMatter.authorImageURL;var imageUrl=Object(useBaseUrl["a" /* default */])(image);var tempImage=Object(useBaseUrl["a" /* default */])("img/metaImgBlack.png");var history=Object(react_router["k" /* useHistory */])();var location=Object(react_router["l" /* useLocation */])();var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 960px)'});var HeroSection=function HeroSection(){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"containerSec"},isDesktop&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"sectionHeroBlog"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{style:{marginBottom:'30px'}},/*#__PURE__*/react_default.a.createElement("h1",null,title)),langPost&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogLanguageAvailableBox"},/*#__PURE__*/react_default.a.createElement(Language_default.a,{style:{marginRight:'5px',color:'#0091FF'}}),/*#__PURE__*/react_default.a.createElement("p",null,/*#__PURE__*/react_default.a.createElement("a",{rel:"alternate",href:langPost,hrefLang:"en-us"},"Art\xEDculo disponible en ingl\xE9s"))),/*#__PURE__*/react_default.a.createElement(BlogHeader,null)),isMobile&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"sectionHeroMobileBlog"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"titleBox"},/*#__PURE__*/react_default.a.createElement("h1",null,title)),langPost&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogLanguageAvailableBox"},/*#__PURE__*/react_default.a.createElement(Language_default.a,{style:{marginRight:'5px',color:'#0091FF'}}),/*#__PURE__*/react_default.a.createElement("p",{style:{lineHeight:'25px'}},/*#__PURE__*/react_default.a.createElement("a",{rel:"alternate",href:langPost,hrefLang:"en-us"},"Art\xEDculo disponible en ingl\xE9s"))),/*#__PURE__*/react_default.a.createElement(BlogHeader,null)));};var BlogHeader=function BlogHeader(){var match=date.substring(0,10).split('-');var year=match[0];var month=MONTHS[parseInt(match[1],10)-1];var day=parseInt(match[2],10);return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"subHeaderBlogBox"},/*#__PURE__*/react_default.a.createElement("p",null,day," de ",month,", ",year,' ',readingTime&&/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null," \xB7 ",Math.ceil(readingTime)," minutos de lectura")),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogAvatarBox"},/*#__PURE__*/react_default.a.createElement(Avatar["a" /* default */],{src:authorImageURL,alt:author,style:{width:'48px',height:'48px'}}),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogAvatarTextBox"},/*#__PURE__*/react_default.a.createElement("a",{className:"blogAuthorTile",style:{fontWeight:'bold',color:'black'},href:authorURL,target:"_blank"},author),/*#__PURE__*/react_default.a.createElement("h5",null,authorTitle))));};var BlogDivider=function BlogDivider(){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"containerSec"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("sectionNoPadding","dividerBlogBox")},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:8,xs:12},/*#__PURE__*/react_default.a.createElement("p",null,"Etiquetas: "),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogTagsBox"},tags.map(function(_ref){var label=_ref.label,tagPermalink=_ref.permalink;return/*#__PURE__*/react_default.a.createElement(Chip["a" /* default */],{style:{marginRight:'5px',marginBottom:'5px',backgroundColor:'#f1f1f1'},key:tagPermalink,onClick:function onClick(){return history.push(tagPermalink);},label:label});}))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,md:4,xs:12},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogIconsBox"},/*#__PURE__*/react_default.a.createElement(es_TwitterShareButton,{title:title+" | ",via:"EOSCostaRica",hashtags:tags.map(function(tag){return tag.label;}),url:"eoscostarica.io"+location.pathname},/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Twitter_default.a,null))),/*#__PURE__*/react_default.a.createElement(es_LinkedinShareButton,{title:title,summary:description,url:"eoscostarica.io"+location.pathname},/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(LinkedIn_default.a,null))),/*#__PURE__*/react_default.a.createElement(es_FacebookShareButton,{quote:title,url:"eoscostarica.io"+location.pathname},/*#__PURE__*/react_default.a.createElement(IconButton["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(Facebook_default.a,null)))))),/*#__PURE__*/react_default.a.createElement(Divider["a" /* default */],null)));};var BlogContent=function BlogContent(){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"containerSec"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"section"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogContentBox"},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true,spacing:2},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:8},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogMarkdown"},/*#__PURE__*/react_default.a.createElement(BlogPostContents,null))),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"blogStickyContentBox"},/*#__PURE__*/react_default.a.createElement(TOC["a" /* default */],{toc:BlogPostContents.toc}))))),(nextItem||prevItem)&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],null,/*#__PURE__*/react_default.a.createElement(theme_BlogPostPaginator,{nextItem:nextItem,prevItem:prevItem}))));};return/*#__PURE__*/react_default.a.createElement(Layout["a" /* default */],{title:metaTitle,description:metaDescription,image:imageUrl||tempImage,wrapperClassName:"blog-wrapper"},isDesktop&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:""},/*#__PURE__*/react_default.a.createElement(lib["Parallax"],{strength:800,style:{overflow:'inherit'}},/*#__PURE__*/react_default.a.createElement(lib["Background"],{className:"bgParallax"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"imgParallax"})),/*#__PURE__*/react_default.a.createElement(HeroSection,null),/*#__PURE__*/react_default.a.createElement(BlogDivider,null),/*#__PURE__*/react_default.a.createElement(BlogContent,null))),isMobile&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"mainContainer"},/*#__PURE__*/react_default.a.createElement(HeroSection,null),/*#__PURE__*/react_default.a.createElement(BlogDivider,null),/*#__PURE__*/react_default.a.createElement(BlogContent,null)));}/* harmony default export */ var theme_BlogPostPage = __webpack_exports__["default"] = (BlogPostPage);
+  /* Styles applied to the root element if `component="picture or img"`. */
+  img: {
+    // ⚠️ object-fit is not supported by IE 11.
+    objectFit: 'cover'
+  }
+};
+var MEDIA_COMPONENTS = ['video', 'audio', 'picture', 'iframe', 'img'];
+var CardMedia_CardMedia = /*#__PURE__*/react["forwardRef"](function CardMedia(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      image = props.image,
+      src = props.src,
+      style = props.style,
+      other = Object(objectWithoutProperties["a" /* default */])(props, ["children", "classes", "className", "component", "image", "src", "style"]);
+
+  var isMediaComponent = MEDIA_COMPONENTS.indexOf(Component) !== -1;
+  var composedStyle = !isMediaComponent && image ? Object(esm_extends["a" /* default */])({
+    backgroundImage: "url(\"".concat(image, "\")")
+  }, style) : style;
+  return /*#__PURE__*/react["createElement"](Component, Object(esm_extends["a" /* default */])({
+    className: Object(clsx_m["a" /* default */])(classes.root, className, isMediaComponent && classes.media, "picture img".indexOf(Component) !== -1 && classes.img),
+    ref: ref,
+    style: composedStyle,
+    src: isMediaComponent ? image || src : undefined
+  }, other), children);
+});
+ false ? undefined : void 0;
+/* harmony default export */ var esm_CardMedia_CardMedia = (Object(withStyles["a" /* default */])(CardMedia_styles, {
+  name: 'MuiCardMedia'
+})(CardMedia_CardMedia));
+// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Collapse/Collapse.js
+var Collapse = __webpack_require__(471);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/icons/ExpandMore.js
+var ExpandMore = __webpack_require__(311);
+var ExpandMore_default = /*#__PURE__*/__webpack_require__.n(ExpandMore);
+
+// EXTERNAL MODULE: ./node_modules/@material-ui/icons/ExpandLess.js
+var ExpandLess = __webpack_require__(733);
+var ExpandLess_default = /*#__PURE__*/__webpack_require__.n(ExpandLess);
+
+// EXTERNAL MODULE: ./src/pages/components/ContactUsBanner/index.js
+var ContactUsBanner = __webpack_require__(63);
+
+// CONCATENATED MODULE: ./src/pages/prensa.js
+var MetaData={title:"",description:"",img:"img/metaImgBlack.png",hrefLangPath:"https://eoscostarica.io/press"};var firtsNewsRelease=[{img:"https://raw.githubusercontent.com/eoscostarica/eoscostarica.io/master/static/img/metaImgBlack.png",title:"Block.one Joins IDB-Backed Alliance to Deploy Blockchain Solutions for Pressing Public Sector Needs in Latin America",date:"Feb 25, 2021",link:"https://www.businesswire.com/news/home/20210225005312/en/Block.one-Joins-IDB-Backed-Alliance-to-Deploy-Blockchain-Solutions-for-Pressing-Public-Sector-Needs-in-Latin-America",media:"businesswire"},{img:"https://raw.githubusercontent.com/eoscostarica/eoscostarica.io/master/static/img/metaImgBlack.png",title:"EOS Costa Rica and EOS Argentina Team Up To Launch Evodex Zero Gas Fees and Fast Transaction Times",date:"Sep 17, 2020",link:"https://www.businesswire.com/news/home/20200917005274/en/EOS-Costa-Rica-and-EOS-Argentina-Team-Up-To-Launch-Evodex-Zero-Gas-Fees-and-Fast-Transaction-Times",media:"businesswire"},{img:"https://raw.githubusercontent.com/eoscostarica/eoscostarica.io/master/static/img/metaImgBlack.png",title:"EOS Costa Rica Leverages Blockchain to Tackle a Global Blood Supply Shortage Amid the COVID-19 Pandemic",date:"Jul 30, 2020",link:"https://finance.yahoo.com/news/eos-costa-rica-leverages-blockchain-130000041.html",media:"businesswire"}];var otherNewsRelease=[];var EOSCRNews=[{img:"https://mk0criptonoticijjgfa.kinstacdn.com/wp-content/uploads/2020/08/america-latina-binance-venezuela-argentina-999x570.jpg.webp",title:"Alianza entre BID y EOS apoyará el desarrollo de proyectos blockchain en América Latina",date:"Feb 26, 2021",link:"https://www.criptonoticias.com/negocios/alianza-bid-eos-apoyara-desarrollo-proyectos-blockchain-america-latina/",media:"Criptonoticias"},{img:"https://www.larepublica.net/storage/images/2020/10/01/20201001155925.app.jpg",title:"Ganadora tica de hackathon “Coding for Change” invierte premio para mejorar app Lifebank",date:"Oct 20, 2020",link:"https://www.larepublica.net/noticia/ganadora-tica-de-hackathon-coding-for-change-invierte-premio-para-mejorar-app-lifebank",media:"La Republica"},{img:"https://images.cointelegraph.com/images/717_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jZGEzMGU0M2M2ZmM0ODUzNTgwOGMyZjgzMDk0YTkyYS5qcGc=.jpg",title:"Proveedores de infraestructura Blockchain EOSIO en América Latina lanzan el intercambio descentralizado Evodex",date:"Sep 17, 2020",link:"https://es.cointelegraph.com/news/eosio-blockchain-infrastructure-providers-in-latin-america-launch-decentralized-exchange-evodex",media:"Cointelegraph"}];var EOSCROtherNews=[{img:"https://www.criptotendencias.com/wp-content/uploads/2020/07/EOS-Costa-Rica-presenta-una-soluci%C3%B3n-basada-en-blockchain-orientada-a-gestionar-la-cadena-de-suministro-de-las-donaciones-de-sangre.jpg",title:"EOS Costa Rica presenta una solución basada en blockchain orientada a gestionar la cadena de suministro de las donaciones de sangre",date:"Jul 31, 2020",link:"https://www.criptotendencias.com/blockchain/eos-costa-rica-presenta-una-solucion-basada-en-blockchain-orientada-a-gestionar-la-cadena-de-suministro-de-las-donaciones-de-sangre/",media:"Criptotendencias"},{img:"https://raw.githubusercontent.com/eoscostarica/lifebank/7da719aa482eb91d4f74ebc58cd3eeb5f169c81a/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg",title:"Solución de EOS Costa Rica que conecta donadores y bancos de sangre queda ganadora",date:"Jun 20, 2020",link:"https://www.diariobitcoin.com/paises/america-latina/noticias-latinoamerica-universidad-en-mexico-lanza-programa-educativo-blockchain-con-ibm-eos-costa-rica-gana-hackathon/",media:"Diariobitcoin"},{img:"https://www.elfinancierocr.com/resizer/TYV0NQ9rglQS22dY4rUPrBRLGbI=/600x0/center/middle/filters:quality(100)/cloudfront-us-east-1.images.arcpublishing.com/gruponacion/M7OC75LK4RACPC4H5UCYF7GTAE.jpg",title:"Firma tica gana competencia global con solución ‘blockchain’ que conecta bancos de sangre, donadores y entrega cupones para descuentos en comercios",date:"Jun 16, 2020",link:"https://www.elfinancierocr.com/tecnologia/firma-tica-gana-competencia-global-con-solucion/S3A4MDU44VD25KVMKX5FJQSWEM/story/",media:"El Financiero"},{img:"https://www.elfinancierocr.com/resizer/rtrpGRGggyngyQPuTXxc80lhYq0=/600x0/center/middle/filters:quality(100)/arc-anglerfish-arc2-prod-gruponacion.s3.amazonaws.com/public/M6BUZICLVVCWPLSLBUWAR3GCEA.JPG",title:"Padre y sus dos hijos crean la ‘start-up’ EOS Costa Rica basada en la efervescencia del ‘blockchain’",date:"Sep 10, 2019",link:"https://www.elfinancierocr.com/pymes/padre-y-sus-dos-hijos-crean-la-start-up-eos/HFZQP42TP5DQ7EBHYY6M4VXZPY/story/",media:"El Financiero"}];var prensa_Press=function Press(){var history=Object(react_router["k" /* useHistory */])();var isMobile=Object(react_responsive["useMediaQuery"])({query:'(max-width: 960px)'});var isDesktop=Object(react_responsive["useMediaQuery"])({query:'(min-width: 960px)'});var _useState=Object(react["useState"])(false),expandedRelease=_useState[0],setExpandedRelease=_useState[1];var _useState2=Object(react["useState"])(false),expandedEOSCR=_useState2[0],setExpandedEOSCR=_useState2[1];var handleExpandReleaseClick=function handleExpandReleaseClick(){setExpandedRelease(!expandedRelease);};var handleExpandEOSCRClick=function handleExpandEOSCRClick(){setExpandedEOSCR(!expandedEOSCR);};var HeroSection=function HeroSection(){return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"containerSec"},isDesktop&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"sectionHero"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"titleBox"},/*#__PURE__*/react_default.a.createElement("h1",null,"Lo que los medios ",/*#__PURE__*/react_default.a.createElement("br",null)," dicen sobre nosotros")),/*#__PURE__*/react_default.a.createElement("p",null,"Buscamos posicionar la tecnolog\xEDa blockchain EOSIO en las noticias a trav\xE9s de nuestro trabajo."),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"buttonBox"},/*#__PURE__*/react_default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/contactenos/");}},"Cont\xE1ctenos"))),isMobile&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"sectionHeroMobile"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"titleBox"},/*#__PURE__*/react_default.a.createElement("h1",null,"Lo que los medios ",/*#__PURE__*/react_default.a.createElement("br",null)," dicen sobre nosotros")),/*#__PURE__*/react_default.a.createElement("p",null,"Buscamos posicionar la tecnolog\xEDa blockchain EOSIO en las noticias a trav\xE9s de nuestro trabajo."),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"buttonBox"},/*#__PURE__*/react_default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/contactenos/");}},"Cont\xE1ctenos"))));};var News=function News(_ref){var img=_ref.img,title=_ref.title,media=_ref.media,date=_ref.date,link=_ref.link;return/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{onClick:function onClick(){return window.open(link);},style:{marginLeft:isMobile?'25px':' ',marginRight:isMobile?'25px':' '},item:true,xs:12,md:4},/*#__PURE__*/react_default.a.createElement(esm_Card_Card,{style:{transition:'all .4s ease-in-out'},className:"card",variant:"outlined"},/*#__PURE__*/react_default.a.createElement(esm_CardMedia_CardMedia,{className:"media",image:img}),/*#__PURE__*/react_default.a.createElement(esm_CardContent_CardContent,null,/*#__PURE__*/react_default.a.createElement("p",{style:{marginBottom:'15px',marginTop:'10px'}},media),/*#__PURE__*/react_default.a.createElement("h4",{style:{marginBottom:'15px'},className:"nowrapText"},title),/*#__PURE__*/react_default.a.createElement("p",null,date))));};var NewsList=function NewsList(_ref2){var _clsx;var title=_ref2.title,princialList=_ref2.princialList,secondList=_ref2.secondList,exp=_ref2.exp,action=_ref2.action;return/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"containerSec"},!princialList?princialList=[]:'',!secondList?secondList=[]:'',/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("section",(_clsx={},_clsx["sectionPadding"]=isMobile,_clsx))},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"titleBox"},/*#__PURE__*/react_default.a.createElement("h2",null,title)),/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{container:true,spacing:5},princialList.map(function(news,index){return/*#__PURE__*/react_default.a.createElement(News,{key:index,img:news.img,title:news.title,date:news.date,link:news.link,media:news.media});})),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{style:{display:secondList.length===0?'none':''},className:Object(clsx_m["a" /* default */])("centerBox","litlePaddingTop")},/*#__PURE__*/react_default.a.createElement(esm_Button_Button,{className:Object(clsx_m["a" /* default */])(!exp?"expand":"","button-glow"),onClick:action,"aria-expanded":exp,"aria-label":"show more",style:{backgroundColor:'transparent',transition:'all .4s ease-in-out',textTransform:'none',display:exp?'none':''}},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{style:{display:'inline-block',paddingTop:'30px'}},/*#__PURE__*/react_default.a.createElement("p",{style:{marginBottom:'-15px',fontWeight:'bold'}},"Ver m\xE1s"),/*#__PURE__*/react_default.a.createElement(ExpandMore_default.a,{style:{width:'50px',height:'50px',display:exp?'none':''}})))),/*#__PURE__*/react_default.a.createElement(Collapse["a" /* default */],{in:exp},/*#__PURE__*/react_default.a.createElement(Grid["a" /* default */],{className:"litlePaddingTop",container:true,spacing:5},secondList.map(function(news,index){return/*#__PURE__*/react_default.a.createElement(News,{key:index,img:news.img,title:news.title,date:news.date,link:news.link,media:news.media});}))),/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:Object(clsx_m["a" /* default */])("centerBox","litlePaddingTop")},/*#__PURE__*/react_default.a.createElement(esm_Button_Button,{className:exp?"shrink":"",onClick:action,"aria-expanded":exp,"aria-label":"show more",style:{backgroundColor:'transparent',transition:'all .4s ease-in-out',textTransform:'none',height:'30px',display:!exp?'none':''}},/*#__PURE__*/react_default.a.createElement(ExpandLess_default.a,{style:{width:'50px',height:'50px',display:!exp?'none':''}})))));};return/*#__PURE__*/react_default.a.createElement(Layout["a" /* default */],{title:MetaData.title,description:MetaData.description,image:MetaData.img,hrefLangPath:MetaData.hrefLangPath},isDesktop&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"mainContainer"},/*#__PURE__*/react_default.a.createElement(lib["Parallax"],{strength:800},/*#__PURE__*/react_default.a.createElement(lib["Background"],{className:"bgParallax"},/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"imgParallax"})),/*#__PURE__*/react_default.a.createElement(HeroSection,null),/*#__PURE__*/react_default.a.createElement(NewsList,{title:"Comunicados de prensa",princialList:firtsNewsRelease,secondList:otherNewsRelease,exp:expandedRelease,action:handleExpandReleaseClick}),/*#__PURE__*/react_default.a.createElement(NewsList,{title:"EOS Costa Rica en las noticias",princialList:EOSCRNews,secondList:EOSCROtherNews,exp:expandedEOSCR,action:handleExpandEOSCRClick})),/*#__PURE__*/react_default.a.createElement(ContactUsBanner["default"],null)),isMobile&&/*#__PURE__*/react_default.a.createElement(Box["a" /* default */],{className:"mainContainer"},/*#__PURE__*/react_default.a.createElement(HeroSection,null),/*#__PURE__*/react_default.a.createElement(NewsList,{title:"Comunicados de prensa",princialList:firtsNewsRelease,secondList:otherNewsRelease,exp:expandedRelease,action:handleExpandReleaseClick}),/*#__PURE__*/react_default.a.createElement(NewsList,{title:"EOS Costa Rica en las noticias",princialList:EOSCRNews,secondList:EOSCROtherNews,exp:expandedEOSCR,action:handleExpandEOSCRClick}),/*#__PURE__*/react_default.a.createElement(ContactUsBanner["default"],null)));};/* harmony default export */ var prensa = __webpack_exports__["default"] = (prensa_Press);
 
 /***/ }),
 
@@ -3678,7 +3803,7 @@ var dist = __webpack_require__(212);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function LayoutHead(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig;var siteTitle=siteConfig.title,favicon=siteConfig.favicon,_siteConfig$themeConf=siteConfig.themeConfig,defaultImage=_siteConfig$themeConf.image,metadatas=_siteConfig$themeConf.metadatas,siteUrl=siteConfig.url;var title=props.title,description=props.description,image=props.image,hrefLangPath=props.hrefLangPath,keywords=props.keywords,permalink=props.permalink;var metaTitle=title||siteTitle;var metaImage=image||defaultImage;var metaImageUrl=Object(useBaseUrl["a" /* default */])(metaImage,{absolute:true});var faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);var htmlLang="es";var location=Object(react_router["l" /* useLocation */])();return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:htmlLang}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:"Image for "+metaTitle}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),permalink&&/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:"https://es.eoscostarica.io"+location.pathname,hreflang:"es-us"}),hrefLangPath&&/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:hrefLangPath,hreflang:"en-us"}),/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:"https://es.eoscostarica.io"+location.pathname})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */]// it's important to have an additional <Head> element here,
+ */function LayoutHead(props){var _useDocusaurusContext=Object(useDocusaurusContext["default"])(),siteConfig=_useDocusaurusContext.siteConfig;var siteTitle=siteConfig.title,favicon=siteConfig.favicon,_siteConfig$themeConf=siteConfig.themeConfig,defaultImage=_siteConfig$themeConf.image,metadatas=_siteConfig$themeConf.metadatas,siteUrl=siteConfig.url;var title=props.title,description=props.description,image=props.image,hrefLangPath=props.hrefLangPath,keywords=props.keywords,permalink=props.permalink;var metaTitle=title||siteTitle;var metaImage=image||defaultImage;var metaImageUrl=Object(useBaseUrl["a" /* default */])(metaImage,{absolute:true});var faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);var htmlLang="es-us";var location=Object(react_router["l" /* useLocation */])();return/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:htmlLang}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:"Image for "+metaTitle}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),permalink&&/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:"https://es.eoscostarica.io"+location.pathname,hreflang:"es-us"}),hrefLangPath&&/*#__PURE__*/react_default.a.createElement("link",{rel:"alternate",href:hrefLangPath,hreflang:"en-us"}),/*#__PURE__*/react_default.a.createElement("link",{rel:"canonical",href:"https://es.eoscostarica.io"+location.pathname})),/*#__PURE__*/react_default.a.createElement(Head["a" /* default */]// it's important to have an additional <Head> element here,
 // as it allows react-helmet to override values set in previous <Head>
 // ie we can override default metadatas such as "twitter:card"
 // In same Head, the same meta would appear twice instead of overriding
@@ -8100,88 +8225,277 @@ var Modal_Modal = /*#__PURE__*/react["forwardRef"](function Modal(inProps, ref) 
 
 /***/ }),
 
-/***/ 312:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 311:
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(0);
-var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
-// EXTERNAL MODULE: ./node_modules/react-router-dom/esm/react-router-dom.js
-var react_router_dom = __webpack_require__(11);
+var _interopRequireDefault = __webpack_require__(136);
 
-// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/isInternalUrl.js
-var isInternalUrl = __webpack_require__(179);
+var _interopRequireWildcard = __webpack_require__(133);
 
-// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/ExecutionEnvironment.js
-var ExecutionEnvironment = __webpack_require__(8);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 
-// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/LinksCollector.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var createStatefulLinksCollector=function createStatefulLinksCollector(){// Set to dedup, as it's not useful to collect multiple times the same link
-var allLinks=new Set();return{collectLink:function collectLink(link){allLinks.add(link);},getCollectedLinks:function getCollectedLinks(){return[].concat(allLinks);}};};var Context=/*#__PURE__*/Object(react["createContext"])({collectLink:function collectLink(){// noop by default for client
-// we only use the broken links checker server-side
-}});var LinksCollector_useLinksCollector=function useLinksCollector(){return Object(react["useContext"])(Context);};var LinksCollector_ProvideLinksCollector=function ProvideLinksCollector(_ref){var children=_ref.children,linksCollector=_ref.linksCollector;return/*#__PURE__*/react_default.a.createElement(Context.Provider,{value:linksCollector},children);};
-// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
-var useBaseUrl = __webpack_require__(146);
+var React = _interopRequireWildcard(__webpack_require__(0));
 
-// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var __rest=undefined&&undefined.__rest||function(s,e){var t={};for(var p in s){if(Object.prototype.hasOwnProperty.call(s,p)&&e.indexOf(p)<0)t[p]=s[p];}if(s!=null&&typeof Object.getOwnPropertySymbols==="function")for(var i=0,p=Object.getOwnPropertySymbols(s);i<p.length;i++){if(e.indexOf(p[i])<0&&Object.prototype.propertyIsEnumerable.call(s,p[i]))t[p[i]]=s[p[i]];}return t;};// TODO all this wouldn't be necessary if we used ReactRouter basename feature
-// We don't automatically add base urls to all links,
-// only the "safe" ones, starting with / (like /docs/introduction)
-// this is because useBaseUrl() actually transforms relative links
-// like "introduction" to "/baseUrl/introduction" => bad behavior to fix
-var shouldAddBaseUrlAutomatically=function shouldAddBaseUrlAutomatically(to){return to.startsWith('/');};function Link(_a){var _b;var isNavLink=_a.isNavLink,to=_a.to,href=_a.href,activeClassName=_a.activeClassName,isActive=_a.isActive,noBrokenLinkCheck=_a['data-noBrokenLinkCheck'],_a$autoAddBaseUrl=_a.autoAddBaseUrl,autoAddBaseUrl=_a$autoAddBaseUrl===void 0?true:_a$autoAddBaseUrl,props=__rest(_a,["isNavLink","to","href","activeClassName","isActive",'data-noBrokenLinkCheck',"autoAddBaseUrl"]);var _useBaseUrlUtils=Object(useBaseUrl["b" /* useBaseUrlUtils */])(),withBaseUrl=_useBaseUrlUtils.withBaseUrl;var linksCollector=LinksCollector_useLinksCollector();// IMPORTANT: using to or href should not change anything
-// For example, MDX links will ALWAYS give us the href props
-// Using one prop or the other should not be used to distinguish
-// internal links (/docs/myDoc) from external links (https://github.com)
-var targetLinkUnprefixed=to||href;function maybeAddBaseUrl(str){return autoAddBaseUrl&&shouldAddBaseUrlAutomatically(str)?withBaseUrl(str):str;}var isInternal=Object(isInternalUrl["a" /* default */])(targetLinkUnprefixed);// pathname:// is a special "protocol" we use to tell Docusaurus link
-// that a link is not "internal" and that we shouldn't use history.push()
-// this is not ideal but a good enough escape hatch for now
-// see https://github.com/facebook/docusaurus/issues/3309
-// note: we want baseUrl to be appended (see issue for details)
-// TODO read routes and automatically detect internal/external links?
-var targetLinkWithoutPathnameProtocol=targetLinkUnprefixed===null||targetLinkUnprefixed===void 0?void 0:targetLinkUnprefixed.replace('pathname://','');// TODO we should use ReactRouter basename feature instead!
-// Automatically apply base url in links that start with /
-var targetLink=typeof targetLinkWithoutPathnameProtocol!=='undefined'?maybeAddBaseUrl(targetLinkWithoutPathnameProtocol):undefined;var preloaded=Object(react["useRef"])(false);var LinkComponent=isNavLink?react_router_dom["e" /* NavLink */]:react_router_dom["c" /* Link */];var IOSupported=ExecutionEnvironment["a" /* default */].canUseIntersectionObserver;var io;var handleIntersection=function handleIntersection(el,cb){io=new window.IntersectionObserver(function(entries){entries.forEach(function(entry){if(el===entry.target){// If element is in viewport, stop listening/observing and run callback.
-// https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
-if(entry.isIntersecting||entry.intersectionRatio>0){io.unobserve(el);io.disconnect();cb();}}});});// Add element to the observer.
-io.observe(el);};var handleRef=function handleRef(ref){if(IOSupported&&ref&&isInternal){// If IO supported and element reference found, setup Observer functionality.
-handleIntersection(ref,function(){window.docusaurus.prefetch(targetLink);});}};var onMouseEnter=function onMouseEnter(){if(!preloaded.current){window.docusaurus.preload(targetLink);preloaded.current=true;}};Object(react["useEffect"])(function(){// If IO is not supported. We prefetch by default (only once).
-if(!IOSupported&&isInternal){window.docusaurus.prefetch(targetLink);}// When unmounting, stop intersection observer from watching.
-return function(){if(IOSupported&&io){io.disconnect();}};},[targetLink,IOSupported,isInternal]);var isAnchorLink=(_b=targetLink===null||targetLink===void 0?void 0:targetLink.startsWith('#'))!==null&&_b!==void 0?_b:false;var isRegularHtmlLink=!targetLink||!isInternal||isAnchorLink;if(targetLink&&isInternal&&!isAnchorLink&&!noBrokenLinkCheck){linksCollector.collectLink(targetLink);}return isRegularHtmlLink?/*#__PURE__*/ // eslint-disable-next-line jsx-a11y/anchor-has-content
-react_default.a.createElement("a",Object.assign({href:targetLink},targetLinkUnprefixed&&!isInternal&&{target:'_blank',rel:'noopener noreferrer'},props)):/*#__PURE__*/react_default.a.createElement(LinkComponent,Object.assign({},props,{onMouseEnter:onMouseEnter,innerRef:handleRef,to:targetLink||''},isNavLink&&{isActive:isActive,activeClassName:activeClassName}));}/* harmony default export */ var exports_Link = __webpack_exports__["a"] = (Link);
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(144));
+
+var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
+  d: "M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+}), 'ExpandMore');
+
+exports.default = _default;
 
 /***/ }),
 
-/***/ 479:
+/***/ 471:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
-/* harmony import */ var _home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(132);
-/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(77);
-/* harmony import */ var _styles_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_module_css__WEBPACK_IMPORTED_MODULE_4__);
-var _excluded=["className"];/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var IconEdit=function IconEdit(_ref){var className=_ref.className,restProps=Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(_ref,_excluded);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("svg",Object(_home_runner_work_es_eoscostarica_io_es_eoscostarica_io_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({fill:"currentColor",height:"1.2em",width:"1.2em",preserveAspectRatio:"xMidYMid meet",role:"img",viewBox:"0 0 40 40",className:Object(clsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(_styles_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.iconEdit,className)},restProps),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("g",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("path",{d:"m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"})));};/* harmony default export */ __webpack_exports__["a"] = (IconEdit);
+/* unused harmony export styles */
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(176);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(131);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(132);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(772);
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(135);
+/* harmony import */ var _styles_transitions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(155);
+/* harmony import */ var _transitions_utils__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(165);
+/* harmony import */ var _styles_useTheme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(154);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(138);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    /* Styles applied to the root element. */
+    root: {
+      height: 0,
+      overflow: 'hidden',
+      transition: theme.transitions.create('height')
+    },
+
+    /* Styles applied to the root element when the transition has entered. */
+    entered: {
+      height: 'auto',
+      overflow: 'visible'
+    },
+
+    /* Styles applied to the root element when the transition has exited and `collapsedSize` != 0px. */
+    hidden: {
+      visibility: 'hidden'
+    },
+
+    /* Styles applied to the outer wrapper element. */
+    wrapper: {
+      // Hack to get children with a negative margin to not falsify the height computation.
+      display: 'flex'
+    },
+
+    /* Styles applied to the inner wrapper element. */
+    wrapperInner: {
+      width: '100%'
+    }
+  };
+};
+/**
+ * The Collapse transition is used by the
+ * [Vertical Stepper](/components/steppers/#vertical-stepper) StepContent component.
+ * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.
+ */
+
+var Collapse = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["forwardRef"](function Collapse(props, ref) {
+  var children = props.children,
+      classes = props.classes,
+      className = props.className,
+      collapsedHeight = props.collapsedHeight,
+      _props$collapsedSize = props.collapsedSize,
+      collapsedSizeProp = _props$collapsedSize === void 0 ? '0px' : _props$collapsedSize,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      _props$disableStrictM = props.disableStrictModeCompat,
+      disableStrictModeCompat = _props$disableStrictM === void 0 ? false : _props$disableStrictM,
+      inProp = props.in,
+      onEnter = props.onEnter,
+      onEntered = props.onEntered,
+      onEntering = props.onEntering,
+      onExit = props.onExit,
+      onExited = props.onExited,
+      onExiting = props.onExiting,
+      style = props.style,
+      _props$timeout = props.timeout,
+      timeout = _props$timeout === void 0 ? _styles_transitions__WEBPACK_IMPORTED_MODULE_8__[/* duration */ "b"].standard : _props$timeout,
+      _props$TransitionComp = props.TransitionComponent,
+      TransitionComponent = _props$TransitionComp === void 0 ? react_transition_group__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"] : _props$TransitionComp,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(props, ["children", "classes", "className", "collapsedHeight", "collapsedSize", "component", "disableStrictModeCompat", "in", "onEnter", "onEntered", "onEntering", "onExit", "onExited", "onExiting", "style", "timeout", "TransitionComponent"]);
+
+  var theme = Object(_styles_useTheme__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"])();
+  var timer = react__WEBPACK_IMPORTED_MODULE_3__["useRef"]();
+  var wrapperRef = react__WEBPACK_IMPORTED_MODULE_3__["useRef"](null);
+  var autoTransitionDuration = react__WEBPACK_IMPORTED_MODULE_3__["useRef"]();
+  var collapsedSize = typeof (collapsedHeight || collapsedSizeProp) === 'number' ? "".concat(collapsedHeight || collapsedSizeProp, "px") : collapsedHeight || collapsedSizeProp;
+  react__WEBPACK_IMPORTED_MODULE_3__["useEffect"](function () {
+    return function () {
+      clearTimeout(timer.current);
+    };
+  }, []);
+  var enableStrictModeCompat = theme.unstable_strictMode && !disableStrictModeCompat;
+  var nodeRef = react__WEBPACK_IMPORTED_MODULE_3__["useRef"](null);
+  var handleRef = Object(_utils__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"])(ref, enableStrictModeCompat ? nodeRef : undefined);
+
+  var normalizedTransitionCallback = function normalizedTransitionCallback(callback) {
+    return function (nodeOrAppearing, maybeAppearing) {
+      if (callback) {
+        var _ref = enableStrictModeCompat ? [nodeRef.current, nodeOrAppearing] : [nodeOrAppearing, maybeAppearing],
+            _ref2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(_ref, 2),
+            node = _ref2[0],
+            isAppearing = _ref2[1]; // onEnterXxx and onExitXxx callbacks have a different arguments.length value.
+
+
+        if (isAppearing === undefined) {
+          callback(node);
+        } else {
+          callback(node, isAppearing);
+        }
+      }
+    };
+  };
+
+  var handleEnter = normalizedTransitionCallback(function (node, isAppearing) {
+    node.style.height = collapsedSize;
+
+    if (onEnter) {
+      onEnter(node, isAppearing);
+    }
+  });
+  var handleEntering = normalizedTransitionCallback(function (node, isAppearing) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+
+    var _getTransitionProps = Object(_transitions_utils__WEBPACK_IMPORTED_MODULE_9__[/* getTransitionProps */ "a"])({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'enter'
+    }),
+        transitionDuration = _getTransitionProps.duration;
+
+    if (timeout === 'auto') {
+      var duration2 = theme.transitions.getAutoHeightDuration(wrapperHeight);
+      node.style.transitionDuration = "".concat(duration2, "ms");
+      autoTransitionDuration.current = duration2;
+    } else {
+      node.style.transitionDuration = typeof transitionDuration === 'string' ? transitionDuration : "".concat(transitionDuration, "ms");
+    }
+
+    node.style.height = "".concat(wrapperHeight, "px");
+
+    if (onEntering) {
+      onEntering(node, isAppearing);
+    }
+  });
+  var handleEntered = normalizedTransitionCallback(function (node, isAppearing) {
+    node.style.height = 'auto';
+
+    if (onEntered) {
+      onEntered(node, isAppearing);
+    }
+  });
+  var handleExit = normalizedTransitionCallback(function (node) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+    node.style.height = "".concat(wrapperHeight, "px");
+
+    if (onExit) {
+      onExit(node);
+    }
+  });
+  var handleExited = normalizedTransitionCallback(onExited);
+  var handleExiting = normalizedTransitionCallback(function (node) {
+    var wrapperHeight = wrapperRef.current ? wrapperRef.current.clientHeight : 0;
+
+    var _getTransitionProps2 = Object(_transitions_utils__WEBPACK_IMPORTED_MODULE_9__[/* getTransitionProps */ "a"])({
+      style: style,
+      timeout: timeout
+    }, {
+      mode: 'exit'
+    }),
+        transitionDuration = _getTransitionProps2.duration;
+
+    if (timeout === 'auto') {
+      var duration2 = theme.transitions.getAutoHeightDuration(wrapperHeight);
+      node.style.transitionDuration = "".concat(duration2, "ms");
+      autoTransitionDuration.current = duration2;
+    } else {
+      node.style.transitionDuration = typeof transitionDuration === 'string' ? transitionDuration : "".concat(transitionDuration, "ms");
+    }
+
+    node.style.height = collapsedSize;
+
+    if (onExiting) {
+      onExiting(node);
+    }
+  });
+
+  var addEndListener = function addEndListener(nodeOrNext, maybeNext) {
+    var next = enableStrictModeCompat ? nodeOrNext : maybeNext;
+
+    if (timeout === 'auto') {
+      timer.current = setTimeout(next, autoTransitionDuration.current || 0);
+    }
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"](TransitionComponent, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+    in: inProp,
+    onEnter: handleEnter,
+    onEntered: handleEntered,
+    onEntering: handleEntering,
+    onExit: handleExit,
+    onExited: handleExited,
+    onExiting: handleExiting,
+    addEndListener: addEndListener,
+    nodeRef: enableStrictModeCompat ? nodeRef : undefined,
+    timeout: timeout === 'auto' ? null : timeout
+  }, other), function (state, childProps) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"](Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+      className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, classes.container, className, {
+        'entered': classes.entered,
+        'exited': !inProp && collapsedSize === '0px' && classes.hidden
+      }[state]),
+      style: Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+        minHeight: collapsedSize
+      }, style),
+      ref: handleRef
+    }, childProps), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
+      className: classes.wrapper,
+      ref: wrapperRef
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", {
+      className: classes.wrapperInner
+    }, children)));
+  });
+});
+ false ? undefined : void 0;
+Collapse.muiSupportAuto = true;
+/* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(styles, {
+  name: 'MuiCollapse'
+})(Collapse));
 
 /***/ }),
 
@@ -8232,355 +8546,21 @@ var SuscribeForm=function SuscribeForm(){var isMobile=Object(react_responsive__W
 
 /***/ }),
 
-/***/ 694:
+/***/ 63:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(0);
-var react_default = /*#__PURE__*/__webpack_require__.n(react);
-
-// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
-var clsx_m = __webpack_require__(132);
-
-// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/hooks/useTOCHighlight.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */function useTOCHighlight(linkClassName,linkActiveClassName,topOffset){var _useState=Object(react["useState"])(undefined),lastActiveLink=_useState[0],setLastActiveLink=_useState[1];Object(react["useEffect"])(function(){function setActiveLink(){function getActiveHeaderAnchor(){var headersAnchors=Array.from(document.getElementsByClassName('anchor'));var firstAnchorUnderViewportTop=headersAnchors.find(function(anchor){var _anchor$getBoundingCl=anchor.getBoundingClientRect(),top=_anchor$getBoundingCl.top;return top>=topOffset;});if(firstAnchorUnderViewportTop){// If first anchor in viewport is under a certain threshold, we consider it's not the active anchor.
-// In such case, the active anchor is the previous one (if it exists), that may be above the viewport
-if(firstAnchorUnderViewportTop.getBoundingClientRect().top>=topOffset){var previousAnchor=headersAnchors[headersAnchors.indexOf(firstAnchorUnderViewportTop)-1];return previousAnchor!==null&&previousAnchor!==void 0?previousAnchor:firstAnchorUnderViewportTop;}// If the anchor is at the top of the viewport, we consider it's the first anchor
-else{return firstAnchorUnderViewportTop;}}// no anchor under viewport top? (ie we are at the bottom of the page)
-else{// highlight the last anchor found
-return headersAnchors[headersAnchors.length-1];}}var activeHeaderAnchor=getActiveHeaderAnchor();if(activeHeaderAnchor){var index=0;var itemHighlighted=false;// @ts-expect-error: Must be <a> tags.
-var links=document.getElementsByClassName(linkClassName);while(index<links.length&&!itemHighlighted){var link=links[index];var href=link.href;var anchorValue=decodeURIComponent(href.substring(href.indexOf('#')+1));if(activeHeaderAnchor.id===anchorValue){if(lastActiveLink){lastActiveLink.classList.remove(linkActiveClassName);}link.classList.add(linkActiveClassName);setLastActiveLink(link);itemHighlighted=true;}index+=1;}}}document.addEventListener('scroll',setActiveLink);document.addEventListener('resize',setActiveLink);setActiveLink();return function(){document.removeEventListener('scroll',setActiveLink);document.removeEventListener('resize',setActiveLink);};});}/* harmony default export */ var hooks_useTOCHighlight = (useTOCHighlight);
-// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/styles.module.css
-var styles_module = __webpack_require__(76);
-var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
-
-// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/index.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var LINK_CLASS_NAME='table-of-contents__link';var ACTIVE_LINK_CLASS_NAME='table-of-contents__link--active';var TOP_OFFSET=100;/* eslint-disable jsx-a11y/control-has-associated-label */function Headings(_ref){var toc=_ref.toc,isChild=_ref.isChild;if(!toc.length){return null;}return/*#__PURE__*/react_default.a.createElement("ul",{className:isChild?'':'table-of-contents table-of-contents__left-border'},toc.map(function(heading){return/*#__PURE__*/react_default.a.createElement("li",{key:heading.id},/*#__PURE__*/react_default.a.createElement("a",{href:"#"+heading.id,className:LINK_CLASS_NAME// Developer provided the HTML, so assume it's safe.
-// eslint-disable-next-line react/no-danger
-,dangerouslySetInnerHTML:{__html:heading.value}}),/*#__PURE__*/react_default.a.createElement(Headings,{isChild:true,toc:heading.children}));}));}function TOC(_ref2){var toc=_ref2.toc;hooks_useTOCHighlight(LINK_CLASS_NAME,ACTIVE_LINK_CLASS_NAME,TOP_OFFSET);return/*#__PURE__*/react_default.a.createElement("div",{className:Object(clsx_m["a" /* default */])(styles_module_default.a.tableOfContents,'thin-scrollbar')},/*#__PURE__*/react_default.a.createElement(Headings,{toc:toc}));}/* harmony default export */ var theme_TOC = __webpack_exports__["a"] = (TOC);
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(767);
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(247);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
+var ContactUsBanner=function ContactUsBanner(){var history=Object(react_router_dom__WEBPACK_IMPORTED_MODULE_3__[/* useHistory */ "k"])();return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"containerGray"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"sectionPadding"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{container:true,spacing:5},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{item:true,xs:12,md:8},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2",{className:"centerTextOnMobile"},"Comience a trabajar con nosotros ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," implementando ",/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br",null)," tecnolog\xEDa blockchain "))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"],{item:true,xs:12,md:4},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"],{className:"buttonBox"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button",{className:"buttonPrimary",onClick:function onClick(){return history.push("/contactenos/");}},"Cont\xE1ctenos"))))));};/* harmony default export */ __webpack_exports__["default"] = (ContactUsBanner);
 
 /***/ }),
 
-/***/ 697:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// UNUSED EXPORTS: styles
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
-var esm_extends = __webpack_require__(3);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
-var objectWithoutProperties = __webpack_require__(131);
-
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(0);
-
-// EXTERNAL MODULE: ./node_modules/prop-types/index.js
-var prop_types = __webpack_require__(1);
-
-// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
-var clsx_m = __webpack_require__(132);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
-var withStyles = __webpack_require__(135);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/createSvgIcon.js + 1 modules
-var createSvgIcon = __webpack_require__(177);
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/internal/svg-icons/Person.js
-
-
-/**
- * @ignore - internal component.
- */
-
-/* harmony default export */ var Person = (Object(createSvgIcon["a" /* default */])( /*#__PURE__*/react["createElement"]("path", {
-  d: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
-}), 'Person'));
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Avatar/Avatar.js
-
-
-
-
-
-
-
-
-var styles = function styles(theme) {
-  return {
-    /* Styles applied to the root element. */
-    root: {
-      position: 'relative',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      flexShrink: 0,
-      width: 40,
-      height: 40,
-      fontFamily: theme.typography.fontFamily,
-      fontSize: theme.typography.pxToRem(20),
-      lineHeight: 1,
-      borderRadius: '50%',
-      overflow: 'hidden',
-      userSelect: 'none'
-    },
-
-    /* Styles applied to the root element if not `src` or `srcSet`. */
-    colorDefault: {
-      color: theme.palette.background.default,
-      backgroundColor: theme.palette.type === 'light' ? theme.palette.grey[400] : theme.palette.grey[600]
-    },
-
-    /* Styles applied to the root element if `variant="circle"`. */
-    circle: {},
-
-    /* Styles applied to the root element if `variant="circular"`. */
-    circular: {},
-
-    /* Styles applied to the root element if `variant="rounded"`. */
-    rounded: {
-      borderRadius: theme.shape.borderRadius
-    },
-
-    /* Styles applied to the root element if `variant="square"`. */
-    square: {
-      borderRadius: 0
-    },
-
-    /* Styles applied to the img element if either `src` or `srcSet` is defined. */
-    img: {
-      width: '100%',
-      height: '100%',
-      textAlign: 'center',
-      // Handle non-square image. The property isn't supported by IE 11.
-      objectFit: 'cover',
-      // Hide alt text.
-      color: 'transparent',
-      // Hide the image broken icon, only works on Chrome.
-      textIndent: 10000
-    },
-
-    /* Styles applied to the fallback icon */
-    fallback: {
-      width: '75%',
-      height: '75%'
-    }
-  };
-};
-
-function useLoaded(_ref) {
-  var src = _ref.src,
-      srcSet = _ref.srcSet;
-
-  var _React$useState = react["useState"](false),
-      loaded = _React$useState[0],
-      setLoaded = _React$useState[1];
-
-  react["useEffect"](function () {
-    if (!src && !srcSet) {
-      return undefined;
-    }
-
-    setLoaded(false);
-    var active = true;
-    var image = new Image();
-    image.src = src;
-    image.srcSet = srcSet;
-
-    image.onload = function () {
-      if (!active) {
-        return;
-      }
-
-      setLoaded('loaded');
-    };
-
-    image.onerror = function () {
-      if (!active) {
-        return;
-      }
-
-      setLoaded('error');
-    };
-
-    return function () {
-      active = false;
-    };
-  }, [src, srcSet]);
-  return loaded;
-}
-
-var Avatar_Avatar = /*#__PURE__*/react["forwardRef"](function Avatar(props, ref) {
-  var alt = props.alt,
-      childrenProp = props.children,
-      classes = props.classes,
-      className = props.className,
-      _props$component = props.component,
-      Component = _props$component === void 0 ? 'div' : _props$component,
-      imgProps = props.imgProps,
-      sizes = props.sizes,
-      src = props.src,
-      srcSet = props.srcSet,
-      _props$variant = props.variant,
-      variant = _props$variant === void 0 ? 'circular' : _props$variant,
-      other = Object(objectWithoutProperties["a" /* default */])(props, ["alt", "children", "classes", "className", "component", "imgProps", "sizes", "src", "srcSet", "variant"]);
-
-  var children = null; // Use a hook instead of onError on the img element to support server-side rendering.
-
-  var loaded = useLoaded({
-    src: src,
-    srcSet: srcSet
-  });
-  var hasImg = src || srcSet;
-  var hasImgNotFailing = hasImg && loaded !== 'error';
-
-  if (hasImgNotFailing) {
-    children = /*#__PURE__*/react["createElement"]("img", Object(esm_extends["a" /* default */])({
-      alt: alt,
-      src: src,
-      srcSet: srcSet,
-      sizes: sizes,
-      className: classes.img
-    }, imgProps));
-  } else if (childrenProp != null) {
-    children = childrenProp;
-  } else if (hasImg && alt) {
-    children = alt[0];
-  } else {
-    children = /*#__PURE__*/react["createElement"](Person, {
-      className: classes.fallback
-    });
-  }
-
-  return /*#__PURE__*/react["createElement"](Component, Object(esm_extends["a" /* default */])({
-    className: Object(clsx_m["a" /* default */])(classes.root, classes.system, classes[variant], className, !hasImgNotFailing && classes.colorDefault),
-    ref: ref
-  }, other), children);
-});
- false ? undefined : void 0;
-/* harmony default export */ var esm_Avatar_Avatar = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(styles, {
-  name: 'MuiAvatar'
-})(Avatar_Avatar));
-
-/***/ }),
-
-/***/ 722:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export styles */
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(131);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(132);
-/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(135);
-/* harmony import */ var _styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(229);
-
-
-
-
-
-
-
-var styles = function styles(theme) {
-  return {
-    /* Styles applied to the root element. */
-    root: {
-      height: 1,
-      margin: 0,
-      // Reset browser default style.
-      border: 'none',
-      flexShrink: 0,
-      backgroundColor: theme.palette.divider
-    },
-
-    /* Styles applied to the root element if `absolute={true}`. */
-    absolute: {
-      position: 'absolute',
-      bottom: 0,
-      left: 0,
-      width: '100%'
-    },
-
-    /* Styles applied to the root element if `variant="inset"`. */
-    inset: {
-      marginLeft: 72
-    },
-
-    /* Styles applied to the root element if `light={true}`. */
-    light: {
-      backgroundColor: Object(_styles_colorManipulator__WEBPACK_IMPORTED_MODULE_6__[/* alpha */ "a"])(theme.palette.divider, 0.08)
-    },
-
-    /* Styles applied to the root element if `variant="middle"`. */
-    middle: {
-      marginLeft: theme.spacing(2),
-      marginRight: theme.spacing(2)
-    },
-
-    /* Styles applied to the root element if `orientation="vertical"`. */
-    vertical: {
-      height: '100%',
-      width: 1
-    },
-
-    /* Styles applied to the root element if `flexItem={true}`. */
-    flexItem: {
-      alignSelf: 'stretch',
-      height: 'auto'
-    }
-  };
-};
-var Divider = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function Divider(props, ref) {
-  var _props$absolute = props.absolute,
-      absolute = _props$absolute === void 0 ? false : _props$absolute,
-      classes = props.classes,
-      className = props.className,
-      _props$component = props.component,
-      Component = _props$component === void 0 ? 'hr' : _props$component,
-      _props$flexItem = props.flexItem,
-      flexItem = _props$flexItem === void 0 ? false : _props$flexItem,
-      _props$light = props.light,
-      light = _props$light === void 0 ? false : _props$light,
-      _props$orientation = props.orientation,
-      orientation = _props$orientation === void 0 ? 'horizontal' : _props$orientation,
-      _props$role = props.role,
-      role = _props$role === void 0 ? Component !== 'hr' ? 'separator' : undefined : _props$role,
-      _props$variant = props.variant,
-      variant = _props$variant === void 0 ? 'fullWidth' : _props$variant,
-      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(props, ["absolute", "classes", "className", "component", "flexItem", "light", "orientation", "role", "variant"]);
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-    className: Object(clsx__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(classes.root, className, variant !== 'fullWidth' && classes[variant], absolute && classes.absolute, flexItem && classes.flexItem, light && classes.light, orientation === 'vertical' && classes.vertical),
-    role: role,
-    ref: ref
-  }, other));
-});
- false ? undefined : void 0;
-/* harmony default export */ __webpack_exports__["a"] = (Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(styles, {
-  name: 'MuiDivider'
-})(Divider));
-
-/***/ }),
-
-/***/ 738:
+/***/ 733:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8600,573 +8580,10 @@ var React = _interopRequireWildcard(__webpack_require__(0));
 var _createSvgIcon = _interopRequireDefault(__webpack_require__(144));
 
 var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"
-}), 'Language');
+  d: "M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+}), 'ExpandLess');
 
 exports.default = _default;
-
-/***/ }),
-
-/***/ 739:
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-  Copyright (c) 2018 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/
-/* global define */
-
-(function () {
-	'use strict';
-
-	var hasOwn = {}.hasOwnProperty;
-
-	function classNames() {
-		var classes = [];
-
-		for (var i = 0; i < arguments.length; i++) {
-			var arg = arguments[i];
-			if (!arg) continue;
-
-			var argType = typeof arg;
-
-			if (argType === 'string' || argType === 'number') {
-				classes.push(arg);
-			} else if (Array.isArray(arg)) {
-				if (arg.length) {
-					var inner = classNames.apply(null, arg);
-					if (inner) {
-						classes.push(inner);
-					}
-				}
-			} else if (argType === 'object') {
-				if (arg.toString === Object.prototype.toString) {
-					for (var key in arg) {
-						if (hasOwn.call(arg, key) && arg[key]) {
-							classes.push(key);
-						}
-					}
-				} else {
-					classes.push(arg.toString());
-				}
-			}
-		}
-
-		return classes.join(' ');
-	}
-
-	if ( true && module.exports) {
-		classNames.default = classNames;
-		module.exports = classNames;
-	} else if (true) {
-		// register as 'classnames', consistent with npm package name
-		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
-			return classNames;
-		}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	} else {}
-}());
-
-
-/***/ }),
-
-/***/ 740:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(136);
-
-var _interopRequireWildcard = __webpack_require__(133);
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var React = _interopRequireWildcard(__webpack_require__(0));
-
-var _createSvgIcon = _interopRequireDefault(__webpack_require__(144));
-
-var _default = (0, _createSvgIcon.default)( /*#__PURE__*/React.createElement("path", {
-  d: "M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
-}), 'Facebook');
-
-exports.default = _default;
-
-/***/ }),
-
-/***/ 742:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// UNUSED EXPORTS: styles
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
-var esm_extends = __webpack_require__(3);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js
-var objectWithoutProperties = __webpack_require__(131);
-
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(0);
-
-// EXTERNAL MODULE: ./node_modules/prop-types/index.js
-var prop_types = __webpack_require__(1);
-
-// EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
-var clsx_m = __webpack_require__(132);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/createSvgIcon.js + 1 modules
-var createSvgIcon = __webpack_require__(177);
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/internal/svg-icons/Cancel.js
-
-
-/**
- * @ignore - internal component.
- */
-
-/* harmony default export */ var Cancel = (Object(createSvgIcon["a" /* default */])( /*#__PURE__*/react["createElement"]("path", {
-  d: "M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
-}), 'Cancel'));
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js + 1 modules
-var withStyles = __webpack_require__(135);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/colorManipulator.js
-var colorManipulator = __webpack_require__(229);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/useForkRef.js
-var useForkRef = __webpack_require__(138);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/utils/capitalize.js
-var capitalize = __webpack_require__(143);
-
-// EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/ButtonBase/ButtonBase.js + 4 modules
-var ButtonBase = __webpack_require__(769);
-
-// CONCATENATED MODULE: ./node_modules/@material-ui/core/esm/Chip/Chip.js
-
-
-
-
-
-
-
-
-
-
-
-
-var Chip_styles = function styles(theme) {
-  var backgroundColor = theme.palette.type === 'light' ? theme.palette.grey[300] : theme.palette.grey[700];
-  var deleteIconColor = Object(colorManipulator["a" /* alpha */])(theme.palette.text.primary, 0.26);
-  return {
-    /* Styles applied to the root element. */
-    root: {
-      fontFamily: theme.typography.fontFamily,
-      fontSize: theme.typography.pxToRem(13),
-      display: 'inline-flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: 32,
-      color: theme.palette.getContrastText(backgroundColor),
-      backgroundColor: backgroundColor,
-      borderRadius: 32 / 2,
-      whiteSpace: 'nowrap',
-      transition: theme.transitions.create(['background-color', 'box-shadow']),
-      // label will inherit this from root, then `clickable` class overrides this for both
-      cursor: 'default',
-      // We disable the focus ring for mouse, touch and keyboard users.
-      outline: 0,
-      textDecoration: 'none',
-      border: 'none',
-      // Remove `button` border
-      padding: 0,
-      // Remove `button` padding
-      verticalAlign: 'middle',
-      boxSizing: 'border-box',
-      '&$disabled': {
-        opacity: 0.5,
-        pointerEvents: 'none'
-      },
-      '& $avatar': {
-        marginLeft: 5,
-        marginRight: -6,
-        width: 24,
-        height: 24,
-        color: theme.palette.type === 'light' ? theme.palette.grey[700] : theme.palette.grey[300],
-        fontSize: theme.typography.pxToRem(12)
-      },
-      '& $avatarColorPrimary': {
-        color: theme.palette.primary.contrastText,
-        backgroundColor: theme.palette.primary.dark
-      },
-      '& $avatarColorSecondary': {
-        color: theme.palette.secondary.contrastText,
-        backgroundColor: theme.palette.secondary.dark
-      },
-      '& $avatarSmall': {
-        marginLeft: 4,
-        marginRight: -4,
-        width: 18,
-        height: 18,
-        fontSize: theme.typography.pxToRem(10)
-      }
-    },
-
-    /* Styles applied to the root element if `size="small"`. */
-    sizeSmall: {
-      height: 24
-    },
-
-    /* Styles applied to the root element if `color="primary"`. */
-    colorPrimary: {
-      backgroundColor: theme.palette.primary.main,
-      color: theme.palette.primary.contrastText
-    },
-
-    /* Styles applied to the root element if `color="secondary"`. */
-    colorSecondary: {
-      backgroundColor: theme.palette.secondary.main,
-      color: theme.palette.secondary.contrastText
-    },
-
-    /* Pseudo-class applied to the root element if `disabled={true}`. */
-    disabled: {},
-
-    /* Styles applied to the root element if `onClick` is defined or `clickable={true}`. */
-    clickable: {
-      userSelect: 'none',
-      WebkitTapHighlightColor: 'transparent',
-      cursor: 'pointer',
-      '&:hover, &:focus': {
-        backgroundColor: Object(colorManipulator["d" /* emphasize */])(backgroundColor, 0.08)
-      },
-      '&:active': {
-        boxShadow: theme.shadows[1]
-      }
-    },
-
-    /* Styles applied to the root element if `onClick` and `color="primary"` is defined or `clickable={true}`. */
-    clickableColorPrimary: {
-      '&:hover, &:focus': {
-        backgroundColor: Object(colorManipulator["d" /* emphasize */])(theme.palette.primary.main, 0.08)
-      }
-    },
-
-    /* Styles applied to the root element if `onClick` and `color="secondary"` is defined or `clickable={true}`. */
-    clickableColorSecondary: {
-      '&:hover, &:focus': {
-        backgroundColor: Object(colorManipulator["d" /* emphasize */])(theme.palette.secondary.main, 0.08)
-      }
-    },
-
-    /* Styles applied to the root element if `onDelete` is defined. */
-    deletable: {
-      '&:focus': {
-        backgroundColor: Object(colorManipulator["d" /* emphasize */])(backgroundColor, 0.08)
-      }
-    },
-
-    /* Styles applied to the root element if `onDelete` and `color="primary"` is defined. */
-    deletableColorPrimary: {
-      '&:focus': {
-        backgroundColor: Object(colorManipulator["d" /* emphasize */])(theme.palette.primary.main, 0.2)
-      }
-    },
-
-    /* Styles applied to the root element if `onDelete` and `color="secondary"` is defined. */
-    deletableColorSecondary: {
-      '&:focus': {
-        backgroundColor: Object(colorManipulator["d" /* emphasize */])(theme.palette.secondary.main, 0.2)
-      }
-    },
-
-    /* Styles applied to the root element if `variant="outlined"`. */
-    outlined: {
-      backgroundColor: 'transparent',
-      border: "1px solid ".concat(theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.23)' : 'rgba(255, 255, 255, 0.23)'),
-      '$clickable&:hover, $clickable&:focus, $deletable&:focus': {
-        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.text.primary, theme.palette.action.hoverOpacity)
-      },
-      '& $avatar': {
-        marginLeft: 4
-      },
-      '& $avatarSmall': {
-        marginLeft: 2
-      },
-      '& $icon': {
-        marginLeft: 4
-      },
-      '& $iconSmall': {
-        marginLeft: 2
-      },
-      '& $deleteIcon': {
-        marginRight: 5
-      },
-      '& $deleteIconSmall': {
-        marginRight: 3
-      }
-    },
-
-    /* Styles applied to the root element if `variant="outlined"` and `color="primary"`. */
-    outlinedPrimary: {
-      color: theme.palette.primary.main,
-      border: "1px solid ".concat(theme.palette.primary.main),
-      '$clickable&:hover, $clickable&:focus, $deletable&:focus': {
-        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.primary.main, theme.palette.action.hoverOpacity)
-      }
-    },
-
-    /* Styles applied to the root element if `variant="outlined"` and `color="secondary"`. */
-    outlinedSecondary: {
-      color: theme.palette.secondary.main,
-      border: "1px solid ".concat(theme.palette.secondary.main),
-      '$clickable&:hover, $clickable&:focus, $deletable&:focus': {
-        backgroundColor: Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.main, theme.palette.action.hoverOpacity)
-      }
-    },
-    // TODO v5: remove
-
-    /* Styles applied to the `avatar` element. */
-    avatar: {},
-
-    /* Styles applied to the `avatar` element if `size="small"`. */
-    avatarSmall: {},
-
-    /* Styles applied to the `avatar` element if `color="primary"`. */
-    avatarColorPrimary: {},
-
-    /* Styles applied to the `avatar` element if `color="secondary"`. */
-    avatarColorSecondary: {},
-
-    /* Styles applied to the `icon` element. */
-    icon: {
-      color: theme.palette.type === 'light' ? theme.palette.grey[700] : theme.palette.grey[300],
-      marginLeft: 5,
-      marginRight: -6
-    },
-
-    /* Styles applied to the `icon` element if `size="small"`. */
-    iconSmall: {
-      width: 18,
-      height: 18,
-      marginLeft: 4,
-      marginRight: -4
-    },
-
-    /* Styles applied to the `icon` element if `color="primary"`. */
-    iconColorPrimary: {
-      color: 'inherit'
-    },
-
-    /* Styles applied to the `icon` element if `color="secondary"`. */
-    iconColorSecondary: {
-      color: 'inherit'
-    },
-
-    /* Styles applied to the label `span` element. */
-    label: {
-      overflow: 'hidden',
-      textOverflow: 'ellipsis',
-      paddingLeft: 12,
-      paddingRight: 12,
-      whiteSpace: 'nowrap'
-    },
-
-    /* Styles applied to the label `span` element if `size="small"`. */
-    labelSmall: {
-      paddingLeft: 8,
-      paddingRight: 8
-    },
-
-    /* Styles applied to the `deleteIcon` element. */
-    deleteIcon: {
-      WebkitTapHighlightColor: 'transparent',
-      color: deleteIconColor,
-      height: 22,
-      width: 22,
-      cursor: 'pointer',
-      margin: '0 5px 0 -6px',
-      '&:hover': {
-        color: Object(colorManipulator["a" /* alpha */])(deleteIconColor, 0.4)
-      }
-    },
-
-    /* Styles applied to the `deleteIcon` element if `size="small"`. */
-    deleteIconSmall: {
-      height: 16,
-      width: 16,
-      marginRight: 4,
-      marginLeft: -4
-    },
-
-    /* Styles applied to the deleteIcon element if `color="primary"` and `variant="default"`. */
-    deleteIconColorPrimary: {
-      color: Object(colorManipulator["a" /* alpha */])(theme.palette.primary.contrastText, 0.7),
-      '&:hover, &:active': {
-        color: theme.palette.primary.contrastText
-      }
-    },
-
-    /* Styles applied to the deleteIcon element if `color="secondary"` and `variant="default"`. */
-    deleteIconColorSecondary: {
-      color: Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.contrastText, 0.7),
-      '&:hover, &:active': {
-        color: theme.palette.secondary.contrastText
-      }
-    },
-
-    /* Styles applied to the deleteIcon element if `color="primary"` and `variant="outlined"`. */
-    deleteIconOutlinedColorPrimary: {
-      color: Object(colorManipulator["a" /* alpha */])(theme.palette.primary.main, 0.7),
-      '&:hover, &:active': {
-        color: theme.palette.primary.main
-      }
-    },
-
-    /* Styles applied to the deleteIcon element if `color="secondary"` and `variant="outlined"`. */
-    deleteIconOutlinedColorSecondary: {
-      color: Object(colorManipulator["a" /* alpha */])(theme.palette.secondary.main, 0.7),
-      '&:hover, &:active': {
-        color: theme.palette.secondary.main
-      }
-    }
-  };
-};
-
-function isDeleteKeyboardEvent(keyboardEvent) {
-  return keyboardEvent.key === 'Backspace' || keyboardEvent.key === 'Delete';
-}
-/**
- * Chips represent complex entities in small blocks, such as a contact.
- */
-
-
-var Chip_Chip = /*#__PURE__*/react["forwardRef"](function Chip(props, ref) {
-  var avatarProp = props.avatar,
-      classes = props.classes,
-      className = props.className,
-      clickableProp = props.clickable,
-      _props$color = props.color,
-      color = _props$color === void 0 ? 'default' : _props$color,
-      ComponentProp = props.component,
-      deleteIconProp = props.deleteIcon,
-      _props$disabled = props.disabled,
-      disabled = _props$disabled === void 0 ? false : _props$disabled,
-      iconProp = props.icon,
-      label = props.label,
-      onClick = props.onClick,
-      onDelete = props.onDelete,
-      onKeyDown = props.onKeyDown,
-      onKeyUp = props.onKeyUp,
-      _props$size = props.size,
-      size = _props$size === void 0 ? 'medium' : _props$size,
-      _props$variant = props.variant,
-      variant = _props$variant === void 0 ? 'default' : _props$variant,
-      other = Object(objectWithoutProperties["a" /* default */])(props, ["avatar", "classes", "className", "clickable", "color", "component", "deleteIcon", "disabled", "icon", "label", "onClick", "onDelete", "onKeyDown", "onKeyUp", "size", "variant"]);
-
-  var chipRef = react["useRef"](null);
-  var handleRef = Object(useForkRef["a" /* default */])(chipRef, ref);
-
-  var handleDeleteIconClick = function handleDeleteIconClick(event) {
-    // Stop the event from bubbling up to the `Chip`
-    event.stopPropagation();
-
-    if (onDelete) {
-      onDelete(event);
-    }
-  };
-
-  var handleKeyDown = function handleKeyDown(event) {
-    // Ignore events from children of `Chip`.
-    if (event.currentTarget === event.target && isDeleteKeyboardEvent(event)) {
-      // will be handled in keyUp, otherwise some browsers
-      // might init navigation
-      event.preventDefault();
-    }
-
-    if (onKeyDown) {
-      onKeyDown(event);
-    }
-  };
-
-  var handleKeyUp = function handleKeyUp(event) {
-    // Ignore events from children of `Chip`.
-    if (event.currentTarget === event.target) {
-      if (onDelete && isDeleteKeyboardEvent(event)) {
-        onDelete(event);
-      } else if (event.key === 'Escape' && chipRef.current) {
-        chipRef.current.blur();
-      }
-    }
-
-    if (onKeyUp) {
-      onKeyUp(event);
-    }
-  };
-
-  var clickable = clickableProp !== false && onClick ? true : clickableProp;
-  var small = size === 'small';
-  var Component = ComponentProp || (clickable ? ButtonBase["a" /* default */] : 'div');
-  var moreProps = Component === ButtonBase["a" /* default */] ? {
-    component: 'div'
-  } : {};
-  var deleteIcon = null;
-
-  if (onDelete) {
-    var customClasses = Object(clsx_m["a" /* default */])(color !== 'default' && (variant === "default" ? classes["deleteIconColor".concat(Object(capitalize["a" /* default */])(color))] : classes["deleteIconOutlinedColor".concat(Object(capitalize["a" /* default */])(color))]), small && classes.deleteIconSmall);
-    deleteIcon = deleteIconProp && /*#__PURE__*/react["isValidElement"](deleteIconProp) ? /*#__PURE__*/react["cloneElement"](deleteIconProp, {
-      className: Object(clsx_m["a" /* default */])(deleteIconProp.props.className, classes.deleteIcon, customClasses),
-      onClick: handleDeleteIconClick
-    }) : /*#__PURE__*/react["createElement"](Cancel, {
-      className: Object(clsx_m["a" /* default */])(classes.deleteIcon, customClasses),
-      onClick: handleDeleteIconClick
-    });
-  }
-
-  var avatar = null;
-
-  if (avatarProp && /*#__PURE__*/react["isValidElement"](avatarProp)) {
-    avatar = /*#__PURE__*/react["cloneElement"](avatarProp, {
-      className: Object(clsx_m["a" /* default */])(classes.avatar, avatarProp.props.className, small && classes.avatarSmall, color !== 'default' && classes["avatarColor".concat(Object(capitalize["a" /* default */])(color))])
-    });
-  }
-
-  var icon = null;
-
-  if (iconProp && /*#__PURE__*/react["isValidElement"](iconProp)) {
-    icon = /*#__PURE__*/react["cloneElement"](iconProp, {
-      className: Object(clsx_m["a" /* default */])(classes.icon, iconProp.props.className, small && classes.iconSmall, color !== 'default' && classes["iconColor".concat(Object(capitalize["a" /* default */])(color))])
-    });
-  }
-
-  if (false) {}
-
-  return /*#__PURE__*/react["createElement"](Component, Object(esm_extends["a" /* default */])({
-    role: clickable || onDelete ? 'button' : undefined,
-    className: Object(clsx_m["a" /* default */])(classes.root, className, color !== 'default' && [classes["color".concat(Object(capitalize["a" /* default */])(color))], clickable && classes["clickableColor".concat(Object(capitalize["a" /* default */])(color))], onDelete && classes["deletableColor".concat(Object(capitalize["a" /* default */])(color))]], variant !== "default" && [classes.outlined, {
-      'primary': classes.outlinedPrimary,
-      'secondary': classes.outlinedSecondary
-    }[color]], disabled && classes.disabled, small && classes.sizeSmall, clickable && classes.clickable, onDelete && classes.deletable),
-    "aria-disabled": disabled ? true : undefined,
-    tabIndex: clickable || onDelete ? 0 : undefined,
-    onClick: onClick,
-    onKeyDown: handleKeyDown,
-    onKeyUp: handleKeyUp,
-    ref: handleRef
-  }, moreProps, other), avatar || icon, /*#__PURE__*/react["createElement"]("span", {
-    className: Object(clsx_m["a" /* default */])(classes.label, small && classes.labelSmall)
-  }, label), deleteIcon);
-});
- false ? undefined : void 0;
-/* harmony default export */ var esm_Chip_Chip = __webpack_exports__["a"] = (Object(withStyles["a" /* default */])(Chip_styles, {
-  name: 'MuiChip'
-})(Chip_Chip));
 
 /***/ })
 
