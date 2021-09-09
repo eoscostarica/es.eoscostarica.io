@@ -97,22 +97,13 @@ const DevelopTeam = [
         color:"#f8f8f8"
     },
     {
-        img:"img/team/edgarParra.jpg",
-        name:"Edgar Parra",
-        position:"Practicante",
-        bio:"Creo que la tecnología es un proceso de aprendizaje constante que debe hacerse en conjunto.",
-        linkedIn:"https://www.linkedin.com/in/edgar-parra-barillas-078883161/",
-        twitter:"",
-        color:"#ffffff"
-    },
-    {
         img:"img/team/jorge.jpg",
         name:"Jorge Murillo",
         position:"Diseñador UX Sr.",
         bio:"Entender las necesidades es crucial para crear interfases para apps de alta tecnología y mediar entre usuarios, diseñadores y desarrolladores.",
         linkedIn:"https://www.linkedin.com/in/jmurilloux/",
         twitter:"https://twitter.com/Oquedo",
-        color:"#f8f8f8"
+        color:"#ffffff"
     },
     {
         img:"img/team/kevin.jpg",
@@ -121,24 +112,15 @@ const DevelopTeam = [
         bio:"El desarrollo de software me ha dado la oportunidad de aprender y crear nuevas cosas cada día.",
         linkedIn:"https://www.linkedin.com/in/kevin-castillo-mora/",
         twitter:"",
-        color:"#ffffff"
+        color:"#f8f8f8"
     },
     {
         img:"img/team/leister.jpg",
         name:"Leister Álvarez",
-        position:"Practicante",
+        position:"Desarrollador Jr Backend",
         bio:"Programar refleja quiénes somos; hagamos algo increíble.",
         linkedIn:"https://www.linkedin.com/in/leister-francisco-alvarez-campos-65b7801bb/",
-        twitter:"",
-        color:"#f8f8f8"
-    },
-    {
-        img:"img/team/steph.jpg",
-        name:"Stephanie Delgado",
-        position:"Practicante",
-        bio:"El mundo tecnológico siempre está evolucionando, por lo que creo que debemos ser valientes.",
-        linkedIn:"https://www.linkedin.com/in/stephaniedelgadobrenes/",
-        twitter:"",
+        twitter:"https://twitter.com/leisterac",
         color:"#ffffff"
     },
     {
