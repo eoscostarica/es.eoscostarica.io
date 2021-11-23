@@ -381,24 +381,17 @@ const TheCompany = () => {
                 <Box className="imgBoxTheCompany">
                   <img
                     className="sizeImageTheCompany"
-                    src={useBaseUrl("img/logos/lifebank.svg")}
+                    alt="EOS Rate"
+                    src={useBaseUrl("img/logos/eosrate.svg")}
                   />
                 </Box>
                 <p>
-                  Una app de código abierto basada en blockchain para incentivar las donaciones de sangre al crear un círculo virtuoso de
-                  valor entre donantes, bancos de sangre y negocios locales, e impulsada por una economía interna de tokens. Proyecto
-                  ganador de la competencia “
-                  <a
-                    href="https://eos.io/news/winner-of-coding-for-change-virtual-hackathon-lifebank/"
-                    target="_blank"
-                  >
-                    Coding for Change
-                  </a>{"” "} de {" "}
-                  <a href="https://block.one/" target="_blank">
-                    block.one.
-                  </a>{" "}
-                  <a href="http://lifebank.io/" target="_blank">
-                  Lea más sobre Lifebank.
+                  EOS Rate es una app de código abierto que permite a titulares
+                  de tokens EOS acceder a un sistema de calificaciones y portal
+                  de votación para productores de bloques y proxies en la
+                  blockchain EOS.{" "}
+                  <a href="https://eosrate.io/" target="_blank">
+                    Explore EOS Rate.
                   </a>
                 </p>
               </Grid>
@@ -406,15 +399,18 @@ const TheCompany = () => {
                 <Box className="imgBoxTheCompany">
                   <img
                     className="sizeImageTheCompany"
-                    src={useBaseUrl("img/logos/smartgate.svg")}
+                    alt="EOSIO Dashboard"
+                    src={useBaseUrl("img/logos/eosio.svg")}
                   />
                 </Box>
                 <p>
-                  Una plataforma basada en blockchain que brinda soluciones para entradas y salidas de puertos para la industria de logística de contenedores y transmisión
-                  en tiempo real de datos requeridos para el intercambio de carga.
+                  EOSIO Dashboard es un proyecto de código abierto que
+                  permite a usuarios visualizar la distribución de
+                  recompensas en la red EOS en la búsqueda de
+                  rendición de cuentas y transparencia.
                   {" "}
-                  <a href="https://smartgate.tech/" target="_blank">
-                  Aprenda más sobre SMARTGATE.
+                  <a href="https://mainnet.eosio.online/" target="_blank">
+                    Monitor de red del EOS Mainnet.
                   </a>
                 </p>
               </Grid>
@@ -422,7 +418,7 @@ const TheCompany = () => {
                 <br/>
                 <p>
                 Puede ver más de nuestros proyectos más recientes <a 
-                  href="https://eoscostarica.io/projects">
+                  href="https://es.eoscostarica.io/proyectos/">
                     aquí
                   </a>.
                 </p>
