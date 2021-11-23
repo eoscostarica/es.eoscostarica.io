@@ -16,7 +16,14 @@ const MetaData={
   hrefLangPath: "https://eoscostarica.io/projects"
 }
 
-const ProjectsList = [
+const ProjectsList1 = [
+  {
+    img:"img/logos/eosrate.svg",
+    name:"EOS Rate",
+    details:"EOS Rate es una app de código abierto que permite a titulares de tokens EOS acceder a un sistema de calificaciones y portal de votación para productores de bloques y proxies en la blockchain EOS. ",
+    link:"https://eosrate.io/",
+    linkText:"Explore EOS Rate."
+  },
   {
     img:"img/logos/eosio.svg",
     name:"EOSIO Dashboard",
@@ -24,22 +31,17 @@ const ProjectsList = [
     link:"https://mainnet.eosio.online/",
     color:"#f8f8f8",
     linkText:"Monitor de red del EOS Mainnet."
-  },
+  }
+]
+
+const ProjectsList2 = [
   {
     img:"img/logos/ggoods.svg",
     name:"gGoods",
     details:"gGoods es un estándar para NFTs de código abierto que permite a organizaciones crear tokens para buscar financiamiento. Los donantes pueden usar sus NFTs como activos en juegos y apps. Lea más sobre gGoods. ",
     link:"https://ggoods.io/",
-    color:"#ffffff",
-    linkText:"Lea más sobre gGoods."
-  },
-  {
-    img:"img/logos/eosrate.svg",
-    name:"EOS Rate",
-    details:"EOS Rate es una app de código abierto que permite a titulares de tokens EOS acceder a un sistema de calificaciones y portal de votación para productores de bloques y proxies en la blockchain EOS. ",
-    link:"https://eosrate.io/",
     color:"#f8f8f8",
-    linkText:"Explore EOS Rate."
+    linkText:"Lea más sobre gGoods."
   },
   {
     img:"img/logos/inmutrust.svg",
@@ -52,10 +54,10 @@ const ProjectsList = [
   {
     img:"img/logos/eosioforum.svg",
     name:"Enterprise EOSIO Forum",
-    details:"Somos parte del Enterprise EOSIO Forum, una iniciativa de la comunidad para discutir sobre soluciones empresariales en blockchain implementando la tecnología EOSIO.",
+    details:"We are part of the Enterprise EOSIO Forum, a community-driven initiative to discuss enterprise blockchain solutions deploying EOSIO technology. ",
     link:"https://www.linkedin.com/company/enterprise-eosio-forum/",
     color:"#f8f8f8",
-    linkText:"Más sobre Enterprise EOSIO Forum."
+    linkText:"More about Enterprise EOSIO Forum."
   },
   {
     img:"img/logos/evodex.svg",
@@ -163,6 +165,17 @@ const OurProjects = () => {
       <Box className={clsx("containerSec", "reduceMarginTop")}>
         <Box className={clsx("section",{["sectionPadding"]: isMobile})}>
           <Grid container>
+            {ProjectsList1.map((project) => (
+              <Projects
+                key={project.name}
+                img={useBaseUrl(project.img)}
+                name={project.name}
+                details={project.details}
+                link={project.link}
+                color={project?.color}
+                linkText={project.linkText}
+              />
+            ))}
             <Grid item xs={12} md={6}>
               <Box className="projectsGridLeft">
                 <Box className="imgBoxProjects">
@@ -194,8 +207,8 @@ const OurProjects = () => {
               <Box className="projectsGridLeft">
                 <Box className="imgBoxProjects">
                   <img
-                    alt="SMARTGATE"
-                    src={useBaseUrl("img/logos/smartgate.svg")}
+                    alt="Smart EIR"
+                    src={useBaseUrl("img/logos/smarteir.svg")}
                   />
                 </Box>
               </Box>
@@ -203,7 +216,7 @@ const OurProjects = () => {
             <Grid style={{backgroundColor:'#f8f8f8'}} item xs={12} md={6}>
               <Box className="projectsGridRight">
                 <Box className="h3Box">
-                  <h3 >SMARTGATE</h3>
+                  <h3 >Smart EIR</h3>
                 </Box>
                 <p>
                   Una plataforma basada en blockchain que brinda soluciones
@@ -211,7 +224,7 @@ const OurProjects = () => {
                   logística de contenedores y transmisión en tiempo real
                   de datos requeridos para el intercambio de carga. 
                   <a href="https://smartgate.tech/" target="_blank">
-                    Aprenda más sobre SMARTGATE.
+                    Aprenda más sobre Smart EIR.
                   </a>
                 </p>
               </Box>
@@ -251,14 +264,14 @@ const OurProjects = () => {
               </Box>
             </Grid>
           </Grid>
-          {ProjectsList.map((project) => (
+          {ProjectsList2.map((project) => (
             <Projects
               key={project.name}
               img={useBaseUrl(project.img)}
               name={project.name}
               details={project.details}
               link={project.link}
-              color={project.color}
+              color={project?.color}
               linkText={project.linkText}
             />
           ))}
