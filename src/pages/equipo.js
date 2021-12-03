@@ -28,7 +28,7 @@ const ManagementTeam = [
         color:"#ffffff"
     },
     {
-        img:"img/team/edgar.jpg",
+        img:"img/team/edgar.png",
         name:"Edgar Fernández",
         position:"Co-founder & Finanzas y administración",
         bio:"Busco desarrollar el espíritu emprendedor y usar tecnología para crear redes descentralizadas.",
@@ -37,7 +37,7 @@ const ManagementTeam = [
         color:"#f8f8f8"
     },
     {
-        img:"img/team/xavier.jpg",
+        img:"img/team/xavier.png",
         name:"Xavier Fernández",
         position:"Co-founder & Líder técnico",
         bio:"La tecnología blockchain ayuda a promover confianza entre partes con mayor transparencia y descentralización.",
