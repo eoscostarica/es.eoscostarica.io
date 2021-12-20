@@ -102,7 +102,7 @@ const DevelopTeam = [
         position:"Diseñador UX Sr.",
         bio:"Entender las necesidades es crucial para crear interfases para apps de alta tecnología y mediar entre usuarios, diseñadores y desarrolladores.",
         linkedIn:"https://www.linkedin.com/in/jmurilloux/",
-        twitter:"https://twitter.com/Oquedo",
+        twitter:"https://twitter.com/jmur1ll0",
         color:"#ffffff"
     },
     {
