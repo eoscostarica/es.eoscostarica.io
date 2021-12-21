@@ -207,7 +207,7 @@
                </Grid>
                <Grid item xs={12} md={4}>
                   <Box className="blogStickyContentBox">
-                    <TOC toc={BlogPostContents.toc} />
+                    {/* <TOC toc={BlogPostContents.toc} /> */}
                   </Box>
                </Grid>
              </Grid>
