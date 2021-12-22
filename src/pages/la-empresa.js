@@ -184,7 +184,7 @@ const TheCompany = () => {
                 Nuestro equipo latinoamericano cuenta con una mentalidad de
                 resolución de problemas y experiencia relevante en sus áreas de
                 conocimiento. Trabajando de manera distribuida, nuestro equipo opera
-                en un ambiente Agile que incentiva la participación, rendición de cuentas
+                en un ambiente Agile (ágil) que incentiva la participación, rendición de cuentas
                 y la innovación. ¡Conózcanos!
               </p>
             </Box>
