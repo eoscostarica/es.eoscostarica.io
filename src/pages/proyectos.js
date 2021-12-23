@@ -106,7 +106,7 @@ const OurProjects = () => {
               <h1>Casos de uso de  <br/>blockchain empresarial</h1>
             </Box>
             <p >
-              En los últimos años, hemos ayudado a organizaciones del sector público y privado a aprender y explorar los beneficios de la tecnología blockchain de EOSIO. 
+              En los últimos años, hemos ayudado a organizaciones tanto del sector público como privado a aprender y explorar los beneficios de la tecnología blockchain de EOSIO. 
               Desde mejorar la forma en que una empresa registra las transacciones transfronterizas hasta garantizar la trazabilidad inmutable de las operaciones logísticas, nuestro equipo ha desarrollado soluciones de primer nivel para problemas del mundo real. Conozca nuestros últimos proyectos.
             </p>
           </Box>
@@ -117,7 +117,7 @@ const OurProjects = () => {
             <h1>Casos de uso de  <br/>blockchain empresarial</h1>
             </Box>
             <p >
-              En los últimos años, hemos ayudado a organizaciones del sector público y privado a aprender y explorar los beneficios 
+              En los últimos años, hemos ayudado a organizaciones tanto del sector público como privado a aprender y explorar los beneficios 
               de la tecnología blockchain de EOSIO. 
               <br/>
               <br/>

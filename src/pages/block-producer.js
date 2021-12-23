@@ -467,7 +467,7 @@ const BlockProducer = () => {
                 <p >
                   Costa Rica es una de las Democracias más estables y 
                   longevas de América. El país abolió su ejército en 1948 para 
-                  promover la educación y el bienestar, y sobresale en cuanto 
+                  promover la educación y el bienestar, sobresale en cuanto 
                   a equidad e innovación.
                 </p>
               </Grid>
@@ -549,7 +549,7 @@ const BlockProducer = () => {
                   Buscamos reclutar a los mejores candidatos. Hemos armado un
                   equipo latinoamericano con mentalidad de resolución de
                   problemas y amplia experiencia en sus distintas áreas. 
-                  Nuestro equipo opera en un ambiente Agile que incentiva la
+                  Nuestro equipo opera en un ambiente Agile (ágil) que incentiva la
                   participación, rendición de cuentas y la innovación.
                 </p>
               </Grid>

@@ -180,7 +180,7 @@ const Home = () => {
               </Box>
               <p>
                 Sacamos el mejor provecho a la tecnología blockchain empresarial y diseñamos soluciones para el mundo real. 
-                Nuestro equipo ofrece servicios a la medida según las necesidades y expectativas de nuestros clientes.{" !"}
+                Nuestro equipo ofrece servicios a la medida según las necesidades y expectativas de nuestros clientes.{" ¡"}
                 <a href={useBaseUrl("/contactenos")}>Contáctenos</a> y empecemos la conversación!
               </p>
               <Box className="accordionBox" style={{ marginTop:'20px'}}>
@@ -197,7 +197,7 @@ const Home = () => {
                     <p style={{padding: 0}}>
                     Nuestra propuesta de valor es desarrollar software basado en blockchain para resolver problemas de la vida real. 
                     Tenemos experiencia trabajando con empresas de gran tamaño y PYMES, entidades de gobierno, organizaciones sin fines de
-                    lucro, y proyectos de código abierto.
+                    lucro y proyectos de código abierto.
                     Nos adaptamos al presupuesto y necesidades del cliente, sin comprometer el liderazgo o calidad en
                     nuestro trabajo. Nuestro equipo es agnóstico a la tecnología pero nos especializamos en <a href={"https://eos.io/"} target="_blank">EOSIO</a>, lanzado por
                     la compañía líder <a href={"https://block.one/"} target="_blank"> block.one</a>.
@@ -399,7 +399,7 @@ const Home = () => {
                   </Box>
                   <p>
                     Hemos armado un equipo latinoamericano con una mentalidad de solucionar problemas y experiencia en sus áreas de conocimiento.
-                    Operamos como un equipo distribuido en un ambiente Agile y nos esforzamos por contratar talento fuera de áreas urbanas para
+                    Operamos como un equipo distribuido en un ambiente Agile (ágil) y nos esforzamos por contratar talento fuera de áreas urbanas para
                     apoyar carreras técnicas en zonas rurales.
                       <a href={"https://www.linkedin.com/company/eoscostarica/"} target="_blank"> Síganos en LinkedIn.</a>
                   </p>
@@ -469,7 +469,7 @@ const Home = () => {
                       block.one.
                     </a>{" "}
                     EOSIO cuenta con el token nativo EOS y ofrece mayor escalabilidad debido a su
-                    alta velocidad en transacciones, flexibilidad para redes públicas y privadas y eficiencia energética
+                    alta velocidad en transacciones, flexibilidad para redes públicas o privadas y eficiencia energética
                     en comparación con otras blockchains, convirtiéndola en una opción más eco-eficiente.
                   </p>
                 </Grid>

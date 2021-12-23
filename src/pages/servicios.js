@@ -33,7 +33,7 @@ const strategicLocationAccordion =
   },
   {
     title: 'Estructura política estable',
-    content:'Costa Rica valora los Derechos Humanos, la Paz y la Democracia. El país es uno de los más estables y con mayor historia democrática en América. Costa Rica abolió su ejército en 1948 para promover la educación y el bienestar, y sobresale en cuanto a equidad e innovación. Además, la capital, San José, es base del Instituto Interamericano de Derechos Humanos.',
+    content:'Costa Rica valora los Derechos Humanos, la Paz y la Democracia. El país es uno de los más estables y con mayor historia democrática en América. Costa Rica abolió su ejército en 1948 para promover la educación y el bienestar, sobresale en cuanto a equidad e innovación. Además, la capital San José, es base del Instituto Interamericano de Derechos Humanos.',
     target: 'panel_framework'
   },
   {
