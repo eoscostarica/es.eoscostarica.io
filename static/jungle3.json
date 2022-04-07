@@ -5,7 +5,7 @@
 		"website": "https://eoscostarica.io",
 		"code_of_conduct": "https://eoscostarica.io/block-producer/#code-of-conduct",
 		"ownership_disclosure": "https://eoscostarica.io/block-producer/#ownership-disclosure",
-		"email": "bp@eosio.cr",
+		"email": "bp@edenia.com",
 		"github_user": ["edgar-eoscostarica", "adriexnet", "tetogomez", "kecoco16", "murillojorge","justincast", "kuronosec", "xavier506", "ldrojas"],
 		"chain_resources": "",
 		"other_resources": ["https://eosrate.io", "https://guide.eoscostarica.io", "https://guias.eoscostarica.io"],
@@ -40,7 +40,7 @@
 			"latitude": 9.936377,
 			"longitude": -84.078155
 		},
-		"ssl_endpoint": "https://jungle.eosio.cr",
+		"ssl_endpoint": "https://jungle.edenia.cloud",
 		"features": ["chain-api", "account-query"]
 	}, {
 		"node_type": "seed",
@@ -50,7 +50,7 @@
 			"latitude": 9.936377,
 			"longitude": -84.078155
 		},
-		"p2p_endpoint": "jungle.eosio.cr:9876"
+		"p2p_endpoint": "jungle.edenia.cloud:9876"
 	}, {
 		"node_type": "producer",
 		"location": {

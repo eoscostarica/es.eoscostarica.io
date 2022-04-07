@@ -36,11 +36,19 @@ const ProjectsList1 = [
 
 const ProjectsList2 = [
   {
+    img:"img/logos/myvoteeos.png",
+    name:"#MyVoteEOS",
+    details:"MyvoteEOS es un proxy de votos en EOS que tiene como objetivo representar adecuadamente la voluntad intransigente de los titulares de EOS dentro y fuera de la cadena.",
+    link:"https://myvoteeos.com/",
+    color:"#f8f8f8",
+    linkText:"Visite el sitio web de #MyVoteEOS"
+  },
+  {
     img:"img/logos/ggoods.svg",
     name:"gGoods",
     details:"gGoods es un estándar para NFTs de código abierto que permite a organizaciones crear tokens para buscar financiamiento. Los donantes pueden usar sus NFTs como activos en juegos y apps. Lea más sobre gGoods. ",
     link:"https://ggoods.io/",
-    color:"#f8f8f8",
+    color:"#ffffff",
     linkText:"Lea más sobre gGoods."
   },
   {
@@ -48,7 +56,7 @@ const ProjectsList2 = [
     name:"InmuTrust",
     details:"InmuTrust es una plataforma desarrollada en colaboración con LACChain. Utiliza la tecnología blockchain EOSIO para mejorar la transparencia y confianza en la distribución de vacunas contra la COVID-19. ",
     link:"https://inmutrust.com/",
-    color:"#ffffff",
+    color:"#f8f8f8",
     linkText:"Explore InmuTrust."
   },
   {
@@ -56,7 +64,7 @@ const ProjectsList2 = [
     name:"Enterprise EOSIO Forum",
     details:"We are part of the Enterprise EOSIO Forum, a community-driven initiative to discuss enterprise blockchain solutions deploying EOSIO technology. ",
     link:"https://www.linkedin.com/company/enterprise-eosio-forum/",
-    color:"#f8f8f8",
+    color:"#ffffff",
     linkText:"More about Enterprise EOSIO Forum."
   },
   {
@@ -64,16 +72,8 @@ const ProjectsList2 = [
     name:"Evodex",
     details:"Evodex es la interfaz frontend para un protocolo de pool de liquidez en el que los usuarios votan por las tarifas de liquidez y no pagan por gas. Nuestro equipo estuvo a cargo del UX y el diseño front-end. ",
     link:"https://evodex.io/",
-    color:"#ffffff",
-    linkText: "Pruebe Evodex."
-  },
-  {
-    img:"img/imagenotavailable.png",
-    name:"EOS Foundation",
-    details:"Somos parte de la prueba de concepto de EOS Foundation, una organización sin fines de lucro, autónoma y descentralizada, que permitiría la autorepresentación y promoción de la comunidad de EOS. ",
-    link:"http://eos-foundation.eosio.cr/",
     color:"#f8f8f8",
-    linkText:"Visite EOS Foundation."
+    linkText: "Pruebe Evodex."
   },
   {
     img:"img/imagenotavailable.png",
