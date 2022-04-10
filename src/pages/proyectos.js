@@ -38,7 +38,7 @@ const ProjectsList2 = [
   {
     img:"img/logos/myvoteeos.png",
     name:"#MyVoteEOS",
-    details:"MyvoteEOS es un proxy de votos en EOS que tiene como objetivo representar adecuadamente la voluntad intransigente de los titulares de EOS dentro y fuera de la cadena.",
+    details:"MyvoteEOS es un proxy de votos en EOS que tiene como objetivo representar adecuadamente la voluntad intransigente de los titulares de EOS dentro y fuera de la cadena. ",
     link:"https://myvoteeos.com/",
     color:"#f8f8f8",
     linkText:"Visite el sitio web de #MyVoteEOS"
@@ -53,9 +53,9 @@ const ProjectsList2 = [
   },
   {
     img:"img/logos/inmutrust.svg",
-    name:"InmuTrust",
-    details:"InmuTrust es una plataforma desarrollada en colaboración con LACChain. Utiliza la tecnología blockchain EOSIO para mejorar la transparencia y confianza en la distribución de vacunas contra la COVID-19. ",
-    link:"https://inmutrust.com/",
+    name:"Gestión de la cadena de suministro",
+    details:"InmuTrust es una prueba de concepto de trazabilidad de la cadena de suministro desarrollada en colaboración con LACChain. Utiliza la tecnología blockchain de EOSIO y NFT para mejorar la transparencia y la confianza en la distribución y logística de los productos. Centrado inicialmente en la cadena de suministro de vacunas, también se puede utilizar para rastrear la cadena de suministro de cualquier producto. ",
+    link:"https://github.com/eoscostarica/supply-chain-poc",
     color:"#f8f8f8",
     linkText:"Explore InmuTrust."
   },
