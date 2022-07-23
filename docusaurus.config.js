@@ -1,7 +1,7 @@
 const path = require("path");
 module.exports = {
   title:
-    "Servicios de desarrollo de blockchain empresarial EOSIO - EOS Costa Rica",
+    "Servicios de desarrollo de blockchain web3 EOSIO",
   tagline: "",
   url: "https://es.eoscostarica.io",
   baseUrl: "/",
