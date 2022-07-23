@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://es.eoscostarica.io/blog</id>
-    <title>Servicios de desarrollo de blockchain empresarial EOSIO - EOS Costa Rica Blog</title>
+    <title>Servicios de desarrollo de blockchain web3 EOSIO Blog</title>
     <updated>2021-08-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://es.eoscostarica.io/blog"/>
-    <subtitle>Servicios de desarrollo de blockchain empresarial EOSIO - EOS Costa Rica Blog</subtitle>
+    <subtitle>Servicios de desarrollo de blockchain web3 EOSIO Blog</subtitle>
     <icon>https://es.eoscostarica.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[InmuTrust: EOSIO Blockchain para la distribución de vacunas]]></title>
