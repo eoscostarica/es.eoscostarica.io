@@ -86,7 +86,7 @@ const DevelopTeam = [
     bio: "Padre orgulloso y desarrollador full-stack.",
     linkedIn: "https://www.linkedin.com/in/adriel-d%C3%ADaz-08226384/",
     twitter: "",
-    color: "#f8f8f8",
+    color: "#ffffff",
   },
   {
     img: "img/team/angelo.jpg",
@@ -95,7 +95,7 @@ const DevelopTeam = [
     bio: "Estoy listo para desarrollar ideas innovadoras y enfrentar nuevos desafíos.",
     linkedIn: "https://www.linkedin.com/in/angelo-castro-gamboa/",
     twitter: "",
-    color: "#ffffff",
+    color: "#f8f8f8",
   },
   {
     img: "img/team/jorge.jpg",
@@ -114,7 +114,7 @@ const DevelopTeam = [
     linkedIn:
       "https://www.linkedin.com/in/leister-francisco-alvarez-campos-65b7801bb/",
     twitter: "https://twitter.com/leisterac",
-    color: "#ffffff",
+    color: "#f8f8f8",
   },
   {
     img: "img/team/teto.jpg",
@@ -123,7 +123,7 @@ const DevelopTeam = [
     bio: "Mantener un equipo feliz puede garantizar un resultado final exitoso.",
     linkedIn: "https://www.linkedin.com/in/terencio-gomez-14784ba3/",
     twitter: "",
-    color: "#f8f8f8",
+    color: "#ffffff",
   },
 ];
 
@@ -135,7 +135,7 @@ const InfrastructureNetworkingTeam = [
     position: "Ingeniero en redes",
     linkedIn: "",
     twitter: "",
-    color: "#ffffff",
+    color: "#f8f8f8",
   },
   {
     img: "img/team/andres.jpg",
@@ -144,7 +144,7 @@ const InfrastructureNetworkingTeam = [
     bio: "Visualizo y trabajo por un mundo más seguro, privado y descentralizado",
     linkedIn: "https://www.linkedin.com/in/andres-gomez-ramirez-bb7226156/",
     twitter: "https://twitter.com/kuronosec",
-    color: "#f8f8f8",
+    color: "#ffffff",
   },
   {
     img: "img/team/ronald.jpg",
@@ -153,7 +153,7 @@ const InfrastructureNetworkingTeam = [
     bio: "",
     linkedIn: "",
     twitter: "",
-    color: "#ffffff",
+    color: "#f8f8f8",
   },
   {
     img: "img/team/julio.jpg",
@@ -162,7 +162,7 @@ const InfrastructureNetworkingTeam = [
     bio: "“Lo que más me gusta es desarrollar proyectos innovadores que ayuden a avanzar las nuevas tecnologías.",
     linkedIn: "",
     twitter: "",
-    color: "#f8f8f8",
+    color: "#ffffff",
   },
 ];
 
@@ -250,7 +250,7 @@ const Team = () => {
                   <Grid item xs={12} md={6} key={person.name}>
                     <Box
                       className="teamPadding"
-                      style={{ backgroundColor: isMobile ? person.color : "" }}
+                      bgcolor={isMobile ? person.color : ""}
                     >
                       <PersonCard
                         img={useBaseUrl(person.img)}
@@ -276,7 +276,7 @@ const Team = () => {
                   <Grid item xs={12} md={6} key={person.name}>
                     <Box
                       className="teamPadding"
-                      style={{ backgroundColor: isMobile ? person.color : "" }}
+                      bgcolor={isMobile ? person.color : ""}
                     >
                       <PersonCard
                         img={useBaseUrl(person.img)}
@@ -302,7 +302,7 @@ const Team = () => {
                   <Grid item xs={12} md={6} key={person.name}>
                     <Box
                       className="teamPadding"
-                      style={{ backgroundColor: isMobile ? person.color : "" }}
+                      bgcolor={isMobile ? person.color : ""}
                     >
                       <PersonCard
                         img={useBaseUrl(person.img)}
@@ -328,7 +328,7 @@ const Team = () => {
                   <Grid item xs={12} md={6} key={person.name}>
                     <Box
                       className="teamPadding"
-                      style={{ backgroundColor: isMobile ? person.color : "" }}
+                      bgcolor={isMobile ? person.color : ""}
                     >
                       <PersonCard
                         img={useBaseUrl(person.img)}
