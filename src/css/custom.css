@@ -963,9 +963,8 @@ a {
 
 .sectionHero {
   width: 1100px;
-  height: 780px;
-  padding-top: 250px;
   height: auto;
+  padding-top: 250px;
 }
 
 .sectionHeroMobile {
@@ -973,7 +972,6 @@ a {
   padding-top: 120px;
   padding-bottom: 0;
   width: 100%;
-  padding-bottom: 0;
 }
 
 .sectionContact {
