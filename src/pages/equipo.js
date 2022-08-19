@@ -174,7 +174,7 @@ const Team = () => {
     return (
       <Box className="containerSec">
         {isDesktop && (
-          <Box className="sectionHero" style={{ height: "auto" }}>
+          <Box className="sectionHero">
             <Box className="titleBox">
               <h1>Conozca al equipo</h1>
             </Box>
@@ -182,7 +182,7 @@ const Team = () => {
           </Box>
         )}
         {isMobile && (
-          <Box className="sectionHeroMobile" style={{ paddingBottom: 0 }}>
+          <Box className="sectionHeroMobile">
             <Box className="titleBox">
               <h1>Conozca al equipo</h1>
             </Box>
@@ -199,15 +199,15 @@ const Team = () => {
           <Box className="avatarBox">
             {img && (
               <Avatar
+                className="avatar"
                 variant="square"
-                style={{ width: "200px", height: "250px" }}
                 src={useBaseUrl(img)}
               />
             )}
             {!img && (
               <Avatar
+                className="avatar"
                 variant="square"
-                style={{ width: "200px", height: "250px" }}
                 src={useBaseUrl("img/team/profile-thinner.jpg")}
               />
             )}
@@ -222,12 +222,12 @@ const Team = () => {
           <Box className="socialMediaBox">
             {linkedIn && (
               <a href={linkedIn} target="_blank" className="socialMediaIcon">
-                <LinkedInIcon style={{ width: "30px", height: "30px" }} />
+                <LinkedInIcon className="socialIcon" />
               </a>
             )}
             {twitter && (
               <a href={twitter} target="_blank" className="socialMediaIcon">
-                <TwitterIcon style={{ width: "30px", height: "30px" }} />
+                <TwitterIcon className="socialIcon" />
               </a>
             )}
           </Box>
