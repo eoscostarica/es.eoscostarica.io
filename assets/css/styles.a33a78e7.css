@@ -3161,7 +3161,7 @@ html[data-theme='dark'] {
 /*Fonts*/
 /*Typographys*/
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -3205,7 +3205,7 @@ h4 {
   line-height: 24px;
 }
 
-h5{
+h5 {
   font-family: Lato, sans-serif;
   font-weight: bold;
   font-stretch: normal;
@@ -3215,7 +3215,7 @@ h5{
   line-height: 24px;
 }
 
-h6{
+h6 {
   font-family: Lato, sans-serif;
   font-weight: bold;
   font-stretch: normal;
@@ -3225,7 +3225,7 @@ h6{
   line-height: 24px;
 }
 
-p{
+p {
   font-family: Lato, sans-serif;
   font-weight: normal;
   font-stretch: normal;
@@ -3237,7 +3237,7 @@ p{
   margin-bottom: 0;
 }
 
-label{
+label {
   font-family: Lato, sans-serif;
   font-weight: bold;
   font-stretch: normal;
@@ -3248,19 +3248,19 @@ label{
   text-align: justify;
 }
 
-a{
-  color: #0091FF;
+a {
+  color: #0091ff;
 }
 
-.button{
+.button {
   font-size: 14px;
 }
 
-.white{
+.white {
   color: white;
 }
 
-.buttonPrimary{
+.buttonPrimary {
   -webkit-appearance: none;
   appearance: none;
   font-family: Lato, sans-serif;
@@ -3273,20 +3273,20 @@ a{
   border: none;
   border-radius: 0;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
-.buttonPrimary:hover{
-  opacity:0.8;
+.buttonPrimary:hover {
+  opacity: 0.8;
 }
 
 .buttonPrimary:disabled,
-.buttonPrimary[disabled]{
+.buttonPrimary[disabled] {
   background-color: #cccccc;
   color: #666666;
 }
 
-.buttonSecondary{
+.buttonSecondary {
   -webkit-appearance: none;
   appearance: none;
   font-family: Lato, sans-serif;
@@ -3296,77 +3296,76 @@ a{
   padding: 25px;
   background-color: transparent;
   border-radius: 0;
-  border: solid 2px #5484B3;
-  color: #5484B3;
+  border: solid 2px #5484b3;
+  color: #5484b3;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
-.gridButton{
+.gridButton {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.gridButton:hover{
+.gridButton:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 
-.boxFlexEnd{
+.boxFlexEnd {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 
-.buttonSecondary:hover{
+.buttonSecondary:hover {
   color: white;
-  background-color: #5484B3;
+  background-color: #5484b3;
 }
 
-.resourcesIcon{
+.resourcesIcon {
   width: 100px;
 }
 
 /*blog*/
 
-
-.sectionHeroBlog{
+.sectionHeroBlog {
   width: 1100px;
   padding-top: 250px;
 }
 
-.sectionHeroMobileBlog{
+.sectionHeroMobileBlog {
   position: relative;
   padding-top: 120px;
   padding-bottom: 0;
   width: 100%;
 }
 
-.subHeaderBlogBox{
+.subHeaderBlogBox {
   padding-bottom: 70px;
 }
 
-.blogLanguageAvailableBox{
+.blogLanguageAvailableBox {
   display: flex;
   margin-bottom: 30px;
   align-content: center;
 }
 
-.dividerBlogBox{
+.dividerBlogBox {
   padding-bottom: 16px;
 }
 
-.blogAvatarBox{
+.blogAvatarBox {
   position: relative;
 }
 
-.blogAvatarTextBox{
+.blogAvatarTextBox {
   position: absolute;
   top: 0;
   left: 60px;
 }
 
-.blogAuthorTile{
+.blogAuthorTile {
   margin-bottom: 3px;
   font-family: Lato, sans-serif;
   font-weight: bold;
@@ -3378,48 +3377,48 @@ a{
   color: black;
 }
 
-.blogReadMoreText{
+.blogReadMoreText {
   position: absolute;
   bottom: 0;
   right: 20px;
 }
 
-.blogTagsBox{
+.blogTagsBox {
   margin-bottom: 10px;
 }
 
-.blogIconsBox{
+.blogIconsBox {
   height: 95%;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end
+  align-items: flex-end;
 }
 
-.blogContentBox{
+.blogContentBox {
   margin-bottom: 30px;
 }
 
-.blogMarkdown a{
+.blogMarkdown a {
   text-decoration: underline;
 }
 
-.blogStickyContentBox{
+.blogStickyContentBox {
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
 }
 
-.blogPostItemBox{
+.blogPostItemBox {
   padding: 50px;
 }
 
-.imgListBlogPost{
+.imgListBlogPost {
   width: 100%;
   min-height: 200px;
   object-fit: cover;
 }
 
-.blogCenterHeaderItem{
+.blogCenterHeaderItem {
   min-height: 200px;
   display: flex;
   align-items: center;
@@ -3428,10 +3427,10 @@ a{
 .blog-wrapper a {
   font-family: Lato, sans-serif;
   font-weight: normal;
-  color: #0091FF;
+  color: #0091ff;
 }
 
-.blog-wrapper h2{
+.blog-wrapper h2 {
   font-family: Lato, sans-serif;
   font-weight: bold;
   font-weight: bold;
@@ -3451,7 +3450,7 @@ a{
   pointer-events: none;
 }
 
-.blog-wrapper h3{
+.blog-wrapper h3 {
   font-family: Lato, sans-serif;
   font-weight: bold;
   font-weight: bold;
@@ -3464,15 +3463,14 @@ a{
 
 .blog-wrapper h3::before {
   display: block;
-  content: " "; 
+  content: " ";
   margin-top: -120px;
   height: 120px;
   visibility: hidden;
   pointer-events: none;
 }
 
-
-.blog-wrapper h4{
+.blog-wrapper h4 {
   font-family: Lato, sans-serif;
   font-weight: bold;
   font-weight: bold;
@@ -3492,7 +3490,7 @@ a{
   pointer-events: none;
 }
 
-.blog-wrapper h5{
+.blog-wrapper h5 {
   font-family: Lato, sans-serif;
   font-weight: bold;
   font-stretch: normal;
@@ -3511,8 +3509,7 @@ a{
   pointer-events: none;
 }
 
-
-.blog-wrapper p{
+.blog-wrapper p {
   font-family: Lato, sans-serif;
   font-weight: normal;
   font-stretch: normal;
@@ -3524,33 +3521,33 @@ a{
   margin-bottom: 15px;
 }
 
-.blog-wrapper ul{
+.blog-wrapper ul {
   font-family: Lato, sans-serif;
 }
 
-.blog-wrapper ol{
+.blog-wrapper ol {
   font-family: Lato, sans-serif;
 }
 
-.blog-wrapper h1 a{
+.blog-wrapper h1 a {
   color: black;
   font-family: Lato, sans-serif;
   font-weight: bold;
 }
 
-.blog-wrapper h2 a{
+.blog-wrapper h2 a {
   color: black;
   font-family: Lato, sans-serif;
   font-weight: bold;
 }
 
-.blog-wrapper h3 a{
+.blog-wrapper h3 a {
   color: black;
   font-family: Lato, sans-serif;
   font-weight: bold;
 }
 
-.blog-wrapper h4 a{
+.blog-wrapper h4 a {
   color: black;
   font-family: Lato, sans-serif;
   font-weight: bold;
@@ -3569,11 +3566,11 @@ a{
   background-color: rgba(255, 255, 255, 0);
 }
 
-.navBarScroll{
+.navBarScroll {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-.menuWrapper{
+.menuWrapper {
   position: relative;
   width: 1100px;
   display: flex;
@@ -3591,14 +3588,14 @@ a{
   display: flex;
 }
 
-.imgLogoBox{
+.imgLogoBox {
   position: absolute;
   left: 0;
   top: -25px;
   width: 330px;
 }
 
-.imgLogoBoxMobile{
+.imgLogoBoxMobile {
   visibility: visible;
   position: absolute;
   left: 25px;
@@ -3606,7 +3603,7 @@ a{
   width: 330px;
 }
 
-.hideImgLogoBoxMobile{
+.hideImgLogoBoxMobile {
   position: absolute;
   left: 15px;
   top: 18px;
@@ -3614,37 +3611,37 @@ a{
   visibility: hidden;
 }
 
-.imgLogo{
+.imgLogo {
   -webkit-transform-origin: top left;
   -webkit-transition: all 0.26s;
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
 }
 
-.imgDrawer{
+.imgDrawer {
   padding: 10%;
   width: 50%;
 }
 
-.imgLogoScroll{
+.imgLogoScroll {
   -webkit-transform-origin: top left;
   -webkit-transition: all 0.26s;
   -webkit-transform: scale(0.4, 0.4);
-  transform:scale(0.4, 0.4);
+  transform: scale(0.4, 0.4);
 }
 
-.boxRight{
+.boxRight {
   width: 70%;
 }
 
-.boxLanguages{
+.boxLanguages {
   z-index: 300;
   position: absolute;
   right: 0;
   top: 10px;
 }
 
-.boxLanguagesSelector{
+.boxLanguagesSelector {
   z-index: 500;
   position: absolute;
   right: 40px;
@@ -3653,28 +3650,28 @@ a{
   border-radius: 5px;
   visibility: hidden;
   opacity: 0;
-  transition:visibility 0.1s linear, opacity 0.1s linear;
+  transition: visibility 0.1s linear, opacity 0.1s linear;
 }
 
-.boxLanguagesSelectorActive{
+.boxLanguagesSelectorActive {
   visibility: visible;
   opacity: 1;
 }
 
-.langItemBox{
+.langItemBox {
   padding: 5px;
 }
 
-.langItem{
+.langItem {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
 
-.langItem:hover{
+.langItem:hover {
   font-weight: bold;
 }
 
-.langItemActive{
+.langItemActive {
   font-family: Lato, sans-serif;
   padding-bottom: 3px;
   border-bottom: solid 4px #5484b3;
@@ -3682,7 +3679,7 @@ a{
   cursor: pointer;
 }
 
-.boxMenuItems{
+.boxMenuItems {
   position: absolute;
   right: 0;
   top: 0;
@@ -3691,7 +3688,7 @@ a{
   justify-content: flex-end;
 }
 
-.menuItem{
+.menuItem {
   position: relative;
   cursor: pointer;
   margin-left: 20px;
@@ -3701,80 +3698,80 @@ a{
   text-decoration: none;
 }
 
-.menuItem:hover .dropDownMenu{
+.menuItem:hover .dropDownMenu {
   visibility: visible;
   display: block;
 }
 
-.menuItem:hover .dropDownMenu::after{
+.menuItem:hover .dropDownMenu::after {
   top: 0;
   right: auto;
   height: 100%;
   width: 200px;
 }
 
-.menuItem:hover .dropDownMenuActive{
+.menuItem:hover .dropDownMenuActive {
   visibility: visible;
   display: block;
 }
 
-.menuItem:hover .dropDownMenuActive::after{
+.menuItem:hover .dropDownMenuActive::after {
   top: 0;
   right: auto;
   height: 100%;
   width: 200px;
 }
 
-.menuItem:hover .menuItemDrop{
-  transition-delay:  0.3s;
+.menuItem:hover .menuItemDrop {
+  transition-delay: 0.3s;
   opacity: 1;
 }
 
-.navBarItemTab:focus-within .dropDownMenu{
+.navBarItemTab:focus-within .dropDownMenu {
   visibility: visible;
   display: block;
 }
 
-.navBarItemTab:focus-within .dropDownMenu::after{
+.navBarItemTab:focus-within .dropDownMenu::after {
   top: 0;
   right: auto;
   height: 100%;
   width: 200px;
 }
 
-.navBarItemTab:focus-within .dropDownMenuActive{
+.navBarItemTab:focus-within .dropDownMenuActive {
   visibility: visible;
   display: block;
 }
 
-.navBarItemTab:focus-within .dropDownMenuActive::after{
+.navBarItemTab:focus-within .dropDownMenuActive::after {
   top: 0;
   right: auto;
   height: 100%;
   width: 200px;
 }
 
-.navBarItemTab:focus-within .dropDownMenu .menuItemDrop{
-  transition-delay:  0.3s;
+.navBarItemTab:focus-within .dropDownMenu .menuItemDrop {
+  transition-delay: 0.3s;
   opacity: 1;
 }
 
-.navBarItemTab:focus-within .link:after{
-  left:  0;
+.navBarItemTab:focus-within .link:after {
+  left: 0;
   width: 100%;
 }
 
-#boxMenuItems:focus-within .linkActive::after{
-  left:  0;
+#boxMenuItems:focus-within .linkActive::after {
+  left: 0;
   width: 0%;
 }
 
-#boxMenuItems:focus-within .navBarItemTab:focus-within .linkActive::after{
-  left:  0;
+#boxMenuItems:focus-within .navBarItemTab:focus-within .linkActive::after {
+  left: 0;
   width: 100%;
 }
 
-.dropDownMenu{
+.dropDownMenu {
   position: absolute;
   display: block;
   visibility: hidden;
@@ -3789,14 +3786,14 @@ a{
   height: 5px;
   width: 0%;
   top: 0;
-  background:#5484b3;
+  background: #5484b3;
   transition-property: width height;
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
   font-weight: bold;
 }
 
-.dropDownMenuActive{
+.dropDownMenuActive {
   position: absolute;
   display: block;
   visibility: hidden;
@@ -3811,14 +3808,14 @@ a{
   height: 5px;
   width: 100%;
   top: 0;
-  background:#5484b3;
+  background: #5484b3;
   transition-property: width height;
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
   font-weight: bold;
 }
 
-.menuItemDrop{
+.menuItemDrop {
   width: auto;
   color: white;
   white-space: nowrap;
@@ -3826,17 +3823,17 @@ a{
   margin-top: 15px;
   margin-bottom: 15px;
   opacity: 0;
-  transition: opacity .1s ease-in-out;
-  -moz-transition: opacity .1s ease-in-out;
-  -webkit-transition: opacity .1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
 }
 
-.menuItemDrop:hover{
-  color: #CFD8DC;
+.menuItemDrop:hover {
+  color: #cfd8dc;
 }
 
-.menuItemDropActive{
-  color: #CFD8DC;
+.menuItemDropActive {
+  color: #cfd8dc;
 }
 
 .link {
@@ -3849,7 +3846,7 @@ a{
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 .link:after {
@@ -3860,7 +3857,7 @@ a{
   height: 5px;
   width: 0;
   bottom: 45px;
-  background:#5484b3;
+  background: #5484b3;
   transition-property: width;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
@@ -3868,7 +3865,7 @@ a{
 }
 
 .menuItem:hover .link:after {
-  left:  0;
+  left: 0;
   width: 100%;
 }
 
@@ -3880,66 +3877,65 @@ a{
   height: 5px;
   width: 100%;
   bottom: 45px;
-  background:#5484b3;
+  background: #5484b3;
   transition-property: width;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
 
-#boxMenuItems:hover .linkActive::after{
-  left:  0;
+#boxMenuItems:hover .linkActive::after {
+  left: 0;
   width: 0%;
 }
 
-#boxMenuItems:hover .menuItem:hover .linkActive::after{
-  left:  0;
+#boxMenuItems:hover .menuItem:hover .linkActive::after {
+  left: 0;
   width: 100%;
 }
 
-.btnDrawer{
+.btnDrawer {
   position: absolute;
   top: 10px;
   right: 10px;
   color: #5484b3;
 }
 
-.drawerContent{
+.drawerContent {
   width: 65vw;
 }
 
-.linkGruopBox{
+.linkGruopBox {
   margin-top: 15px;
 }
 
-.linkGruopLabel{
+.linkGruopLabel {
   margin: 0;
   padding: 0;
   font-size: 11px;
   margin-left: 20px;
-  opacity: .6;
+  opacity: 0.6;
   color: black;
   font-weight: bold;
 }
 
-.linkItem{
+.linkItem {
   font-family: Lato, sans-serif;
   font-weight: normal;
   color: black;
   text-decoration: none;
 }
 
-.linkItem:hover{
+.linkItem:hover {
   text-decoration: none;
-
 }
 
-.linkItem:focus{
+.linkItem:focus {
   text-decoration: none;
 }
 
 /*Footer*/
 
-.footer{
+.footer {
   width: "100%";
   display: flex;
   justify-content: center;
@@ -3947,7 +3943,7 @@ a{
   overflow-x: hidden;
 }
 
-.footerCopy{
+.footerCopy {
   width: "100%";
   display: flex;
   justify-content: center;
@@ -3957,23 +3953,23 @@ a{
   padding-bottom: 10px;
 }
 
-.footerCopyContent{
+.footerCopyContent {
   width: 1100px;
   display: flex;
 }
 
-.footerContent{
+.footerContent {
   width: 1100px;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.boxTitle{
+.boxTitle {
   margin-bottom: 2rem;
 }
 
-.h3Footer{
+.h3Footer {
   font-family: Lato, sans-serif;
   color: white;
   font-weight: bold;
@@ -3981,13 +3977,13 @@ a{
   letter-spacing: -0.06px;
 }
 
-.hs-richtext{
+.hs-richtext {
   line-height: 24px;
   font-size: 14px;
   color: #ffffff;
 }
 
-.body1Footer{
+.body1Footer {
   font-family: Lato, sans-serif;
   color: white;
   font-weight: normal;
@@ -3999,7 +3995,7 @@ a{
   text-align: justify;
 }
 
-.linkFooter{
+.linkFooter {
   font-family: Lato, sans-serif;
   color: white;
   font-weight: normal;
@@ -4011,18 +4007,18 @@ a{
   text-align: justify;
 }
 
-.linkFooter:hover{
+.linkFooter:hover {
   color: #5484b3;
   text-decoration: none;
 }
 
 /*Home*/
 
-.mainContainer{
+.mainContainer {
   overflow-x: hidden;
 }
 
-.containerSec{
+.containerSec {
   margin: 0 auto;
   display: flex;
   width: 1100px;
@@ -4030,33 +4026,33 @@ a{
   padding: 0;
 }
 
-.containerGray{
+.containerGray {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
-.containerBlack{
+.containerBlack {
   width: 100%;
   display: flex;
   justify-content: center;
   background-color: black;
 }
 
-.containerWithBackground{
+.containerWithBackground {
   background-image: url("https://eoscostarica.io/img/blureoslogo.png");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 100%;
 }
 
-.content{
+.content {
   width: 960px;
   display: flex;
 }
 
-.bgParallax{
+.bgParallax {
   width: 100vw;
   display: flex;
   justify-content: flex-end;
@@ -4064,7 +4060,7 @@ a{
   height: 780px;
 }
 
-.bgParallaxSecondary{
+.bgParallaxSecondary {
   width: 100vw;
   display: flex;
   justify-content: flex-end;
@@ -4072,7 +4068,7 @@ a{
   height: 1750px;
 }
 
-.bgParallaxSecondaryCompany{
+.bgParallaxSecondaryCompany {
   width: 100vw;
   display: flex;
   justify-content: flex-end;
@@ -4080,7 +4076,7 @@ a{
   height: 1650px;
 }
 
-.imgParallax{
+.imgParallax {
   z-index: 1;
   height: 100%;
   width: 100vw;
@@ -4089,87 +4085,87 @@ a{
   background-position: right bottom;
 }
 
-.titleBox{
+.titleBox {
   margin-bottom: 3rem;
 }
 
-.h3Box{
+.h3Box {
   margin-bottom: 2rem;
 }
 
-.specialH3Box{
+.specialH3Box {
   margin-bottom: 1rem;
 }
 
-.footerTitle{
+.footerTitle {
   margin-top: 4rem;
   margin-bottom: 0;
 }
 
-.buttonBox{
+.buttonBox {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.buttonBoxMobile{
+.buttonBoxMobile {
   margin-top: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.sectionHero{
+.sectionHero {
   width: 1100px;
-  height: 780px;
+  height: auto;
   padding-top: 250px;
 }
 
-.sectionHeroMobile{
+.sectionHeroMobile {
   position: relative;
   padding-top: 120px;
   padding-bottom: 0;
   width: 100%;
 }
 
-.sectionContact{
+.sectionContact {
   width: 1100px;
   padding-top: 250px;
 }
 
-.logoMobileBox{
+.logoMobileBox {
   width: 100%;
   display: flex;
   margin-bottom: 2em;
   justify-content: center;
 }
 
-.logoMobile{
+.logoMobile {
   width: 300px;
   height: 110px;
 }
 
-.section{
+.section {
   padding-bottom: 140px;
   width: 1100px;
 }
 
-.sectionPaddingTop{
+.sectionPaddingTop {
   padding-top: 140px;
   padding-bottom: 55px;
   width: 1100px;
 }
 
-.sectionNoPadding{
+.sectionNoPadding {
   width: 1100px;
 }
 
-.sectionPadding{
+.sectionPadding {
   padding-top: 140px;
   padding-bottom: 140px;
   width: 1100px;
 }
 
-.accordion{
+.accordion {
   width: 100%;
   background-color: #f1f1f1;
   border: none;
@@ -4178,109 +4174,108 @@ a{
   box-shadow: none;
 }
 
-.MuiAccordion-root + .MuiAccordion-root::before{
+.MuiAccordion-root + .MuiAccordion-root::before {
   margin: 0;
   padding: 0;
   opacity: 0;
 }
 
-.MuiAccordion-root + .MuiAccordion-root{
+.MuiAccordion-root + .MuiAccordion-root {
   margin: 0;
   padding: 0;
-  border-top: solid 1px #E0E0E0;
+  border-top: solid 1px #e0e0e0;
 }
 
-.imgBox{
+.imgBox {
   display: flex;
   justify-content: center;
   height: 350px;
   margin-bottom: 3rem;
 }
 
-.imgBoxServices{
+.imgBoxServices {
   display: flex;
   justify-content: center;
   height: 250px;
 }
 
-.imgBoxLogos{
+.imgBoxLogos {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   height: 288px;
 }
 
-.oneGroupLogo{
-  transition: all .4s ease-in-out
+.oneGroupLogo {
+  transition: all 0.4s ease-in-out;
 }
 
-.oneGroupLogo:hover{
+.oneGroupLogo:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.spacingBox{
+.spacingBox {
   margin-bottom: 3rem;
 }
 
-.topSpacingBox{
+.topSpacingBox {
   margin-top: 3rem;
 }
 
-.doubleSpacingBox{
+.doubleSpacingBox {
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
 
-.inquiereBox{
+.inquiereBox {
   display: flex;
   align-items: center;
   height: 500px;
 }
 
-.imgBoxRight{
+.imgBoxRight {
   display: flex;
   justify-content: flex-end;
 }
 
-.imgBoxLeft{
+.imgBoxLeft {
   display: flex;
   justify-content: flex-start;
 }
 
-.imgKnow{
+.imgKnow {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
 
-.imgKnowCompany{
+.imgKnowCompany {
   width: 100%;
   height: 500px;
   object-fit: cover;
   object-position: left;
 }
 
-.imgProjects{
+.imgProjects {
   width: 85%;
 }
 
-
 /*services*/
 
-.centerBox{
+.centerBox {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.righttBox{
+.righttBox {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.leftBox{
+.leftBox {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -4288,192 +4283,198 @@ a{
 
 /*Team*/
 
-.avatarBox{
+.avatarBox {
   display: flex;
   justify-content: center;
   height: 250px;
   margin-bottom: 3rem;
 }
 
-.nameText{
+.avatar {
+  width: 200px;
+  height: 250px;
+}
+
+.nameText {
   text-align: left;
   margin-bottom: 5px;
 }
 
-.positionText{
+.positionText {
   text-align: left;
   font-weight: normal;
   margin-bottom: 15px;
 }
 
-.bioText{
+.bioText {
   text-align: left;
 }
 
-.socialMediaBox{
+.socialMediaBox {
   display: flex;
   justify-content: start;
   margin-top: 15px;
 }
 
-.socialMediaIcon{
+.socialMediaIcon {
   cursor: pointer;
   color: #5484b3;
   margin-right: 15px;
 }
 
+.socialIcon {
+  width: 30px;
+  height: 30px;
+}
+
 /* Contact */
-.contactFormBox{
+.contactFormBox {
   margin-bottom: 3rem;
 }
 
-.titleDevs1{
+.titleDevs1 {
   margin-top: 20px;
-  margin-left: 20px
+  margin-left: 20px;
 }
 
-.titleDevs2{
+.titleDevs2 {
   margin-top: 60px;
-  margin-left: -66px
+  margin-left: -66px;
 }
 
-.titleBlog{
+.titleBlog {
   margin-top: 30px;
-  margin-left: 40px
+  margin-left: 40px;
 }
 
-.titleGit1{
+.titleGit1 {
   margin-top: 30px;
-  margin-left: 40px
+  margin-left: 40px;
 }
 
-.titleGit2{
+.titleGit2 {
   margin-top: 60px;
-  margin-left: -50px
+  margin-left: -50px;
 }
 
-.topSpacingBoxIcons{
+.topSpacingBoxIcons {
   margin-top: 3rem;
 }
 
-.paddingTopGrid{
-  padding-top: 100px
+.paddingTopGrid {
+  padding-top: 100px;
 }
 
-.paddingTop{
-  padding-top: 100px
+.paddingTop {
+  padding-top: 100px;
 }
 
-.mediumPaddingTop{
-  padding-top: 50px
+.mediumPaddingTop {
+  padding-top: 50px;
 }
 
-.litlePaddingTop{
-  padding-top: 18px
+.litlePaddingTop {
+  padding-top: 18px;
 }
 
-.displayLine{
-  display: none
+.displayLine {
+  display: none;
 }
 
-.imgBoxProjects{
+.imgBoxProjects {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
-.littleImage{
+.littleImage {
   width: 150px;
   height: 170px;
   flex: 0 0 auto;
   margin: 1px;
 }
 
-.imageIndrustries{
+.imageIndrustries {
   width: 150px;
   height: 220px;
   flex: 0 0 auto;
 }
 
-.imageIndrustriesLogistics{
+.imageIndrustriesLogistics {
   width: 250px;
   height: 220px;
   flex: 0 0 auto;
 }
 
-.reduceMarginBottom
-{
+.reduceMarginBottom {
   height: 1120px;
 }
 
-.reduceMarginTop
-{
-  margin-top: -100px
+.reduceMarginTop {
+  margin-top: -100px;
 }
 
-.reduceDobleMarginTop
-{
-  margin-top: -200px
+.reduceDobleMarginTop {
+  margin-top: -200px;
 }
 
-.reduceMediumMarginTop
-{
-  margin-top: -35px
+.reduceMediumMarginTop {
+  margin-top: -35px;
 }
 
 .litleMarginTop {
   margin-top: 20px;
 }
 
-.specialButton{
+.specialButton {
   width: 100%;
 }
 
-.imgBoxTheCompany{
+.imgBoxTheCompany {
   display: flex;
   justify-content: center;
   height: 100px;
   margin-bottom: 2rem;
 }
 
-.sizeImageTheCompany{
+.sizeImageTheCompany {
   width: 250px;
   height: 100px;
 }
 
-.centerText{
+.centerText {
   text-align: center;
 }
 
-.noMarginsTop{
+.noMarginsTop {
   margin-left: 18px;
   margin-right: 18px;
 }
 
-.socialMediaAnimation{
-  transition: all .4s ease-in-out
+.socialMediaAnimation {
+  transition: all 0.4s ease-in-out;
 }
 
-.socialMediaAnimation:hover{
+.socialMediaAnimation:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.iconSocialMediaAnimation{
+.iconSocialMediaAnimation {
   color: #000000;
-  transition: all .4s ease-in-out
+  transition: all 0.4s ease-in-out;
 }
 
-.iconSocialMediaAnimation:hover{
-  fill: #5484B3;
+.iconSocialMediaAnimation:hover {
+  fill: #5484b3;
 }
 
-.footerMediumIcon{
+.footerMediumIcon {
   fill: #ffffff;
 }
 
-.animationBox{
+.animationBox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4488,26 +4489,26 @@ a{
   width: 50%;
 }
 
-.teamPadding{
+.teamPadding {
   padding: 2rem;
 }
 
-.projectsGridLeft{
+.projectsGridLeft {
   padding-top: 70px;
   padding-bottom: 70px;
   padding-right: 40px;
   height: 100%;
 }
 
-.projectsGridRight{
+.projectsGridRight {
   padding-top: 70px;
   padding-bottom: 70px;
   padding-right: 40px;
   height: 100%;
 }
 
-.iconStep{
-  background-color: #9E9E9E;
+.iconStep {
+  background-color: #9e9e9e;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -4516,7 +4517,7 @@ a{
   justify-content: center;
 }
 
-.iconStepActive{
+.iconStepActive {
   background-color: #5484b3;
   width: 30px;
   height: 30px;
@@ -4526,15 +4527,15 @@ a{
   justify-content: center;
 }
 
-.iconText{
+.iconText {
   color: white;
   padding: 0;
   margin-bottom: 1px;
   font-size: 15px;
 }
 
-.stepText{
-  font-family: 'Gotham',Lato, sans-serif;
+.stepText {
+  font-family: "Gotham", Lato, sans-serif;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -4543,35 +4544,35 @@ a{
   line-height: 34px;
 }
 
-.formBox{
+.formBox {
   padding: 50px;
 }
 
-.radioBox{
+.radioBox {
   margin-top: 10px;
 }
 
-.itemQuestion{
+.itemQuestion {
   text-indent: -46px;
   padding-left: 46px;
 }
 
-.itemQuestionRadio{
+.itemQuestionRadio {
   margin-right: 50px;
 }
 
 .imgcard {
   display: block;
   width: 150px;
-  margin: auto
+  margin: auto;
 }
 
-.card{
+.card {
   height: 360px;
   cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
 }
@@ -4579,49 +4580,49 @@ a{
 .media {
   object-fit: cover;
   object-position: bottom;
-  height: 180px
+  height: 180px;
 }
 
 .expand {
   transition: all 5s;
 }
 
-.shrink{
+.shrink {
   transition: all 5s;
 }
 
-.shrink:hover{
+.shrink:hover {
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
 }
 
-.nowrapText{
+.nowrapText {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.button-glow{
-  height:'70px';
-  width:'150px';
+.button-glow {
+  height: "70px";
+  width: "150px";
 }
 
-.button-glow:hover{
+.button-glow:hover {
   -webkit-transform: scale(1.18);
           transform: scale(1.18);
 }
 
-.reduceMargin{
+.reduceMargin {
   margin: 20px;
 }
 
-.marginIconsFooter{
+.marginIconsFooter {
   margin-left: 9px;
   margin-right: 9px;
 }
 
-.inputFooter{
+.inputFooter {
   width: 75%;
   padding: 13px;
   padding-top: 11.5px;
@@ -4632,52 +4633,52 @@ a{
   box-sizing: border-box;
 }
 
-.marginLeft{
+.marginLeft {
   margin-left: 25px;
 }
 
 @media only screen and (max-width: 1279px) {
-  .menuWrapper{
+  .menuWrapper {
     width: 960px;
   }
 
-  .footerContent{
+  .footerContent {
     width: 960px;
   }
 
-  .containerSec{
+  .containerSec {
     width: 960px;
   }
 
-  .sectionHero{
+  .sectionHero {
     width: 960px;
   }
 
-  .sectionContact{
+  .sectionContact {
     width: 960px;
   }
 
-  .section{
+  .section {
     width: 960px;
   }
 
-  .sectionPaddingTop{
+  .sectionPaddingTop {
     width: 960px;
   }
 
-  .sectionNoPadding{
+  .sectionNoPadding {
     width: 960px;
   }
 
-  .sectionPadding{
+  .sectionPadding {
     width: 960px;
   }
 
-  .paddingLeft{
+  .paddingLeft {
     padding-left: 0;
   }
 
-  .paddingLeft2{
+  .paddingLeft2 {
     padding-left: 0;
   }
 }
@@ -4686,130 +4687,130 @@ a{
   .footerLogo {
     width: 50%;
   }
-  
-  .footerLogoBox{
+
+  .footerLogoBox {
     display: flex;
     justify-content: center;
   }
 
-  .h3Footer{
+  .h3Footer {
     text-align: start;
     font-size: 18px;
   }
 
-  .body1Footer{
+  .body1Footer {
     text-align: start;
     font-size: 16px;
   }
 
-  .linkFooter{
+  .linkFooter {
     text-align: start;
     font-size: 16px;
   }
 
-  .menuWrapper{
+  .menuWrapper {
     height: 90px;
   }
 
-  .buttonBox{
+  .buttonBox {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
-  .containerSec{
+  .containerSec {
     width: 100%;
   }
 
-  .section{
+  .section {
     width: 100%;
   }
 
-  .sectionPaddingTop{
+  .sectionPaddingTop {
     width: 100%;
   }
 
-  .sectionNoPadding{
+  .sectionNoPadding {
     width: 100%;
   }
-  
-  .sectionPadding{
+
+  .sectionPadding {
     padding-top: 80px;
     padding-bottom: 80px;
     width: 100%;
   }
 
-  .accordionBox{
+  .accordionBox {
     width: 100%;
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .imgBoxLogos{
+  .imgBoxLogos {
     height: auto;
     margin-top: 40px;
     margin-bottom: 40px;
   }
 
-  .oneGroupLogo{
+  .oneGroupLogo {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
 
-  .inquiereBox{
+  .inquiereBox {
     height: auto;
   }
 
-  .imgKnow{
+  .imgKnow {
     width: 100%;
     height: 100%;
   }
 
-  .imgKnowCompany{
+  .imgKnowCompany {
     width: 100%;
     height: 100%;
   }
-  
-  .imgProjects{
+
+  .imgProjects {
     width: 100%;
   }
 
-  .contactFormBox{
+  .contactFormBox {
     padding-left: 5vw;
     padding-right: 5vw;
   }
 
-  .nameText{
+  .nameText {
     font-size: 20px;
     text-align: center;
   }
 
-  .positionText{
+  .positionText {
     text-align: center;
     font-size: 18px;
   }
 
-  .bioText{
+  .bioText {
     text-align: center;
   }
 
-  .socialMediaBox{
+  .socialMediaBox {
     display: flex;
     justify-content: center;
     margin-top: 15px;
   }
 
-  .sizeImageTheCompany{
+  .sizeImageTheCompany {
     width: 190px;
   }
 
-  .animationBox{
+  .animationBox {
     height: 150px;
     margin-top: 16px;
     margin-bottom: 50px;
   }
-  
-  h1{
+
+  h1 {
     line-height: 30px;
     font-size: 30px;
     text-align: left;
@@ -4818,7 +4819,7 @@ a{
     padding-right: 25px;
   }
 
-  h2{
+  h2 {
     line-height: 25px;
     font-size: 25px;
     text-align: left;
@@ -4827,7 +4828,7 @@ a{
     padding-right: 25px;
   }
 
-  h3{
+  h3 {
     line-height: 22px;
     font-size: 20px;
     text-align: left;
@@ -4836,7 +4837,7 @@ a{
     padding-right: 25px;
   }
 
-  h4{
+  h4 {
     line-height: 25px;
     font-size: 18px;
     text-align: left;
@@ -4844,14 +4845,14 @@ a{
     padding-right: 25px;
   }
 
-  p{
+  p {
     line-height: 20px;
     font-size: 15px;
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  label{
+  label {
     line-height: 18px;
     font-size: 15px;
     padding-left: 25px;
@@ -4859,84 +4860,84 @@ a{
   }
 
   /*blog*/
-  .blog-wrapper{
+  .blog-wrapper {
     margin-top: 0;
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .subHeaderBlogBox{
+  .subHeaderBlogBox {
     padding-bottom: 0;
   }
 
-  .blogLanguageAvailableBox{
+  .blogLanguageAvailableBox {
     margin-bottom: 10px;
   }
 
-  .dividerBlogBox{
+  .dividerBlogBox {
     padding-top: 30px;
     padding-bottom: 0;
   }
 
-  .blogContentBox{
+  .blogContentBox {
     margin-top: 30px;
   }
 
-  .blogIconsBox{
+  .blogIconsBox {
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end
+    align-items: flex-end;
   }
 
-  .blogPostItemBox{
+  .blogPostItemBox {
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 10px;
   }
 
-  .blogAuthorTile{
+  .blogAuthorTile {
     font-size: 18px;
   }
-  
-  .blogHeaderListPage{
+
+  .blogHeaderListPage {
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .imgListBlogPost{
-    min-height:initial;
+  .imgListBlogPost {
+    min-height: initial;
   }
 
-  .blogCenterHeaderItem{
+  .blogCenterHeaderItem {
     height: auto;
   }
 
-  .blogHeaderListPage p{
-    padding: 0;
-  }
-  
-  .blogHeaderListPage h3{
+  .blogHeaderListPage p {
     padding: 0;
   }
 
-  .blogHeaderListPage h4{
+  .blogHeaderListPage h3 {
     padding: 0;
   }
 
-  .blogChipTagsBox{
+  .blogHeaderListPage h4 {
+    padding: 0;
+  }
+
+  .blogChipTagsBox {
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .blog-wrapper h1{
+  .blog-wrapper h1 {
     font-size: 30px;
     text-align: left;
     padding: 0;
   }
 
-  .blog-wrapper h2{
+  .blog-wrapper h2 {
     font-size: 25px;
     text-align: left;
     padding: 0;
@@ -4946,7 +4947,7 @@ a{
     content: none;
   }
 
-  .blog-wrapper h3{
+  .blog-wrapper h3 {
     font-size: 20px;
     text-align: left;
     padding: 0;
@@ -4956,7 +4957,7 @@ a{
     content: none;
   }
 
-  .blog-wrapper h4{
+  .blog-wrapper h4 {
     font-size: 15px;
     padding: 0;
     text-align: left;
@@ -4970,7 +4971,7 @@ a{
     content: none;
   }
 
-  .blog-wrapper p{
+  .blog-wrapper p {
     font-family: Lato, sans-serif;
     font-weight: normal;
     font-stretch: normal;
@@ -4983,180 +4984,177 @@ a{
     font-size: 15px;
   }
 
-  .titleBlog{
-    margin-left: 25px
+  .titleBlog {
+    margin-left: 25px;
   }
 
-  .titleDevs1{
+  .titleDevs1 {
     margin-top: 35px;
-    margin-left: 20px
+    margin-left: 20px;
   }
 
-  .titleDevs2{
+  .titleDevs2 {
     margin-top: 45px;
-    margin-left: -84px
+    margin-left: -84px;
   }
 
-  .titleBlog{
-    margin-left: 25px
+  .titleBlog {
+    margin-left: 25px;
   }
 
-  .titleGit1{
+  .titleGit1 {
     margin-top: 30px;
-    margin-left: 36px
+    margin-left: 36px;
   }
 
-  .titleGit2{
+  .titleGit2 {
     margin-top: 50px;
-    margin-left: -70px
+    margin-left: -70px;
   }
 
-  .gridButton{
+  .gridButton {
     justify-content: center;
     padding: 30px;
   }
 
-  .resourcesIcon{
+  .resourcesIcon {
     width: 40px;
   }
 
-  .topSpacingBoxIcons{
+  .topSpacingBoxIcons {
     margin-top: -10px;
   }
 
-  .paddingTopGrid{
-    padding-top: 0
+  .paddingTopGrid {
+    padding-top: 0;
   }
 
-  .readMoreMargin{
-    margin-left: 20px
+  .readMoreMargin {
+    margin-left: 20px;
   }
 
-  .displayLine{
+  .displayLine {
     display: flex;
     margin-top: -1.7px;
   }
 
-  .marginTopAccordion
-  {
-    margin-top:-70px
+  .marginTopAccordion {
+    margin-top: -70px;
   }
 
-  .boxFlexEnd{
+  .boxFlexEnd {
     display: flex;
     justify-content: center;
   }
 
-  .reduceMarginTop
-  {
-    margin-top: 0
+  .reduceMarginTop {
+    margin-top: 0;
   }
 
-  .reduceDobleMarginTop
-  {
-    margin-top: 0
+  .reduceDobleMarginTop {
+    margin-top: 0;
   }
-  
-  .reduceMarginBottom{
+
+  .reduceMarginBottom {
     height: 1650px;
   }
 
-  .specialButton{
+  .specialButton {
     width: auto;
   }
 
-  .centerTextOnMobile{
+  .centerTextOnMobile {
     text-align: center;
   }
 
-  .projectsGridLeft{
+  .projectsGridLeft {
     padding-bottom: 0;
     padding-left: 40px;
     padding-right: 40px;
   }
 
-  .projectsGridRight{
+  .projectsGridRight {
     padding-top: 50px;
     padding-right: 0;
   }
 
-  .formBox{
+  .formBox {
     padding: 0;
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  .radioBox{
+  .radioBox {
     margin-left: 25px;
   }
 
-  .itemQuestion{
+  .itemQuestion {
     text-indent: 0;
     padding-left: 25px;
   }
-  
-  .inputFormBox{
-    width: '100%';
+
+  .inputFormBox {
+    width: "100%";
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .footerCopyContent{
+  .footerCopyContent {
     justify-content: center;
   }
 
-  .marginIconsFooter{
+  .marginIconsFooter {
     margin: 18px;
   }
 
-  .paddingLeft{
+  .paddingLeft {
     padding-left: 80px;
   }
 
-  .paddingLeft2{
+  .paddingLeft2 {
     padding-left: 110px;
   }
 
-  .marginLeft{
+  .marginLeft {
     margin-left: 0;
   }
 }
 
 @media only screen and (max-width: 769px) and (min-width: 540px) {
-  .paddingLeft{
+  .paddingLeft {
     padding-left: 40%;
   }
 
-  .paddingLeft2{
+  .paddingLeft2 {
     padding-left: 52%;
   }
 }
 
 @media only screen and (max-width: 360px) {
-
-  .inputFooter{
+  .inputFooter {
     width: 67%;
     margin-right: 0;
   }
 
-  .resourcesIcon{
+  .resourcesIcon {
     width: 35px;
   }
 }
 
 @media only screen and (max-width: 280px) {
-  .paddingLeft{
+  .paddingLeft {
     padding-left: 100%;
   }
 
-  .paddingLeft2{
+  .paddingLeft2 {
     padding-left: 130%;
   }
 
-  .marginLeft{
+  .marginLeft {
     margin-left: -15px;
   }
 }
+
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
