@@ -218,6 +218,9 @@ const ServicePage = () => {
                   especializamos en el protocolo blockchain de código abierto {" "}
                   <a href="https://eos.io/" target="_blank">
                     EOSIO
+                  </a>{" + "}
+                  <a href="https://antelope.io/#features" target="_blank">
+                    Antelope
                   </a>, por su adaptabilidad a cualquier industria en sectores público y privado. 
                   Visite nuestra <a href={useBaseUrl("/industrias")} target="_blank">página de industrias</a> para conocer más.
                 </p>
@@ -464,7 +467,7 @@ const ServicePage = () => {
                         Sabemos que tecnologías tan innovadoras 
                         como blockchain pueden tener una curva de 
                         aprendizaje pronunciada. Por eso, ofrecemos 
-                        talleres sobre blockchain y tecnología EOSIO 
+                        talleres sobre blockchain 
                         para ejecutivos, directivos y equipos que 
                         quieran mantenerse actualizados y aprender 
                         más sobre blockchain y casos de uso 
@@ -488,7 +491,7 @@ const ServicePage = () => {
                         También brindamos recursos de entrenamiento 
                         y educativos para nuevos talentos que quieran 
                         iniciar su carrera en blockchain y el protocolo 
-                        EOSIO. Recopilamos materiales de aprendizaje 
+                        EOSIO + Antelope. Recopilamos materiales de aprendizaje 
                         y guías para desarrolladores en un portal web. 
                         Puede acceder <a href="https://guide.eoscostarica.io/" target="_blank">
                         aquí</a>. Además, puede <a href={useBaseUrl("/contactenos/")} target="_blank">
@@ -509,8 +512,7 @@ const ServicePage = () => {
                     </AccordionSummary>
                     <AccordionDetails style={{padding:1}}>
                       <p style={{padding:0}}>
-                        Ayudamos a promover los ecosistemas de 
-                        blockchain y EOSIO al organizar y asistir a 
+                        Ayudamos a promover el ecosistema de blockchain al organizar y asistir a 
                         actividades de la comunidad. También, nos 
                         gusta hablar sobre blockchain y participar en 
                         eventos relacionados a tecnología e innovación. 

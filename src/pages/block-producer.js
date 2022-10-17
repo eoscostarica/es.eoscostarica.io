@@ -39,10 +39,10 @@ const BlockProducer = () => {
           </Box>
           <p >
             Somos una de las primeras empresas en Latinoamérica en implementar 
-            el protocolo EOSIO. La innovación está en nuestro ADN. Buscamos 
+            el protocolo EOSIO + Antelope. La innovación está en nuestro ADN. Buscamos 
             nuevas oportunidades para impulsar esta tecnología para usos 
             empresariales y resolver problemas del mundo real. Lea más sore cómo 
-            ayudamos a desarrollar el ecosistema blockchain EOSIO en el mundo.
+            ayudamos a desarrollar el ecosistema blockchain EOSIO + Antelope en el mundo.
           </p>
           <Box className="buttonBox">
             <button className="buttonPrimary" onClick={() => window.open('https://t.me/eoscr')} >Conecte con nosotros</button>
@@ -62,7 +62,7 @@ const BlockProducer = () => {
               La innovación está en nuestro ADN. Buscamos 
               nuevas oportunidades para impulsar esta tecnología para usos 
               empresariales y resolver problemas del mundo real. Lea más sore cómo 
-              ayudamos a desarrollar el ecosistema blockchain EOSIO en el mundo.
+              ayudamos a desarrollar el ecosistema blockchain EOSIO + Antelope en el mundo.
             </p>
             <Box className="buttonBoxMobile"> 
               <button className="buttonPrimary" onClick={() => window.open("https://t.me/eoscr")} >Conecte con nosotros</button>
@@ -94,7 +94,7 @@ const BlockProducer = () => {
                 <br />
                   En 2013, empezamos a brindar infraestructura para redes blockchain 
                   públicas y aprendimos de primera mano cómo funciona la tecnología. En 
-                  2018, cuando fue lanzado EOSIO, investigamos las ventajas de esta 
+                  2018, cuando fue lanzado EOSIO + Antelope, investigamos las ventajas de esta 
                   tecnología y comenzamos a aprender cómo implementarla en el mundo 
                   real. Estuvimos allí durante el nacimiento de la EOS Mainnet y 
                   continuaremos durante su crecimiento.
@@ -144,7 +144,7 @@ const BlockProducer = () => {
               </Box>
               <p>
                 Reconocemos los talentos únicos de cada persona y
-                buscamos construir lealtad al empoderar a la comunidad EOSIO.
+                buscamos construir lealtad al empoderar a la comunidad EOSIO + Antelope.
               </p>
               <br/>
             </Grid>
@@ -354,10 +354,6 @@ const BlockProducer = () => {
                   >
                     “Coding for Change”
                   </a>{" "}
-                  de
-                  <a href="https://block.one/" target="_blank">
-                    block.one.
-                  </a>{" "}
                   <a href=" https://lifebank.io/" target="_blank">
                     Lea más sobre Lifebank.
                   </a>
@@ -538,7 +534,7 @@ const BlockProducer = () => {
                   estratégicos y el sector empresarial. Constantemente
                   buscamos nuevas oportunidades de negocio y procuramos educar
                   a ejecutivos en sectores público y privado sobre el protocolo
-                  EOSIO y la tecnología blockchain.
+                  EOSIO + Antelope y la tecnología blockchain.
                 </p>
               </Grid>
               <Grid item xs={12} md={6}>
@@ -560,7 +556,7 @@ const BlockProducer = () => {
                 <p>
                   Desarrollamos y apoyamos proyectos open-source como
                   EOS Rate, LACChain EOSIO, Lifebank, EOSIO Dashboard y otros con el
-                  fin de impulsar el ecosistema EOSIO. Estos proyectos han sido
+                  fin de impulsar el ecosistema EOSIO + Antelope. Estos proyectos han sido
                   creados por desarrolladores y profesionales talentosos que
                   creen en los beneficios de la red.
                 </p>
@@ -571,7 +567,7 @@ const BlockProducer = () => {
                 </Box>
                 <p>
                   Somos parte de los ecosistemas locales y globales
-                  para promover la adopción de EOSIO. Asistimos
+                  para promover la adopción de EOSIO + Antelope. Asistimos
                   a eventos como las EOS Conferences, eventos
                   organizados por Block.one, y somos activos en las
                   conversaciones de la comunidad digital.

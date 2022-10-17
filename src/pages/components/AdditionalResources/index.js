@@ -18,8 +18,7 @@ const AdditionalResources = () => {
             Encuentre materiales para lectura y otros recursos para continuar aprendiendo sobre {" "}
             <a href="https://eoscostarica.medium.com/how-to-choose-an-enterprise-blockchainplatform-7c3665994ad6"
             target="_blank"
-            > blockchain empresarial</a> y 
-            <a href="https://eos.io/" target="_blank"> EOSIO</a>.
+            > blockchain empresarial</a>
           </p>
         </Box>
         <br/>
