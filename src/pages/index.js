@@ -46,7 +46,7 @@ const Home = () => {
             <h1>Soluciones empresariales <br/> blockchain a su medida</h1>
           </Box>
             <p>
-              Implemente la tecnología blockchain EOSIO para mejorar la
+              Implemente la tecnología blockchain EOSIO + Antelope para mejorar la
               transparencia y eficiencia, y reducir costos en su organización.
               Comience a transformar su organización con el poder de redes
               blockchain empresariales.
@@ -62,7 +62,7 @@ const Home = () => {
               <h1>Soluciones empresariales <br/> blockchain a su medida</h1>
             </Box>
               <p>
-                Implemente la tecnología blockchain EOSIO para mejorar la
+                Implemente la tecnología blockchain EOSIO + Antelope para mejorar la
                 transparencia y eficiencia, y reducir costos en su organización.
                 Comience a transformar su organización con el poder de redes
                 blockchain empresariales.
@@ -196,11 +196,9 @@ const Home = () => {
                   <AccordionDetails style={{padding:1, marginTop:'-15px'}}>
                     <p style={{padding: 0}}>
                     Nuestra propuesta de valor es desarrollar software basado en blockchain para resolver problemas de la vida real. 
-                    Tenemos experiencia trabajando con empresas de gran tamaño y PYMES, entidades de gobierno, organizaciones sin fines de
-                    lucro y proyectos de código abierto.
-                    Nos adaptamos al presupuesto y necesidades del cliente, sin comprometer el liderazgo o calidad en
-                    nuestro trabajo. Nuestro equipo es agnóstico a la tecnología pero nos especializamos en <a href={"https://eos.io/"} target="_blank">EOSIO</a>, lanzado por
-                    la compañía líder <a href={"https://block.one/"} target="_blank"> block.one</a>.
+                    Tenemos experiencia trabajando con empresas de gran tamaño y PYMES, entidades de gobierno, organizaciones sin fines de lucro y proyectos de código abierto. 
+                    Nos adaptamos al presupuesto y necesidades del cliente, sin comprometer el liderazgo o calidad en nuestro trabajo. 
+                    Nuestro equipo es agnóstico a la tecnología pero nos especializamos en <a href={"https://antelope.io/#features"} target="_blank">Antelope</a>.
                     </p>
                   </AccordionDetails>
                 </Accordion>
@@ -437,6 +435,9 @@ const Home = () => {
                     presentes durante el nacimiento de la EOS Mainnet y comenzamos a implementar el protocolo{" "}
                     <a href="https://eos.io/" target="_blank">
                       EOSIO
+                    </a>{" + "}
+                    <a href="https://antelope.io/#features" target="_blank">
+                      Antelope
                     </a>{" "}
                     desde su lanzamiento, acumulando así décadas de experiencia con tecnologías innovadoras.
                     <a href={useBaseUrl("/la-empresa")} > Conózcanos.</a>
@@ -461,16 +462,13 @@ const Home = () => {
                     <h3>La tecnología</h3>
                   </Box>
                   <p>
-                  Nos enfocamos en implementar la tecnología{" "}
+                  Nos enfocamos en la tecnología blockchain {" "}
                     <a href="https://eos.io/" target="_blank">
                       EOSIO
-                    </a>, un protocolo de código abierto lanzado en 2018 por la compañía líder{" "}
-                    <a href="https://block.one/" target="_blank">
-                      block.one.
-                    </a>{" "}
-                    EOSIO cuenta con el token nativo EOS y ofrece mayor escalabilidad debido a su
-                    alta velocidad en transacciones, flexibilidad para redes públicas o privadas y eficiencia energética
-                    en comparación con otras blockchains, convirtiéndola en una opción más eco-eficiente.
+                    </a>{" + "}
+                    <a href="https://antelope.io/#features" target="_blank">
+                      Antelope
+                    </a>, que ofrece mayor escalabilidad debido a su alta velocidad en transacciones, flexibilidad para redes públicas o privadas y eficiencia energética en comparación con otras blockchains, convirtiéndola en una opción más eco-eficiente.
                   </p>
                 </Grid>
                 <Grid item md={6}>

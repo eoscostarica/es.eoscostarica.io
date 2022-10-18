@@ -54,18 +54,10 @@ const ProjectsList2 = [
   {
     img:"img/logos/inmutrust.svg",
     name:"Gestión de la cadena de suministro",
-    details:"InmuTrust es una prueba de concepto de trazabilidad de la cadena de suministro desarrollada en colaboración con LACChain. Utiliza la tecnología blockchain de EOSIO y NFT para mejorar la transparencia y la confianza en la distribución y logística de los productos. Centrado inicialmente en la cadena de suministro de vacunas, también se puede utilizar para rastrear la cadena de suministro de cualquier producto. ",
+    details:"InmuTrust es una prueba de concepto de trazabilidad de la cadena de suministro desarrollada en colaboración con LACChain. Utiliza la tecnología blockchain y NFT para mejorar la transparencia y la confianza en la distribución y logística de los productos. Centrado inicialmente en la cadena de suministro de vacunas, también se puede utilizar para rastrear la cadena de suministro de cualquier producto. ",
     link:"https://github.com/eoscostarica/supply-chain-poc",
     color:"#f8f8f8",
     linkText:"Explore InmuTrust."
-  },
-  {
-    img:"img/logos/eosioforum.svg",
-    name:"Enterprise EOSIO Forum",
-    details:"We are part of the Enterprise EOSIO Forum, a community-driven initiative to discuss enterprise blockchain solutions deploying EOSIO technology. ",
-    link:"https://www.linkedin.com/company/enterprise-eosio-forum/",
-    color:"#ffffff",
-    linkText:"More about Enterprise EOSIO Forum."
   },
   {
     img:"img/logos/evodex.svg",
@@ -86,7 +78,7 @@ const ProjectsList2 = [
   {
     img:"img/imagenotavailable.png",
     name:"Notario Digital",
-    details:"Notario Digital es un proyecto de código abierto que genera un hash de cualquier documento para registrarlo de forma inmutable en una red EOSIO. ",
+    details:"Notario Digital es un proyecto de código abierto que genera un hash de cualquier documento para registrarlo de forma inmutable en una red blockchain. ",
     link:"https://notarize.edenia.cloud/dashboard/notary",
     color:"#f8f8f8",
     linkText:"Dele un vistazo."
@@ -106,7 +98,7 @@ const OurProjects = () => {
               <h1>Casos de uso de  <br/>blockchain empresarial</h1>
             </Box>
             <p >
-              En los últimos años, hemos ayudado a organizaciones tanto del sector público como privado a aprender y explorar los beneficios de la tecnología blockchain de EOSIO. 
+              En los últimos años, hemos ayudado a organizaciones tanto del sector público como privado a aprender y explorar los beneficios de la tecnología blockchain de EOSIO + Antelope. 
               Desde mejorar la forma en que una empresa registra las transacciones transfronterizas hasta garantizar la trazabilidad inmutable de las operaciones logísticas, nuestro equipo ha desarrollado soluciones de primer nivel para problemas del mundo real. Conozca nuestros últimos proyectos.
             </p>
           </Box>
@@ -118,7 +110,7 @@ const OurProjects = () => {
             </Box>
             <p >
               En los últimos años, hemos ayudado a organizaciones tanto del sector público como privado a aprender y explorar los beneficios 
-              de la tecnología blockchain de EOSIO. 
+              de la tecnología blockchain de EOSIO + Antelope. 
               <br/>
               <br/>
               Desde mejorar la forma en que una empresa registra las transacciones transfronterizas hasta garantizar la trazabilidad 
@@ -195,7 +187,7 @@ const OurProjects = () => {
                 <p>
                   Somos parte de LACChain EOSIO, una
                   iniciativa de código abierto que ofrece
-                  una red de blockchain EOSIO que se integra
+                  una red de blockchain EOSIO + Antelope que se integra
                   en la red de LACChain. {" "}
                   <a href="https://eosio.lacchain.net/" target="_blank">
                     Descubra más sobre LACChain EOSIO
@@ -253,10 +245,7 @@ const OurProjects = () => {
                     target="_blank"
                   >
                     Coding for Change
-                  </a>{"” "} de {" "}
-                  <a href="https://block.one/" target="_blank">
-                    block.one.
-                  </a>{" "}
+                  </a>{"”. "}
                   <a href="http://lifebank.io/" target="_blank">
                   Lea más sobre Lifebank.
                   </a>
