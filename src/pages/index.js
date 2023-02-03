@@ -560,7 +560,7 @@ const Home = () => {
               <Box className="projectsGridLeft">
                 <Box className="imgBoxProjects">
                   <img
-                    alt="EOSIO Dashboard"
+                    alt="Antelope Tools"
                     src={useBaseUrl("img/logos/eosio.svg")}
                   />
                 </Box>
@@ -569,10 +569,10 @@ const Home = () => {
             <Grid style={{backgroundColor:'#ffffff'}} item xs={12} md={6}>
               <Box className="projectsGridRight">
                 <Box className="h3Box">
-                  <h3 >EOSIO Dashboard</h3>
+                  <h3 >Antelope Tools</h3>
                 </Box>
                 <p>
-                  EOSIO Dashboard es un proyecto de código abierto que permite
+                  Antelope Tools es un proyecto de código abierto que permite
                   a usuarios visualizar la distribución de recompensas en la
                   red EOS en la búsqueda de rendición de cuentas y transparencia.
                   {" "}
