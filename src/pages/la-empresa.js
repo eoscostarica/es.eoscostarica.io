@@ -404,12 +404,12 @@ const TheCompany = () => {
                 <Box className="imgBoxTheCompany">
                   <img
                     className="sizeImageTheCompany"
-                    alt="EOSIO Dashboard"
+                    alt="Antelope Tools"
                     src={useBaseUrl("img/logos/eosio.svg")}
                   />
                 </Box>
                 <p>
-                  EOSIO Dashboard es un proyecto de código abierto que
+                  Antelope Tools es un proyecto de código abierto que
                   permite a usuarios visualizar la distribución de
                   recompensas en la red EOS en la búsqueda de
                   rendición de cuentas y transparencia.

@@ -26,8 +26,8 @@ const ProjectsList1 = [
   },
   {
     img:"img/logos/eosio.svg",
-    name:"EOSIO Dashboard",
-    details:"EOSIO Dashboard es un proyecto de código abierto que permite a usuarios visualizar la distribución de recompensas en la red EOS en la búsqueda de rendición de cuentas y transparencia. ",
+    name:"Antelope Tools",
+    details:"Antelope Tools es un proyecto de código abierto que permite a usuarios visualizar la distribución de recompensas en la red EOS en la búsqueda de rendición de cuentas y transparencia. ",
     link:"https://mainnet.eosio.online/",
     color:"#f8f8f8",
     linkText:"Monitor de red del EOS Mainnet."

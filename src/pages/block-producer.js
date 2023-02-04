@@ -385,7 +385,7 @@ const BlockProducer = () => {
                 <br/>
                 <br/>
                 <p>
-                  EOSIO Dashboard es un proyecto de código abierto
+                  Antelope Tools es un proyecto de código abierto
                   que permite a usuarios visualizar la distribución de
                   recompensas en la red EOS en la búsqueda de rendición
                   de cuentas y transparencia.{" "} 
@@ -555,7 +555,7 @@ const BlockProducer = () => {
                 </Box>
                 <p>
                   Desarrollamos y apoyamos proyectos open-source como
-                  EOS Rate, LACChain EOSIO, Lifebank, EOSIO Dashboard y otros con el
+                  EOS Rate, LACChain EOSIO, Lifebank, Antelope Tools y otros con el
                   fin de impulsar el ecosistema EOSIO + Antelope. Estos proyectos han sido
                   creados por desarrolladores y profesionales talentosos que
                   creen en los beneficios de la red.
