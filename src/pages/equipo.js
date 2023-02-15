@@ -82,7 +82,7 @@ const DevelopTeam = [
   {
     img: "img/team/Angelo.png",
     name: "Angelo Castro",
-    position: "Desarrollador Jr Full Stack",
+    position: "Desarrollador Mid Full Stack",
     bio: "Estoy listo para desarrollar ideas innovadoras y enfrentar nuevos desafíos.",
     linkedIn: "https://www.linkedin.com/in/angelo-castro-gamboa/",
     twitter: "",
@@ -98,22 +98,13 @@ const DevelopTeam = [
     color: "#f8f8f8",
   },
   {
-    img: "img/team/Fabian.png",
-    name: "Fabián Vives",
-    position: "Pasante de Desarrollo de Software",
-    bio: "Apasionado por la tecnología, siempre buscando nuevas formas de mejorar como desarrollador y como persona.",
-    linkedIn: "https://www.linkedin.com/in/fabian-vives-21a9351b6/",
-    twitter: "",
-    color: "#ffffff",
-  },
-  {
     img: "img/team/Helberson.png",
     name: "Helbertson Torres",
-    position: "Pasante de Desarrollo de Software",
+    position: "Desarrallador de Software Jr",
     bio: "Como desarrollador mi objetivo es brindar soluciones de software útiles y de calidad mediante un aprendizaje continuo y la adaptación a nuevas tecnologías.",
     linkedIn: "",
     twitter: "",
-    color: "#f8f8f8",
+    color: "#ffffff",
   },
   {
     img: "img/team/Jorge.png",
@@ -122,34 +113,25 @@ const DevelopTeam = [
     bio: "Entender las necesidades es crucial para crear interfases para apps de alta tecnología y mediar entre usuarios, diseñadores y desarrolladores.",
     linkedIn: "https://www.linkedin.com/in/jmurilloux/",
     twitter: "https://twitter.com/jmur1ll0",
-    color: "#ffffff",
+    color: "#f8f8f8",
   },
   {
     img: "img/team/Josue.png",
     name: "Josue Alvarado",
-    position: "Pasante de Desarrollo de Software",
+    position: "Desarrollador de Software Jr",
     bio: "Deseando ver como nuestro trabajo se refleja en la sociedad y nos permite mejorarla.",
     linkedIn: "https://www.linkedin.com/in/josue-alvarado-mares-0a24a3238/",
     twitter: "https://twitter.com/Josue__Mares",
-    color: "#f8f8f8",
+    color: "#ffffff",
   },
   {
     img: "img/team/Leister.png",
     name: "Leister Álvarez",
-    position: "Desarrollador Jr Backend",
+    position: "Desarrollador Mid Backend y Smart Contract",
     bio: "Programar refleja quiénes somos; hagamos algo increíble.",
     linkedIn:
       "https://www.linkedin.com/in/leister-francisco-alvarez-campos-65b7801bb/",
     twitter: "https://twitter.com/leisterac",
-    color: "#ffffff",
-  },
-  {
-    img: "img/team/Paola.png",
-    name: "Paola Espinoza",
-    position: "Pasante de Desarrollo de Software",
-    bio: "La programación no se trata de lo que sabes; se trata de lo que puedes descubrir.",
-    linkedIn: "https://www.linkedin.com/in/paola-espinoza-94147b126/",
-    twitter: "https://twitter.com/hanak00ri",
     color: "#f8f8f8",
   },
   {
@@ -164,7 +146,7 @@ const DevelopTeam = [
   {
     img: "img/team/Warner.png",
     name: "Warner Hurtado",
-    position: "Pasante de Desarrollo de Software",
+    position: "Desarrollador de Software Jr",
     bio: "Abierto al aprendizaje de nuevas tecnologías y dispuesto a asumir nuevos retos.",
     linkedIn: "https://www.linkedin.com/in/warner-hurtado/",
     twitter: "https://twitter.com/WarnerLaguna",
@@ -229,7 +211,7 @@ const Team = () => {
     return (
       <Box className="containerSec">
         {isDesktop && (
-          <Box className="sectionHero">
+          <Box className="sectionHero" height='auto'>
             <Box className="titleBox">
               <h1>Conozca al equipo</h1>
             </Box>

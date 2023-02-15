@@ -241,7 +241,7 @@ const TheCompany = () => {
             </Box>
             <Box className="spacingBox">
               <p>
-                Nuestro equipo se especializa en el protocolo blockchain
+                Nuestro equipo se especializa en el protocolo blockchain{" "}
                 <a href=" https://eos.io/" target='_blank'> 
                   EOSIO
                 </a>{" + "}
@@ -256,7 +256,7 @@ const TheCompany = () => {
               </p>
             </Box>
             <Box className="doubleSpacingBox">
-            <Grid justify="center" container spacing={5}>
+            <Grid justifyContent="center" container spacing={5}>
               <Grid item xs={12} md={5}>
                 <Box className="specialH3Box">
                   <h4>Escalabilidad</h4>
@@ -330,7 +330,7 @@ const TheCompany = () => {
           </Box>
             {isDesktop &&
               <Box className="doubleSpacingBox">
-                <Grid  justify="center" alignItems="center" container spacing={5}>
+                <Grid  justifyContent="center" alignItems="center" container spacing={5}>
                   <Grid item xs={12} md={7}>
                     <Box className="boxFlexEnd">
                       <h3>Le ayudamos a explorar la tecnología EOSIO + Antelope.</h3>
