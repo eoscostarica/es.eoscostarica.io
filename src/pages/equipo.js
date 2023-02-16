@@ -73,7 +73,7 @@ const MarketingSalesTeam = [
     position: "Analista de negocios y operaciones",
     bio: "Soy un profesional multitarea que intenta liderar retos cada día, disfrutando de la Web3.",
     linkedIn: "https://www.linkedin.com/in/calderonurenas/",
-    twitter: "https://twitter.com/btcurenas",
+    twitter: "https://twitter.com/maemultichain",
     color: "#f8f8f8",
   },
 ];
